@@ -1,0 +1,522 @@
+[twitter]
+user = 1120428863828316160 # @U_pipitor
+list = 1121823136167542784 # @U_pipitor/list
+
+[[rule]]
+filter = """(?ix)
+  けものフレンズ
+  | けもフレ
+  | Kemono\\s*Friend
+  | ジャパリパーク
+  | Japari\\s*Park
+  | どうぶつビスケッツ
+  | どうビス
+  | ペパプ
+  | Gothic×Luck
+  | ゴシックラック
+  | \\#ゴクラク
+  | はなまるアニマル
+  | ジャパリ団
+  | ちょびるめぷち
+  | かぷせるフレンズ
+  | ワイルドラッシュ
+  | WILDRUSH
+"""
+outbox = 1120428863828316160
+topics = [
+  # 公式・準公式
+  1123410609922396160, # @aoni_official 青二プロダクション【公式】
+  1012239092279476224, # @nicogame_PR ニコニコゲーム公式@ログインなしで視聴可能
+  974249862957903873, # @2018Jst ジャストプロ 声優部
+  923054746977517568, # @official_hibiki 響スタッフアカウント
+  891908618789937152, # @NelkePlanning ネルケプランニング（公式）
+  874810152875995136, # @Equal_LOVE_12 ＝LOVE_official
+  830022722063183872, # @nhk_darwin ダーウィンが来た！
+  828422165808570369, # @justpro_0411 株式会社ジャストプロ
+  824551506737192960, # @GGI_INC 株式会社ギャラクシーグラフィックス
+  798795770581266433, # @PRTIMES_NEWS PR TIMESニュース
+  4565186714, # @youngace_up ヤングエースUP公式
+  3988316892, # @SEGA_Ent セガ エンタテインメント公式
+  3143072946, # @toki_management トキエンタテインメント
+  3017102584, # @nexon_shikyoku NEXON ツイッター支局
+  2897290963, # @GOODROID_inc 株式会社GOODROID
+  2570344658, # @PRTIMES_GAMES PR TIMESゲーム
+  2501907386, # @fhana_info fhána_info
+  2471883294, # @Ysincorporated Y's Creative
+  2371707378, # @shonen_Ace 少年エース
+  1966429123, # @bushimostation ブシモ公式
+  1612407691, # @PRTIMES_ETM PR TIMESエンタメ
+  1275695144, # @officeinveider オフィスインベーダー
+  498788645, # @bushi_PR ブシロード公式
+  468037892, # @seganewsnavi セガプラザ公式
+  338905976, # @Jupiter_JP1 株式会社ジュピター
+  307759398, # @SANZIGEN_INC 株式会社サンジゲン 公式アカウント
+  287226630, # @KDS_PR KADOKAWA文芸・ノンフィクション 発売情報
+  267105383, # @YAG_PR 代々木アニメーション学院 official
+  223330695, # @aiddcc AID-DCC Inc.
+  177110380, # @SEGA_OFFICIAL セガ公式アカウント
+  137263528, # @parco_art PARCO-ART
+  104742595, # @VictorMusic ビクターエンタテインメント
+  17965667, # @yenpress Yen Press
+
+  # 配信
+  930989863842676736, # @nicoanime_PR Nアニメ&ニコニコアニメ公式🌸配信情報や🎁も!!
+  2510743933, # @OPENREC OPENREC【公式】
+  389352575, # @anitv_PR テレビ東京アニメ公式あにてれ
+  71779161, # @Yahoo_GYAO GYAO!
+  48619486, # @discotekmedia 💿Discotek Media ➡️➡️ Animazement!
+
+  # イベント
+  1080189433683501056, # @adm_akiba アド街っぷ＠秋葉原観光マップ
+  1006472416913121281, # @smcc_card 三井住友カード
+  978555699952168961, # @h_kawaiiya 原宿カワイーヤ
+  920176444302438400, # @tobuzoo1981 東武動物公園【公式】あとらこ
+  773773892628406272, # @doubutsupeace どうぶつピース！！
+  734658118089609216, # @marui_annex_a 新宿マルイアネックス アニメイベント
+  4514445018, # @orbi_y オービィ横浜
+  4342755799, # @osarecompany オサレカンパニー
+  3877364172, # @rockmatsuri ビクターロック祭り〜2019〜
+  3318554538, # @Umabi_Official Umabi
+  3256332042, # @KADOKAWA_denshi KADOKAWAの電子書籍
+  2910441691, # @donbei_jp どん兵衛　公式
+  2765339154, # @animejam_staff アニメJAM2018 公式
+  2730791312, # @animatecafe_crv アニメイトカフェキッチンカー
+  2578100414, # @kadokawa_event KADOKAWAイベント情報
+  439752084, # @ngt_anifes がたふぇす
+  397792279, # @animate_cafe アニメイトカフェ総合
+  300076066, # @lotteria_pr ロッテリア
+  256906707, # @anisama AnimeloSummerLive
+  144767987, # @parcoala パルコアラ
+  111223135, # @animelo_staff アニメロスタッフ
+  11195332, # @schatz1 シャッツキステ
+
+  # コラボゲーム
+  1045625907967275008, # @ARTILIFE_jp ARTILIFE_jp
+  995941828766519296, # @DNM_JP アイリーン＠ドラゴンネストM公式
+  923802830921654277, # @kotodaman_pr 【公式】コトダマン運営会議
+  876732327598084096, # @destinyc_info デスティニーチャイルド【公式】
+  4859102219, # @HG_Avatar ハンゲームアバター【公式】@白玉
+  2307698479, # @shirokurojoker しろくろジョーカー公式＠じい
+  1001107099, # @maimai_official maimai公式@7/5(金)Re:MASTER追加！
+
+  # 流通
+  3253471304, # @clionmarket クリオンマーケット
+  2692195681, # @TVTOKYO_Shop テレ東本舗。
+  2578128852, # @kadokawastore カドカワストア
+  588119900, # @natalie_store ナタリーストア
+  425668036, # @mora_info 音楽配信サイト【mora】
+  389280016, # @akiba_gema AKIHABARAゲーマーズ本店
+  198949082, # @UNITED_CINEMAS ユナイテッド・シネマ公式
+  196049630, # @gamers_no_gema ゲマ【株式会社ゲーマーズ】
+  108517346, # @shochiku_video 松竹ホームエンターテインメント
+  106343759, # @animateinfo 株式会社アニメイト
+
+  # 商品
+  954195501280149505, # @magi_pri_PR
+  945951790565961728, # @maruman_sketch スケッチブックのマルマン
+  908221278871478272, # @eStream_inc eStream
+  844767518250037248, # @shop_tokyoatom TOKYO ATOM
+  819055220290297856, # @anipo_goods あにぽ!_アニメグッズ
+  803052956970926080, # @yubin_jp ゆうびん.jp／郵便年賀.jp
+  798116037799518208, # @tzng100 ティーゾーン（グッズ班）
+  796926373382144000, # @tanikawashoji 谷川商事
+  781667417512697856, # @MXF_official マックスファクトリー公式
+  747338829695070208, # @bushi_creative ブシロードクリエイティブ公式
+  706495179004317696, # @shimamura_gr ファッションセンターしまむら
+  3985727352, # @posukuma_yubin ぽすくま【日本郵便】
+  3659076377, # @MangaStamp MangaStamp
+  3270846866, # @AMNIBUS AMNIBUS（アムニバス）
+  3180871603, # @kuromimi0602 にゃｰ@シープラ公式【情報局】
+  3095919481, # @teambellhouse ベルハウス@公式
+  3062498185, # @hgcharacter ヒサゴ キャラクターグッズ
+  2583762356, # @A3_CharaCharge 株式会社A3
+  2312702190, # @emuzu100 エムズファクトリー/C96　Aホール1422
+  2278971126, # @kbooks_collabo kbooks_collabo
+  1535442409, # @happypriroll プリロール公式（キャラケーキ＆マカロン）
+  1375795710, # @hna_d （株）HNA
+  1322154672, # @GuruGare GrooveGarage@斜め上行くキャラグッズ屋さん
+  1309338816, # @aurora_ltd 株式会社アウローラ
+  806644010, # @minnanokuji みんなのくじ【フリュー公式】
+  715491090, # @showanote ショウワノート
+  587243626, # @HappyKuji Happyくじ
+  547299604, # @gsc_kahotan カホタン＠グッスマのすみっこ
+  532861788, # @se_pla シーズナルプランツ【痛傘】公式
+  369322470, # @MF_GoodsNavi えむえふGoodsNavi
+  350694195, # @candytoy_c バンダイ キャンディ公式
+  185038320, # @kaiyodo_PR 【公式】海洋堂
+  138685355, # @ebten エビテン【ebten】
+  135113118, # @nijigencospa 二次元コスパ
+  131011023, # @maplus_navi MAPLUS+（ナビアプリ）広報担当【公式】
+  104989854, # @DARTSHiVe ダーツハイブ/DARTS HIVE
+  91081573, # @ichibanKUJI 一番くじ（BANDAI SPIRITS）
+  89142182, # @famima_now ファミリーマート
+  70622589, # @amiami_figure あみあみ
+  68864104, # @GSC_GUMA ぐま子（グッドスマイルカンパニー）
+  58709764, # @charaani キャラアニ【公式】🌎
+  5713232, # @cospa cospa
+
+  # プレス
+  1103471129358823424, # @anison_nhk anison_nhk
+  909951337382547457, # @anirecoTV あにレコTV
+  854165601148837888, # @AnimeTourism88 アニメツーリズム協会　じゅんれいちゃん
+  737923441198825473, # @AbemaTIMES AbemaTIMES
+  4125172272, # @spice_stage SPICE[舞台情報メディア]／e＋
+  4121959099, # @spice_anige SPICE[アニメ・ゲーム情報メディア]
+  4121824154, # @spice_mu SPICE[音楽情報メディア]／e＋
+  3314647279, # @tvtokyo_plus テレ東プラス
+  3196198694, # @spice_topics SPICE[エンタメ情報メディア]/e＋
+  2678707854, # @ANIPLUSAsia ANIPLUS Asia
+  1501970341, # @realsoundjp Real Sound（リアルサウンド）
+  456544724, # @AnimeAnime_jp アニメ！アニメ！
+  304976428, # @gakken_animedia アニメディア編集部
+  148966859, # @anicanjp アニカンドットジェイピー
+  131032996, # @animatetimes アニメイトタイムズ公式
+  128275735, # @akiba_kakakucom アキバ総研公式
+  121467814, # @famitsuApp ファミ通App@アプリ新作情報
+  95577986, # @game_watch GAME Watch
+  46656365, # @antch ニュータイプ編集部／WebNewtype
+  44306171, # @4GamerNews 4Gamer
+  33482896, # @dengekionline 電撃オンライン
+  18622184, # @comic_natalie コミックナタリー
+  28023330, # @Crunchyroll Crunchyroll
+  5921162, # @famitsu ファミ通.com
+  5649672, # @natalie_mu 音楽ナタリー
+]
+
+# スタッフ・キャスト
+[[rule]]
+filter = """(?x)
+  \\#けものフレンズ
+  | \\#けもフレ
+  | \\#ゴクラク
+"""
+outbox = 1120428863828316160
+topics = [
+  1126735473102090240, # @YUI_STAFF 石川由依Official
+  1113758206436622336, # @yoshioka_mayuC 吉岡茉祐
+  1054520180032778241, # @kannmadoka 菅 まどか
+  1048871638651924480, # @yagimashiro 八木 ましろ
+  1043684232097218560, # @Joey_Takeda 武田城以
+  1024177131918508032, # @yukiyofujii0508 藤井ゆきよ
+  1003903172044251137, # @elfinHanafusa_R 花房里枝
+  980800152553209857, # @hyamazaki_staff 山崎はるかスタッフ
+  975386499033137152, # @shinnosukenuma 沼田心之介(ぬまぴー)
+  961655526466633728, # @amatsuuni_staff あま津うに amatsuuni 【公式】
+  953874636759945221, # @hinata_k0110 小泉日向
+  951092245762945024, # @ygnm_kana やぎぬまかな
+  938719807255461888, # @kaori_staff_ 石原夏織 STAFF
+  936189651630546947, # @yahagi_sayuri 矢作紗友里
+  922067394721234946, # @hikaru_tono 遠野ひかる
+  918281358832574464, # @azuma_lim アズマリム＠MV50万回再生ありがとぉー！
+  907051478166020096, # @705shirakami 白神直子
+  897009717100240896, # @saitou_kiara 齋藤 樹愛羅
+  897002191319216128, # @otani_emiri 大谷 映美里
+  896994847726247936, # @morohashi_sana 諸橋 沙夏
+  896994042843549696, # @noguchi_iori 野口 衣織
+  896990803481960448, # @yamamoto_anna_ 山本 杏奈
+  896984504182517760, # @saito_nagisa 齊藤 なぎさ
+  896934255346851842, # @shoko_takiwaki 瀧脇 笙古
+  896933658816204802, # @takamatsuhitomi 髙松 瞳
+  896933181466697728, # @satake_nonno 佐竹 のん乃
+  896932241615355904, # @sasaki_maika 佐々木 舞香
+  896931218024878080, # @otoshima_risa 音嶋 莉沙
+  896928183861223424, # @hana_oba 大場 花菜
+  887533724853608448, # @monsoyama 祖山桃子(もんが)
+  880621944101404672, # @kaor1n_n 前田 佳織里
+  870511887754027008, # @elfinTsujiMiyuu 辻 美優（elfin'）
+  869862112037814272, # @hazuki_nonaka 野中 遥月
+  864554567505027072, # @ShowMirai_music ミライショウ
+  853074336248340481, # @PA___NON PA-NON＆STAFF
+  838223630853033984, # @canari_1111 あまり かなり7/4～音楽劇ジップ&キャンディ🤖7/29～舞台pet🐠8/21～舞台コジコジ😺
+  825270189264506880, # @reina_kondo 近藤玲奈
+  787531199895920640, # @tamura_kyoka 田村響華
+  760025194383585280, # @Takase_Aiko 高瀬愛虹
+  749885881318727681, # @numakura_manami 沼倉愛美（公式）
+  748671603127398400, # @aibaaiai 相羽あいな
+  730754632062898176, # @nagatsumajuri 長妻樹里
+  715373955041796096, # @tomoyo_t_1014 高柳知葉
+  709265233399787520, # @Yurie_Funato 船戸ゆり絵
+  4803314774, # @spspring1234 伏見はる香
+  4777230254, # @staff_rie 村川梨衣 音楽スタッフ公式
+  4684249872, # @NOGUMAOMIN 野口 真緒
+  4263104894, # @yuka_bushi 尾崎由香
+  4110103573, # @k_moeka_ 小泉萌香
+  4065828913, # @Kanako_tktk 高槻かなこ
+  3956675652, # @rikachimalu 長江 里加(リカチマル)
+  3611987292, # @mn0914nm 西川 美咲/暁島朱里
+  3523132154, # @roudokuya_dajai 桑島法子（朗読夜＠国分寺チケット発売中！)
+  3293336932, # @machauq 和多田美咲
+  3241351399, # @takemoto_taizo 竹本泰蔵
+  3191805905, # @yukachiofficial 井口裕香 ワーナーOfficial
+  3180858356, # @K_Rico1_1 小池理子
+  3149720330, # @ayaMiNTgreen 山根 綺
+  3111919296, # @Aya27songe 清水 彩
+  3071098621, # @EPsqqoSl38iCI3i 前田綾香
+  2950212426, # @0311asaki 4s4ki
+  2917014519, # @kaedexmaple 奥谷 楓
+  2897674771, # @kanekosanndesu 金子有希 シーズン2
+  2897481228, # @gyogyo0301 金魚わかな
+  2856418760, # @katorihona_mg 加藤里保菜STAFF 7/4-7 舞台『魍魎の匣』神戸公演
+  2835421412, # @rihonyan103 加藤里保菜
+  2830750813, # @motomiyakana 本宮佳奈
+  2826329041, # @jinko_moe 甚古 萌
+  2640398808, # @nonremuq 石井玲歌
+  2596481180, # @Lynn_0601_ Ｌｙｎｎ (りん)
+  2574392995, # @nagaku_yuki 長久友紀@がっきゅ
+  2574385454, # @yuri_nogu のぐちゆり
+  2570625481, # @bknb_mew みゆはん
+  2548258832, # @deet_ic 馬場莉乃
+  2471285462, # @jullie_egg 木村珠莉
+  2445518118, # @takamori_723 高森奈津美
+  2420221248, # @takehitooo 武人
+  2308569924, # @hinappp8 木野日菜
+  2293843940, # @andyll25252 安藤尚也🦔
+  2292118700, # @OnoSaki1126 小野 早稀(おの さき)
+  2275197806, # @ckik195 築田行子
+  2237565500, # @ohagidaisuki226 田口実加
+  2186330749, # @michuell_bunny 未来みき＊大天使みしゅえる⸜(´ ˘ `∗)⸝🔥
+  2168328588, # @Ma2Ndayodayo 松尾祐輔
+  1662016370, # @karin_takahashi 高橋花林
+  1604926548, # @NomotoHotaru 野本ほたる
+  1529614860, # @akariuehara13 上原あかり🐰🍳🍳
+  1493773717, # @rg8270fvv 高田 翼
+  1443275232, # @neeeruuu 根本流風
+  1363724040, # @marika_0222 高野 麻里佳
+  1351192345, # @owada_hitomi 大和田仁美
+  1349665898, # @kawakami_rio 川上莉央
+  1220770466, # @Saeri_Umehara 梅原サエリ
+  1136351120, # @Haruka26s 🔔 佐藤 遥
+  1079666190, # @miiiiiina_cat 高橋未奈美
+  1067613817, # @39_miku_1012 吉川未来
+  1045524721, # @osorasan703 大空直美
+  1023577651, # @Sada481220 森貞文則
+  989980122, # @Ma_ri_ya_i 伊瀬茉莉也🍋Mariya Ise
+  901539650, # @holy_kobayashi 小林ゆう_公式
+  860869646, # @RyokoShiraishi_ 白石涼子
+  849626744, # @tghgworks_krsy 烏屋茶房/カラスヤサボウ
+  720295640, # @makino_728 まきの
+  595126798, # @KaoruHayano1212 早乃香織🌸Kaoru Hayano
+  562517449, # @honda_mosamosa 本多真梨子
+  546607939, # @chunrip08 新橋 和
+  521006849, # @yamashita_mami 山下まみ@まみみ
+  519622892, # @azsainamura 稲村梓
+  518164105, # @kota_h0307 橋本 孝太
+  506310004, # @miwafurusan 古庄美和
+  457559943, # @sakai_ran 酒井蘭
+  456424628, # @wataru_sena 瀬名航／Wataru Sena
+  442847857, # @s_u_music s.uchida
+  442644970, # @totetonkoide 小出裕也
+  440252533, # @RiccaTachibana 立花理香＠『Returner Butterfly』発売！
+  394994233, # @kanek0mayumi 金子麻友美
+  374582749, # @incidentsTF 風来坊 伊山
+  367514058, # @ko_yuli 幸野ゆりあ🐬リア柴3期！
+  340785466, # @yuuka_aisaka 相坂優歌official
+  317684165, # @nogizaka46 乃木坂46
+  306818664, # @DApanda323 松田颯水。
+  301999903, # @ReSAEnter 松田利冴。
+  297833968, # @aya_uchida 内田彩
+  296215278, # @kesaaaaaaaaaan 毛蟹
+  293979493, # @info_akechi 佐藤朱
+  284418607, # @UMEMOMOKA 庄司宇芽香
+  282612434, # @SaiToShiN16 斎藤真一郎
+  280365265, # @aimausu 加隈亜衣(かくま あい)
+  277151040, # @tatsuhiromiwa 三輪達宏
+  264647686, # @Masayoshi_Oishi 大石昌良【オーイシマサヨシ】
+  253085057, # @jin_jin_suruyo じん
+  251960614, # @no_my_ ノーマイ/no_my (作曲家)
+  250212248, # @Tsubasacurry 伊藤 翼/Tsubasa Ito(作曲家)
+  244788445, # @mikoiwate_351 佐々木未来
+  237804402, # @Koike_Tatsuya 小池龍也 SelfishJean
+  232229151, # @Suwa_Ayaka 諏訪彩花
+  217057116, # @eyewater_e 榎木ともひでWF6-14-13造形師か漫画家か単行本ついに発売！
+  214686961, # @yuka_s1113 斉藤佑圭
+  214008178, # @flyco_ フライ
+  213641001, # @akemikanda 神田朱未
+  199932799, # @mikami_shiori 三上枝織
+  197317743, # @ikkichihiro 一木千洋(いっきちひろ)
+  195162154, # @rarirurestn 野中藍 ラリルれ、エブリバディ。
+  194653874, # @ai_max 前田 愛•AiM ベストアルバム発売中
+  183905143, # @EBATO_DQT 電ちょもEBATO
+  167277356, # @WAN_OPO ワンオポ/新曲投稿5/17
+  165028770, # @yamazaki_haruka 山崎はるか
+  161731418, # @btrstaff 本間翔太
+  160216958, # @RiEmagic 村川 梨衣
+  158706245, # @_towana towana /とわな
+  158297883, # @yosRRX 吉崎 観音
+  155583210, # @Gibson_Mitsuya 三矢禅晃
+  155514166, # @uwaemi 宇和川 恵美@LINEスタンプ えみぞー
+  154533662, # @moririnmonson 相沢舞 Mai Aizawa
+  145158766, # @atmanbow_staff 井上喜久子&スタッフ
+  144164783, # @tanishisuki 松原タニシ
+  140727714, # @kaos_office kaos
+  133627014, # @tsvaci 辻林 美穂
+  133146525, # @nobutx_0517 細谷伸之＠テレ東
+  127168080, # @nanami_eiko 七海 映子
+  124205624, # @emon316 emon(Tes.)
+  124061259, # @ErikoMatsui 松井 恵理子
+  123404041, # @okame_hara 原 彩弓
+  116459830, # @YooNakamura 中村友
+  114700374, # @mimori_suzuko 三森すずこ
+  111492608, # @masumoto_takuya ますもとたくや
+  111187922, # @Daisuke_P だいすけP＠けもフレ２キャラソンアルパカ曲書いたよ
+  110996822, # @kanoyui1222 鹿野優以
+  109871522, # @masumi_asano 浅野真澄@あさのますみ
+  104357751, # @HiRoMi_ig 五十嵐裕美(いがらしひろみ)
+  99689625, # @keisukeshami 伊藤ケイスケ　Keisuke Ito
+  96355490, # @40mP 40mP／イナメトオル
+  94595949, # @rapbit_rapstar らっぷびと
+  93666200, # @sugarboykiller 川尻恵太
+  90197617, # @GYARI_ GYARI
+  84625899, # @sasakure__UK sasakure.UK
+  71761708, # @YoshieIsogai 磯谷佳江
+  69606376, # @RYUKNIGHT 内藤隆 @漫画版けもフレ２①発売中!!
+  59796971, # @takuyakusunose 楠瀬"poco"タクヤ【月蝕會議・Rest of Childhood・MIMIZUQ・スクランブルズ
+  59719372, # @NTRcap いんどなめこ@交響アクティブNEETs
+  57515919, # @kona_milo キクチミロ
+  55920839, # @easypop_betti EasyPop/BETTI
+  51498481, # @Ryuichi_Kimura 木村　隆一
+  44085626, # @kazuaki518 松田 和彬（まっつん）
+  42816253, # @MatsuuraHiroaki 松浦裕暁 @ サンジゲン！
+  42419516, # @SiZK_STARGUiTAR SiZK
+  37376144, # @jsato_FLEET 佐藤純一 fhána 5th BEST ALBUM "STORIES" 12.12Release
+  35752873, # @takayuki_chiba 千葉高雪/A-worth
+  17343387, # @halyosy halyosy(はるよし)
+]
+
+# 園館等
+[[rule]]
+filter = """(?ix)
+  けものフレンズ
+  | けもフレ
+  | Kemono\\s*Friend
+  | ジャパリパーク
+  | Japari\\s*Park
+  | どうぶつビスケッツ
+  | どうビス
+  | ペパプ
+  | Gothic×Luck
+  | ゴシックラック
+  | \\#ゴクラク
+  | はなまるアニマル
+  | ジャパリ団
+  | ちょびるめぷち
+  | かぷせるフレンズ
+  | ワイルドラッシュ
+  | WILDRUSH
+  | 吉崎\\s*観音
+  | 吉崎先生
+"""
+outbox = 1120428863828316160
+topics = [
+  # JAZA系（正会員）
+  1135423422639423489, # @marine_uminaka 福岡・マリンワールド海の中道【公式】
+  1134695072614690817, # @kumamotocityzoo 熊本市動植物園(公式)
+  1116565680604606465, # @noichizoo_staff 高知県立のいち動物公園
+  1086085674841780224, # @seaparadise_ag 横浜・八景島シーパラダイス公式 アニメ/ゲーム部
+  1076317646692376576, # @hamurazoo_ 羽村市動物公園
+  1049502497117626369, # @JELLYFISHAQ 鶴岡市立加茂水族館
+  1023425633496358912, # @tokiwazoo ときわ動物園（公式）
+  1021638876287225856, # @miyajima_aqua 宮島水族館【公式】
+  1002421412898824192, # @sumasui_kobe [公式]神戸市立須磨海浜水族園
+  986861615545892864, # @saitamazoo_tw 埼玉県こども動物自然公園【公式】
+  986404434514100225, # @nhdzoo_szga 静岡市動物園協会
+  928203645719429120, # @toyamafamipa 富山市ファミリーパーク【公式】
+  924900426398416897, # @shimamarineland 志摩マリンランド(公式)
+  914767453720215552, # @_umigatari_ 上越市立水族博物館 うみがたり
+  905304850040201216, # @seibutuen_info 足立区生物園
+  893018992411000832, # @tobezooofficial 愛媛県立とべ動物園【公式】
+  882213989890965504, # @englandhill_zoo イングランドの丘 動物スタッフ【公式】
+  877742609317347329, # @MISAKIKOEN みさき公園【公式】
+  870198495344345088, # @kobeojizoo 神戸市立王子動物園（公式）
+  854862220764749824, # @nishiyama_zoo 鯖江市西山動物園
+  839321180351836160, # @nhdzoo 静岡市立日本平動物園
+  830067318755438592, # @echiaqua 越前松島水族館
+  812174717268332544, # @omutacityzoo 【公式】大牟田市動物園 Omuta City Zoo
+  804867003156611072, # @sibukawamarine 玉野海洋博物館(飼育スタッフ)
+  800216648468680706, # @umitamago_staff 大分マリーンパレス水族館「うみたまご」
+  795841508343590912, # @_aquapark_ マクセル アクアパーク品川公式
+  795140108429078528, # @NagasakiPengin 長崎ペンギン水族館【公式】
+  763970035983405056, # @sendaisiyagiya 仙台市八木山動物公園
+  748306855147896832, # @FukuyamaZoo 福山市立動物園（公式）
+  745975615921106945, # @bananawanien02 熱川バナナワニ園
+  737841230273355776, # @non_hoi_park 豊橋総合動植物公園（豊橋のんほいパーク）
+  735319773928685569, # @katurahama_aq 桂浜水族館 公式
+  733945923542212608, # @fuji_safari1980 富士サファリパーク公式
+  732473190371319808, # @j_monkeycentre 日本モンキーセンター（公式）
+  724527309487628289, # @kyotoshidoubut1 京都市動物園（公式）
+  717601894781222914, # @obizoo_tanken おびひろ動物園探検隊
+  4830514909, # @iseseaparadise 伊勢シーパラダイス【公式】
+  3302950393, # @suzakazoo 須坂市動物園【公式】
+  3256246122, # @ChikozanZoo 智光山公園こども動物園【公式】
+  3248460727, # @NIFREL_official NIFREL（ニフレル）公式
+  3184029560, # @InawashiroAQ アクアマリンいなわしろカワセミ水族館
+  3131486945, # @aquariumshimoda 下田海中水族館
+  2982442993, # @asa_zoo 広島市安佐動物公園【公式】
+  2973574466, # @kobe_doubutsu 神戸どうぶつ王国 公式ツイッター
+  2933273814, # @marinepark_nixe 登別マリンパークニクス
+  2751336146, # @marudou_fan マルヤマン＠円山動物園（公式）
+  2731367606, # @saitamaaqua さいたま水族館・羽生水郷公園【公式】
+  2588608866, # @beachland2000 南知多ビーチランド【公式】
+  2331401946, # @higashiyamapark 名古屋市東山動植物園
+  2316749971, # @asahiyamazoo1 旭川市旭山動物園［公式］
+  2311169834, # @HcpSafari 姫路セントラルパーク☆サファリ[公式]
+  1966885626, # @Sumida_Aquarium すみだ水族館【公式】
+  1684550180, # @elpha_zounokuni エルファ＠市原ぞうの国
+  1466345528, # @fukuokazoo 福岡市動物園
+  1365609534, # @hirakawazoo 鹿児島市平川動物公園
+  1293811862, # @iwatesafari 岩手サファリパーク
+  1230467258, # @Kyoto_Aquarium 京都水族館【公式】
+  1196106666, # @LOVE_IKEDAZOO 池田ZOO（池田動物園）
+  1156741970, # @InokashiraZoo 井の頭自然文化園［公式］
+  1156728812, # @KasaiSuizokuen 葛西臨海水族園［公式］
+  1156726849, # @TamaZooPark 多摩動物公園［公式］
+  1156713230, # @UenoZooGardens 上野動物園［公式］
+  1076058583, # @TokyoZooNet_PR 東京ズーネット［公式］
+  1023628381, # @HitachiCity_Zoo 日立市かみね動物園〔公式〕
+  748494854, # @kamoseaOfficial 鴨川シーワールド
+  700437200, # @aki_safariland 秋吉台サファリランド
+  615913517, # @omoriyama_zoo 秋田市大森山動物園
+  602436204, # @ChibaZoo 千葉市動物公園
+  587130728, # @ichikawa_zoo 市川市動植物園（公式）
+  579452660, # @_seaparadise_ 横浜・八景島シーパラダイス公式
+  565474632, # @aws_official アドベンチャーワールド公式
+  543220054, # @moriokazoo 盛岡市動物公園
+  536976698, # @nogeyamazoo401 横浜市立野毛山動物園≪公式≫
+  533962035, # @zoorasia424 よこはま動物園ズーラシア≪公式≫
+  532950800, # @kanazawazoo317 横浜市立金沢動物園【公式】
+  511422611, # @AsamushiAqua 青森県営 浅虫水族館
+  504224650, # @england_hill イングランドの丘【公式】
+  464487269, # @ngsbiopark 長崎バイオパーク公式
+  437332642, # @TOBA_AQUARIUM 鳥羽水族館（TOBA　AQUARIUM）
+  424030054, # @okazaki_koho 岡崎市広報
+  423161010, # @HitachiCityKoho 日立市【公式】
+  365224501, # @itozu_zoo 到津の森公園
+  359257920, # @aquamarinestaff アクアマリンふくしま
+  354736890, # @yomiuriland_com よみうりランド遊園地【公式】
+  303054366, # @africansafari1 アフリカンサファリ【公式】
+  301940091, # @zounokuninet 市原ぞうの国オフィシャルストア
+  299990024, # @Sunshine_Aqua サンシャイン水族館
+  286018618, # @izu_anikin 伊豆アニマルキングダム
+  266449884, # @aw_oarai アクアワールド茨城県大洗水族館
+  224057019, # @izushabotenpark 伊豆シャボテン動物公園公式ツイッター
+  217703937, # @otaruaquarium おたる水族館
+  209849715, # @KushimotoMP 和歌山・串本海中公園
+  205999791, # @neopark754 ネオパークオキナワ
+  204238464, # @kushirozoo 釧路市動物園
+  154381364, # @Osaka_Kaiyukan 大阪・海遊館
+  150990053, # @doubutsuen0601 宇都宮どうぶつ園
+  148174653, # @NASU_SAFARIPARK 那須サファリパーク
+  136808681, # @Muse_Tokai 東海大学海洋科学博物館･自然史博物館
+  129197685, # @nakprstaff 那須どうぶつ王国
+  128158330, # @morikirara99 九十九島動植物園森きらら
+  126991605, # @marinepia 新潟市水族館マリンピア日本海
+  109532430, # @tobuzoo7 東武動物公園【公式】リュウくん
+  101746805, # @chito_se_ame チトセアメ
+  99226401, # @komorozoo 小諸市動物園【公式】
+  71168009, # @aquatotto 世界淡水魚園水族館　アクア・トト ぎふ
+
+  # 非JAZA系
+  1063585435853611009, # @Nature_Okayama 岡山県自然保護センター
+  3015826252, # @sendaiuminomori 仙台うみの杜水族館公式
+  479215305, # @tokifanclub 佐渡トキファンクラブ
+]
