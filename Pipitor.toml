@@ -12,6 +12,7 @@ filter = """(?ix)
   | どうぶつビスケッツ
   | どうビス
   | ペパプ
+  | Triple-P
   | Gothic×Luck
   | ゴシックラック
   | \\#ゴクラク
@@ -47,6 +48,7 @@ topics = [
   824551506737192960, # @GGI_INC 株式会社ギャラクシーグラフィックス
   798795770581266433, # @PRTIMES_NEWS PR TIMESニュース
   723058748952965120, # @1000_pro_com ミレニアムプロ
+  4827947356, # @SoundCadence Sound Cadence Studios
   4565186714, # @youngace_up ヤングエースUP公式
   3988316892, # @SEGA_Ent セガ エンタテインメント公式
   3143072946, # @toki_management トキエンタテインメント
@@ -70,6 +72,7 @@ topics = [
   177110380, # @SEGA_OFFICIAL セガ公式アカウント
   137263528, # @parco_art PARCO-ART
   104742595, # @VictorMusic ビクターエンタテインメント
+  48619486, # @discotekmedia 💿Discotek Media ➡️➡️ Animazement!
   17965667, # @yenpress Yen Press
 
   # 配信
@@ -78,7 +81,6 @@ topics = [
   2510743933, # @OPENREC OPENREC【公式】
   389352575, # @anitv_PR テレビ東京アニメ公式あにてれ
   71779161, # @Yahoo_GYAO GYAO!
-  48619486, # @discotekmedia 💿Discotek Media ➡️➡️ Animazement!
 
   # イベント
   1080189433683501056, # @adm_akiba アド街っぷ＠秋葉原観光マップ
@@ -191,6 +193,7 @@ filter = """(?ix)
   | どうぶつビスケッツ
   | どうビス
   | ペパプ
+  | Triple-P
   | Gothic×Luck
   | ゴシックラック
   | \\#ゴクラク
@@ -239,6 +242,7 @@ topics = [
 filter = """(?x)
   \\#けものフレンズ
   | \\#けもフレ
+  | \\#KemonoFriends
   | \\#ゴクラク
 """
 outbox = 1120428863828316160
@@ -249,6 +253,7 @@ topics = [
   1054520180032778241, # @kannmadoka 菅 まどか
   1048871638651924480, # @yagimashiro 八木 ましろ
   1043684232097218560, # @Joey_Takeda 武田城以
+  1038986892384059392, # @SuzieYeung Suzie Yeung
   1024177131918508032, # @yukiyofujii0508 藤井ゆきよ
   1003903172044251137, # @elfinHanafusa_R 花房里枝
   980800152553209857, # @hyamazaki_staff 山崎はるかスタッフ
@@ -281,8 +286,11 @@ topics = [
   853074336248340481, # @PA___NON PA-NON＆STAFF
   838223630853033984, # @canari_1111 あまり かなり7/4～音楽劇ジップ&キャンディ🤖7/29～舞台pet🐠8/21～舞台コジコジ😺
   825270189264506880, # @reina_kondo 近藤玲奈
+  800890073059381248, # @MaddieMorrisVA Madeleine Morris
   787531199895920640, # @tamura_kyoka 田村響華
   760025194383585280, # @Takase_Aiko 高瀬愛虹
+  758448733340114944, # @mastagish Amanda R Gish
+  752226432982454272, # @MichelleMariVA Michelle Marie
   749885881318727681, # @numakura_manami 沼倉愛美（公式）
   748671603127398400, # @aibaaiai 相羽あいな
   730754632062898176, # @nagatsumajuri 長妻樹里
@@ -303,7 +311,9 @@ topics = [
   3180858356, # @K_Rico1_1 小池理子
   3149720330, # @ayaMiNTgreen 山根 綺
   3111919296, # @Aya27songe 清水 彩
+  3085905806, # @Bryn_Apprill Bryn Apprill
   3071098621, # @EPsqqoSl38iCI3i 前田綾香
+  3041268363, # @anairis_q Anairis Q 🇵🇷
   2950212426, # @0311asaki 4s4ki
   2917014519, # @kaedexmaple 奥谷 楓
   2897674771, # @kanekosanndesu 金子有希 シーズン2
@@ -312,6 +322,9 @@ topics = [
   2835421412, # @rihonyan103 加藤里保菜
   2830750813, # @motomiyakana 本宮佳奈
   2826329041, # @jinko_moe 甚古 萌
+  2817888392, # @alisonviktorin Alison Viktorin
+  2699620357, # @SkiniMini07 Dani Chambers
+  2695754530, # @KBeeThatsMe Katelyn Barr @ Saint SEIYAAAAAAAAA
   2640398808, # @nonremuq 石井玲歌
   2596481180, # @Lynn_0601_ Ｌｙｎｎ (りん)
   2574392995, # @nagaku_yuki 長久友紀@がっきゅ
@@ -319,8 +332,10 @@ topics = [
   2570625481, # @bknb_mew みゆはん
   2548258832, # @deet_ic 馬場莉乃
   2471285462, # @jullie_egg 木村珠莉
+  2462398062, # @EmilyJFajardo Emily Fajardo
   2445518118, # @takamori_723 高森奈津美
   2420221248, # @takehitooo 武人
+  2322003031, # @nvansistine Natalie
   2308569924, # @hinappp8 木野日菜
   2293843940, # @andyll25252 安藤尚也🦔
   2292118700, # @OnoSaki1126 小野 早稀(おの さき)
@@ -328,47 +343,67 @@ topics = [
   2237565500, # @ohagidaisuki226 田口実加
   2186330749, # @michuell_bunny 未来みき＊大天使みしゅえる⸜(´ ˘ `∗)⸝🔥
   2168328588, # @Ma2Ndayodayo 松尾祐輔
+  1976117580, # @SarahWiedenheft Sarah ♡ Wiedenheft
+  1875923244, # @YenniAnnVO Yenni Ann 🌟
+  1873469676, # @MarissaLenti Marissa Lenti #MozeGang
   1662016370, # @karin_takahashi 高橋花林
+  1627409539, # @WowSuchKrystal Krystal LaPorte
+  1616313728, # @18moptop Megan Shipman
   1604926548, # @NomotoHotaru 野本ほたる
   1529614860, # @akariuehara13 上原あかり🐰🍳🍳
   1493773717, # @rg8270fvv 高田 翼
   1443275232, # @neeeruuu 根本流風
+  1436491782, # @KayliMills Kayli Mills
   1363724040, # @marika_0222 高野 麻里佳
   1351192345, # @owada_hitomi 大和田仁美
   1349665898, # @kawakami_rio 川上莉央
+  1266342607, # @TiaToony Tia Ballard
   1220770466, # @Saeri_Umehara 梅原サエリ
+  1172801040, # @KrisComics Kristen McGuire 🦊💖
   1136351120, # @Haruka26s 🔔 佐藤 遥
   1079666190, # @miiiiiina_cat 高橋未奈美
+  1069555015, # @AlexisTiptonVA Alexis Tipton
   1067613817, # @39_miku_1012 吉川未来
   1045524721, # @osorasan703 大空直美
+  1032040242, # @kixee Kimberley @ KEMONO FRIENDS DUBBED!!
   1023577651, # @Sada481220 森貞文則
   989980122, # @Ma_ri_ya_i 伊瀬茉莉也🍋Mariya Ise
+  952667893, # @SarahAnneWillia Sarah Anne Williams
   901539650, # @holy_kobayashi 小林ゆう_公式
+  871891459, # @AmberFoxyVox Amber May (FoxyVox)
   860869646, # @RyokoShiraishi_ 白石涼子
   849626744, # @tghgworks_krsy 烏屋茶房/カラスヤサボウ
+  833771761, # @HaybaleVoice Hayden Daviau 🍁
+  723134300, # @plus3toogres Alex Moore is C-List, at Best
   720295640, # @makino_728 まきの
   595126798, # @KaoruHayano1212 早乃香織🌸Kaoru Hayano
+  590253118, # @ChrisGuerreroVA Christopher Guerrero
   562517449, # @honda_mosamosa 本多真梨子
   546607939, # @chunrip08 新橋 和
   521006849, # @yamashita_mami 山下まみ@まみみ
   519622892, # @azsainamura 稲村梓
   518164105, # @kota_h0307 橋本 孝太
   506310004, # @miwafurusan 古庄美和
+  499999967, # @caitlinsvoice Caitlin Glass
+  492719105, # @DanielleMcVO Danielle McRae
   457559943, # @sakai_ran 酒井蘭
   456424628, # @wataru_sena 瀬名航／Wataru Sena
   442847857, # @s_u_music s.uchida
   442644970, # @totetonkoide 小出裕也
   440252533, # @RiccaTachibana 立花理香＠『Returner Butterfly』発売！
+  411836584, # @AmberLeeConnors Amber Lee Connors
   394994233, # @kanek0mayumi 金子麻友美
   374582749, # @incidentsTF 風来坊 伊山
   367514058, # @ko_yuli 幸野ゆりあ🌹flamingo
   340785466, # @yuuka_aisaka 相坂優歌official
+  319168948, # @TeeDotally Ⓣ🅔ⓡ🅡ⓘ 🅓ⓞ🅣ⓨ
   317684165, # @nogizaka46 乃木坂46
   306818664, # @DApanda323 松田颯水。
   301999903, # @ReSAEnter 松田利冴。
   297833968, # @aya_uchida 内田彩
   296215278, # @kesaaaaaaaaaan 毛蟹
   293979493, # @info_akechi 佐藤朱
+  284781826, # @CeeCeeVA 🌸🌸Chasity Conner {COMMISSIONS OPEN}🌸🌸
   284418607, # @UMEMOMOKA 庄司宇芽香
   282612434, # @SaiToShiN16 斎藤真一郎
   280365265, # @aimausu 加隈亜衣(かくま あい)
@@ -378,7 +413,9 @@ topics = [
   251960614, # @no_my_ ノーマイ/no_my (作曲家)
   250212248, # @Tsubasacurry 伊藤 翼/Tsubasa Ito(作曲家)
   244788445, # @mikoiwate_351 佐々木未来
+  237873897, # @TheMorganBerry Morgan Berry
   237804402, # @Koike_Tatsuya 小池龍也 SelfishJean
+  237053841, # @FeleciaAngelle Felecia Angelle
   232229151, # @Suwa_Ayaka 諏訪彩花
   217057116, # @eyewater_e 榎木ともひでWF6-14-13造形師か漫画家か単行本ついに発売！
   214686961, # @yuka_s1113 斉藤佑圭
@@ -410,6 +447,7 @@ topics = [
   123404041, # @okame_hara 原 彩弓
   116459830, # @YooNakamura 中村友
   114700374, # @mimori_suzuko 三森すずこ
+  113054268, # @jadbsaxton Jad Saxton ✳️🦎✳️
   111492608, # @masumoto_takuya ますもとたくや
   111187922, # @Daisuke_P だいすけP
   110996822, # @kanoyui1222 鹿野優以
@@ -419,21 +457,33 @@ topics = [
   96355490, # @40mP 40mP／イナメトオル
   94595949, # @rapbit_rapstar らっぷびと
   93666200, # @sugarboykiller 川尻恵太
+  92737353, # @Melizande Meli Grant
   90197617, # @GYARI_ GYARI
   84625899, # @sasakure__UK sasakure.UK
+  81049075, # @Grandpa_Trout Kristi Rothrock 🎮
   71761708, # @YoshieIsogai 磯谷佳江
   69606376, # @RYUKNIGHT 内藤隆 @漫画版けもフレ２①発売中!!
+  68042177, # @LeeandLie AmaLee
   59796971, # @takuyakusunose 楠瀬"poco"タクヤ【月蝕會議・Rest of Childhood・MIMIZUQ・スクランブルズ
   59719372, # @NTRcap いんどなめこ@交響アクティブNEETs
   57515919, # @kona_milo キクチミロ
   55920839, # @easypop_betti EasyPop/BETTI
+  55322189, # @Megami33 Corinne Sudberg @ Otakon 🤩
+  55069219, # @KitsuneSqueak Emi Lo
   51498481, # @Ryuichi_Kimura 木村　隆一
+  47429528, # @littleramyun Michelle Rojas
   44085626, # @kazuaki518 松田 和彬（まっつん）
   42816253, # @MatsuuraHiroaki 松浦裕暁 @ サンジゲン！
   42419516, # @SiZK_STARGUiTAR SiZK
+  42297700, # @soymilkpudding Ayu
+  40791597, # @KiraBuckland Kira Buckland ★
   37376144, # @jsato_FLEET 佐藤純一 Junichi Sato［fhána］
   35752873, # @takayuki_chiba 千葉高雪/A-worth
-  17343387, # @halyosy halyosy(はるよし)
+  29920373, # @EliseBaughman Elise Baughman
+  18541233, # @LSheppardVO Lindsay Sheppard
+  18176433, # @mippa Melissa Sternenberg
+  17651468, # @DawnMBennettVA Dawn M. Bennett
+  17343387, # @halyosy halyosy(はるよし)  15974916, # @LeahClarkVA Leah Clark 🚀@Mechacon
 ]
 
 # 園館等
@@ -447,6 +497,7 @@ filter = """(?ix)
   | どうぶつビスケッツ
   | どうビス
   | ペパプ
+  | Triple-P
   | Gothic×Luck
   | ゴシックラック
   | \\#ゴクラク
