@@ -136,6 +136,12 @@ topics = [
   108517346, # @shochiku_video 松竹ホームエンターテインメント
   106343759, # @animateinfo 株式会社アニメイト
 
+  # チケット
+  240201550, # @lawson_ticket ローチケ（ローソンチケット）
+  119982603, # @eplusjp ｅ＋（イープラス）
+  72193168, # @RakutenTicket 楽天チケット
+  57282906, # @news_pia チケットぴあ
+
   # 商品
   1070208213444775937, # @kujifes くじフェス！
   954195501280149505, # @magi_pri_PR newlogic PR
