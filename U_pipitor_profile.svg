@@ -19,21 +19,24 @@
   </defs>
     <rect width="100%" height="100%" fill="#fff" />
 
-    <!-- “Four Symbols” -->
-    <use xlink:href="#no" fill="#00a0e9" transform="scale(2,2) rotate(90)" x="75" y="-200" />
-    <use xlink:href="#no" fill="#c9caca" transform="scale(2,2) rotate(-90)" x="-125" />
-    <use xlink:href="#no" fill="#e60012" transform="scale(2,2) rotate(180)" x="-125" y="-200" />
-    <use xlink:href="#no" fill="#a5308c" transform="scale(2,2)" x="75" />
+    <g id="four-symbols">
+      <use xlink:href="#no" fill="#00a0e9" transform="scale(2,2) rotate(90)" x="75" y="-200" />
+      <use xlink:href="#no" fill="#c9caca" transform="scale(2,2) rotate(-90)" x="-125" />
+      <use xlink:href="#no" fill="#e60012" transform="scale(2,2) rotate(180)" x="-125" y="-200" />
+      <use xlink:href="#no" fill="#a5308c" transform="scale(2,2)" x="75" />
+    </g>
 
-    <use xlink:href="#no" fill="#13ae67" transform="scale(2,2) rotate(30)" x="150" y="-50"/>
-    <use xlink:href="#no" fill="#f39800" transform="rotate(-45)" x="40" y="420" />
-    <use xlink:href="#no" fill="#00ab8d" transform="scale(2,2) rotate(30)" x="180" y="40" />
-    <use xlink:href="#no" fill="#187fc4" transform="rotate(135)" y="-170" x="40" />
-    <use xlink:href="#no" fill="#f39800" transform="scale(2,2) rotate(60)" x="110" y="20" />
-    <use xlink:href="#no" fill="#c4d700" transform="rotate(135)" x="110" y="-350" />
-    <use xlink:href="#no" fill="#8fc31f" transform="scale(1.2,1.2) rotate(150)" x="-50" y="-110" />
-    <use xlink:href="#no" fill="#e4007f" transform="scale(1.7,1.7) rotate(30)" y="-20" x="80" />
-    <use xlink:href="#no" fill="#9fa0a0" transform="translate(240,70) rotate(-60)" />
+    <g id="main">
+      <use xlink:href="#no" fill="#13ae67" transform="scale(2,2) rotate(30)" x="150" y="-50"/>
+      <use xlink:href="#no" fill="#f39800" transform="rotate(-45)" x="40" y="420" />
+      <use xlink:href="#no" fill="#00ab8d" transform="scale(2,2) rotate(30)" x="180" y="40" />
+      <use xlink:href="#no" fill="#187fc4" transform="rotate(135)" y="-170" x="40" />
+      <use xlink:href="#no" fill="#f39800" transform="scale(2,2) rotate(60)" x="110" y="20" />
+      <use xlink:href="#no" fill="#c4d700" transform="rotate(135)" x="110" y="-350" />
+      <use xlink:href="#no" fill="#8fc31f" transform="scale(1.2,1.2) rotate(150)" x="-50" y="-110" />
+      <use xlink:href="#no" fill="#e4007f" transform="scale(1.7,1.7) rotate(30)" y="-20" x="80" />
+      <use xlink:href="#no" fill="#9fa0a0" transform="translate(240,70) rotate(-60)" />
+    </g>
 
     <!-- Uppermost layer: #ea5520 is the theme color for the NEWS page of KF official website (https://kemono-friends.jp/news/) -->
     <use xlink:href="#no" fill="#ea5520" transform="scale(5,5) rotate(-20)" y="30" />

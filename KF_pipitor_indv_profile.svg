@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1"
+    viewBox="0 0 400 400"
+    width="400"
+    height="400"
+    style="background: #fff;">
+  <defs>
+    <use id="no" xlink:href="U_pipitor_profile.svg#no" />
+  </defs>
+    <rect width="100%" height="100%" fill="#fff" />
+
+    <use xlink:href="U_pipitor_profile.svg#four-symbols" />
+
+    <use xlink:href="U_pipitor_profile.svg#main" />
+    <!-- Override the fill color of the first child of U_pipitor_profile.svg#main -->
+    <!-- Would be great if we could use CSS instead -->
+    <use xlink:href="#no" fill="#ea5520" transform="scale(2,2) rotate(30)" x="150" y="-50"/>
+
+    <!-- Uppermost layer: #13ae67 is the theme color for the STAGE page of KF official website (https://kemono-friends.jp/stage/) -->
+    <use xlink:href="#no" fill="#13ae67" transform="scale(5,5) rotate(-20)" y="30" />
+</svg>
