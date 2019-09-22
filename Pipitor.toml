@@ -1,6 +1,6 @@
 [twitter]
-user = 1120428863828316160 # @U_pipitor
-list = 1121823136167542784 # @U_pipitor/list
+user = 1120428863828316160 # @KF_pipitor
+list = 1121823136167542784 # @KF_pipitor/list
 
 [[rule]]
 filter = """(?ix)

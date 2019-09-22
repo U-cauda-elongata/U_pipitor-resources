@@ -8,14 +8,14 @@
     height="400"
     style="background: #fff;">
   <defs>
-    <use id="no" xlink:href="U_pipitor_profile.svg#no" />
+    <use id="no" xlink:href="KF_pipitor_profile.svg#no" />
   </defs>
     <rect width="100%" height="100%" fill="#fff" />
 
-    <use xlink:href="U_pipitor_profile.svg#four-symbols" />
+    <use xlink:href="KF_pipitor_profile.svg#four-symbols" />
 
-    <use xlink:href="U_pipitor_profile.svg#main" />
-    <!-- Override the fill color of the first child of U_pipitor_profile.svg#main -->
+    <use xlink:href="KF_pipitor_profile.svg#main" />
+    <!-- Override the fill color of the first child of KF_pipitor_profile.svg#main -->
     <!-- Would be great if we could use CSS instead -->
     <use xlink:href="#no" fill="#ea5520" transform="scale(2,2) rotate(30)" x="150" y="-50"/>
 
