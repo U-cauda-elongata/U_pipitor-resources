@@ -217,8 +217,13 @@ filter = """(?ix)
   | ワイルドラッシュ
   | WILDRUSH
 """
-# @SocialGameInfo のダイジェストを排除
-exclude = "おはようSGI"
+exclude = """(?ix)
+  おはようSGI # @SocialGameInfo のダイジェスト
+  | たつき監督
+  | irodori
+  | ヤオヨロズ
+  | ケムリクサ
+"""
 outbox = 1120428863828316160
 topics = [
   1103471129358823424, # @anison_nhk anison_nhk
@@ -275,8 +280,13 @@ filter = """(?ix)
   | ワイルドラッシュ
   | WILDRUSH
 """
-# アンケート記事
-exclude = "🏆"
+exclude = """(?ix)
+  🏆 # アンケート記事
+  | たつき監督
+  | irodori
+  | ヤオヨロズ
+  | ケムリクサ
+"""
 outbox = 1120428863828316160
 topics = [
   456544724, # @AnimeAnime_jp アニメ！アニメ！
@@ -709,6 +719,12 @@ filter = """(?ix)
   | かぷせるフレンズ
   | ワイルドラッシュ
   | WILDRUSH
+"""
+exclude = """(?ix)
+  Tatsuki
+  | Yaoyorozu
+  | irodori
+  | Kemurikusa
 """
 outbox = 1156087464907329536 # @KF_pipitor_intl
 topics = [
