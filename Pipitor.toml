@@ -217,8 +217,8 @@ filter = """(?ix)
   | ワイルドラッシュ
   | WILDRUSH
 """
-# ランキング系記事やダイジェストを排除
-exclude = "ランキング|おはようSGI"
+# @SocialGameInfo のダイジェストを排除
+exclude = "おはようSGI"
 outbox = 1120428863828316160
 topics = [
   1103471129358823424, # @anison_nhk anison_nhk
@@ -235,6 +235,7 @@ topics = [
   1501970341, # @realsoundjp Real Sound（リアルサウンド）
   304976428, # @gakken_animedia アニメディア編集部
   298410252, # @GamerNeJp Gamer＠ゲーム情報
+  1712084484, # @rankingbox ランキングBOX編集部
   148966859, # @anicanjp アニカンドットジェイピー
   131032996, # @animatetimes アニメイトタイムズ公式
   128275735, # @akiba_kakakucom アキバ総研公式
