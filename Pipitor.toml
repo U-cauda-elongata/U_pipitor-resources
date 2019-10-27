@@ -302,7 +302,7 @@ topics = [
 
 # スタッフ・キャスト
 [[rule]]
-filter = """(?x)
+filter = """(?ix)
   (?:\\#|＃)
   (?:
     けものフレンズ
@@ -749,7 +749,7 @@ topics = [
 
 # English-speking staff/casts
 [[rule]]
-filter = """(?x)
+filter = """(?ix)
   (?:\\#|＃)
   (?:
     けものフレンズ
