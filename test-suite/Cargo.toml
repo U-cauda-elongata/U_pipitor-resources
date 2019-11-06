@@ -1,0 +1,10 @@
+[package]
+name = "test-suite"
+version = "0.0.0"
+authors = ["Yu Onaga <ursus.cauda.elongata@gmail.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+pipitor = "0.3.0-alpha.1"
+toml = "0.5"
