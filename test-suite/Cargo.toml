@@ -6,5 +6,9 @@ edition = "2018"
 publish = false
 
 [dependencies]
-pipitor = "0.3.0-alpha.1"
 toml = "0.5"
+
+[dependencies.pipitor]
+version = "0.3.0-alpha.1"
+default-features = false
+features = ["rustls", "sqlite-bundled"]
