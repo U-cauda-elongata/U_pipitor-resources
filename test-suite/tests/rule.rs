@@ -10,22 +10,25 @@ const HANAMARU_UDON: i64 = 100358790;
 
 #[test]
 fn rules() {
-    let f = fs::read("../Pipitor.toml").unwrap();
-    let m = toml::from_slice::<Manifest>(&f).unwrap();
+    let manifest = {
+        let f = fs::read("../Pipitor.toml").unwrap();
+        toml::from_slice::<Manifest>(&f).unwrap()
+    };
 
-    assert_eq!(
-        m.rule
-            .route_tweet(&tweet(HANAMARU_UDON, "#はなまる"))
-            .collect::<Vec<&Outbox>>(),
-        Vec::<&Outbox>::new()
-    );
-    assert_eq!(
-        m.rule
-            .route_tweet(&tweet(HANAMARU_UDON, "はなまるアニマル"))
-            .map(unwrap_twitter)
-            .collect::<Vec<i64>>(),
-        vec![PIPITOR]
-    );
+    macro_rules! assert_route {
+        (($id:expr, $text:expr) => [$($outbox:expr),*]) => {
+            assert_eq!(
+                manifest.rule
+                    .route_tweet(&tweet($id, $text))
+                    .map(unwrap_twitter)
+                    .collect::<Vec<i64>>(),
+                vec![$($outbox),*] as Vec<i64>,
+            );
+        };
+    }
+
+    assert_route!((HANAMARU_UDON, "#はなまる") => []);
+    assert_route!((HANAMARU_UDON, "はなまるアニマル") => [PIPITOR]);
 }
 
 fn tweet(user_id: i64, text: impl Into<Box<str>>) -> Tweet {
