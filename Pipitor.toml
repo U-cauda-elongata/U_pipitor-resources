@@ -764,6 +764,8 @@ filter = """(?ix)
 exclude = """(?ix)
   Tatsuki
   | Yaoyorozu
+  | Fukuhara Yoshitada
+  | Yoshitada Fukuhara
   | irodori
   | Kemurikusa
 """
