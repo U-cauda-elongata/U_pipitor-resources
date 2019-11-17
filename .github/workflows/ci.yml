@@ -9,9 +9,10 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Install Rust toolchain
-        uses: actions-rs/toolchain@v1
+        uses: actions-rs/toolchain@v1.0.3
         with:
-          toolchain: beta
+          toolchain: stable
+          profile: minimal
           default: true
       - name: Cache Cargo registry
         uses: actions/cache@v1
