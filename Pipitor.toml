@@ -792,6 +792,7 @@ exclude = """(?ix)
 outbox = 1156087464907329536 # @KF_pipitor_intl
 topics = [
   4827947356, # @SoundCadence Sound Cadence Studios
+  1505411478, # @MabiOfficial Mabinogi
   48619486, # @discotekmedia 💿Discotek Media ➡️➡️ Animazement!
   28023330, # @Crunchyroll Crunchyroll
   17965667, # @yenpress Yen Press
