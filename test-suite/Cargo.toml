@@ -9,6 +9,6 @@ publish = false
 toml = "0.5"
 
 [dependencies.pipitor]
-version = "=0.3.0-alpha.3"
+version = "=0.3.0-alpha.7"
 default-features = false
 features = ["rustls", "sqlite-bundled"]

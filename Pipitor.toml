@@ -2,6 +2,31 @@
 user = 1120428863828316160 # @KF_pipitor
 list = 1121823136167542784 # @KF_pipitor/list
 
+# 全ての投稿がけものフレンズに関連する（と推定される）ため `filter` が不要なトピック群
+[[rule]]
+outbox = 1120428863828316160
+topics = [
+  # 『けものフレンズプロジェクト』公式
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCEOugXOAfa-HRmRjKbH8z3Q",
+  # 東武ジャパリパーク
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCkixBP-HQPS0lOyCpdFWQEg",
+
+  # Twitter の場合はそれぞれのアカウントをフォローすれば事足りるため収集対象外とする
+  # 1258240637368799233, # @X_JPD_official ❌【official】×ジャパリ団　広報団員❌
+  # 1148893601813843969, # @kemofrie3locate けものフレンズ３＠ロケテ情報
+  # 1102890198411632641, # @kemofure_yakata  【公式】けものフレンズ屋形船～輝きを追いかけて～
+  # 1090197229556486144, # @Gothic_Luck Gothic×Luck 公式
+  # 1075640900414570497, # @jppzootobu 【公式】東武ジャパリパーク
+  # 1073098190868508677, # @kemono_friends3 けものフレンズ３＠公式アカウント
+  # 1068364107198296066, # @smcc_kemono 三井住友カード×けものフレンズ
+  # 1036212563300610048, # @kemono_anime 【公式】けものフレンズ２アニメ
+  # 971715886808576001, # @kemono_festival 【公式】けものフレンズ FESTIVAL
+  # 909669017295523840, # @kemono_pavilion けものフレンズぱびりおん【公式】
+  # 874816424522391553, # @kemono_matsuri お祭だよ！けものフレンズがーでん
+  # 855370277739311104, # @kemono_butai 【公式】舞台「けものフレンズ」
+  # 2801592695, # @kemo_project けものフレンズ＠公式アカウント
+]
+
 [[rule]]
 filter = """(?ix)
   けものフレンズ
@@ -27,18 +52,21 @@ filter = """(?ix)
 exclude = "#今日のニコニコ生放送"
 outbox = 1120428863828316160
 topics = [
-  # 収集対象外
-  # 1075640900414570497, # @jppzootobu 【公式】東武ジャパリパーク
-  # 1073098190868508677, # @kemono_friends3 けものフレンズ３＠公式アカウント
-  # 1068364107198296066, # @smcc_kemono 三井住友カード×けものフレンズ
-  # 1036212563300610048, # @kemono_anime 【公式】けものフレンズ２アニメ
-  # 971715886808576001, # @kemono_festival 【公式】けものフレンズ FESTIVAL
-  # 909669017295523840, # @kemono_pavilion けものフレンズぱびりおん【公式】
-  # 874816424522391553, # @kemono_matsuri お祭だよ！けものフレンズがーでん
-  # 855370277739311104, # @kemono_butai 【公式】舞台「けものフレンズ」
-  # 2801592695, # @kemo_project けものフレンズ＠公式アカウント
-
   # 公式・準公式
+  # テレビ東京公式 TV TOKYO
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCrDj5t8Q9ZFSGft7a3PWl9g",
+  # ブシロードブシモ
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCqs9jj1PpzBDBYGrnGrLRYQ",
+  # KADOKAWAanime
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCY5fcqgSrQItPAX_Z5Frmwg",
+  # SEGA
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCVkqs_Q88BDmyaWwjYJ8_Ig",
+  # ブシロード公式チャンネル
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCFoS_FzutpGb3EDH3dZ47sw",
+  # Victor Entertainment
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC4YT50DP7hbMsor8FmyEPMw",
+  # セガゲームス公式アプリ
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC3tZDwLVGnZKl9477fCxhGQ",
   1123410609922396160, # @aoni_official 青二プロダクション【公式】
   1012239092279476224, # @nicogame_PR ニコニコゲーム公式@ログインなしで視聴可能
   974249862957903873, # @2018Jst ジャストプロ 声優部
@@ -272,6 +300,16 @@ exclude = """(?ix)
 """
 outbox = 1120428863828316160
 topics = [
+  # インサイド＆Game*Spark動画チャンネル
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCkU6nDHWQpyDK5vw9YSYjLw",
+  # 4GamerSP
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCfIgNVCiAei8r-haGHDnedg",
+  # ファミ通App
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCcxj8uiQUeSfMHLy_Sk8FhA",
+  # 電撃オンライン
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCQb6W0vblp5ewU75watnqQQ",
+  # gamernejp
+  "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC2aiZm7FsZFwhbPNWpjJcZQ",
   1103471129358823424, # @anison_nhk anison_nhk
   909951337382547457, # @anirecoTV あにレコTV
   854165601148837888, # @AnimeTourism88 アニメツーリズム協会　じゅんれいちゃん

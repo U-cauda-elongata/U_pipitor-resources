@@ -1,8 +1,8 @@
 use std::fs;
 
-use pipitor::rules::Outbox;
+use pipitor::manifest::{Manifest, Outbox};
+use pipitor::router::Router;
 use pipitor::twitter::{Tweet, User};
-use pipitor::Manifest;
 
 const PIPITOR: i64 = 1120428863828316160;
 
@@ -14,11 +14,12 @@ fn rules() {
         let f = fs::read("../Pipitor.toml").unwrap();
         toml::from_slice::<Manifest>(&f).unwrap()
     };
+    let router = Router::from_manifest(&manifest);
 
     macro_rules! assert_route {
         (($id:expr, $text:expr) => [$($outbox:expr),*]) => {
             assert_eq!(
-                manifest.rule
+                router
                     .route_tweet(&tweet($id, $text))
                     .map(unwrap_twitter)
                     .collect::<Vec<i64>>(),
