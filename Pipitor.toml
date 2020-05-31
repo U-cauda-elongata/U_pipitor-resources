@@ -840,6 +840,11 @@ exclude = """(?ix)
 """
 outbox = 1156087464907329536 # @KF_pipitor_intl
 topics = [
+  # Latest in Anime News by Crunchyroll!
+  "https://feeds.feedburner.com/crunchyroll/animenews",
+  # Latest Crunchyroll Videos
+  "https://feeds.feedburner.com/crunchyroll/rss",
+
   4827947356, # @SoundCadence Sound Cadence Studios
   1505411478, # @MabiOfficial Mabinogi
   48619486, # @discotekmedia 💿Discotek Media ➡️➡️ Animazement!
