@@ -297,6 +297,12 @@ exclude = """(?ix)
   | ヤオヨロズ
   | 福原慶匡
   | ケムリクサ
+  | 殺害
+  | 脅迫
+  | 誹謗
+  | 中傷
+  | 逮捕
+  | 容疑
 """
 outbox = 1120428863828316160
 topics = [
@@ -372,6 +378,12 @@ exclude = """(?ix)
   | ヤオヨロズ
   | 福原慶匡
   | ケムリクサ
+  | 殺害
+  | 脅迫
+  | 誹謗
+  | 中傷
+  | 逮捕
+  | 容疑
 """
 outbox = 1120428863828316160
 topics = [
@@ -837,6 +849,10 @@ exclude = """(?ix)
   | Yoshitada Fukuhara
   | irodori
   | Kemurikusa
+  | Murder
+  # | Threat # may well be used under normal contexts.
+  | Arrest
+  # Suspect
 """
 outbox = 1156087464907329536 # @KF_pipitor_intl
 topics = [
