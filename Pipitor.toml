@@ -1,6 +1,7 @@
 [twitter]
 user = 1120428863828316160 # @KF_pipitor
-list = 1121823136167542784 # @KF_pipitor/list
+list.id = 1121823136167542784 # @KF_pipitor/list
+delay = 7000
 
 # 全ての投稿がけものフレンズに関連する（と推定される）ため `filter` が不要なトピック群
 [[rule]]
