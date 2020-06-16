@@ -9,6 +9,8 @@ publish = false
 toml = "0.5"
 
 [dependencies.pipitor]
+git = "https://github.com/tesaguri/pipitor.git"
+rev = "ed3a2e2cdc05afdac3a6be53de94d615c8a448b1"
 version = "=0.3.0-alpha.7"
 default-features = false
 features = ["rustls", "sqlite-bundled"]
