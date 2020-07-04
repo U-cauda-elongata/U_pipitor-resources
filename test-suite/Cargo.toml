@@ -10,7 +10,6 @@ toml = "0.5"
 
 [dependencies.pipitor]
 git = "https://github.com/tesaguri/pipitor.git"
-rev = "ed3a2e2cdc05afdac3a6be53de94d615c8a448b1"
+rev = "ce3a31941c30e9a0e5a980034a2d1b37718478ca"
 version = "=0.3.0-alpha.7"
 default-features = false
-features = ["rustls", "sqlite-bundled"]
