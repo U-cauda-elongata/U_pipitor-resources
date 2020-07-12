@@ -7,18 +7,24 @@
     viewBox="0 0 1500 500"
     version="1.1">
   <defs>
-    <linearGradient id="kfp2-rainbow">
-      <stop offset="0.000" stop-color="#e60012" />
-      <stop offset="0.125" stop-color="#e4007f" />
-      <stop offset="0.250" stop-color="#ea5520" />
-      <stop offset="0.375" stop-color="#c4d700" />
-      <stop offset="0.500" stop-color="#8fc31f" />
-      <stop offset="0.625" stop-color="#13ae67" />
-      <stop offset="0.750" stop-color="#187fc4" />
-      <stop offset="0.875" stop-color="#00a0e9" />
-      <stop offset="1.000" stop-color="#a5308c" />
-    </linearGradient>
-    <linearGradient id="fill" xlink:href="#kfp2-rainbow" y2="500" gradientUnits="userSpaceOnUse" />
+    <pattern
+        id="kfp2-rainbow"
+        viewBox="0,0,10,1"
+        width="94.265%"
+        height="1"
+        patternTransform="rotate(45)"
+        preserveAspectRatio="none">
+      <rect x="-1" width="3" height="1" fill="#e60012" />
+      <rect x="1" width="2" height="1" fill="#ea5520" />
+      <rect x="2" width="2" height="1" fill="#f39800" />
+      <rect x="3" width="2" height="1" fill="#c4d700" />
+      <rect x="4" width="2" height="1" fill="#8fc31f" />
+      <rect x="5" width="2" height="1" fill="#13ae67" />
+      <rect x="6" width="2" height="1" fill="#00a0e9" />
+      <rect x="7" width="2" height="1" fill="#187fc4" />
+      <rect x="8" width="2" height="1" fill="#a5308c" />
+      <rect x="9" width="2" height="1" fill="#e4007f" />
+    </pattern>
   </defs>
-  <rect fill="url(#fill)" width="100%" height="100%" />
+  <rect fill="url(#kfp2-rainbow)" width="100%" height="100%" />
 </svg>
