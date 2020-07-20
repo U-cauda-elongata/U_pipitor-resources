@@ -176,6 +176,7 @@ topics = [
   2578128852, # @kadokawastore カドカワストア
   2262488635, # @COMIC_WALKER コミックウォーカー
   1483924628, # @vos_jn ビクターオンラインストア【公式】
+  727636166, # @TSUTAYAanitsuta あにツタ（TSUTAYAアニメ）
   588119900, # @natalie_store ナタリーストア
   425668036, # @mora_info 音楽配信サイト【mora】
   389280016, # @akiba_gema AKIHABARAゲーマーズ本店
@@ -320,6 +321,7 @@ topics = [
   "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCQb6W0vblp5ewU75watnqQQ",
   # gamernejp
   "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC2aiZm7FsZFwhbPNWpjJcZQ",
+  1115426897335185409, # @music_ups フリーマガジン『music UP's』
   1103471129358823424, # @anison_nhk anison_nhk
   909951337382547457, # @anirecoTV あにレコTV
   854165601148837888, # @AnimeTourism88 アニメツーリズム協会　じゅんれいちゃん
@@ -332,6 +334,7 @@ topics = [
   3196198694, # @spice_topics SPICE[エンタメ情報メディア]/e＋
   2678707854, # @ANIPLUSAsia ANIPLUS Asia
   1501970341, # @realsoundjp Real Sound（リアルサウンド）
+  1410007399, # @musicvoicejp MusicVoice - ミュージックヴォイス公式
   518473614, # @cho_animedia アニメ＆声優関連ニュースサイト「超！アニメディア」公式アカウント
   424711987, # @musicru_tv musicるTV
   304976428, # @gakken_animedia アニメディア編集部
@@ -344,6 +347,7 @@ topics = [
   128275735, # @akiba_kakakucom アキバ総研公式
   127920793, # @SocialGameInfo SocialGameInfo
   121467814, # @famitsuApp ファミ通App@アプリ新作情報
+  97679405, # @gekirock 激ロック
   95577986, # @game_watch GAME Watch
   49540955, # @mainichi 毎日新聞
   46656365, # @antch ニュータイプ編集部／WebNewtype
