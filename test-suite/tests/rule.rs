@@ -1,5 +1,3 @@
-use std::fs;
-
 use pipitor::manifest::{Manifest, Outbox};
 use pipitor::router::Router;
 use pipitor::twitter::{Tweet, User};
@@ -10,10 +8,7 @@ const HANAMARU_UDON: i64 = 100358790;
 
 #[test]
 fn rules() {
-    let manifest = {
-        let f = fs::read("../Pipitor.toml").unwrap();
-        toml::from_slice::<Manifest>(&f).unwrap()
-    };
+    let manifest: Manifest = serde_dhall::from_file("../Pipitor.dhall").parse().unwrap();
     let router = Router::from_manifest(&manifest);
 
     macro_rules! assert_route {

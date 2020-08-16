@@ -6,10 +6,8 @@ edition = "2018"
 publish = false
 
 [dependencies]
-toml = "0.5"
+serde_dhall = "0.6"
 
 [dependencies.pipitor]
-git = "https://github.com/tesaguri/pipitor.git"
-rev = "ce3a31941c30e9a0e5a980034a2d1b37718478ca"
-version = "=0.3.0-alpha.7"
+version = "=0.3.0-alpha.8"
 default-features = false
