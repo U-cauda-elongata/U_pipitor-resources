@@ -814,6 +814,7 @@ let rule = [
       Twitter 92737353, -- @Melizande Meli Grant
       Twitter 81049075, -- @Grandpa_Trout Kristi Rothrock 🎤
       Twitter 68042177, -- @LeeandLie AmaLee
+      Twitter 65374366, -- @SandyDivaSane SandraToureVA
       Twitter 55322189, -- @Megami33 Corinne Sudberg
       Twitter 55069219, -- @KitsuneSqueak Emi Lo
       Twitter 47429528, -- @littleramyun Michelle Rojas
