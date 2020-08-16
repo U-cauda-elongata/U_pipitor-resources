@@ -189,7 +189,6 @@ let rule = [
       Twitter 2910441691, -- @donbei_jp どん兵衛　公式
       Twitter 2841101695, -- @BOOSTER_PARCO クラウドファンディング BOOSTER by PARCO & CAMPFIRE
       Twitter 2765339154, -- @animejam_staff アニメJAM2019 公式
-      Twitter 2730791312, -- @animatecafe_crv アニメイトカフェキッチンカー
       Twitter 2578100414, -- @kadokawa_event KADOKAWAイベント情報
       Twitter 2335919749, -- @MAFF_JAPAN 農林水産省
       Twitter 1279230218, -- @MPD_koho 警視庁広報課
@@ -372,7 +371,6 @@ let rule = [
     outbox = [pipitorIndv],
     topics = [
       Twitter 1153920859578331136, -- @izm_tako 和泉風花
-      Twitter 1153578315518603265, -- @ayk_yamamoto 山本文香
       Twitter 1141319903250534400, -- @kitoakari_1016 鬼頭明里
       Twitter 1134589498610802688, -- @eino_airi_staff 永野愛理 スタッフ【公式】
       Twitter 1126735473102090240, -- @YUI_STAFF 石川由依Official
@@ -481,7 +479,6 @@ let rule = [
       Twitter 2548258832, -- @deet_ic 馬場莉乃
       Twitter 2471285462, -- @jullie_egg 木村珠莉
       Twitter 2445518118, -- @takamori_723 高森奈津美
-      Twitter 2420221248, -- @takehitooo 武人
       Twitter 2365137780, -- @morita_suzuka 森田涼花
       Twitter 2308569924, -- @hinappp8 木野日菜
       Twitter 2293843940, -- @andyll25252 安藤尚也🦔
@@ -517,7 +514,6 @@ let rule = [
       Twitter 860869646, -- @RyokoShiraishi_ 白石涼子
       Twitter 849626744, -- @tghgworks_krsy 烏屋茶房/カラスヤサボウ
       Twitter 755223967, -- @Akina_1102 秋奈
-      Twitter 720295640, -- @makino_728 まきの
       Twitter 595126798, -- @KaoruHayano1212 早乃香織🎠Kaoru Hayano
       Twitter 562517449, -- @honda_mosamosa 本多真梨子
       Twitter 546607939, -- @chunrip08 新橋 和
@@ -588,7 +584,6 @@ let rule = [
       Twitter 123404041, -- @okame_hara 原 彩弓
       Twitter 116459830, -- @YooNakamura 中村友
       Twitter 114700374, -- @mimori_suzuko 三森すずこ
-      Twitter 111492608, -- @masumoto_takuya ますもとたくや
       Twitter 111187922, -- @Daisuke_P だいすけP
       Twitter 110996822, -- @kanoyui1222 鹿野優以
       Twitter 109871522, -- @masumi_asano 浅野真澄@あさのますみ
@@ -637,19 +632,16 @@ let rule = [
       Twitter 1023425633496358912, -- @tokiwazoo ときわ動物園（公式）
       Twitter 1021638876287225856, -- @miyajima_aqua 宮島水族館【公式】
       Twitter 1019052580415000576, -- @kofu_yuki_zoo 甲府市遊亀公園附属動物園　公式ツイッター
-      Twitter 1002421412898824192, -- @sumasui_kobe [公式]神戸市立須磨海浜水族園
       Twitter 986861615545892864, -- @saitamazoo_tw 埼玉県こども動物自然公園
       Twitter 986404434514100225, -- @nhdzoo_szga 静岡市動物園協会【公式】
       Twitter 956017993963667457, -- @kaiyohakukoen 海洋博公園・沖縄美ら海水族館
       Twitter 928203645719429120, -- @toyamafamipa 富山市ファミリーパーク【公式】
-      Twitter 926393027169415170, -- @Okinawazoo_muse 沖縄こどもの国ArtwithZOO(公式)
       Twitter 924900426398416897, -- @shimamarineland 志摩マリンランド(公式)
       Twitter 914767453720215552, -- @_umigatari_ 上越市立水族博物館 うみがたり
       Twitter 905304850040201216, -- @seibutuen_info 足立区生物園
       Twitter 895507390992232448, -- @marinepia_2 新潟市水族館マリンピア日本海PR
       Twitter 893018992411000832, -- @tobezooofficial 愛媛県立とべ動物園【公式】
       Twitter 882213989890965504, -- @englandhill_zoo イングランドの丘 動物スタッフ【公式】
-      Twitter 877742609317347329, -- @MISAKIKOEN みさき公園【公式】
       Twitter 870198495344345088, -- @kobeojizoo 神戸市立王子動物園（公式）
       Twitter 854862220764749824, -- @nishiyama_zoo 鯖江市西山動物園
       Twitter 839321180351836160, -- @nhdzoo 静岡市立日本平動物園
@@ -712,7 +704,6 @@ let rule = [
       Twitter 565474632, -- @aws_official アドベンチャーワールド 公式
       Twitter 543220054, -- @moriokazoo 盛岡市動物公園 ZOOMO
       Twitter 536976698, -- @nogeyamazoo401 横浜市立野毛山動物園≪公式≫
-      Twitter 533962035, -- @zoorasia424 よこはま動物園ズーラシア≪公式≫
       Twitter 532950800, -- @kanazawazoo317 横浜市立金沢動物園【公式】
       Twitter 504224650, -- @england_hill イングランドの丘【公式】
       Twitter 464487269, -- @ngsbiopark 長崎バイオパーク公式
