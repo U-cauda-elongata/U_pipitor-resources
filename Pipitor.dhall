@@ -32,11 +32,12 @@ let basicFilterMinusHanamaru = ''
   | かぷせるフレンズ
   | ワイルドラッシュ
   | WILDRUSH
-''
+  ''
 -- 基本フィルター
 let basicFilter = basicFilterMinusHanamaru ++ "| (?:\\#|＃)はなまる\\b"
 -- 個人アカウント用のフィルター。ハッシュタグのみにマッチする
 let individualFilter = ''
+  (?ix)
   (?:\#|＃)
   (?:
     けものフレンズ
@@ -50,7 +51,7 @@ let individualFilter = ''
     | けもレポ
     | 細かすぎて伝わらない舞台けものフレンズの好きなところ
   )
-''
+  ''
 let basicExclude = ''
   (?ix)
   たつき監督
@@ -62,7 +63,7 @@ let basicExclude = ''
   | Yaoyorozu
   | Fukuhara Yoshitada
   | Yoshitada Fukuhara
-''
+  ''
 
 let twitter = Pipitor.Twitter::{
   user = pipitor,
@@ -773,7 +774,7 @@ let rule = [
   },
   -- English-speking staff/casts
   Pipitor.Rule::{
-    filter = Some Filter::{ title = individualFilter},
+    filter = Some Filter::{ title = individualFilter },
     outbox = [pipitorIntl],
     topics = [
       Twitter 1156183891142742018, -- @WooWooSis Elisa Annette
