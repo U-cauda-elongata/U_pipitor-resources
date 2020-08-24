@@ -585,6 +585,7 @@ let rule = [
       Twitter 123404041, -- @okame_hara 原 彩弓
       Twitter 116459830, -- @YooNakamura 中村友
       Twitter 114700374, -- @mimori_suzuko 三森すずこ
+      Twitter 112139029, -- @asamingosu 今井麻美
       Twitter 111187922, -- @Daisuke_P だいすけP
       Twitter 110996822, -- @kanoyui1222 鹿野優以
       Twitter 109871522, -- @masumi_asano 浅野真澄@あさのますみ
