@@ -341,6 +341,7 @@ let rule = [
       Twitter 304976428, -- @iid_animedia アニメディア編集部
       Twitter 298410252, -- @GamerNeJp Gamer＠ゲーム情報
       Twitter 148966859, -- @anicanjp アニカンドットジェイピー
+      Twitter 142583957, -- @Billboard_JAPAN Billboard JAPAN
       Twitter 131032996, -- @animatetimes アニメイトタイムズ公式
       Twitter 128275735, -- @akiba_kakakucom アキバ総研公式
       Twitter 127920793, -- @SocialGameInfo SocialGameInfo
