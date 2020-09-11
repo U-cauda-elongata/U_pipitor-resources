@@ -397,6 +397,7 @@ let rule = [
       Twitter 975386499033137152, -- @shinnosukenuma 沼田心之介／地方創生クリエイター
       Twitter 968014659214192640, -- @shiroshironao 白城なお(しらきなお)
       Twitter 961655526466633728, -- @amatsuuni_staff あま津うに amatsuuni 【公式】
+      Twitter 957177496759185408, -- @hina_suguta 直田姫奈＊すぐたひな
       Twitter 953901292849541120, -- @sakiho_46 本西彩希帆
       Twitter 953874636759945221, -- @hinata_k0110 小泉日向
       Twitter 951092245762945024, -- @ygnm_kana やぎぬまかな
