@@ -496,6 +496,7 @@ let rule = [
       Twitter 1968534385, -- @Galsyumcr SYU
       Twitter 1662016370, -- @karin_takahashi 高橋花林
       Twitter 1604926548, -- @NomotoHotaru 野本ほたる
+      Twitter 1536485510, -- @nkysyk_a 仲谷明香（なかやさやか）
       Twitter 1529614860, -- @akariuehara13 上原あかり🐰🍳
       Twitter 1493773717, -- @rg8270fvv 高田 翼
       Twitter 1451261143, -- @honami0723 ほなみ
