@@ -521,6 +521,7 @@ let rule = [
       Twitter 860869646, -- @RyokoShiraishi_ 白石涼子
       Twitter 849626744, -- @tghgworks_krsy 烏屋茶房/カラスヤサボウ
       Twitter 755223967, -- @Akina_1102 秋奈
+      Twitter 715016365, -- @Carin_Official 礒部花凜 official
       Twitter 595126798, -- @KaoruHayano1212 早乃香織🎠Kaoru Hayano
       Twitter 562517449, -- @honda_mosamosa 本多真梨子
       Twitter 546607939, -- @chunrip08 新橋 和
