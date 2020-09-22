@@ -135,6 +135,7 @@ let rule = [
       Twitter 3988316892, -- @SEGA_Ent セガ エンタテインメント公式
       Twitter 3219139634, -- @dmmolg_com DMM GAMES公式＠多田野きつね🦊
       Twitter 3143072946, -- @toki_management トキエンタテインメント
+      Twitter 3075211891, -- @office_anemone オフィスアネモネ公式
       Twitter 3017102584, -- @nexon_shikyoku NEXON ツイッター支局
       Twitter 2897290963, -- @GOODROID_inc 株式会社GOODROID
       Twitter 2570344658, -- @PRTIMES_GAMES PR TIMESゲーム
