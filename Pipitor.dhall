@@ -130,6 +130,7 @@ let rule = [
       Twitter 824551506737192960, -- @GGI_INC 株式会社ギャラクシーグラフィックス
       Twitter 809555576233422849, -- @dreammonsterjp 株式会社ドリームモンスター
       Twitter 798795770581266433, -- @PRTIMES_NEWS PR TIMESニュース
+      Twitter 732099555710263297, -- @81pro_official 【公式】81プロデュース
       Twitter 723058748952965120, -- @1000_pro_com ミレニアムプロ
       Twitter 4565186714, -- @youngace_up ヤングエースUP公式
       Twitter 3988316892, -- @SEGA_Ent セガ エンタテインメント公式
