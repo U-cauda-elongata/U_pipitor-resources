@@ -184,6 +184,7 @@ let rule = [
       Twitter 832416664033452032, -- @edomaekisen もんじゃ屋形船 江戸前汽船
       Twitter 773773892628406272, -- @doubutsupeace どうぶつピース！！
       Twitter 734658118089609216, -- @marui_annex_a 新宿マルイアネックス アニメイベント
+      Twitter 734578911778988032, -- @marui_anime マルイノアニメ
       Twitter 4848342680, -- @REALBBQ_info REALBBQ（リアルバーベキュー）
       Twitter 4342755799, -- @osarecompany オサレカンパニー
       Twitter 3877364172, -- @rockmatsuri ビクターロック祭り2020
