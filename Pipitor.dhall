@@ -223,6 +223,7 @@ let rule = [
       Twitter 260644393, -- @mabinogi_nexon 「マビノギ」byパン(公式)
 
       -- 流通
+      Twitter 895195685024219137, -- @sanrioanist サンリオアニメストア公式
       Twitter 3253471304, -- @clionmarket クリオンマーケット
       Twitter 2927579576, -- @AWA_official AWA＠最新音楽トレンド
       Twitter 2692195681, -- @TVTOKYO_Shop テレ東本舗。
