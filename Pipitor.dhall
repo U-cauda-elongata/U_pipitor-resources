@@ -196,6 +196,7 @@ let rule = [
       Twitter 2765339154, -- @animejam_staff アニメJAM2019 公式
       Twitter 2578100414, -- @kadokawa_event KADOKAWAイベント情報
       Twitter 2335919749, -- @MAFF_JAPAN 農林水産省
+      Twitter 1922840634, -- @cfm_snowmiku 雪ミク（初音ミク）
       Twitter 1279230218, -- @MPD_koho 警視庁広報課
       Twitter 439752084, -- @ngt_anifes がたふぇす
       Twitter 397792279, -- @animate_cafe アニメイトカフェ総合
