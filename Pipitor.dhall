@@ -11,9 +11,13 @@ let pipitorIndv = 1175697149343887360 -- @KF_pipitor_indv
 let pipitorIntl = 1156087464907329536 -- @KF_pipitor_intl
 let list = 1121823136167542784 -- @KF_pipitor/list
 
+-- 空白・コメント行および大文字小文字の違いを無視する
+let ix = \(regex : Text) -> "(?:(?ix)" ++ regex ++ ")"
+-- 引数のパターンのハッシュタグにマッチする
+let hash = \(regex : Text) -> "(?:\\#|＃)(?:" ++ regex ++ ")"
+
 -- はなまるうどん用フィルター
-let basicFilterMinusHanamaru = ''
-  (?ix)
+let basicFilterMinusHanamaru = ix (''
   けものフレンズ
   | けもフレ
   | Kemono\s*Friend
@@ -25,35 +29,36 @@ let basicFilterMinusHanamaru = ''
   | Triple-P
   | Gothic×Luck
   | ゴシックラック
-  | (?:\#|＃)ゴクラク\b
+  '' ++ ("|" ++ hash "ゴクラク\\b") ++ ''
   | はなまるアニマル
   | ジャパリ団
   | ちょびるめぷち
   | かぷせるフレンズ
   | ワイルドラッシュ
   | WILDRUSH
-  ''
+  '')
 -- 基本フィルター
-let basicFilter = basicFilterMinusHanamaru ++ "| (?:\\#|＃)はなまる\\b"
--- 個人アカウント用のフィルター。ハッシュタグのみにマッチする
-let individualFilter = ''
-  (?ix)
-  (?:\#|＃)
-  (?:
-    けものフレンズ
-    | けもフレ
-    | KemonoFriends
-    | 舞台(?:けものフレンズ|けもフレ)
-    | ようこそジャパリパーク
-    | ゴクラク\b
-    | はなまる(?:\b|アニマル)
-    | Xジャパリ団
-    | けもレポ
-    | 細かすぎて伝わらない舞台けものフレンズの好きなところ
-  )
+let basicFilter = basicFilterMinusHanamaru ++ "|" ++ hash "はなまる\\b"
+
+-- 個人アカウント用のフィルター
+-- 日英バイリンガルアカウントの日本語投稿
+let individualFilterJa = ix ''
+  けものフレンズ
+  | けもフレ
+  | 舞台(?:けものフレンズ|けもフレ)
+  | ようこそジャパリパーク
+  | ゴクラク\b
+  | はなまる(?:\b|アニマル)
+  | Xジャパリ団
+  | けもレポ
+  | 細かすぎて伝わらない舞台けものフレンズの好きなところ
   ''
-let basicExclude = ''
-  (?ix)
+-- English posts from en/ja bilingual accounts (individual)
+let individualFilterEn = ix "KemonoFriends"
+-- 一般用
+let individualFilter = hash (individualFilterJa ++ "|" ++ individualFilterEn)
+
+let basicExclude = ix ''
   たつき監督
   | irodori
   | ヤオヨロズ
@@ -64,6 +69,11 @@ let basicExclude = ''
   | Fukuhara Yoshitada
   | Yoshitada Fukuhara
   ''
+
+-- 日英バイリンガルアカウント群（個人）
+let bilingualIndvAccts = [
+  Twitter 357183969, -- @Kyokalovesanime 京香 Kyoka
+]
 
 let twitter = Pipitor.Twitter::{
   user = pipitor,
@@ -101,7 +111,7 @@ let rule = [
   },
   Rule::{
     filter = Some Filter::{ title = basicFilter },
-    exclude = Some Filter::{ title = "#今日のニコニコ生放送" },
+    exclude = Some Filter::{ title = hash "今日のニコニコ生放送" },
     outbox = [pipitor],
     topics = [
       -- 公式・準公式
@@ -312,7 +322,7 @@ let rule = [
   Rule::{
     filter = Some Filter::{ title = basicFilter },
     -- @SocialGameInfo のダイジェスト
-    exclude = Some Filter::{ title = basicExclude ++ "|おはようSGI" },
+    exclude = Some Filter::{ title = basicExclude ++ "|" ++ ix "おはようSGI" },
     outbox = [pipitor],
     topics = [
       -- インサイド＆Game*Spark動画チャンネル
@@ -542,7 +552,6 @@ let rule = [
       Twitter 394994233, -- @kanek0mayumi 金子麻友美
       Twitter 374582749, -- @incidentsTF 風来坊 伊山
       Twitter 367514058, -- @ko_yuli 幸野ゆりあ🍎
-      Twitter 357183969, -- @Kyokalovesanime 京香 Kyoka
       Twitter 340785466, -- @yuuka_aisaka 相坂優歌official
       Twitter 306818664, -- @DApanda323 松田颯水。
       Twitter 301999903, -- @ReSAEnter 松田利冴。
@@ -625,8 +634,22 @@ let rule = [
       Twitter 17343387, -- @halyosy halyosy(はるよし)晴義✍️
     ],
   },
+  -- 日英バイリンガルアカウント（個人）の日本語投稿
   Rule::{
-    filter = Some Filter::{ title = basicFilter ++ "| 吉崎\\s*観音 | 吉崎先生" },
+    filter = Some Filter::{ title = hash individualFilterJa },
+    outbox = [pipitorIndv],
+    topics = bilingualIndvAccts,
+  },
+  -- English posts from en/ja bilingual accounts (individual)
+  Rule::{
+    filter = Some Filter::{ title = hash individualFilterEn },
+    -- 多重リツイートの抑止。日本語を優先する
+    exclude = Some Filter::{ title = hash individualFilterJa },
+    outbox = [pipitorIntl],
+    topics = bilingualIndvAccts,
+  },
+  Rule::{
+    filter = Some Filter::{ title = basicFilter ++ "|吉崎\\s*観音|吉崎先生" },
     outbox = [pipitor],
     topics = [
       -- JAZA系（正会員）
