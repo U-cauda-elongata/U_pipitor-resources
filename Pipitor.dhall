@@ -491,6 +491,7 @@ let rule = [
       Twitter 2835421412, -- @rihonyan103 加藤里保菜
       Twitter 2830750813, -- @motomiyakana 本宮佳奈
       Twitter 2826329041, -- @jinko_moe 甚古 萌
+      Twitter 2665092121, -- @maruasahina 朝日奈丸佳
       Twitter 2640398808, -- @nonremuq 石井玲歌
       Twitter 2596481180, -- @Lynn_0601_ Ｌｙｎｎ (りん)
       Twitter 2587770060, -- @okome_satomai 佐藤 舞🌾🍚
