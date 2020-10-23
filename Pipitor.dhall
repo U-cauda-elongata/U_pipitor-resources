@@ -231,6 +231,7 @@ let rule = [
       Twitter 4859102219, -- @HG_Avatar ハンゲアバター【公式】@まくも
       Twitter 2307698479, -- @shirokurojoker しろくろジョーカー公式＠じい
       Twitter 1001107099, -- @maimai_official maimai公式@7/5(金)Re:MASTER追加！
+      Twitter 289206965, -- @TW_nexon テイルズウィーバー公式
       Twitter 260644393, -- @mabinogi_nexon 「マビノギ」byパン(公式)
 
       -- 流通
