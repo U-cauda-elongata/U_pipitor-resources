@@ -503,6 +503,7 @@ let rule = [
       Twitter 2548258832, -- @deet_ic 馬場莉乃
       Twitter 2471285462, -- @jullie_egg 木村珠莉
       Twitter 2445518118, -- @takamori_723 高森奈津美
+      Twitter 2384778510, -- @iRis_s_yu 芹澤優(i☆Ris)
       Twitter 2365137780, -- @morita_suzuka 森田涼花
       Twitter 2308569924, -- @hinappp8 木野日菜
       Twitter 2293843940, -- @andyll25252 安藤尚也🦔
