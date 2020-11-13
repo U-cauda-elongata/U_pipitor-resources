@@ -395,6 +395,7 @@ let rule = [
       Twitter 1134589498610802688, -- @eino_airi_staff 永野愛理 スタッフ【公式】
       Twitter 1126735473102090240, -- @YUI_STAFF 石川由依Official
       Twitter 1125555085067505664, -- @Anna_Mihayashi 御林杏夏
+      Twitter 1123177804114190336, -- @kaayaataaaan 奥野香耶
       Twitter 1120670106617384960, -- @shiraki_riho 白木莉帆（タートルリリー）
       Twitter 1118785839130009600, -- @romipark_fc 朴璐美 Official Staff
       Twitter 1113758206436622336, -- @yoshioka_mayuC 吉岡茉祐
