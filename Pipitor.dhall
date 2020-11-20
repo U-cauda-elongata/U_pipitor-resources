@@ -297,6 +297,7 @@ let rule = [
       Twitter 532861788, -- @se_pla シーズナルプランツ【痛傘】公式
       Twitter 369322470, -- @MF_GoodsNavi えむえふGoodsNavi
       Twitter 350694195, -- @candytoy_c バンダイ キャンディ【公式】
+      Twitter 214883200, -- @flowstarsilver フロースター
       Twitter 189895669, -- @shiraitoshuzo 白糸酒造（株）
       Twitter 185038320, -- @kaiyodo_PR 株式会社海洋堂
       Twitter 138685355, -- @ebten エビテン【ebten】
