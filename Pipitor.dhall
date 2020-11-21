@@ -179,6 +179,7 @@ let rule = [
       Twitter 710658568416985088, -- @Anime_ABEMA ABEMAアニメ(アベアニ)
       Twitter 2510743933, -- @OPENREC OPENREC【公式】
       Twitter 2383099080, -- @tbschannel TBSチャンネル
+      Twitter 537147807, -- @UDO_ArtistsINC ウドー音楽事務所
       Twitter 389352575, -- @anitv_PR テレビ東京アニメ公式「あにてれ」
       Twitter 171845386, -- @onsenradio インターネットラジオステーション＜音泉＞
       Twitter 71779161, -- @Yahoo_GYAO GYAO!
