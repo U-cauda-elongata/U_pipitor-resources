@@ -6,8 +6,8 @@ edition = "2018"
 publish = false
 
 [dependencies]
-serde_dhall = "0.6"
+serde_dhall = "0.9"
 
 [dependencies.pipitor]
-version = "=0.3.0-alpha.8"
+version = "=0.3.0-alpha.9"
 default-features = false

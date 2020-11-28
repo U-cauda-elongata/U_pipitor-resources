@@ -1,10 +1,11 @@
 let Pipitor =
-  https://raw.githubusercontent.com/tesaguri/pipitor/dhall-schema-v0.3.0-alpha.8/schema.dhall sha256:00a2c768b7e5a739ed17ef82c947405965f3b3010c9f408ed4e80b8744166e9b
+  https://raw.githubusercontent.com/tesaguri/pipitor/dhall-schema-v0.3.0-alpha.9/schema.dhall sha256:08f433d482a6e6354598d74264693100b411a4873166dfe953119c97310d7a0d
 
 let Feed = Pipitor.Topic.Feed
 let Twitter = Pipitor.Topic.Twitter
 let Filter = Pipitor.Filter
 let Rule = Pipitor.Rule
+let Outbox = Pipitor.Outbox
 
 let pipitor = 1120428863828316160 -- @KF_pipitor
 let pipitorIndv = 1175697149343887360 -- @KF_pipitor_indv
@@ -79,14 +80,14 @@ let twitter = Pipitor.Twitter::{
   user = pipitor,
   list = Some Pipitor.TwitterList::{
       id = list,
-      delay = 1500,
+      delay = { secs = 1, nanos = 500000000 },
   },
 }
 
 let rule = [
   -- 全ての投稿がけものフレンズに関連する（と推定される）ため `filter` が不要なトピック群
   Rule::{
-    outbox = [pipitor],
+    outbox = [Outbox.Twitter pipitor],
     topics = [
       -- 『けものフレンズプロジェクト』公式
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCEOugXOAfa-HRmRjKbH8z3Q",
@@ -112,7 +113,7 @@ let rule = [
   Rule::{
     filter = Some Filter::{ title = basicFilter },
     exclude = Some Filter::{ title = hash "今日のニコニコ生放送" },
-    outbox = [pipitor],
+    outbox = [Outbox.Twitter pipitor],
     topics = [
       -- 公式・準公式
       -- テレビ東京公式 TV TOKYO
@@ -317,7 +318,7 @@ let rule = [
   -- はなまるうどん
   Rule::{
     filter = Some Filter::{ title = basicFilterMinusHanamaru },
-    outbox = [pipitor],
+    outbox = [Outbox.Twitter pipitor],
     topics = [
       Twitter 100358790, -- @hanamaru_udon 【讃岐】はなまるうどん
     ],
@@ -327,7 +328,7 @@ let rule = [
     filter = Some Filter::{ title = basicFilter },
     -- @SocialGameInfo のダイジェスト
     exclude = Some Filter::{ title = basicExclude ++ "|" ++ ix "おはようSGI" },
-    outbox = [pipitor],
+    outbox = [Outbox.Twitter pipitor],
     topics = [
       -- インサイド＆Game*Spark動画チャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCkU6nDHWQpyDK5vw9YSYjLw",
@@ -382,7 +383,7 @@ let rule = [
   Rule::{
     filter = Some Filter::{ title = basicFilter},
     exclude = Some Filter::{ title = basicExclude ++ "|🏆" }, -- アンケート記事
-    outbox = [pipitor],
+    outbox = [Outbox.Twitter pipitor],
     topics = [
       Twitter 456544724, -- @AnimeAnime_jp アニメ！アニメ！
     ],
@@ -390,7 +391,7 @@ let rule = [
   -- スタッフ・キャスト
   Rule::{
     filter = Some Filter::{ title = individualFilter },
-    outbox = [pipitorIndv],
+    outbox = [Outbox.Twitter pipitorIndv],
     topics = [
       Twitter 1314640424062001152, -- @ssk_ktk828 佐々木琴子 公式
       Twitter 1153920859578331136, -- @izm_tako 和泉風花
@@ -645,7 +646,7 @@ let rule = [
   -- 日英バイリンガルアカウント（個人）の日本語投稿
   Rule::{
     filter = Some Filter::{ title = hash individualFilterJa },
-    outbox = [pipitorIndv],
+    outbox = [Outbox.Twitter pipitorIndv],
     topics = bilingualIndvAccts,
   },
   -- English posts from en/ja bilingual accounts (individual)
@@ -653,12 +654,12 @@ let rule = [
     filter = Some Filter::{ title = hash individualFilterEn },
     -- 多重リツイートの抑止。日本語を優先する
     exclude = Some Filter::{ title = hash individualFilterJa },
-    outbox = [pipitorIntl],
+    outbox = [Outbox.Twitter pipitorIntl],
     topics = bilingualIndvAccts,
   },
   Rule::{
     filter = Some Filter::{ title = basicFilter ++ "|吉崎\\s*観音|吉崎先生" },
-    outbox = [pipitor],
+    outbox = [Outbox.Twitter pipitor],
     topics = [
       -- JAZA系（正会員）
       Twitter 1186801617288384512, -- @TZPS_EduCenter 東京動物園協会教育普及センター
@@ -802,7 +803,7 @@ let rule = [
   Rule::{
     filter = Some Filter::{ title = basicFilter },
     exclude = Some Filter::{ title = basicExclude },
-    outbox = [pipitorIntl],
+    outbox = [Outbox.Twitter pipitorIntl],
     topics = [
       -- Latest in Anime News by Crunchyroll!
       Feed "https://feeds.feedburner.com/crunchyroll/animenews",
@@ -819,7 +820,7 @@ let rule = [
   -- English-speking staff/casts
   Pipitor.Rule::{
     filter = Some Filter::{ title = individualFilter },
-    outbox = [pipitorIntl],
+    outbox = [Outbox.Twitter pipitorIntl],
     topics = [
       Twitter 1156183891142742018, -- @WooWooSis Elisa Annette
       Twitter 1038986892384059392, -- @SuzieYeung Suzie Yeung
