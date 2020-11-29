@@ -79,8 +79,8 @@ let bilingualIndvAccts = [
 let twitter = Pipitor.Twitter::{
   user = pipitor,
   list = Some Pipitor.TwitterList::{
-      id = list,
-      delay = { secs = 1, nanos = 500000000 },
+    id = list,
+    delay = { secs = 1, nanos = 500000000 },
   },
 }
 
@@ -877,6 +877,6 @@ let rule = [
 
 in
 Pipitor.Manifest::{
-    twitter,
-    rule,
+  twitter,
+  rule,
 }
