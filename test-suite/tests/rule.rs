@@ -1,3 +1,6 @@
+use std::fs::File;
+use std::io::BufReader;
+
 use pipitor::manifest::{Manifest, Outbox};
 use pipitor::router::Router;
 use pipitor::twitter::{Tweet, User};
@@ -15,7 +18,8 @@ const MARISSA_LENTI: i64 = 1873469676;
 
 #[test]
 fn rules() {
-    let manifest: Manifest = serde_dhall::from_file("../Pipitor.dhall").parse().unwrap();
+    let json = BufReader::new(File::open("../Pipitor.json").unwrap());
+    let manifest: Manifest = serde_json::from_reader(json).unwrap();
     let router = Router::from_manifest(&manifest);
 
     macro_rules! assert_route {

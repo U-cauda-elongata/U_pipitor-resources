@@ -6,7 +6,7 @@ edition = "2018"
 publish = false
 
 [dependencies]
-serde_dhall = "0.9"
+serde_json = "1"
 
 [dependencies.pipitor]
 version = "=0.3.0-alpha.9"
