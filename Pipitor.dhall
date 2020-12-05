@@ -130,6 +130,7 @@ let rule = [
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC4YT50DP7hbMsor8FmyEPMw",
       -- セガゲームス公式アプリ
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC3tZDwLVGnZKl9477fCxhGQ",
+      Twitter 1303969509779275776, -- @kizunaStage -絆- on Stage 2020
       Twitter 1123410609922396160, -- @aoni_official 青二プロダクション【公式】
       Twitter 1012239092279476224, -- @nicogame_PR ニコニコゲーム公式@ログインなしで視聴可能
       Twitter 974249862957903873, -- @justpro_voice ジャストプロ 声優部
