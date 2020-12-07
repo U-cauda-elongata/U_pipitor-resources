@@ -198,6 +198,7 @@ let rule = [
       Twitter 927737741076414466, -- @rikanenpyo_mpub 理科年表編集室
       Twitter 920176444302438400, -- @tobuzoo1981 東武動物公園【公式】あとらこ
       Twitter 832416664033452032, -- @edomaekisen もんじゃ屋形船 江戸前汽船
+      Twitter 775579759417798657, -- @LimitedStand リミスタ
       Twitter 773773892628406272, -- @doubutsupeace どうぶつピース！！
       Twitter 734658118089609216, -- @marui_annex_a 新宿マルイアネックス アニメイベント
       Twitter 734578911778988032, -- @marui_anime マルイノアニメ
