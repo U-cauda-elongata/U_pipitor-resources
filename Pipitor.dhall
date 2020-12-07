@@ -189,7 +189,7 @@ let rule = [
       -- イベント
       -- リミテッドスタンドLimited Stand
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCQ7QGT_v6Si-2-i0f9mbMBQ",
-      --  ゲマチャンネル
+      -- ゲマチャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_zBYH60OukiGnKSZJJxENw",
       Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
       Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
