@@ -565,6 +565,7 @@ let rule = [
       Twitter 442847857, -- @s_u_music s.uchida
       Twitter 442644970, -- @totetonkoide 小出裕也
       Twitter 440252533, -- @RiccaTachibana 立花理香
+      Twitter 431544187, -- @sarara_ya 八島さらら
       Twitter 394994233, -- @kanek0mayumi 金子麻友美
       Twitter 374582749, -- @incidentsTF 風来坊 伊山
       Twitter 367514058, -- @ko_yuli 幸野ゆりあ🍎
