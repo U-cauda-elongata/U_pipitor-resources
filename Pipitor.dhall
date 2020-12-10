@@ -463,6 +463,7 @@ let rule = [
       Twitter 836824793521537024, -- @momokawa_rika 桃河りか
       Twitter 825270189264506880, -- @reina_kondo 近藤玲奈
       Twitter 814328637407264769, -- @Matsurica_staff マツリカ団
+      Twitter 811124387495616512, -- @ibuking_1114 木戸衣吹
       Twitter 802124249628409856, -- @rui_harinezumi 苅谷瑠衣
       Twitter 787531199895920640, -- @tamura_kyoka 田村響華
       Twitter 771620400044265472, -- @fujisanyuui 藤山由依
