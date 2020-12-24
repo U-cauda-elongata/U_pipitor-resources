@@ -229,6 +229,7 @@ let rule = [
       Twitter 111223135, -- @animelo_staff アニメロスタッフ
       Twitter 107025393, -- @maruzenpub 丸善出版営業部
       Twitter 88577355, -- @WWFJapan WWFジャパン
+      Twitter 56906171, -- @sanrio_news サンリオ
       Twitter 11195332, -- @schatz1 シャッツキステ
 
       -- コラボゲーム
