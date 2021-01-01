@@ -420,6 +420,7 @@ let rule = [
       Twitter 1024177131918508032, -- @yukiyofujii0508 藤井ゆきよ
       Twitter 1016599143584681989, -- @mo_chaam 元吉有希子
       Twitter 1012251656384155648, -- @hasegawa_rimo 長谷川里桃
+      Twitter 1011171132622319616, -- @yuukikana_0u0 優木かな
       Twitter 1003903172044251137, -- @elfinHanafusa_R 花房里枝
       Twitter 997057929541963776, -- @akao_hikaru 赤尾ひかる🐣
       Twitter 987227622416334848, -- @Weeeda_I 上田瞳
