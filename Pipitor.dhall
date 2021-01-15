@@ -474,6 +474,7 @@ let rule = [
       Twitter 811124387495616512, -- @ibuking_1114 木戸衣吹
       Twitter 802124249628409856, -- @rui_harinezumi 苅谷瑠衣
       Twitter 787531199895920640, -- @tamura_kyoka 田村響華
+      Twitter 767928161153654784, -- @Arisa_Aihara_ 愛原ありさ
       Twitter 771620400044265472, -- @fujisanyuui 藤山由依
       Twitter 766912527368228864, -- @MachicoOfficial Machico Official
       Twitter 760025194383585280, -- @Takase_Aiko 高瀬愛虹（たかせあいこ）
