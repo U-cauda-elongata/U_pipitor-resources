@@ -7,9 +7,7 @@ publish = false
 
 [dependencies]
 serde_json = "1"
-# Enable `net` feature to workaround an upstream issue.
-tokio = { version = "1", features = ["net"] }
 
 [dependencies.pipitor]
-version = "=0.3.0-alpha.10"
+version = "=0.3.0-alpha.9"
 default-features = false
