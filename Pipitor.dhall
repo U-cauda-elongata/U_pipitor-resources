@@ -376,6 +376,7 @@ let rule = [
       Twitter 121467814, -- @famitsuApp ファミ通App@アプリ新作情報
       Twitter 97679405, -- @gekirock 激ロック
       Twitter 95577986, -- @game_watch GAME Watch
+      Twitter 70665177, -- @walkerplus_news ウォーカープラス
       Twitter 49540955, -- @mainichi 毎日新聞
       Twitter 46656365, -- @antch ニュータイプ編集部／WebNewtype
       Twitter 44306171, -- @4GamerNews 4Gamer
