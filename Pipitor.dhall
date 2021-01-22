@@ -214,6 +214,7 @@ let rule = [
       Twitter 2841101695, -- @BOOSTER_PARCO クラウドファンディング BOOSTER by PARCO & CAMPFIRE
       Twitter 2765339154, -- @animejam_staff アニメJAM2019 公式
       Twitter 2578100414, -- @kadokawa_event KADOKAWAイベント情報
+      Twitter 2460887588, -- @prmag_bunka ぶんかる【文化庁公式】
       Twitter 2335919749, -- @MAFF_JAPAN 農林水産省
       Twitter 1922840634, -- @cfm_snowmiku 雪ミク（初音ミク）
       Twitter 1279230218, -- @MPD_koho 警視庁広報課
