@@ -236,6 +236,7 @@ let rule = [
       -- コラボゲーム
       Twitter 1045625907967275008, -- @ARTILIFE_jp ARTILIFE_jp
       Twitter 1040162473033195522, -- @WACCA_official WACCA 公式
+      Twitter 1027427093552852992, -- @girls_creatures 【公式】ガールズ&クリーチャーズ
       Twitter 995941828766519296, -- @DNM_JP アイリーン＠ドラゴンネストM公式
       Twitter 923802830921654277, -- @kotodaman_pr 【公式】コトダマン運営会議
       Twitter 876732327598084096, -- @destinyc_info デスティニーチャイルド【公式】
