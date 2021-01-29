@@ -497,6 +497,7 @@ let rule = [
       Twitter 3320082001, -- @miyajima_jun ミヤジマジュン
       Twitter 3293336932, -- @machauq 和多田美咲
       Twitter 3241351399, -- @takemoto_taizo 竹本泰蔵
+      Twitter 3221101608, -- @aki_lucky1216 関根 明良
       Twitter 3191805905, -- @yukachiofficial 井口裕香 ワーナーOfficial
       Twitter 3180858356, -- @K_Rico1_1 小池理子
       Twitter 3149720330, -- @ayaMiNTgreen 山根 綺
