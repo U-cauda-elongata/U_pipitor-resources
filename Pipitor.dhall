@@ -682,6 +682,7 @@ let rule = [
     topics = [
       -- JAZA系（正会員）
       Twitter 1319835095381889026, -- @kaminepark かみね公園【公式】
+      Twitter 1278246912861208577, -- @kobe_netshop 神戸どうぶつ王国　売店ラブバード・ネットショップ【公式】
       Twitter 1186801617288384512, -- @TZPS_EduCenter 東京動物園協会教育普及センター
       Twitter 1159364299866820608, -- @ZOORASIA_office 【公式】横浜市立よこはま動物園 ズーラシア
       Twitter 1153906257129959425, -- @gunmasafari 群馬サファリパーク（公式）
