@@ -533,6 +533,7 @@ let rule = [
       Twitter 2292118700, -- @OnoSaki1126 小野 早稀(おの さき)
       Twitter 2275197806, -- @ckik195 築田行子
       Twitter 2237565500, -- @ohagidaisuki226 田口実加
+      Twitter 2203143757, -- @nojomiy 山本希望
       Twitter 2186330749, -- @michuell_bunny 未来みき＊大天使みしゅえる⸜(´ ˘ `∗)⸝🔥
       Twitter 2171654186, -- @EggLuv07 柳原 かなこ
       Twitter 2168328588, -- @Ma2Ndayodayo 松尾祐輔
