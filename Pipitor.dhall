@@ -279,6 +279,7 @@ let rule = [
       Twitter 938958815915008000, -- @Graff_Art_ GraffArt(グラフアート)
       Twitter 908221278871478272, -- @eStream_inc eStream
       Twitter 904957076950073346, -- @segacatcher_ol セガキャッチャーオンライン
+      Twitter 846915537787469824, -- @TEZUKA_goods 【公式】手塚プロダクション・グッズ情報
       Twitter 844767518250037248, -- @shop_tokyoatom TOKYO ATOM
       Twitter 835316085884776452, -- @aqua_yokohama 株式会社AQUA公式
       Twitter 819055220290297856, -- @anipo_goods あにぽ!_アニメグッズ
