@@ -209,6 +209,7 @@ let rule = [
       Twitter 3877364172, -- @rockmatsuri ビクターロック祭り2020
       Twitter 3318554538, -- @Umabi_Official Umabi
       Twitter 3314727913, -- @mirrativ_jp ミラティブ@スマホ１台でゲームプレイ配信！
+      Twitter 4298409799, -- @UNICOclub (公式)手塚治虫・ユニコ倶楽部
       Twitter 3256332042, -- @KADOKAWA_denshi KADOKAWAの電子書籍
       Twitter 2910441691, -- @donbei_jp どん兵衛　公式
       Twitter 2841101695, -- @BOOSTER_PARCO クラウドファンディング BOOSTER by PARCO & CAMPFIRE
