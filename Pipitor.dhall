@@ -279,6 +279,7 @@ let rule = [
       Twitter 945951790565961728, -- @maruman_sketch スケッチブックのマルマン
       Twitter 938958815915008000, -- @Graff_Art_ GraffArt(グラフアート)
       Twitter 908221278871478272, -- @eStream_inc eStream
+      Twitter 908168953926578176, -- @dmm_scratch DMMスクラッチ
       Twitter 904957076950073346, -- @segacatcher_ol セガキャッチャーオンライン
       Twitter 846915537787469824, -- @TEZUKA_goods 【公式】手塚プロダクション・グッズ情報
       Twitter 844767518250037248, -- @shop_tokyoatom TOKYO ATOM
