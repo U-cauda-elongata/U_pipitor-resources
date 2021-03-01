@@ -340,8 +340,11 @@ let rule = [
   -- プレス
   Rule::{
     filter = Some Filter::{ title = basicFilter },
-    -- @SocialGameInfo のダイジェスト
-    exclude = Some Filter::{ title = basicExclude ++ "|" ++ ix "おはようSGI" },
+    exclude = Some Filter::{
+      title = basicExclude
+        ++ "|" ++ ix "おはようSGI" -- @SocialGameInfo のダイジェスト
+        ++ "|" ++ ix "news.nicovideo.jp" -- ニコニコニュースのキュレーション系記事
+    },
     outbox = [Outbox.Twitter pipitor],
     topics = [
       -- インサイド＆Game*Spark動画チャンネル
@@ -375,6 +378,7 @@ let rule = [
       Twitter 340032591, -- @repotama れポたま！
       Twitter 304976428, -- @iid_animedia アニメディア編集部
       Twitter 298410252, -- @GamerNeJp Gamer＠ゲーム情報
+      Twitter 202998073, -- @nico_nico_news ニコニコニュース
       Twitter 148966859, -- @anicanjp アニカンドットジェイピー
       Twitter 142583957, -- @Billboard_JAPAN Billboard JAPAN
       Twitter 131032996, -- @animatetimes アニメイトタイムズ公式
