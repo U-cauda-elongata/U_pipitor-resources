@@ -623,6 +623,7 @@ let rule = [
       Twitter 194653874, -- @ai_max 前田 愛•AiM ベストアルバム発売中
       Twitter 183905143, -- @EBATO_DQT 電ちょもEBATO
       Twitter 173807624, -- @adacchee 足立梨花
+      Twitter 169383822, -- @moenoxxx 仁藤萌乃
       Twitter 167277356, -- @WAN_OPO ワンオポ/新曲投稿5/17
       Twitter 165028770, -- @yamazaki_haruka 山崎はるか
       Twitter 161731418, -- @btrstaff 本間翔太
