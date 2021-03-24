@@ -178,11 +178,13 @@ let rule = [
       Twitter 1268759836826546176, -- @UplusLIVE U+LIVE @shibuya quattro
       Twitter 930989863842676736, -- @nicoanime_PR Nアニメ&ニコニコアニメ公式🌸配信情報や🎁も!!
       Twitter 885328872253739009, -- @nicolive_PR ニコニコ生放送【ニコ生公式】
+      Twitter 788637003084595200, -- @watch_UNEXT_A U-NEXTアニメ＠公式
       Twitter 710658568416985088, -- @Anime_ABEMA ABEMAアニメ(アベアニ)
       Twitter 2510743933, -- @OPENREC OPENREC【公式】
       Twitter 2383099080, -- @tbschannel TBSチャンネル
       Twitter 537147807, -- @UDO_ArtistsINC ウドー音楽事務所
       Twitter 389352575, -- @anitv_PR テレビ東京アニメ公式「あにてれ」
+      Twitter 260157526, -- @watch_UNEXT U-NEXT
       Twitter 171845386, -- @onsenradio インターネットラジオステーション＜音泉＞
       Twitter 95588678, -- @cho_ag 文化放送　超！A&G
       Twitter 71779161, -- @Yahoo_GYAO GYAO!
