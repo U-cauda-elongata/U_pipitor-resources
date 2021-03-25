@@ -404,7 +404,7 @@ let rule = [
   },
   Rule::{
     filter = Some Filter::{ title = basicFilter},
-    exclude = Some Filter::{ title = basicExclude ++ "|🏆|アンケート〆切" }, -- アンケート記事
+    exclude = Some Filter::{ title = basicExclude ++ "🏆|アンケート" }, -- アンケート記事
     outbox = [Outbox.Twitter pipitor],
     topics = [
       Twitter 456544724, -- @AnimeAnime_jp アニメ！アニメ！
