@@ -175,6 +175,8 @@ let rule = [
       Twitter 104742595, -- @VictorMusic ビクターエンタテインメント
 
       -- 配信
+      -- 文化放送A&G
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCzRjtONwhrPCNNMp8hubjHg",
       Twitter 1268759836826546176, -- @UplusLIVE U+LIVE @shibuya quattro
       Twitter 930989863842676736, -- @nicoanime_PR Nアニメ&ニコニコアニメ公式🌸配信情報や🎁も!!
       Twitter 885328872253739009, -- @nicolive_PR ニコニコ生放送【ニコ生公式】
