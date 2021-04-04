@@ -273,8 +273,11 @@ let rule = [
       Twitter 106343759, -- @animateinfo 株式会社アニメイト
 
       -- チケット
+      Twitter 968083710842060801, -- @lineticket_jp LINEチケット
+      Twitter 855975221181825024, -- @fanicon1 Fanicon@ファンコミュニティサービス
       Twitter 312508101, -- @eplus_anime イープラス［アニメ］
       Twitter 240201550, -- @lawson_ticket ローチケ（ローソンチケット）
+      Twitter 191008495, -- @anime_pia アニメぴあ
       Twitter 119982603, -- @eplusjp イープラス
       Twitter 72193168, -- @RakutenTicket 楽天チケット
       Twitter 57282906, -- @news_pia チケットぴあ
