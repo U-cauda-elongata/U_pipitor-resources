@@ -7,13 +7,7 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Install Rust toolchain
-        uses: actions-rs/toolchain@v1.0.3
-        with:
-          toolchain: stable
-          profile: minimal
-          default: true
+      - uses: actions/checkout@v2
       - name: Install `dhall-to-json`
         run: |
           curl -L 'https://github.com/dhall-lang/dhall-haskell/releases/download/1.36.0/dhall-json-1.7.3-x86_64-linux.tar.bz2' |
@@ -21,16 +15,7 @@ jobs:
       - name: Setup `credentials.dhall` placeholder
         run: mv credentials{.placeholder,}.dhall
       - run: dhall-to-json --compact --file Pipitor.dhall --output Pipitor.json
-      - name: Cache Cargo registry
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/registry
-          key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.toml') }}
-      - name: Cache Cargo target
-        uses: actions/cache@v1
-        with:
-          path: test-suite/target
-          key: ${{ runner.os }}-cargo-target-${{ hashFiles('**/Cargo.toml') }}
+      - uses: Swatinem/rust-cache@v1
       - name: Build
         uses: actions-rs/cargo@v1
         with:
