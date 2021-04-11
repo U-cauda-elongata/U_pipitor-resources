@@ -1,2 +1,2 @@
-credentials.dhall
+credentials.toml
 pipitor.sqlite3
