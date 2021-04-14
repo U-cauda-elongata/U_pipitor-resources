@@ -201,6 +201,7 @@ let rule = [
       Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
       Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
       Twitter 1032488126797639680, -- @notafes ノタFES Tw 2019
+      Twitter 1020143964127547392, -- @kurumi_s_g 阪本久瑠実
       Twitter 1019087758189461505, -- @GraffartC GraffArt CAFE
       Twitter 1006472416913121281, -- @smcc_card 三井住友カード
       Twitter 978555699952168961, -- @h_kawaiiya 原宿カワイーヤ
