@@ -3,6 +3,17 @@ name: CI
 on: [push, pull_request]
 
 jobs:
+  check:
+    name: Check Dhall file
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install `dhall`
+        run: |
+          curl -L 'https://github.com/dhall-lang/dhall-haskell/releases/download/1.38.1/dhall-1.38.1-x86_64-linux.tar.bz2' \
+          | sudo tar -xjC /usr/local ./bin/dhall
+      - run: dhall type --file Pipitor.dhall --quiet
+
   test:
     name: Test
     runs-on: ubuntu-latest
@@ -10,8 +21,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install `dhall-to-json`
         run: |
-          curl -L 'https://github.com/dhall-lang/dhall-haskell/releases/download/1.36.0/dhall-json-1.7.3-x86_64-linux.tar.bz2' |
-          sudo tar -xjC /usr/local ./bin/dhall-to-json
+          curl -L 'https://github.com/dhall-lang/dhall-haskell/releases/download/1.38.1/dhall-json-1.7.6-x86_64-linux.tar.bz2' \
+          | sudo tar -xjC /usr/local ./bin/dhall-to-json
       - run: dhall-to-json --compact --file Pipitor.dhall --output Pipitor.json
       - uses: Swatinem/rust-cache@v1
       - name: Build
