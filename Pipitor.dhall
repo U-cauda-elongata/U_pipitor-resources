@@ -89,6 +89,10 @@ let rule = [
   Rule::{
     outbox = [Outbox.Twitter pipitor],
     topics = [
+      -- ケープペンギン / African Penguin
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCEcMIuGR8WO2TwL9XIpjKtw",
+      -- フンボルトペンギン / Humboldt Penguin
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCmYO-WfY7Tasry4D1YB4LJw",
       -- 『けものフレンズプロジェクト』公式
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCEOugXOAfa-HRmRjKbH8z3Q",
       -- 東武ジャパリパーク
