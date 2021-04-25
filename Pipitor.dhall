@@ -447,6 +447,7 @@ let rule = [
       Twitter 1003903172044251137, -- @elfinHanafusa_R 花房里枝
       Twitter 998755439234830342, -- @kyoka_yuuki 京花優希(きょうかゆうき)
       Twitter 997057929541963776, -- @akao_hikaru 赤尾ひかる🐣
+      Twitter 988759882974216194, -- @morisita_suu 森下suu
       Twitter 987227622416334848, -- @Weeeda_I 上田瞳
       Twitter 980800152553209857, -- @hyamazaki_staff 山崎はるかStaff
       Twitter 975386499033137152, -- @shinnosukenuma 沼田心之介／地方創生クリエイター
