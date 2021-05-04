@@ -194,6 +194,7 @@ let rule = [
       Twitter 2383099080, -- @tbschannel TBSチャンネル
       Twitter 537147807, -- @UDO_ArtistsINC ウドー音楽事務所
       Twitter 389352575, -- @anitv_PR テレビ東京アニメ公式「あにてれ」
+      Twitter 365469866, -- @hulu_japan Hulu Japan
       Twitter 260157526, -- @watch_UNEXT U-NEXT
       Twitter 171845386, -- @onsenradio インターネットラジオステーション＜音泉＞
       Twitter 95588678, -- @cho_ag 文化放送　超！A&G
