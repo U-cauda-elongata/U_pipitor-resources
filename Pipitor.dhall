@@ -449,6 +449,7 @@ let rule = [
       Twitter 1045274084743860224, -- @_shio_asuka 汐入 あすか
       Twitter 1043684232097218560, -- @Joey_Takeda 武田城以
       Twitter 1024177131918508032, -- @yukiyofujii0508 藤井ゆきよ
+      Twitter 1020287170542645248, -- @kmr_mayu213 木村 真悠
       Twitter 1020143964127547392, -- @kurumi_s_g 阪本久瑠実
       Twitter 1016599143584681989, -- @mo_chaam 元吉有希子
       Twitter 1012251656384155648, -- @hasegawa_rimo 長谷川里桃
