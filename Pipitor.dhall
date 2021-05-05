@@ -430,6 +430,7 @@ let rule = [
     outbox = [Outbox.Twitter pipitorIndv],
     topics = [
       Twitter 1314640424062001152, -- @ssk_ktk828 佐々木琴子 公式
+      Twitter 1258795531846864898, -- @eriko_kadokura 角倉英里子
       Twitter 1210889093124505600, -- @_Amane_Kanon_ 天希かのん
       Twitter 1184389242761310208, -- @youmiya_hina 羊宮妃那
       Twitter 1129194500365070336, -- @NINMiO_APT 二宮みお
