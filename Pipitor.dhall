@@ -275,6 +275,7 @@ let rule = [
       Twitter 588119900, -- @natalie_store ナタリーストア
       Twitter 425668036, -- @mora_info 音楽配信サイト【mora】
       Twitter 389280016, -- @akiba_gema AKIHABARAゲーマーズ本店
+      Twitter 239184055, -- @TOWER_Anime タワーレコード アニメ
       Twitter 198949082, -- @UNITED_CINEMAS ユナイテッド・シネマ公式
       Twitter 196049630, -- @gamers_no_gema ゲマ【株式会社ゲーマーズ】
       Twitter 131027338, -- @recochoku_jp レコチョク《コーポレートアカウント》
