@@ -264,6 +264,8 @@ let rule = [
       Twitter 260644393, -- @mabinogi_nexon 「マビノギ」byパン(公式)
 
       -- 流通
+      -- Victor Online Store
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCA3Ea513Nu-fRN3BBzePHcA",
       Twitter 895195685024219137, -- @sanrioanist サンリオアニメストア公式
       Twitter 3253471304, -- @clionmarket クリオンマーケット
       Twitter 2927579576, -- @AWA_official AWA＠最新音楽トレンド
