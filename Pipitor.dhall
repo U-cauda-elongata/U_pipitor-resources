@@ -278,6 +278,7 @@ let rule = [
       Twitter 239184055, -- @TOWER_Anime タワーレコード アニメ
       Twitter 198949082, -- @UNITED_CINEMAS ユナイテッド・シネマ公式
       Twitter 196049630, -- @gamers_no_gema ゲマ【株式会社ゲーマーズ】
+      Twitter 155834003, -- @TOWER_Online タワーレコード オンライン
       Twitter 131027338, -- @recochoku_jp レコチョク《コーポレートアカウント》
       Twitter 108517346, -- @shochiku_video 松竹ホームエンターテインメント
       Twitter 106343759, -- @animateinfo 株式会社アニメイト
