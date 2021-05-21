@@ -227,6 +227,7 @@ let rule = [
       Twitter 3314727913, -- @mirrativ_jp ミラティブ@スマホ１台でゲームプレイ配信！
       Twitter 4298409799, -- @UNICOclub (公式)手塚治虫・ユニコ倶楽部
       Twitter 3256332042, -- @KADOKAWA_denshi KADOKAWAの電子書籍
+      Twitter 3239569429, -- @medicos_et_02 メディコス・エンタテインメント_総合
       Twitter 2910441691, -- @donbei_jp どん兵衛　公式
       Twitter 2841101695, -- @BOOSTER_PARCO クラウドファンディング BOOSTER by PARCO & CAMPFIRE
       Twitter 2765339154, -- @animejam_staff アニメJAM2019 公式
