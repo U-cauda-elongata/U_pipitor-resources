@@ -268,6 +268,7 @@ let rule = [
       -- Victor Online Store
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCA3Ea513Nu-fRN3BBzePHcA",
       Twitter 895195685024219137, -- @sanrioanist サンリオアニメストア公式
+      Twitter 4187883372, -- @TOWER_Events タワーレコードイベント
       Twitter 3253471304, -- @clionmarket クリオンマーケット
       Twitter 2927579576, -- @AWA_official AWA＠最新音楽トレンド
       Twitter 2692195681, -- @TVTOKYO_Shop テレ東本舗。
