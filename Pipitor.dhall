@@ -263,6 +263,7 @@ let rule = [
       Twitter 1001107099, -- @maimai_official maimai公式@7/5(金)Re:MASTER追加！
       Twitter 289206965, -- @TW_nexon テイルズウィーバー公式
       Twitter 260644393, -- @mabinogi_nexon 「マビノギ」byパン(公式)
+      Twitter 248460704, -- @puyopuyo20th みどりぷよ（ぷよぷよシリーズ公式）『ぷよぷよテトリス２』好評発売中！
 
       -- 流通
       -- Victor Online Store
