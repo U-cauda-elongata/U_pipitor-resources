@@ -459,6 +459,7 @@ let rule = [
       Twitter 1020287170542645248, -- @kmr_mayu213 木村 真悠
       Twitter 1020143964127547392, -- @kurumi_s_g 阪本久瑠実
       Twitter 1016599143584681989, -- @mo_chaam 元吉有希子
+      Twitter 1016263042655404033, -- @kimurayuri1128 木村 悠里
       Twitter 1012251656384155648, -- @hasegawa_rimo 長谷川里桃
       Twitter 1011171132622319616, -- @yuukikana_0u0 優木かな
       Twitter 1003903172044251137, -- @elfinHanafusa_R 花房里枝
