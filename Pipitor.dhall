@@ -93,6 +93,8 @@ let rule = [
   Rule::{
     outbox = [Outbox.Twitter pipitor],
     topics = [
+      -- シマハイイロギツネ / Island Fox
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCMpw36mXEu3SLsqdrJxUKNA",
       -- ケープペンギン / African Penguin
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCEcMIuGR8WO2TwL9XIpjKtw",
       -- フンボルトペンギン / Humboldt Penguin
