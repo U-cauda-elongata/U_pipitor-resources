@@ -207,6 +207,8 @@ let rule = [
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCQ7QGT_v6Si-2-i0f9mbMBQ",
       -- 手塚プロダクション公式チャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCyach7GHJDlXTv6h3fcNwqg",
+      -- エンタバアキバ
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCoKXL6xWnCiw-d2MRVIuQ6g",
       -- ゲマチャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_zBYH60OukiGnKSZJJxENw",
       Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
