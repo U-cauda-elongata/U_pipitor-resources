@@ -216,6 +216,7 @@ let rule = [
       Twitter 1032488126797639680, -- @notafes ノタFES Tw 2019
       Twitter 1019087758189461505, -- @GraffartC GraffArt CAFE
       Twitter 1006472416913121281, -- @smcc_card 三井住友カード
+      Twitter 988987447844356096, -- @Entaba_akiba エンタバアキバ by SHINSEIDO
       Twitter 978555699952168961, -- @h_kawaiiya 原宿カワイーヤ
       Twitter 927737741076414466, -- @rikanenpyo_mpub 理科年表編集室
       Twitter 920176444302438400, -- @tobuzoo1981 東武動物公園【公式】あとらこ
