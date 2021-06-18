@@ -878,7 +878,9 @@ let rule = [
       Feed "https://feeds.feedburner.com/crunchyroll/rss",
 
       Twitter 4827947356, -- @SoundCadence Sound Cadence Studios
+      Twitter 3819442460, -- @lootanime lootanime
       Twitter 1505411478, -- @MabiOfficial Mabinogi
+      Twitter 709226545, -- @lootcrate Loot Crate
       Twitter 48619486, -- @discotekmedia 💿Discotek Media
       Twitter 28023330, -- @Crunchyroll Crunchyroll
       Twitter 17965667, -- @yenpress Yen Press
