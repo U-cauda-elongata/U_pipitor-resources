@@ -876,6 +876,8 @@ let rule = [
       Feed "https://feeds.feedburner.com/crunchyroll/animenews",
       -- Latest Crunchyroll Videos
       Feed "https://feeds.feedburner.com/crunchyroll/rss",
+      -- Crunchyroll Collection
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC6pGDc4bFGD1_36IKv3FnYg",
 
       Twitter 4827947356, -- @SoundCadence Sound Cadence Studios
       Twitter 3819442460, -- @lootanime lootanime
