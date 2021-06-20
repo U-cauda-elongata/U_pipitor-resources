@@ -31,6 +31,7 @@ let basicFilterMinusHanamaru = ix (''
   | Gothic×Luck
   | ゴシックラック
   '' ++ ("|" ++ hash "ゴクラク\\b") ++ ''
+  | \bゴクラジ
   | はなまるアニマル
   | ジャパリ団
   | けも[VＶ]
@@ -51,6 +52,7 @@ let individualFilterJa = ix ''
   | 舞台(?:けものフレンズ|けもフレ)
   | ようこそジャパリパーク
   | ゴクラク\b
+  | ゴクラジ
   | はなまる(?:\b|アニマル)
   | Xジャパリ団
   | けも[VＶ]
