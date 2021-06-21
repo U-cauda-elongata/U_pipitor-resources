@@ -428,6 +428,7 @@ let rule = [
       Twitter 27535070, -- @INSIDEjp インサイドさん
       Twitter 24172196, -- @mantanweb MANTANWEB (まんたんウェブ)
       Twitter 18622184, -- @comic_natalie コミックナタリー
+      Twitter 14472053, -- @mikiki_tokyo_jp Mikiki
       Twitter 5921162, -- @famitsu ファミ通.com
       Twitter 5649672, -- @natalie_mu 音楽ナタリー
     ],
