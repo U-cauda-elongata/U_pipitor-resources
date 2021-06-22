@@ -689,6 +689,7 @@ let rule = [
       Twitter 111187922, -- @Daisuke_P だいすけP
       Twitter 110996822, -- @kanoyui1222 鹿野優以
       Twitter 109871522, -- @masumi_asano 浅野真澄@あさのますみ
+      Twitter 104776538, -- @nazukakaori 名塚佳織
       Twitter 104357751, -- @HiRoMi_ig 五十嵐裕美(いがらしひろみ)
       Twitter 102297672, -- @futoshi_ocsf あらいふとし
       Twitter 99689625, -- @keisukeshami 伊藤ケイスケ　Keisuke Ito
