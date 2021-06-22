@@ -630,6 +630,7 @@ let rule = [
       Twitter 374582749, -- @incidentsTF 風来坊 伊山
       Twitter 367514058, -- @ko_yuli 幸野ゆりあ🍎
       Twitter 340785466, -- @yuuka_aisaka 相坂優歌official
+      Twitter 324846333, -- @s_a_k_u_r_a_k 佐倉薫☪︎.°
       Twitter 315002109, -- @hiroseyuuki 広瀬ゆうき
       Twitter 306818664, -- @DApanda323 松田颯水。
       Twitter 301999903, -- @ReSAEnter 松田利冴。
