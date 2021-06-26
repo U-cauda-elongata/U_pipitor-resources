@@ -462,6 +462,7 @@ let rule = [
       Twitter 1113758206436622336, -- @yoshioka_mayuC 吉岡茉祐
       Twitter 1113445785004269568, -- @minazou_373 田中美海
       Twitter 1082826501609799680, -- @misawa_official 三澤 紗千香(みさわ さちか)official
+      Twitter 1079251759179026432, -- @sayaka_harada_ 原田 彩楓
       Twitter 1054520180032778241, -- @kannmadoka 菅 まどか
       Twitter 1048871638651924480, -- @yagimashiro 八木 ましろ
       Twitter 1045274084743860224, -- @_shio_asuka 汐入 あすか
