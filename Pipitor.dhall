@@ -418,6 +418,7 @@ let rule = [
       Twitter 131032996, -- @animatetimes アニメイトタイムズ公式
       Twitter 128275735, -- @akiba_kakakucom アキバ総研公式
       Twitter 127920793, -- @SocialGameInfo SocialGameInfo
+      Twitter 122258517, -- @Lis_Ani リスアニ！編集部@最新号「リスアニ！Vol.45」8/17発売♪
       Twitter 121467814, -- @famitsuApp ファミ通App@アプリ新作情報
       Twitter 97679405, -- @gekirock 激ロック
       Twitter 95577986, -- @game_watch GAME Watch
