@@ -308,6 +308,7 @@ let rule = [
       Twitter 57282906, -- @news_pia チケットぴあ
 
       -- 商品
+      Twitter 1177065415853264896, -- @_surprisebox_ サプライズボックス
       Twitter 1085731309966610432, -- @anique_jp Anique
       Twitter 1070208213444775937, -- @kujifes くじフェス！
       Twitter 954195501280149505, -- @magi_pri_PR newlogic PR
