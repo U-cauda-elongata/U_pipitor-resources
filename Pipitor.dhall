@@ -404,6 +404,7 @@ let rule = [
       Twitter 3444137113, -- @gamewith_review GameWith@最新ゲーム情報局
       Twitter 3314647279, -- @tvtokyo_plus テレ東プラス
       Twitter 3196198694, -- @spice_topics SPICE[エンタメ情報メディア]/e＋
+      Twitter 2891513293, -- @animage_tokuma アニメージュ編集部
       Twitter 2678790127, -- @tospo_prores 東スポ
       Twitter 2678707854, -- @ANIPLUSAsia ANIPLUS Asia
       Twitter 1712084484, -- @rankingbox ランキングBOX編集部
