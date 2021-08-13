@@ -497,6 +497,7 @@ let rule = [
       Twitter 950661835123867648, -- @takahashi_773 高橋菜々美
       Twitter 938719807255461888, -- @kaori_staff_ 石原夏織 STAFF
       Twitter 936189651630546947, -- @yahagi_sayuri 矢作紗友里
+      Twitter 929249144610287616, -- @fugyuuuuu 高木遙香
       Twitter 922067394721234946, -- @hikaru_tono 遠野ひかる
       Twitter 918281358832574464, -- @azuma_lim アズマリム＠MV50万回再生ありがとぉー！
       Twitter 907051478166020096, -- @705shirakami 白神直子　しらかみなおこ
