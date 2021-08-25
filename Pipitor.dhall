@@ -279,6 +279,7 @@ let rule = [
       -- 流通
       -- Victor Online Store
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCA3Ea513Nu-fRN3BBzePHcA",
+      Twitter 996189081540313088, -- @A3_honten_info GraffArt Shop 池袋本店
       Twitter 895195685024219137, -- @sanrioanist サンリオアニメストア公式
       Twitter 4187883372, -- @TOWER_Events タワーレコードイベント
       Twitter 3253471304, -- @clionmarket クリオンマーケット
