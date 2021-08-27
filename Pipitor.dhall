@@ -673,6 +673,7 @@ let rule = [
       Twitter 195162154, -- @rarirurestn 野中藍 ラリルれ、エブリバディ。
       Twitter 194653874, -- @ai_max 前田 愛•AiM ベストアルバム発売中
       Twitter 183905143, -- @EBATO_DQT 電ちょもEBATO
+      Twitter 177876675, -- @_mami_26p 内田愛美(うちだまみ)
       Twitter 173807624, -- @adacchee 足立梨花
       Twitter 169383822, -- @moenoxxx 仁藤萌乃
       Twitter 167277356, -- @WAN_OPO ワンオポ/新曲投稿5/17
