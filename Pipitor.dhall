@@ -466,6 +466,7 @@ let rule = [
       Twitter 1123177804114190336, -- @kaayaataaaan 奥野香耶
       Twitter 1120670106617384960, -- @shiraki_riho 白木莉帆（タートルリリー）
       Twitter 1118785839130009600, -- @romipark_fc 朴璐美 Official Staff
+      Twitter 1117014055275753472, -- @NeikoInoue 井上 寧子(いのうえ ねいこ)
       Twitter 1113758206436622336, -- @yoshioka_mayuC 吉岡茉祐
       Twitter 1113445785004269568, -- @minazou_373 田中美海
       Twitter 1109020541904535552, -- @SHIMPOREI 新保レイ
