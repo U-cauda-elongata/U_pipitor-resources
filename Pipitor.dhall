@@ -218,6 +218,7 @@ let rule = [
       -- ゲマチャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_zBYH60OukiGnKSZJJxENw",
       Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
+      Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
       Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
       Twitter 1032488126797639680, -- @notafes ノタFES Tw 2019
       Twitter 1019087758189461505, -- @GraffartC GraffArt CAFE
