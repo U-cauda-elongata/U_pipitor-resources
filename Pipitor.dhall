@@ -211,6 +211,8 @@ let rule = [
       -- イベント
       -- リミテッドスタンドLimited Stand
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCQ7QGT_v6Si-2-i0f9mbMBQ",
+      -- 超人女子戦士 ガリベンガーV
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCzuEc7Nsm9GtMX4yuzjSqgA",
       -- 手塚プロダクション公式チャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCyach7GHJDlXTv6h3fcNwqg",
       -- エンタバアキバ
