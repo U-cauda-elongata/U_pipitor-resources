@@ -219,6 +219,7 @@ let rule = [
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCoKXL6xWnCiw-d2MRVIuQ6g",
       -- ゲマチャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_zBYH60OukiGnKSZJJxENw",
+      Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
       Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
       Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
       Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
