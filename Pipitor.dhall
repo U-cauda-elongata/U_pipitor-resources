@@ -617,6 +617,7 @@ let rule = [
       Twitter 1341436316, -- @sunflower930316 高田 憂希( Yuuki Takada )
       Twitter 1220770466, -- @Saeri_Umehara 梅原サエリ
       Twitter 1171485145, -- @__YESxxNO__ タマキ♛︎らいちざうるす🦖
+      Twitter 1137490904, -- @yuanagae ❁ながえゆあ❁
       Twitter 1136351120, -- @Haruka26s 🐳 佐藤 遥
       Twitter 1079666190, -- @miiiiiina_cat 高橋未奈美
       Twitter 1067613817, -- @39_miku_1012 吉川未来
