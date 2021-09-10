@@ -549,6 +549,7 @@ let rule = [
       Twitter 730754632062898176, -- @nagatsumajuri 長妻樹里
       Twitter 729856832097783808, -- @mako_komaki 小槙まこ
       Twitter 725372244982042625, -- @akari_w_tpd 脇あかり(TPD)
+      Twitter 717695586393165825, -- @mm_1shi8 石橋桃
       Twitter 715373955041796096, -- @tomoyo_t_1014 高柳知葉
       Twitter 709265233399787520, -- @Yurie_Funato 船戸ゆり絵
       Twitter 4803314774, -- @spspring1234 伏見はる香
