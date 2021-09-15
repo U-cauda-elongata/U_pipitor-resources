@@ -218,6 +218,8 @@ let rule = [
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCyach7GHJDlXTv6h3fcNwqg",
       -- エンタバアキバ
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCoKXL6xWnCiw-d2MRVIuQ6g",
+      -- GITSchannel
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCnVz-E6zalkquQm-fOMolfg",
       -- ゲマチャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_zBYH60OukiGnKSZJJxENw",
       -- Life Like a Live!（えるすりー）
