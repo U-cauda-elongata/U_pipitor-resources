@@ -254,6 +254,7 @@ let rule = [
       Twitter 2335919749, -- @MAFF_JAPAN 農林水産省
       Twitter 1922840634, -- @cfm_snowmiku 雪ミク（初音ミク）
       Twitter 1279230218, -- @MPD_koho 警視庁広報課
+      Twitter 1010165784, -- @gitssac2045 攻殻機動隊 SAC_2045 公式
       Twitter 439752084, -- @ngt_anifes がたふぇす
       Twitter 397792279, -- @animate_cafe アニメイトカフェ総合
       Twitter 300076066, -- @lotteria_pr ロッテリア
