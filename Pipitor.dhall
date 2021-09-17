@@ -134,6 +134,8 @@ let rule = [
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCrDj5t8Q9ZFSGft7a3PWl9g",
       -- ブシロードブシモ
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCqs9jj1PpzBDBYGrnGrLRYQ",
+      -- ミレニアムプロ公式チャンネル
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCqr_vXSGp5ONG94GY7SAxeA",
       -- Appirits Games Project
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCojpaahbZqMmvt-7X1am1lg",
       -- KADOKAWAanime
