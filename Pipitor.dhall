@@ -214,8 +214,6 @@ let rule = [
       -- イベント
       -- リミテッドスタンドLimited Stand
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCQ7QGT_v6Si-2-i0f9mbMBQ",
-      -- 超人女子戦士 ガリベンガーV
-      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCzuEc7Nsm9GtMX4yuzjSqgA",
       -- 手塚プロダクション公式チャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCyach7GHJDlXTv6h3fcNwqg",
       -- エンタバアキバ
@@ -224,11 +222,7 @@ let rule = [
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCnVz-E6zalkquQm-fOMolfg",
       -- ゲマチャンネル
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_zBYH60OukiGnKSZJJxENw",
-      -- Life Like a Live!（えるすりー）
-      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_vFNa_irvWQapwwaasYMOQ",
-      Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
       Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
-      Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
       Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
       Twitter 1032488126797639680, -- @notafes ノタFES Tw 2019
       Twitter 1019087758189461505, -- @GraffartC GraffArt CAFE
@@ -376,6 +370,21 @@ let rule = [
       Twitter 68864104, -- @gsc_goodsmile グッドスマイルカンパニー【公式】
       Twitter 58709764, -- @charaani キャラアニ【公式】
       Twitter 5713232, -- @cospa COSPA（コスパ）
+    ],
+  },
+  -- イベント（Ｖ関連）
+  Rule::{
+    filter = Some Filter::{
+      title = basicFilter ++ "|" ++ hash "ケープペンギン|シマハイイロギツネ|シマハイシン|フンボルトペンギン",
+    },
+    outbox = [Outbox.Twitter pipitor],
+    topics = [
+      -- 超人女子戦士 ガリベンガーV
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCzuEc7Nsm9GtMX4yuzjSqgA",
+      -- Life Like a Live!（えるすりー）
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_vFNa_irvWQapwwaasYMOQ",
+      Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
+      Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
     ],
   },
   -- はなまるうどん
