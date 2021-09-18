@@ -385,6 +385,7 @@ let rule = [
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_vFNa_irvWQapwwaasYMOQ",
       Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
       Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
+      Twitter 200080344, -- @tanista_com タニさん＠タニスタ
     ],
   },
   -- はなまるうどん
