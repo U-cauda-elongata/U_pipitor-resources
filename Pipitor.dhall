@@ -372,19 +372,25 @@ let rule = [
       Twitter 5713232, -- @cospa COSPA（コスパ）
     ],
   },
-  -- イベント（Ｖ関連）
+  -- VTuber・配信者
   Rule::{
     filter = Some Filter::{
       title = basicFilter ++ "|" ++ hash "ケープペンギン|シマハイイロギツネ|シマハイシン|フンボルトペンギン",
     },
     outbox = [Outbox.Twitter pipitor],
     topics = [
+      -- Matsuri Channel 夏色まつり - YouTube
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCQ0UDLQCjY0rmuxCDE38FGg",
+      -- hololive ホロライブ - VTuber Group
+      Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCJFZiqLMntJufDCHc6bQixg",
       -- 超人女子戦士 ガリベンガーV
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCzuEc7Nsm9GtMX4yuzjSqgA",
       -- Life Like a Live!（えるすりー）
       Feed "https://www.youtube.com/xml/feeds/videos.xml?channel_id=UC_vFNa_irvWQapwwaasYMOQ",
       Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
       Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
+      Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
+      Twitter 916156645004029952, -- @hololivetv ホロライブプロダクション【公式】
       Twitter 200080344, -- @tanista_com タニさん＠タニスタ
     ],
   },
@@ -765,6 +771,16 @@ let rule = [
     exclude = Some Filter::{ title = hash individualFilterJa },
     outbox = [Outbox.Twitter pipitorIntl],
     topics = bilingualIndvAccts,
+  },
+  -- VTuber・配信者（個人）
+  Rule::{
+    filter = Some Filter::{
+      title = individualFilter ++ "|" ++ hash "ケープペンギン|シマハイイロギツネ|シマハイシン|フンボルトペンギン",
+    },
+    outbox = [Outbox.Twitter pipitorIndv],
+    topics = [
+      Twitter 1122810226153938944, -- @7216_2nd まちゅり໒꒱· ﾟ
+    ],
   },
   Rule::{
     filter = Some Filter::{ title = basicFilter ++ "|吉崎\\s*観音|吉崎先生" },
