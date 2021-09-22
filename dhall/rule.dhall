@@ -513,6 +513,7 @@ in [
       Twitter 715373955041796096, -- @tomoyo_t_1014 高柳知葉
       Twitter 709265233399787520, -- @Yurie_Funato 船戸ゆり絵
       Twitter 4803314774, -- @spspring1234 伏見はる香
+      Twitter 4784046656, -- @Hsan_realAcc 廣瀬千夏 ｰヒロセチナツｰ
       Twitter 4777230254, -- @staff_rie 村川梨衣 音楽スタッフ公式
       Twitter 4684249872, -- @NOGUMAOMIN 野口 真緒
       Twitter 4265387958, -- @piyosuuuuu 都築里佳
