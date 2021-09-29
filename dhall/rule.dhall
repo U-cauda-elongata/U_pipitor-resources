@@ -316,6 +316,7 @@ in [
       Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
       Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
       Twitter 916156645004029952, -- @hololivetv ホロライブプロダクション【公式】
+      Twitter 4919358698, -- @tv_asahi_douga 【公式】テレ朝動画
       Twitter 200080344, -- @tanista_com タニさん＠タニスタ
     ],
   },
