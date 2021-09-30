@@ -569,6 +569,7 @@ in [
       Twitter 2171654186, -- @EggLuv07 柳原 かなこ
       Twitter 2168328588, -- @Ma2Ndayodayo 松尾祐輔
       Twitter 1968534385, -- @Galsyumcr SYU
+      Twitter 1710115531, -- @Yuna_tani 谷口夢奈
       Twitter 1662016370, -- @karin_takahashi 高橋花林
       Twitter 1604926548, -- @NomotoHotaru 野本ほたる
       Twitter 1536485510, -- @nkysyk_a 仲谷明香（なかやさやか）
