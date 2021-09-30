@@ -304,6 +304,8 @@ in [
     filter = Some Filter::{ title = rx.any [ filter.basic, filter.kemovHashtags ] },
     outbox = [Outbox.Twitter account.pipitor],
     topics = [
+      -- 姫熊 りぼん-Himekuma Ribon-
+      youtube "UC6HjtF2rHZO8gAsX5FXF-Kg",
       -- Matsuri Channel 夏色まつり - YouTube
       youtube "UCQ0UDLQCjY0rmuxCDE38FGg",
       -- hololive ホロライブ - VTuber Group
