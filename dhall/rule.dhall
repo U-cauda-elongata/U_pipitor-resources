@@ -313,6 +313,7 @@ in [
       -- Life Like a Live!（えるすりー）
       youtube "UC_vFNa_irvWQapwwaasYMOQ",
       Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
+      Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
       Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
       Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
       Twitter 916156645004029952, -- @hololivetv ホロライブプロダクション【公式】
