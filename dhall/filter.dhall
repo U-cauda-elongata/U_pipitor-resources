@@ -30,7 +30,7 @@ let basicMinusHanamaru = rx.i (rx.any [
   rx.hash "おやすみおはよ\\b",
   "はなまるアニマル",
   "ジャパリ団",
-  kemovLiveStream,
+  rx.hash kemovLiveStream,
   "ちょびるめぷち",
   "かぷせるフレンズ",
   "ワイルドラッシュ",
