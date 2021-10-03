@@ -4,6 +4,7 @@ let rx = (./util.dhall).rx
 let kemovLiveStream = rx.any [
   "けも[VＶ]",
   "けぷふるる",
+  "どうぶつV",
   "まつけぷ",
   "ケプ狐",
   "(?:ケープペンギン|フンボルトペンギン)ちゃんねる",
