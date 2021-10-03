@@ -304,16 +304,26 @@ in [
     filter = Some Filter::{ title = rx.any [ filter.basic, filter.kemovHashtags ] },
     outbox = [Outbox.Twitter account.pipitor],
     topics = [
+      -- Haneru Channel / 因幡はねる 【あにまーれ】
+      youtube "UC0Owc36U9lOyi9Gx9Ic-4qg",
       -- 姫熊 りぼん-Himekuma Ribon-
       youtube "UC6HjtF2rHZO8gAsX5FXF-Kg",
-      -- Matsuri Channel 夏色まつり - YouTube
-      youtube "UCQ0UDLQCjY0rmuxCDE38FGg",
       -- hololive ホロライブ - VTuber Group
       youtube "UCJFZiqLMntJufDCHc6bQixg",
-      -- 超人女子戦士 ガリベンガーV
-      youtube "UCzuEc7Nsm9GtMX4yuzjSqgA",
+      -- Siro Channel
+      youtube "UCLhUvJ_wO9hOvv_yYENu4fQ",
+      -- Matsuri Channel 夏色まつり - YouTube
+      youtube "UCQ0UDLQCjY0rmuxCDE38FGg",
+      -- Kuku Channel / 風見くく 【あにまーれ】
+      youtube "UCXp7sNC0F_qkjickvlYkg-Q",
       -- Life Like a Live!（えるすりー）
       youtube "UC_vFNa_irvWQapwwaasYMOQ",
+      -- ひなたチャンネル (Hinata Channel)
+      youtube "UCevD0wKzJFpfIkvHOiQsfLQ",
+      -- Tomari Mari channel / 兎鞠まりちゃんねる
+      youtube "UCkPIfBOLoO0hVPG-tI2YeGg",
+      -- 超人女子戦士 ガリベンガーV
+      youtube "UCzuEc7Nsm9GtMX4yuzjSqgA",
       Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
       Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
       Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
