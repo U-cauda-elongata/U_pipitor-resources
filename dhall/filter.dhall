@@ -13,6 +13,13 @@ let kemovLiveStream = rx.any [
   "熊とペンギン",
 ]
 
+-- けもＶのチャンネル名。YouTube の動画の説明文で使われる。
+let kemovChannelMentions = "@" ++ rx.any [
+  "ケープペンギン / African Penguin",
+  "シマハイイロギツネ / Island Fox",
+  "フンボルトペンギン / Humboldt Penguin - YouTube",
+]
+
 --| はなまるうどん用フィルター
 let basicMinusHanamaru = rx.i (rx.any [
   "けものフレンズ",
@@ -32,6 +39,7 @@ let basicMinusHanamaru = rx.i (rx.any [
   "はなまるアニマル",
   "ジャパリ団",
   rx.hash kemovLiveStream,
+  kemovChannelMentions,
   "ちょびるめぷち",
   "かぷせるフレンズ",
   "ワイルドラッシュ",
@@ -60,7 +68,7 @@ let individualJa = rx.i (rx.any [
 --| English posts from en/ja bilingual accounts (individual)
 let individualEn = rx.i "KemonoFriends"
 --| 一般用
-let individual = rx.hash (rx.any [ individualJa, individualEn ])
+let individual = rx.any [ rx.hash (rx.any [ individualJa, individualEn ]), kemovChannelMentions ]
 
 --| けもＶ関連ハッシュタグ
 --
