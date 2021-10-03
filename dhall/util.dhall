@@ -1,5 +1,4 @@
-let Pipitor =
-      https://raw.githubusercontent.com/tesaguri/pipitor/dhall-schema-v0.3.0-alpha.9/schema.dhall sha256:08f433d482a6e6354598d74264693100b411a4873166dfe953119c97310d7a0d
+let Pipitor = ./Pipitor.dhall
 
 let Text/concatSep =
       https://prelude.dhall-lang.org/v20.2.0/Text/concatSep sha256:e4401d69918c61b92a4c0288f7d60a6560ca99726138ed8ebc58dca2cd205e58
