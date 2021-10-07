@@ -505,6 +505,7 @@ in [
       Twitter 869862112037814272, -- @hazuki_nonaka 野中 遥月
       Twitter 869793837266288645, -- @tsutsumi_yukina 堤 雪菜
       Twitter 867729793424347136, -- @tasaki0308 田崎礼奈🥜
+      Twitter 867246335262699520, -- @tsuruari 鶴野 有紗
       Twitter 864554567505027072, -- @ShowMirai_music ミライショウ
       Twitter 854925939565776896, -- @_ayase_yu 綾瀬有
       Twitter 853074336248340481, -- @PA___NON PA-NON＆STAFF
