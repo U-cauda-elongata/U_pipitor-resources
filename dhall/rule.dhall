@@ -325,6 +325,8 @@ in [
       youtube "UCevD0wKzJFpfIkvHOiQsfLQ",
       -- Tomari Mari channel / 兎鞠まりちゃんねる
       youtube "UCkPIfBOLoO0hVPG-tI2YeGg",
+      -- 水瓶ミア/ミアちゃんねる
+      youtube "UCpPuEfqwYbpn7e2jWdQeWew",
       -- 彩 まよい【ミリタリーVTuber】 - YouTube
       youtube "UCsAzaxwiKWolOWLH1bIU3wA",
       -- 超人女子戦士 ガリベンガーV
@@ -334,6 +336,7 @@ in [
       Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
       Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
       Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
+      Twitter 1034280896575102977, -- @Mia_Mizugame 水瓶ミア
       Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
       Twitter 1009977580936577024, -- @SakurazukiKanon 桜月花音コラボイヤフォン＆ワイヤレス充電器販売中
       Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
