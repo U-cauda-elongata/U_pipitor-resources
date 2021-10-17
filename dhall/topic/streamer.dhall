@@ -30,6 +30,8 @@ in [
   youtube "UCpPuEfqwYbpn7e2jWdQeWew",
   -- 彩 まよい【ミリタリーVTuber】 - YouTube
   youtube "UCsAzaxwiKWolOWLH1bIU3wA",
+  -- もこめめ*channel
+  youtube "UCz6Gi81kE6p5cdW1rT0ixqw",
   -- 超人女子戦士 ガリベンガーV
   youtube "UCzuEc7Nsm9GtMX4yuzjSqgA",
   Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
@@ -41,6 +43,7 @@ in [
   Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
   Twitter 1009977580936577024, -- @SakurazukiKanon 桜月花音コラボイヤフォン＆ワイヤレス充電器販売中
   Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
+  Twitter 971926028842033152, -- @mokomeme_ch もこ田めめめ
   Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
   Twitter 995247053977485313, -- @Haneru_Inaba 因幡はねる有閑喫茶あにまーれ
   Twitter 962112920917127168, -- @Nekomiya_Hinata 猫宮ひなた(Nekomiya Hinata)
