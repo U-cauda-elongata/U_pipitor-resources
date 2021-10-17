@@ -3,10 +3,6 @@
 
 `x` から `[xｘ]` への単純置換のため、`[]` やエスケープシーケンスを含むパターンに使用すると誤った結果になるので注意。
 -}
-let List/foldLeft =
-      https://prelude.dhall-lang.org/v20.2.0/List/foldLeft.dhall
-        sha256:3c6ab57950fe644906b7bbdef0b9523440b6ee17773ebb8cbd41ffacb8bfab61
-
 let wi
     : Text -> Text
     = List/fold
