@@ -41,6 +41,7 @@ let basicMinusHanamaru = rx.i (rx.any [
   "ジャパリ団",
   rx.hash kemovLiveStream,
   kemovChannelMentions,
+  rx.wi "秋のけもV大運動会",
   "ちょびるめぷち",
   "かぷせるフレンズ",
   "ワイルドラッシュ",
