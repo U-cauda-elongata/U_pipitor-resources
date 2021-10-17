@@ -1,4 +1,4 @@
-let rx = (./util.dhall).rx
+let rx = ./util/rx.dhall
 
 --| けもＶ配信タグ
 let kemovLiveStream = rx.any [
