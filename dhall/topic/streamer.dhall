@@ -44,6 +44,7 @@ in [
   Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
   Twitter 995247053977485313, -- @Haneru_Inaba 因幡はねる有閑喫茶あにまーれ
   Twitter 962112920917127168, -- @Nekomiya_Hinata 猫宮ひなた(Nekomiya Hinata)
+  Twitter 953079145335988224, -- @dotLIVEyoutuber .LIVE【どっとライブ】
   Twitter 916156645004029952, -- @hololivetv ホロライブプロダクション【公式】
   Twitter 877820534712451072, -- @SIROyoutuber 電脳少女シロ
   Twitter 4919358698, -- @tv_asahi_douga 【公式】テレ朝動画
