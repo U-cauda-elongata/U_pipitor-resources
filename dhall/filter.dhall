@@ -2,10 +2,10 @@ let rx = ./util/rx.dhall
 
 --| けもＶ配信タグ
 let kemovLiveStream = rx.any [
-  "けも[VＶ]",
+  rx.wi "けもV",
   "けぷふるる",
   "こんがお",
-  "どうぶつV",
+  rx.wi "どうぶつV",
   "まつけぷ",
   "ケプ狐",
   "(?:ケープペンギン|フンボルトペンギン)ちゃんねる",
@@ -25,14 +25,14 @@ let kemovChannelMentions = "@" ++ rx.any [
 let basicMinusHanamaru = rx.i (rx.any [
   "けものフレンズ",
   "けもフレ",
-  "Kemono\\s*Friend",
+  rx.wi "Kemono" ++ "\\s*" ++ rx.wi "Friend",
   "ジャパリパーク",
-  "Japari\\s*Park",
+  rx.wi "Japari" ++ "\\s*" ++ rx.wi "Park",
   "どうぶつビスケッツ",
   "どうビス",
   "ペパプ",
-  "Triple-P",
-  "Gothic×Luck",
+  rx.wi "Triple-P",
+  rx.wi "Gothic×Luck",
   "ゴシックラック",
   rx.hash "ゴクラク\\b",
   "\\bゴクラジ",
@@ -44,7 +44,7 @@ let basicMinusHanamaru = rx.i (rx.any [
   "ちょびるめぷち",
   "かぷせるフレンズ",
   "ワイルドラッシュ",
-  "WILDRUSH",
+  rx.wi "WILDRUSH",
 ])
 
 --| 基本フィルター
@@ -61,13 +61,13 @@ let individualJa = rx.i (rx.any [
   "ゴクラジ",
   "おやすみおはよ\\b",
   "はなまる(?:\\b|アニマル)",
-  "Xジャパリ団",
+  rx.wi "Xジャパリ団",
   kemovLiveStream,
   "けもレポ",
   "細かすぎて伝わらない舞台けものフレンズの好きなところ",
 ])
 --| English posts from en/ja bilingual accounts (individual)
-let individualEn = rx.i "KemonoFriends"
+let individualEn = rx.i (rx.wi "KemonoFriends")
 --| 一般用
 let individual = rx.any [ rx.hash (rx.any [ individualJa, individualEn ]), kemovChannelMentions ]
 
@@ -83,14 +83,14 @@ let kemovHashtags = rx.hash (rx.any [
 --| 除外ワード
 let basicExclude = rx.i (rx.any [
   "たつき監督",
-  "irodori",
+  rx.wi "irodori",
   "ヤオヨロズ",
   "福原慶匡",
   "ケムリクサ",
-  "Tatsuki",
-  "Yaoyorozu",
-  "Fukuhara Yoshitada",
-  "Yoshitada Fukuhara",
+  rx.wi "Tatsuki",
+  rx.wi "Yaoyorozu",
+  rx.wi "Fukuhara" ++ "\\s" ++ rx.wi "Yoshitada",
+  rx.wi "Yoshitada" ++ "\\s" ++ rx.wi "Fukuhara",
 ])
 
 in {
