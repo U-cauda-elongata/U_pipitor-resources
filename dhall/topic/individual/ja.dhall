@@ -8,10 +8,10 @@ in [
   Twitter 1246330706030034944, -- @hiro_se_ika 広瀬世華
   Twitter 1210889093124505600, -- @_Amane_Kanon_ 天希かのん
   Twitter 1184389242761310208, -- @youmiya_hina 羊宮妃那
-  Twitter 1129194500365070336, -- @NINMiO_APT 二宮みお
   Twitter 1153920859578331136, -- @izm_tako 和泉風花
   Twitter 1141319903250534400, -- @kitoakari_1016 鬼頭明里
   Twitter 1134589498610802688, -- @eino_airi_staff 永野愛理 スタッフ【公式】
+  Twitter 1129194500365070336, -- @NINMiO_APT 二宮みお
   Twitter 1126735473102090240, -- @YUI_STAFF 石川由依Official
   Twitter 1125555085067505664, -- @Anna_Mihayashi 御林杏夏
   Twitter 1123177804114190336, -- @kaayaataaaan 奥野香耶
@@ -86,8 +86,8 @@ in [
   Twitter 811124387495616512, -- @ibuking_1114 木戸衣吹
   Twitter 802124249628409856, -- @rui_harinezumi 苅谷瑠衣
   Twitter 787531199895920640, -- @tamura_kyoka 田村響華
-  Twitter 767928161153654784, -- @Arisa_Aihara_ 愛原ありさ
   Twitter 771620400044265472, -- @fujisanyuui 藤山由依
+  Twitter 767928161153654784, -- @Arisa_Aihara_ 愛原ありさ
   Twitter 766912527368228864, -- @MachicoOfficial Machico Official
   Twitter 760025194383585280, -- @Takase_Aiko 高瀬愛虹（たかせあいこ）
   Twitter 749885881318727681, -- @numakura_manami 沼倉愛美

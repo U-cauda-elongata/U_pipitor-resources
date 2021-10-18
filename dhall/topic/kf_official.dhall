@@ -3,12 +3,11 @@
 let youtube = (../util.dhall).youtube
 
 in [
+  youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
+  youtube "UCkixBP-HQPS0lOyCpdFWQEg", -- 東武ジャパリパーク
   youtube "UCMpw36mXEu3SLsqdrJxUKNA", -- シマハイイロギツネ / Island Fox
   youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
-  youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
   youtube "UCEOugXOAfa-HRmRjKbH8z3Q", -- 『けものフレンズプロジェクト』公式
-  youtube "UCkixBP-HQPS0lOyCpdFWQEg", -- 東武ジャパリパーク
-
   -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるため収集対象外とする
   -- Twitter 1258240637368799233, -- @X_JPD_official ❌【official】×ジャパリ団　広報団員❌
   -- Twitter 1148893601813843969, -- @kemofrie3locate けものフレンズ３＠ロケテ情報
