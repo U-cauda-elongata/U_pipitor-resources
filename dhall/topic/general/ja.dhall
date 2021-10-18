@@ -5,24 +5,15 @@ let youtube = (../../util.dhall).youtube
 
 in [
   -- 公式・準公式
-  -- テレビ東京公式 TV TOKYO
-  youtube "UCrDj5t8Q9ZFSGft7a3PWl9g",
-  -- ブシロードブシモ
-  youtube "UCqs9jj1PpzBDBYGrnGrLRYQ",
-  -- ミレニアムプロ公式チャンネル
-  youtube "UCqr_vXSGp5ONG94GY7SAxeA",
-  -- Appirits Games Project
-  youtube "UCojpaahbZqMmvt-7X1am1lg",
-  -- KADOKAWAanime
-  youtube "UCY5fcqgSrQItPAX_Z5Frmwg",
-  -- SEGA
-  youtube "UCVkqs_Q88BDmyaWwjYJ8_Ig",
-  -- ブシロード公式チャンネル
-  youtube "UCFoS_FzutpGb3EDH3dZ47sw",
-  -- Victor Entertainment
-  youtube "UC4YT50DP7hbMsor8FmyEPMw",
-  -- セガゲームス公式アプリ
-  youtube "UC3tZDwLVGnZKl9477fCxhGQ",
+  youtube "UCrDj5t8Q9ZFSGft7a3PWl9g", -- テレビ東京公式 TV TOKYO
+  youtube "UCqs9jj1PpzBDBYGrnGrLRYQ", -- ブシロードブシモ
+  youtube "UCqr_vXSGp5ONG94GY7SAxeA", -- ミレニアムプロ公式チャンネル
+  youtube "UCojpaahbZqMmvt-7X1am1lg", -- Appirits Games Project
+  youtube "UCY5fcqgSrQItPAX_Z5Frmwg", -- KADOKAWAanime
+  youtube "UCVkqs_Q88BDmyaWwjYJ8_Ig", -- SEGA
+  youtube "UCFoS_FzutpGb3EDH3dZ47sw", -- ブシロード公式チャンネル
+  youtube "UC4YT50DP7hbMsor8FmyEPMw", -- Victor Entertainment
+  youtube "UC3tZDwLVGnZKl9477fCxhGQ", -- セガゲームス公式アプリ
   Twitter 1303969509779275776, -- @kizunaStage -絆- on Stage 2020
   Twitter 1267409826314739712, -- @AppiritsSp アピリッツ 広報・山田アイコ | アピスピ読んでね！
   Twitter 1123410609922396160, -- @aoni_official 青二プロダクション【公式】
@@ -69,8 +60,7 @@ in [
   Twitter 104742595, -- @VictorMusic ビクターエンタテインメント
 
   -- 配信
-  -- 文化放送A&G
-  youtube "UCzRjtONwhrPCNNMp8hubjHg",
+  youtube "UCzRjtONwhrPCNNMp8hubjHg", -- 文化放送A&G
   Twitter 1268759836826546176, -- @UplusLIVE U+LIVE @shibuya quattro
   Twitter 930989863842676736, -- @nicoanime_PR Nアニメ&ニコニコアニメ公式🌸配信情報や🎁も!!
   Twitter 885328872253739009, -- @nicolive_PR ニコニコ生放送【ニコ生公式】
@@ -87,16 +77,11 @@ in [
   Twitter 71779161, -- @Yahoo_GYAO GYAO!
 
   -- イベント
-  -- リミテッドスタンドLimited Stand
-  youtube "UCQ7QGT_v6Si-2-i0f9mbMBQ",
-  -- 手塚プロダクション公式チャンネル
-  youtube "UCyach7GHJDlXTv6h3fcNwqg",
-  -- エンタバアキバ
-  youtube "UCoKXL6xWnCiw-d2MRVIuQ6g",
-  -- GITSchannel
-  youtube "UCnVz-E6zalkquQm-fOMolfg",
-  -- ゲマチャンネル
-  youtube "UC_zBYH60OukiGnKSZJJxENw",
+  youtube "UCQ7QGT_v6Si-2-i0f9mbMBQ", -- リミテッドスタンドLimited Stand
+  youtube "UCyach7GHJDlXTv6h3fcNwqg", -- 手塚プロダクション公式チャンネル
+  youtube "UCoKXL6xWnCiw-d2MRVIuQ6g", -- エンタバアキバ
+  youtube "UCnVz-E6zalkquQm-fOMolfg", -- GITSchannel
+  youtube "UC_zBYH60OukiGnKSZJJxENw", -- ゲマチャンネル
   Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
   Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
   Twitter 1032488126797639680, -- @notafes ノタFES Tw 2019
@@ -158,8 +143,7 @@ in [
   Twitter 248460704, -- @puyopuyo20th みどりぷよ（ぷよぷよシリーズ公式）『ぷよぷよテトリス２』好評発売中！
 
   -- 流通
-  -- Victor Online Store
-  youtube "UCA3Ea513Nu-fRN3BBzePHcA",
+  youtube "UCA3Ea513Nu-fRN3BBzePHcA", -- Victor Online Store
   Twitter 996189081540313088, -- @A3_honten_info GraffArt Shop 池袋本店
   Twitter 895195685024219137, -- @sanrioanist サンリオアニメストア公式
   Twitter 4187883372, -- @TOWER_Events タワーレコードイベント

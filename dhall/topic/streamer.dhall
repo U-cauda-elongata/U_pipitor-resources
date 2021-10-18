@@ -4,36 +4,21 @@ let Twitter = (../Pipitor.dhall).Topic.Twitter
 let youtube = (../util.dhall).youtube
 
 in [
-  -- Haneru Channel / 因幡はねる 【あにまーれ】
-  youtube "UC0Owc36U9lOyi9Gx9Ic-4qg",
-  -- のんちゃんねる【桜月花音】 - YouTube
-  youtube "UC3-jXrZXv-PQshpaTQpicPQ",
-  -- 姫熊 りぼん-Himekuma Ribon-
-  youtube "UC6HjtF2rHZO8gAsX5FXF-Kg",
-  -- hololive ホロライブ - VTuber Group
-  youtube "UCJFZiqLMntJufDCHc6bQixg",
-  -- Siro Channel
-  youtube "UCLhUvJ_wO9hOvv_yYENu4fQ",
-  -- Matsuri Channel 夏色まつり - YouTube
-  youtube "UCQ0UDLQCjY0rmuxCDE38FGg",
-  -- Kuku Channel / 風見くく 【あにまーれ】
-  youtube "UCXp7sNC0F_qkjickvlYkg-Q",
-  -- Life Like a Live!（えるすりー）
-  youtube "UC_vFNa_irvWQapwwaasYMOQ",
-  -- ルルン・ルルリカ
-  youtube "UCcd4MSYH7bPIBEUqmBgSZQw",
-  -- ひなたチャンネル (Hinata Channel)
-  youtube "UCevD0wKzJFpfIkvHOiQsfLQ",
-  -- Tomari Mari channel / 兎鞠まりちゃんねる
-  youtube "UCkPIfBOLoO0hVPG-tI2YeGg",
-  -- 水瓶ミア/ミアちゃんねる
-  youtube "UCpPuEfqwYbpn7e2jWdQeWew",
-  -- 彩 まよい【ミリタリーVTuber】 - YouTube
-  youtube "UCsAzaxwiKWolOWLH1bIU3wA",
-  -- もこめめ*channel
-  youtube "UCz6Gi81kE6p5cdW1rT0ixqw",
-  -- 超人女子戦士 ガリベンガーV
-  youtube "UCzuEc7Nsm9GtMX4yuzjSqgA",
+  youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
+  youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
+  youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
+  youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
+  youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
+  youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
+  youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
+  youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
+  youtube "UCcd4MSYH7bPIBEUqmBgSZQw", -- ルルン・ルルリカ
+  youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
+  youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
+  youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
+  youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
+  youtube "UCz6Gi81kE6p5cdW1rT0ixqw", -- もこめめ*channel
+  youtube "UCzuEc7Nsm9GtMX4yuzjSqgA", -- 超人女子戦士 ガリベンガーV
   Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
   Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
   Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ

@@ -3,16 +3,11 @@
 let youtube = (../util.dhall).youtube
 
 in [
-  -- シマハイイロギツネ / Island Fox
-  youtube "UCMpw36mXEu3SLsqdrJxUKNA",
-  -- ケープペンギン / African Penguin
-  youtube "UCEcMIuGR8WO2TwL9XIpjKtw",
-  -- フンボルトペンギン / Humboldt Penguin
-  youtube "UCmYO-WfY7Tasry4D1YB4LJw",
-  -- 『けものフレンズプロジェクト』公式
-  youtube "UCEOugXOAfa-HRmRjKbH8z3Q",
-  -- 東武ジャパリパーク
-  youtube "UCkixBP-HQPS0lOyCpdFWQEg",
+  youtube "UCMpw36mXEu3SLsqdrJxUKNA", -- シマハイイロギツネ / Island Fox
+  youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
+  youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
+  youtube "UCEOugXOAfa-HRmRjKbH8z3Q", -- 『けものフレンズプロジェクト』公式
+  youtube "UCkixBP-HQPS0lOyCpdFWQEg", -- 東武ジャパリパーク
 
   -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるため収集対象外とする
   -- Twitter 1258240637368799233, -- @X_JPD_official ❌【official】×ジャパリ団　広報団員❌

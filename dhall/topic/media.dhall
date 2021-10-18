@@ -4,16 +4,11 @@ let Twitter = (../Pipitor.dhall).Topic.Twitter
 let youtube = (../util.dhall).youtube
 
 in [
-  -- インサイド＆Game*Spark動画チャンネル
-  youtube "UCkU6nDHWQpyDK5vw9YSYjLw",
-  -- 4GamerSP
-  youtube "UCfIgNVCiAei8r-haGHDnedg",
-  -- ファミ通App
-  youtube "UCcxj8uiQUeSfMHLy_Sk8FhA",
-  -- 電撃オンライン
-  youtube "UCQb6W0vblp5ewU75watnqQQ",
-  -- gamernejp
-  youtube "UC2aiZm7FsZFwhbPNWpjJcZQ",
+  youtube "UCkU6nDHWQpyDK5vw9YSYjLw", -- インサイド＆Game*Spark動画チャンネル
+  youtube "UCfIgNVCiAei8r-haGHDnedg", -- 4GamerSP
+  youtube "UCcxj8uiQUeSfMHLy_Sk8FhA", -- ファミ通App
+  youtube "UCQb6W0vblp5ewU75watnqQQ", -- 電撃オンライン
+  youtube "UC2aiZm7FsZFwhbPNWpjJcZQ", -- gamernejp
   Twitter 1115426897335185409, -- @music_ups フリーマガジン『music UP's』
   Twitter 1103471129358823424, -- @anison_nhk anison_nhk
   Twitter 909951337382547457, -- @anirecoTV あにレコTV
