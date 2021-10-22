@@ -168,6 +168,7 @@ in [
   -- チケット
   Twitter 968083710842060801, -- @lineticket_jp LINEチケット
   Twitter 855975221181825024, -- @fanicon1 Fanicon@ファンコミュニティサービス
+  Twitter 705602801137627136, -- @eplus_live イープラス［ライブ］
   Twitter 312508101, -- @eplus_anime イープラス［アニメ］
   Twitter 240201550, -- @lawson_ticket ローチケ（ローソンチケット）
   Twitter 191008495, -- @anime_pia アニメぴあ
