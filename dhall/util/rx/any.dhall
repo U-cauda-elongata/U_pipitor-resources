@@ -10,8 +10,11 @@ let Text/concatSep =
 let any
     : List Text -> Text
     = \(exprs : List Text) ->
-        Text/concatSep
-          "|"
-          (List/map Text Text (\(expr : Text) -> "(?:${expr})") exprs)
+        let body =
+              Text/concatSep
+                "|"
+                (List/map Text Text (\(expr : Text) -> "(?:${expr})") exprs)
+
+        in  "(?:${body})"
 
 in  any

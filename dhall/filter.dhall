@@ -1,5 +1,23 @@
 let rx = ./util/rx.dhall
 
+let kfOfficialScreenNames = [
+  "kemo_project",
+  "kemono_butai",
+  "kemono_matsuri",
+  "kemono_pavilion",
+  "kemono_festival",
+  "kemono_anime",
+  "kemono_friends3",
+  "jppzootobu",
+  "Gothic_Luck",
+  "kemofure_yakata",
+  "X_JPD_official",
+  "Cape_KEMOV",
+  "Hululu_KEMOV",
+  "Shimahai_KEMOV",
+  "KEMOVP_staff",
+]
+
 --| けもＶ配信タグ
 let kemovLiveStream = rx.any [
   rx.wi "けもV",
@@ -24,6 +42,7 @@ let kemovChannelMentions = "@" ++ rx.any [
 
 --| はなまるうどん用フィルター
 let basicMinusHanamaru = rx.i (rx.any [
+  rx.any ["@", "https://twitter.com/"] ++ "${rx.any kfOfficialScreenNames}",
   "けものフレンズ",
   "けもフレ",
   rx.wi "Kemono" ++ "\\s*" ++ rx.wi "Friend",
