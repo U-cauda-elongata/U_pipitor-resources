@@ -1,5 +1,5 @@
 { en = ./en.dhall
-, en_ja = ./en_ja.dhall
+, en-ja = ./en-ja.dhall
 , ja = ./ja.dhall
 , streamer = ./streamer.dhall
 }

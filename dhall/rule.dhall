@@ -14,7 +14,7 @@ let rx = util.rx
 
 in [
   Rule::{
-    topics = topic.kf_official,
+    topics = topic.kf-official,
     -- 全ての投稿がけものフレンズに関連するため `filter` は不要
     outbox = [Outbox.Twitter account.pipitor],
   },
@@ -73,13 +73,13 @@ in [
   },
   -- 日英バイリンガルアカウント（個人）の日本語投稿
   Rule::{
-    topics = topic.individual.en_ja,
+    topics = topic.individual.en-ja,
     filter = Some Filter::{ title = rx.hash filter.individualJa },
     outbox = [Outbox.Twitter account.pipitorIndv],
   },
   -- English posts from en/ja bilingual accounts (individual)
   Rule::{
-    topics = topic.individual.en_ja,
+    topics = topic.individual.en-ja,
     filter = Some Filter::{ title = rx.hash filter.individualEn },
     -- 多重リツイートの抑止。日本語を優先する
     exclude = Some Filter::{ title = rx.hash filter.individualJa },
@@ -91,7 +91,7 @@ in [
     outbox = [Outbox.Twitter account.pipitorIndv],
   },
   Rule::{
-    topics = topic.zoo_aquarium,
+    topics = topic.zoo-aquarium,
     filter = Some Filter::{ title = rx.any [ filter.basic, "吉崎\\s*観音", "吉崎先生" ] },
     outbox = [Outbox.Twitter account.pipitor],
   },
