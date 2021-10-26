@@ -42,7 +42,7 @@ let kemovChannelMentions = "@" ++ rx.any [
 
 --| はなまるうどん用フィルター
 let basicMinusHanamaru = rx.i (rx.any [
-  rx.any ["@", "https://twitter.com/"] ++ "${rx.any kfOfficialScreenNames}",
+  rx.any ["@", "https://twitter\\.com/"] ++ "${rx.any kfOfficialScreenNames}",
   "けものフレンズ",
   "けもフレ",
   rx.wi "Kemono" ++ "\\s*" ++ rx.wi "Friend",
