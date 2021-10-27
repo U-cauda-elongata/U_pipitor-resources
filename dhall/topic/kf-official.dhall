@@ -9,6 +9,10 @@ in [
   youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
   youtube "UCEOugXOAfa-HRmRjKbH8z3Q", -- 『けものフレンズプロジェクト』公式
   -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるため収集対象外とする
+  -- Twitter 1404316984175599619, -- @KEMOVP_staff パークスタッフ
+  -- Twitter 1396771594924564485, -- @Shimahai_KEMOV シマハイイロギツネ🏝🦊
+  -- Twitter 1385528731322621957, -- @Hululu_KEMOV フンボルトペンギン🔩🐧
+  -- Twitter 1385501300981338113, -- @Cape_KEMOV ケープペンギン
   -- Twitter 1258240637368799233, -- @X_JPD_official ❌【official】×ジャパリ団　広報団員❌
   -- Twitter 1148893601813843969, -- @kemofrie3locate けものフレンズ３＠ロケテ情報
   -- Twitter 1102890198411632641, -- @kemofure_yakata 【公式】けものフレンズ屋形船～輝きを追いかけて～
