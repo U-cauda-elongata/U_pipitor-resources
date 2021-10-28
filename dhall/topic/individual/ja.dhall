@@ -249,6 +249,7 @@ in [
   Twitter 145158766, -- @atmanbow_staff 井上喜久子(Kikuko Inoue)&スタッフ
   Twitter 144164783, -- @tanishisuki 松原タニシ
   Twitter 140727714, -- @kaos_office kaos
+  Twitter 134968429, -- @ayumaro0424 真野あゆみ
   Twitter 133627014, -- @tsvaci 辻林 美穂
   Twitter 133146525, -- @nobutx_0517 細谷伸之
   Twitter 129061096, -- @higedriver ヒゲドライバー
