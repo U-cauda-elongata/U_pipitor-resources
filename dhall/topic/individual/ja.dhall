@@ -117,6 +117,7 @@ in [
   Twitter 3191805905, -- @yukachiofficial 井口裕香 ワーナーOfficial
   Twitter 3180858356, -- @K_Rico1_1 小池理子
   Twitter 3149720330, -- @ayaMiNTgreen 山根 綺
+  Twitter 3120590845, -- @renamaeda07 前田玲奈(◜‧̮◝ )
   Twitter 3111919296, -- @Aya27songe 清水 彩
   Twitter 3108574016, -- @ogino_hazuki 荻野 葉月
   Twitter 3071098621, -- @EPsqqoSl38iCI3i 前田綾香
