@@ -18,10 +18,12 @@ in [
   youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
   youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
   youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
+  youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
   youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
   youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
   Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
   Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
+  Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
   Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
   Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
   Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
