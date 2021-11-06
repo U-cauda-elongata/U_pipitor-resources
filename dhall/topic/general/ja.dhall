@@ -82,7 +82,6 @@ in [
   youtube "UC_zBYH60OukiGnKSZJJxENw", -- ゲマチャンネル
   youtube "UCQ7QGT_v6Si-2-i0f9mbMBQ", -- リミテッドスタンドLimited Stand
   Twitter 1303969509779275776, -- @kizunaStage -絆- on Stage 2020
-  Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
   Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
   Twitter 1032488126797639680, -- @notafes ノタFES Tw 2019
   Twitter 1019087758189461505, -- @GraffartC GraffArt CAFE
@@ -90,7 +89,6 @@ in [
   Twitter 988987447844356096, -- @Entaba_akiba エンタバアキバ by SHINSEIDO
   Twitter 978555699952168961, -- @h_kawaiiya 原宿カワイーヤ
   Twitter 927737741076414466, -- @rikanenpyo_mpub 理科年表編集室
-  Twitter 920176444302438400, -- @tobuzoo1981 東武動物公園【公式】あとらこ
   Twitter 832416664033452032, -- @edomaekisen もんじゃ屋形船 江戸前汽船
   Twitter 830022722063183872, -- @nhk_darwin ダーウィンが来た！
   Twitter 775579759417798657, -- @LimitedStand リミスタ

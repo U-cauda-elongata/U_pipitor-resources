@@ -27,6 +27,7 @@ in [
   Twitter 956017993963667457, -- @kaiyohakukoen 海洋博公園・沖縄美ら海水族館
   Twitter 928203645719429120, -- @toyamafamipa 富山市ファミリーパーク【公式】
   Twitter 924900426398416897, -- @shimamarineland 志摩マリンランド(公式)
+  Twitter 920176444302438400, -- @tobuzoo1981 東武動物公園【公式】あとらこ
   Twitter 914767453720215552, -- @_umigatari_ 上越市立水族博物館 うみがたり
   Twitter 905304850040201216, -- @seibutuen_info 足立区生物園
   Twitter 895507390992232448, -- @marinepia_2 新潟市水族館マリンピア日本海PR
@@ -136,6 +137,7 @@ in [
 
   -- 非JAZA系
   Twitter 1217730379601207297, -- @sadocity_PR 佐渡市役所
+  Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
   Twitter 1063585435853611009, -- @Nature_Okayama 岡山県自然保護センター
   Twitter 4514445018, -- @orbi_y オービィ横浜(みなとみらいで動物とふれあえるパーク)
   Twitter 3015826252, -- @sendaiuminomori 仙台うみの杜水族館公式
