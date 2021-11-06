@@ -30,8 +30,8 @@
     - [`/dhall/topic/individual/streamer.dhall`](dhall/topic/individual/streamer.dhall): 配信者や VTuber が告知アカウントなどと別に持つ私的なアカウント。
   - [`/dhall/topic/zoo-aquarium.dhall`](dhall/topic/zoo-aquarium.dhall): 動物園・水族館。
 - [`/dhall/account.dhall`](dhall/account.dhall): ボットアカウントの一覧。基本的にいじる必要はない。
-- [`/dhall/twitter.dhall](dhall/twitter.dhall): ボットの Twitter API とのやりとりに関する設定。基本的にいじる必要はない。
-- [`/dhall/util/](dhall/util): 各種ユーティリティー関数。使用法は後述。
+- [`/dhall/twitter.dhall`](dhall/twitter.dhall): ボットの Twitter API とのやりとりに関する設定。基本的にいじる必要はない。
+- [`/dhall/util/`](dhall/util): 各種ユーティリティー関数。使用法は後述。
 
 ## ファイルを編集する（変更を提案する）
 
@@ -133,7 +133,7 @@ in [
 次に示すのは前節までに示したトピックの記述を補助するブックマークレットです。
 
 ```
-javascript:(_=>{let%20c=t=>navigator.clipboard.writeText(t).then(_=>alert(`%E3%82%B3%E3%83%94%E3%83%BC%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F:\n${t}`));switch(location.host){case'twitter.com':let%20b=document.querySelector('[data-testid="placementTracking"]');let%20i=b?.firstChild?.firstChild?.dataset?.testid?.split('-')?.[0];let%20[n,s]=b?.parentNode?.parentNode?.nextSibling?.querySelectorAll('div>span:first-of-type')||[];i&&s&&c(`Twitter%20${i},%20--%20${s.innerText}%20${n.innerText}`);break;case'www.youtube.com':let%20j=document.querySelector('meta[itemprop="channelId"]')?.content;j&&c(`youtube%20"${j}",%20--%20${document.querySelector('meta[itemprop="name"]').content}`)}})()
+javascript:(_=>{let%20c=t=>navigator.clipboard.writeText(t).then(_=>alert(`%E3%82%B3%E3%83%94%E3%83%BC%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F:\n${t}`));switch(location.host){case'twitter.com':let%20b=document.querySelector('[data-testid="placementTracking"]');let%20i=b?.firstChild?.firstChild?.dataset?.testid?.split('-')?.[0];let%20[n,s]=b?.parentNode?.parentNode?.nextSibling?.querySelectorAll('div>span:first-of-type')||[];i&&s&&c(`Twitter%20${i},%20--%20${s.innerText}%20${n.innerText}`);break;case'www.youtube.com':let%20j=document.querySelector('meta[itemprop="channelId"]')?.content;j&&c(`youtube%20"${j}",%20--%20`+document.querySelector('meta[itemprop="name"]').content)}})()
 ```
 
 これを YouTube のチャンネルのトップページや Twitter アカウントのプロフィールページ上で実行すると、そのページのトピックが前述の `.dhall` ファイルにそのままペーストできる `youtube "UCHogeHoge_PiyoPiyo_Fuga", -- チャンネル名` のような形式の文字列としてコピーされます。
@@ -160,7 +160,7 @@ javascript:(_=>{let%20c=t=>navigator.clipboard.writeText(t).then(_=>alert(`%E3%8
       case 'www.youtube.com':
         // チャンネル ID
         let j = document.querySelector('meta[itemprop="channelId"]')?.content;
-        j && c(`youtube "${j}", -- ${document.querySelector('meta[itemprop="name"]').content}`)
+        j && c(`youtube "${j}", -- ` + document.querySelector('meta[itemprop="name"]').content)
     }
 })()
 ```
