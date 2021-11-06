@@ -14,54 +14,53 @@ in [
   youtube "UCFoS_FzutpGb3EDH3dZ47sw", -- ブシロード公式チャンネル
   youtube "UC4YT50DP7hbMsor8FmyEPMw", -- Victor Entertainment
   youtube "UC3tZDwLVGnZKl9477fCxhGQ", -- セガゲームス公式アプリ
-  Twitter 1303969509779275776, -- @kizunaStage -絆- on Stage 2020
   Twitter 1267409826314739712, -- @AppiritsSp アピリッツ 広報・山田アイコ | アピスピ読んでね！
-  Twitter 1123410609922396160, -- @aoni_official 青二プロダクション【公式】
-  Twitter 1012239092279476224, -- @nicogame_PR ニコニコゲーム公式@ログインなしで視聴可能
-  Twitter 974249862957903873, -- @justpro_voice ジャストプロ 声優部
-  Twitter 923054746977517568, -- @official_hibiki 響スタッフアカウント
   Twitter 891908618789937152, -- @NelkePlanning ネルケプランニング（公式）
-  Twitter 874810152875995136, -- @Equal_LOVE_12 ＝LOVE_official
-  Twitter 830022722063183872, -- @nhk_darwin ダーウィンが来た！
-  Twitter 828422165808570369, -- @justpro_0411 株式会社ジャストプロ
   Twitter 824551506737192960, -- @GGI_INC 株式会社ギャラクシーグラフィックス
-  Twitter 809555576233422849, -- @dreammonsterjp 株式会社ドリームモンスター
   Twitter 798795770581266433, -- @PRTIMES_NEWS PR TIMESニュース
-  Twitter 732099555710263297, -- @81pro_official 【公式】81プロデュース
-  Twitter 723058748952965120, -- @1000_pro_com ミレニアムプロ
   Twitter 4565186714, -- @youngace_up ヤングエースUP公式
   Twitter 3988316892, -- @SEGA_Ent セガ エンタテインメント公式
   Twitter 3219139634, -- @dmmolg_com DMM GAMES公式＠多田野きつね🦊
-  Twitter 3143072946, -- @toki_management トキエンタテインメント
-  Twitter 3075211891, -- @office_anemone オフィスアネモネ公式
   Twitter 3017102584, -- @nexon_shikyoku NEXON ツイッター支局
   Twitter 2897290963, -- @GOODROID_inc 株式会社GOODROID
   Twitter 2570344658, -- @PRTIMES_GAMES PR TIMESゲーム
-  Twitter 2536582896, -- @si_notall notall official【9/1ノタFES2019主催】
-  Twitter 2501907386, -- @fhana_info fhána_info
   Twitter 2471883294, -- @ysinc0419 株式会社Y's
   Twitter 2371707378, -- @shonen_Ace 少年エース
   Twitter 1966429123, -- @bushimostation ブシモ公式
   Twitter 1612407691, -- @PRTIMES_ETM PR TIMESエンタメ
-  Twitter 1515207181, -- @TPD_official 東京パフォーマンスドール(TPD)
-  Twitter 1275695144, -- @officeinveider オフィスインベーダー（なるせゆうせいの会社）
   Twitter 498788645, -- @bushi_PR ブシロード公式
   Twitter 468037892, -- @seganewsnavi セガプラザ公式
   Twitter 338905976, -- @Jupiter_JP1 株式会社ジュピター
-  Twitter 317684165, -- @nogizaka46 乃木坂46
   Twitter 307759398, -- @SANZIGEN_INC 株式会社サンジゲン 公式アカウント
   Twitter 287226630, -- @KadokawaBunko 角川文庫編集部
-  Twitter 267105383, -- @YAG_PR 代々木アニメーション学院 official
   Twitter 223330695, -- @aiddcc AID-DCC Inc.
   Twitter 177110380, -- @SEGA_OFFICIAL セガ公式アカウント
-  Twitter 137263528, -- @parco_art PARCO-ART
+  Twitter 104742595, -- @VictorMusic ビクターエンタテインメント
+
+  -- 芸能事務所・グループ
+  Twitter 1123410609922396160, -- @aoni_official 青二プロダクション【公式】
+  Twitter 974249862957903873, -- @justpro_voice ジャストプロ 声優部
+  Twitter 923054746977517568, -- @official_hibiki 響スタッフアカウント
+  Twitter 874810152875995136, -- @Equal_LOVE_12 ＝LOVE_official
+  Twitter 828422165808570369, -- @justpro_0411 株式会社ジャストプロ
+  Twitter 809555576233422849, -- @dreammonsterjp 株式会社ドリームモンスター
+  Twitter 732099555710263297, -- @81pro_official 【公式】81プロデュース
+  Twitter 723058748952965120, -- @1000_pro_com ミレニアムプロ
+  Twitter 3143072946, -- @toki_management トキエンタテインメント
+  Twitter 3075211891, -- @office_anemone オフィスアネモネ公式
+  Twitter 2536582896, -- @si_notall notall official【9/1ノタFES2019主催】
+  Twitter 2501907386, -- @fhana_info fhána_info
+  Twitter 1515207181, -- @TPD_official 東京パフォーマンスドール(TPD)
+  Twitter 1275695144, -- @officeinveider オフィスインベーダー（なるせゆうせいの会社）
+  Twitter 317684165, -- @nogizaka46 乃木坂46
+  Twitter 267105383, -- @YAG_PR 代々木アニメーション学院 official
   Twitter 132066884, -- @edge_works 株式会社エッジワークス
   Twitter 130397568, -- @ske48official SKE48
-  Twitter 104742595, -- @VictorMusic ビクターエンタテインメント
 
   -- 配信
   youtube "UCzRjtONwhrPCNNMp8hubjHg", -- 文化放送A&G
   Twitter 1268759836826546176, -- @UplusLIVE U+LIVE @shibuya quattro
+  Twitter 1012239092279476224, -- @nicogame_PR ニコニコゲーム公式@ログインなしで視聴可能
   Twitter 930989863842676736, -- @nicoanime_PR Nアニメ&ニコニコアニメ公式🌸配信情報や🎁も!!
   Twitter 885328872253739009, -- @nicolive_PR ニコニコ生放送【ニコ生公式】
   Twitter 788637003084595200, -- @watch_UNEXT_A U-NEXTアニメ＠公式
@@ -76,12 +75,13 @@ in [
   Twitter 95588678, -- @cho_ag 文化放送　超！A&G
   Twitter 71779161, -- @Yahoo_GYAO GYAO!
 
-  -- イベント
+  -- イベント・企業コラボ
   youtube "UCyach7GHJDlXTv6h3fcNwqg", -- 手塚プロダクション公式チャンネル
   youtube "UCoKXL6xWnCiw-d2MRVIuQ6g", -- エンタバアキバ
   youtube "UCnVz-E6zalkquQm-fOMolfg", -- GITSchannel
   youtube "UC_zBYH60OukiGnKSZJJxENw", -- ゲマチャンネル
   youtube "UCQ7QGT_v6Si-2-i0f9mbMBQ", -- リミテッドスタンドLimited Stand
+  Twitter 1303969509779275776, -- @kizunaStage -絆- on Stage 2020
   Twitter 1214892311563210752, -- @MonkeyBay5 MonkeyBay
   Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
   Twitter 1032488126797639680, -- @notafes ノタFES Tw 2019
@@ -92,13 +92,13 @@ in [
   Twitter 927737741076414466, -- @rikanenpyo_mpub 理科年表編集室
   Twitter 920176444302438400, -- @tobuzoo1981 東武動物公園【公式】あとらこ
   Twitter 832416664033452032, -- @edomaekisen もんじゃ屋形船 江戸前汽船
+  Twitter 830022722063183872, -- @nhk_darwin ダーウィンが来た！
   Twitter 775579759417798657, -- @LimitedStand リミスタ
   Twitter 773773892628406272, -- @doubutsupeace どうぶつピース！！
   Twitter 734658118089609216, -- @marui_annex_a 新宿マルイアネックス アニメイベント
   Twitter 734578911778988032, -- @marui_anime マルイノアニメ
   Twitter 4848342680, -- @REALBBQ_info REALBBQ（リアルバーベキュー）
   Twitter 4342755799, -- @osarecompany オサレカンパニー
-  Twitter 4298409799, -- @UNICOclub (公式)手塚治虫・ユニコ倶楽部
   Twitter 3877364172, -- @rockmatsuri ビクターロック祭り2020
   Twitter 3318554538, -- @Umabi_Official Umabi
   Twitter 3314727913, -- @mirrativ_jp ミラティブ@スマホ１台でゲームプレイ配信！
@@ -110,9 +110,7 @@ in [
   Twitter 2578100414, -- @kadokawa_event KADOKAWAイベント情報
   Twitter 2460887588, -- @prmag_bunka ぶんかる【文化庁公式】
   Twitter 2335919749, -- @MAFF_JAPAN 農林水産省
-  Twitter 1922840634, -- @cfm_snowmiku 雪ミク（初音ミク）
   Twitter 1279230218, -- @MPD_koho 警視庁広報課
-  Twitter 1010165784, -- @gitssac2045 攻殻機動隊 SAC_2045 公式
   Twitter 439752084, -- @ngt_anifes がたふぇす
   Twitter 397792279, -- @animate_cafe アニメイトカフェ総合
   Twitter 300076066, -- @lotteria_pr ロッテリア
@@ -120,15 +118,14 @@ in [
   Twitter 263895453, -- @kankyoshosado01 環境省佐渡自然保護官事務所
   Twitter 256906707, -- @anisama Animelo Summer Live
   Twitter 144767987, -- @parcoala パルコアラ
+  Twitter 137263528, -- @parco_art PARCO-ART
   Twitter 133611914, -- @Tochitele とちテレ公式
-  Twitter 131003836, -- @keroro_PR 【公式】ケロロ軍曹PR
   Twitter 111223135, -- @animelo_staff アニメロスタッフ
   Twitter 107025393, -- @maruzenpub 丸善出版営業部
   Twitter 88577355, -- @WWFJapan WWFジャパン
-  Twitter 56906171, -- @sanrio_news サンリオ
   Twitter 11195332, -- @schatz1 シャッツキステ
 
-  -- コラボゲーム
+  -- コラボ作品
   Twitter 1045625907967275008, -- @ARTILIFE_jp ARTILIFE_jp
   Twitter 1040162473033195522, -- @WACCA_official WACCA 公式
   Twitter 1027427093552852992, -- @girls_creatures 【公式】ガールズ&クリーチャーズ
@@ -137,11 +134,16 @@ in [
   Twitter 923802830921654277, -- @kotodaman_pr 【公式】コトダマン運営会議
   Twitter 876732327598084096, -- @destinyc_info デスティニーチャイルド【公式】
   Twitter 4859102219, -- @HG_Avatar ハンゲアバター【公式】@まくも
+  Twitter 4298409799, -- @UNICOclub (公式)手塚治虫・ユニコ倶楽部
   Twitter 2307698479, -- @shirokurojoker しろくろジョーカー公式＠じい
+  Twitter 1922840634, -- @cfm_snowmiku 雪ミク（初音ミク）
+  Twitter 1010165784, -- @gitssac2045 攻殻機動隊 SAC_2045 公式
   Twitter 1001107099, -- @maimai_official maimai公式@7/5(金)Re:MASTER追加！
   Twitter 289206965, -- @TW_nexon テイルズウィーバー公式
   Twitter 260644393, -- @mabinogi_nexon 「マビノギ」byパン(公式)
   Twitter 248460704, -- @puyopuyo20th みどりぷよ（ぷよぷよシリーズ公式）『ぷよぷよテトリス２』好評発売中！
+  Twitter 131003836, -- @keroro_PR 【公式】ケロロ軍曹PR
+  Twitter 56906171, -- @sanrio_news サンリオ
 
   -- 流通
   youtube "UCA3Ea513Nu-fRN3BBzePHcA", -- Victor Online Store
