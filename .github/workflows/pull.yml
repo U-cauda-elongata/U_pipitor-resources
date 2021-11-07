@@ -1,0 +1,27 @@
+name: Pull request summary bot
+
+on: pull_request
+
+jobs:
+  summary:
+    name: Post summary report
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: dhall-lang/setup-dhall@v4
+      - name: Prepare message
+        id: message
+        run: |
+          echo "::stop-commands::$(sha256sum <<< '${{ github.token }}' | head -c 64)"
+          git fetch --depth=1 --no-tags origin "${GITHUB_BASE_REF}"
+          body="$(./.github/workflows/diff_summary.sh FETCH_HEAD HEAD)"
+          echo "::$(sha256sum <<< '${{ github.token }}' | head -c 64)::"
+          body="${body//\%/%25}"
+          body="${body//$'\n'/%0A}"
+          body="${body//$'\r'/%0D}"
+          echo "::set-output name=body::${body}"
+      - name: Post the message
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.number }}
+          body: ${{ steps.message.outputs.body }}
