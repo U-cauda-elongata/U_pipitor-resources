@@ -7,7 +7,6 @@ in [
   youtube "UCkixBP-HQPS0lOyCpdFWQEg", -- 東武ジャパリパーク
   youtube "UCMpw36mXEu3SLsqdrJxUKNA", -- シマハイイロギツネ / Island Fox
   youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
-  youtube "UCEOugXOAfa-HRmRjKbH8z3Q", -- 『けものフレンズプロジェクト』公式
   -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるため収集対象外とする
   -- Twitter 1444527872689930245, -- @tiktam_official ちく☆たむ オフィシャル
   -- Twitter 1404316984175599619, -- @KEMOVP_staff パークスタッフ

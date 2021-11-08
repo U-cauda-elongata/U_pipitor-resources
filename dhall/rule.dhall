@@ -106,4 +106,8 @@ in [
     filter = Some Filter::{ title = filter.individual },
     outbox = [Outbox.Twitter account.pipitorIntl],
   },
+  Pipitor.Rule::{
+    topics = [ Twitter 12, Twitter 783214 ],
+    outbox = [] : List Outbox,
+  }
 ]
