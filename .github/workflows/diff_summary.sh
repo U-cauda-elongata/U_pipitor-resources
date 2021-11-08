@@ -17,17 +17,22 @@ main() {
 	src="$(dirname "${0}")"
 	local tmp
 	tmp="$(mktemp -d)"
+
 	local head
 	head="$(git rev-parse HEAD || true)"
+	local old
+	old="$(git rev-parse "${1}")"
+	local new
+	new="$(git rev-parse "${2}")"
 
 	mkdir -p "${tmp}"/{new,old}
 
-	git checkout --detach "${1}"
+	git checkout --detach "${old}"
 	n_old="$(dhall --file .github/workflows/dhall/topicCount.dhall)"
 	dhall text --file "${src}/dhall/feeds.dhall" | sort -r > "${tmp}/old/feeds"
 	dhall text --file "${src}/dhall/twitter.dhall" | sort -gr > "${tmp}/old/twitter"
 
-	git checkout --detach "${2}"
+	git checkout --detach "${new}"
 	n_new="$(dhall --file .github/workflows/dhall/topicCount.dhall)"
 	dhall text --file "${src}/dhall/feeds.dhall" | sort -r > "${tmp}/new/feeds"
 	dhall text --file "${src}/dhall/twitter.dhall" | sort -gr > "${tmp}/new/twitter"
