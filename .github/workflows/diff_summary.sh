@@ -27,17 +27,17 @@ main() {
 
 	mkdir -p "${tmp}"/{new,old}
 
-	git checkout --detach "${old}"
-	n_old="$(dhall --file .github/workflows/dhall/topicCount.dhall)"
+	git checkout --detach "${old}" 1>&2
+	n_old="$(dhall --file "${src}/dhall/topicCount.dhall")"
 	dhall text --file "${src}/dhall/feeds.dhall" | sort -r > "${tmp}/old/feeds"
 	dhall text --file "${src}/dhall/twitter.dhall" | sort -gr > "${tmp}/old/twitter"
 
-	git checkout --detach "${new}"
-	n_new="$(dhall --file .github/workflows/dhall/topicCount.dhall)"
+	git checkout --detach "${new}" 1>&2
+	n_new="$(dhall --file "${src}/dhall/topicCount.dhall")"
 	dhall text --file "${src}/dhall/feeds.dhall" | sort -r > "${tmp}/new/feeds"
 	dhall text --file "${src}/dhall/twitter.dhall" | sort -gr > "${tmp}/new/twitter"
 
-	${head:+git checkout "${head}"}
+	${head:+git checkout "${head}"} 1>&2
 
 	cd "${tmp}"
 
