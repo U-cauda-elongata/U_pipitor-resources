@@ -42,14 +42,15 @@ main() {
 	cd "${tmp}"
 
 	cat <<-EOS
-	Thank you for sending the PR! Here is a summary report.
+	Pull request をお送りくださりありがとうございます！　\
+こちらの PR の要約レポートをお知らせします。
 
-	## Summary of the change
+	## 変更の要約
 
 	EOS
 
 	if diff -U1 old new > changes.diff; then
-		echo '✅ The change does not add or remove any topic.'
+		echo '✅ この変更はトピックの追加・削除を含んでいません。'
 	else
 		grep -vxF -f old/feeds new/feeds > addition_feeds || true
 		grep -vxF -f new/feeds old/feeds > deletion_feeds || true
@@ -60,35 +61,36 @@ main() {
 		n_del="$(($(wc -l < deletion_feeds) + $(wc -l < deletion_twitter)))"
 
 		cat <<-EOS
-		The change includes $n_add new topic(s) and $n_del removed topic(s).
+		- 📈 **$n_add** トピックの追加
+		- 📉 **$n_del** トピックの削除
 
-		### New topics
+		### 追加されたトピック
 
 		EOS
 		if (( n_add )); then
 			show_feeds addition_feeds
 			show_twitter addition_twitter
 		else
-			echo '_None_'
+			echo '_（無し）_'
 		fi
 		cat <<-EOS
 
-		### Removed topics
+		### 削除されたトピック
 
 		EOS
 		if (( n_del )); then
 			show_feeds deletion_feeds
 			show_twitter deletion_twitter
 		else
-			echo '_None_'
+			echo '_（無し）_'
 		fi
 		if (( n_old + n_add != n_new + n_del )); then
 			cat <<-EOS
 
-			### Diff
+			### 差分
 
-			The change might have duplicate additions or deletions.
-			Below is the diff of the full topic list.
+			この変更は重複したトピックを含んでいる可能性があります。\
+参考のため以下に完全なトピックのリストの差分を示します。
 
 			\`\`\`diff
 			EOS
