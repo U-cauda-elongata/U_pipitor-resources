@@ -15,6 +15,7 @@ in [
   youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
   youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
   youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
+  youtube "UCMzxQ58QL4NNbWghGymtHvw", -- カルロ・ピノ
   youtube "UCaq_BEsIHLVvdU6lCKLtipQ", -- Hanakoto Igusa (jp) - YouTube
   youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
   youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
@@ -34,6 +35,7 @@ in [
   Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
   Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
   Twitter 995247053977485313, -- @Haneru_Inaba 因幡はねる有閑喫茶あにまーれ
+  Twitter 992039541547585536, -- @carro_pino カルロ ピノ
   Twitter 972262397640548352, -- @chieri_kakyoin 花京院ちえり
   Twitter 971926028842033152, -- @mokomeme_ch もこ田めめめ
   Twitter 962112920917127168, -- @Nekomiya_Hinata 猫宮ひなた(Nekomiya Hinata)
