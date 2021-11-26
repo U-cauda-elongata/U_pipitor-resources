@@ -19,7 +19,7 @@ let kfOfficialScreenNames = [
 ]
 
 --| けもＶ配信タグ
-let kemovLiveStream = rx.any [
+let kemovLiveStreamJa = [
   "お引越しフレンズ",
   rx.wi "けもV",
   "けぷふるる",
@@ -38,6 +38,11 @@ let kemovLiveStream = rx.any [
   "フンボル島",
   "熊とペンギン",
 ]
+--| Live streaming hastags of KemoV.
+let kemovLiveStreamEn = [
+  rx.wi "KemoV",
+]
+let kemovLiveStream = rx.any (kemovLiveStreamJa # kemovLiveStreamEn)
 
 -- けもＶのチャンネル名。YouTube の動画の説明文で使われる。
 let kemovChannelMentions = "@" ++ rx.any [
@@ -81,7 +86,7 @@ let basic = rx.any [ basicMinusHanamaru, rx.hash "はなまる\\b" ]
 
 -- 個人アカウント用のフィルター
 --| 日英バイリンガルアカウントの日本語投稿
-let individualJa = rx.i (rx.any [
+let individualJa = rx.i (rx.any ([
   "けものフレンズ",
   "けもフレ",
   "舞台(?:けものフレンズ|けもフレ)",
@@ -93,12 +98,12 @@ let individualJa = rx.i (rx.any [
   "おやすみおはよ\\b",
   "はなまる(?:\\b|アニマル)",
   rx.wi "Xジャパリ団",
-  kemovLiveStream,
+] # kemovLiveStreamJa # [
   "けもレポ",
   "細かすぎて伝わらない舞台けものフレンズの好きなところ",
-])
+]))
 --| English posts from en/ja bilingual accounts (individual)
-let individualEn = rx.i (rx.wi "KemonoFriends")
+let individualEn = rx.i (rx.any ([ rx.wi "KemonoFriends" ] # kemovLiveStreamEn))
 --| 一般用
 let individual = rx.any [ rx.hash (rx.any [ individualJa, individualEn ]), kemovChannelMentions ]
 
