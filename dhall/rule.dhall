@@ -14,9 +14,15 @@ let rx = util.rx
 
 in [
   Rule::{
-    topics = topic.kf-official,
+    topics = topic.kf-official.feed,
     -- 全ての投稿がけものフレンズに関連するため `filter` は不要
     outbox = [Outbox.Twitter account.pipitor],
+  },
+  Rule::{
+    topics = topic.kf-official.twitter,
+    -- これらのアカウント宛のリプライを捕捉するために便宜的にルールに加えているが、
+    -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるためリツイートの対象とはしない。
+    outbox = [] : List Outbox,
   },
   Rule::{
     topics = topic.general.ja,
