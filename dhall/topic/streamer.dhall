@@ -33,6 +33,7 @@ in [
   youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
   youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
   youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
+  youtube "UC4PrHgUcAtOoj_LKmUL-uLQ", -- Mia Channel / 湖南みあ 【あにまーれ】
   youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
   youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
   youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
@@ -41,6 +42,7 @@ in [
   Twitter 1375790515916996614, -- @piiiti_v 鬼ヶ島ぴぃち
   Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
   Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
+  Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
   Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
   Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
   Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
