@@ -59,6 +59,7 @@ in [
   Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
   Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
   Twitter 995247053977485313, -- @Haneru_Inaba 因幡はねる有閑喫茶あにまーれ
+  Twitter 993839162099810305, -- @AniMare_cafe あにまーれ公式黒猫ななし
   Twitter 992039541547585536, -- @carro_pino カルロ ピノ
   Twitter 991562536632778752, -- @asanoruri 朝ノ瑠璃✪忍者系声優VTuber
   Twitter 972262397640548352, -- @chieri_kakyoin 花京院ちえり
