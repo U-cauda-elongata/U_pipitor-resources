@@ -18,6 +18,7 @@ in [
   Twitter 891908618789937152, -- @NelkePlanning ネルケプランニング（公式）
   Twitter 824551506737192960, -- @GGI_INC 株式会社ギャラクシーグラフィックス
   Twitter 798795770581266433, -- @PRTIMES_NEWS PR TIMESニュース
+  Twitter 710684429081939968, -- @kurokishi_jp 【公式】黒騎士と白の魔王
   Twitter 4565186714, -- @youngace_up ヤングエースUP公式
   Twitter 3988316892, -- @SEGA_Ent セガ エンタテインメント公式
   Twitter 3219139634, -- @dmmolg_com DMM GAMES公式＠多田野きつね🦊
