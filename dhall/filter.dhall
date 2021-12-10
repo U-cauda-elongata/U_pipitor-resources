@@ -37,6 +37,7 @@ let kemovLiveStreamJa = [
   "シマハイシン",
   "フルルンシマトン",
   "フンボル島",
+  "酒飲みフレンズ",
   "熊とペンギン",
 ]
 --| Live streaming hastags of KemoV.
