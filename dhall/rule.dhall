@@ -1,3 +1,6 @@
+let List/filter = https://prelude.dhall-lang.org/v21.1.0/List/filter.dhall
+  sha256:8ebfede5bbfe09675f246c33eb83964880ac615c4b1be8d856076fdbc4b26ba6
+
 let Pipitor = ./Pipitor.dhall
 
 let account = ./account.dhall
@@ -5,6 +8,7 @@ let filter = ./filter.dhall
 let topic = ./topic.dhall
 let util = ./util.dhall
 
+let Topic = Pipitor.Topic
 let Twitter = Pipitor.Topic.Twitter
 let Filter = Pipitor.Filter
 let Rule = Pipitor.Rule
@@ -14,12 +18,12 @@ let rx = util.rx
 
 in [
   Rule::{
-    topics = topic.kf-official.feed,
+    topics = List/filter Topic util.Topic/isFeed topic.kf-official,
     -- 全ての投稿がけものフレンズに関連するため `filter` は不要
     outbox = [Outbox.Twitter account.pipitor],
   },
   Rule::{
-    topics = topic.kf-official.twitter,
+    topics = List/filter Topic util.Topic/isTwitter topic.kf-official,
     -- これらのアカウント宛のリプライを捕捉するために便宜的にルールに加えているが、
     -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるためリツイートの対象とはしない。
     outbox = [] : List Outbox,
