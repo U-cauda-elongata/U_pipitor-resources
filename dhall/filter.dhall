@@ -21,6 +21,7 @@ let kfOfficialScreenNames = [
 --| けもＶ配信タグ
 let kemovLiveStreamJa = [
   "お引越しフレンズ",
+  "くっくフルルー",
   rx.wi "けもV",
   "けぷふるる",
   "こんがお",
