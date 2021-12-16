@@ -5,6 +5,7 @@ let Twitter = (../../Pipitor.dhall).Topic.Twitter
 in [
   Twitter 1374558576560074755, -- @azusa_shizuki 紫月杏朱彩
   Twitter 1314640424062001152, -- @ssk_ktk828 佐々木琴子 公式
+  Twitter 1303545074303660033, -- @meg_umezawa 梅澤 めぐ
   Twitter 1258795531846864898, -- @eriko_kadokura 角倉英里子
   Twitter 1246330706030034944, -- @hiro_se_ika 広瀬世華
   Twitter 1245016521144819717, -- @ayaka_hirose 広瀬彩海
