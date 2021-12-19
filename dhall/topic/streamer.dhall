@@ -12,6 +12,7 @@ in [
   youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
   youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
   youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
+  youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
   youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
   youtube "UCfeznQrLe9URem6xJmWQVlw", -- Mama Ch. 倉持京子
   youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
