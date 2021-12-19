@@ -49,6 +49,7 @@ in [
   Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
   Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
   Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
+  Twitter 1224653916131823616, -- @Kirara_Mimi 雲母ミミKiraraMimi抱き枕予約販売中25万人ありがとお
   Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
   Twitter 1099929347283050496, -- @makio_elecom マキオ@S11 マスター
   Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
