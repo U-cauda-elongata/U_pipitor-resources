@@ -6,6 +6,7 @@ let youtube = (../util.dhall).youtube
 in [
   youtube "UCzuEc7Nsm9GtMX4yuzjSqgA", -- 超人女子戦士 ガリベンガーV
   youtube "UCz6Gi81kE6p5cdW1rT0ixqw", -- もこめめ*channel
+  youtube "UCyb-cllCkMREr9de-hoiDrg", -- ヤマト イオリ
   youtube "UCyDlCb8B48ZrSJvknOQsRog", -- 酵穣 桃桜Momozakura Kojo
   youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
   youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
@@ -61,6 +62,7 @@ in [
   Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
   Twitter 995247053977485313, -- @Haneru_Inaba 因幡はねる有閑喫茶あにまーれ
   Twitter 993839162099810305, -- @AniMare_cafe あにまーれ公式黒猫ななし
+  Twitter 992044186252685312, -- @YamatoIori ヤマト イオリ
   Twitter 992039541547585536, -- @carro_pino カルロ ピノ
   Twitter 991562536632778752, -- @asanoruri 朝ノ瑠璃✪忍者系声優VTuber
   Twitter 972262397640548352, -- @chieri_kakyoin 花京院ちえり
