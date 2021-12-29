@@ -32,6 +32,7 @@ in [
   youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
   youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
   youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
+  youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
   youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
   youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
   youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
@@ -66,6 +67,7 @@ in [
   Twitter 992044186252685312, -- @YamatoIori ヤマト イオリ
   Twitter 992039541547585536, -- @carro_pino カルロ ピノ
   Twitter 991562536632778752, -- @asanoruri 朝ノ瑠璃✪忍者系声優VTuber
+  Twitter 986871577890312192, -- @kotonegami 天神子兎音 / Kotone
   Twitter 972262397640548352, -- @chieri_kakyoin 花京院ちえり
   Twitter 971926028842033152, -- @mokomeme_ch もこ田めめめ
   Twitter 962112920917127168, -- @Nekomiya_Hinata 猫宮ひなた(Nekomiya Hinata)
