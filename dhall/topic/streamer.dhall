@@ -10,6 +10,7 @@ in [
   youtube "UCyDlCb8B48ZrSJvknOQsRog", -- 酵穣 桃桜Momozakura Kojo
   youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
   youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
+  youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
   youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
   youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
   youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
@@ -22,6 +23,8 @@ in [
   youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
   youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
   youtube "UCWq6L3iY4hGK4LmylvQtj-g", -- 桜樹みりあ
+  youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
+  youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
   youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
   youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
   youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
@@ -66,6 +69,7 @@ in [
   Twitter 993839162099810305, -- @AniMare_cafe あにまーれ公式黒猫ななし
   Twitter 992044186252685312, -- @YamatoIori ヤマト イオリ
   Twitter 992039541547585536, -- @carro_pino カルロ ピノ
+  Twitter 992036953804558336, -- @kagura_suzu 神楽すず1日12時　年明け雑談
   Twitter 991562536632778752, -- @asanoruri 朝ノ瑠璃✪忍者系声優VTuber
   Twitter 986871577890312192, -- @kotonegami 天神子兎音 / Kotone
   Twitter 972262397640548352, -- @chieri_kakyoin 花京院ちえり
@@ -79,5 +83,7 @@ in [
   Twitter 4919358698, -- @tv_asahi_douga 【公式】テレ朝動画
   Twitter 3271690045, -- @shohei_taguchi たぐちアナ
   Twitter 200080344, -- @tanista_com タニさん＠タニスタ
+  Twitter 183640212, -- @hira_saiore ヒラ
+  Twitter 110879535, -- @Gatchman666 ガッチマン （総合）
   Twitter 87467070, -- @tammy_now 民安ともえ(Vtuberたみー)オーディション2次審査応援感謝！結果は12/18ニコ生で！
 ]

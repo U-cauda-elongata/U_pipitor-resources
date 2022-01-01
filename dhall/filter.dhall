@@ -44,6 +44,7 @@ let kemovLiveStreamJa = [
   "酒飲みフレンズ",
   "神様と狐様",
   "熊とペンギン",
+  "新春けもV桃鉄コラボ祭り ",
 ]
 --| Live streaming hastags of KemoV.
 let kemovLiveStreamEn = [
