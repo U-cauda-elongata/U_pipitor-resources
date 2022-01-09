@@ -10,4 +10,8 @@ let pipitorIntl =
     -- @KF_pipitor_intl
       1156087464907329536
 
-in  { pipitor, pipitorIndv, pipitorIntl }
+let vpPipitor =
+    -- @KFVP_pipitor
+      1226869390160756737
+
+in  { pipitor, pipitorIndv, pipitorIntl, vpPipitor }
