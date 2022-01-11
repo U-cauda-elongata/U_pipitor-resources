@@ -9,6 +9,7 @@ in [
   youtube "UCyb-cllCkMREr9de-hoiDrg", -- ヤマト イオリ
   youtube "UCyDlCb8B48ZrSJvknOQsRog", -- 酵穣 桃桜Momozakura Kojo
   youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
+  youtube "UCs-lYkwb-NYKE9_ssTRDK3Q", -- ねくろちゃん -Yamaguro Nekuro- /あおぎり高校
   youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
   youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
   youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
@@ -22,6 +23,7 @@ in [
   youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
   youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
   youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
+  youtube "UCXXnWssOLdB2jg-4CznteAA", -- こまるCh. - Komaru Kurikoma -/あおぎり高校
   youtube "UCWq6L3iY4hGK4LmylvQtj-g", -- 桜樹みりあ
   youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
   youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
@@ -35,6 +37,7 @@ in [
   youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
   youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
   youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
+  youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
   youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
   youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
   youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
@@ -45,6 +48,8 @@ in [
   youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
   Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
   Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
+  Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
+  Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
   Twitter 1375790515916996614, -- @piiiti_v 鬼ヶ島ぴぃち
   Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
   Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
@@ -61,6 +66,7 @@ in [
   Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
   Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
   Twitter 1034280896575102977, -- @Mia_Mizugame 水瓶ミア
+  Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
   Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
   Twitter 1009977580936577024, -- @SakurazukiKanon 桜月花音コラボイヤフォン＆ワイヤレス充電器販売中
   Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
