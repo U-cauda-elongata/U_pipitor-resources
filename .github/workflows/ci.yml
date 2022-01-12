@@ -10,19 +10,29 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install `dhall`
         run: |
-          curl -L 'https://github.com/dhall-lang/dhall-haskell/releases/download/1.38.1/dhall-1.38.1-x86_64-linux.tar.bz2' \
-          | sudo tar -xjC /usr/local ./bin/dhall
-      - run: dhall type --file Pipitor.dhall --quiet
+          VERSION=1.40.2
+          SUM=56ecbcdc7daaf42d764764f06c71426b982032d70a075a2f1b7e2acfcb0fda6f
+          curl -fSsLO "https://github.com/dhall-lang/dhall-haskell/releases/download/${VERSION}/dhall-${VERSION}-x86_64-linux.tar.bz2"
+          echo "${SUM} dhall-${VERSION}-x86_64-linux.tar.bz2" | sha256sum --strict --check
+          sudo tar -C /usr/local -xjf "dhall-${VERSION}-x86_64-linux.tar.bz2" ./bin/dhall
+      - run: dhall type --file Pipitor.dhall --no-cache --quiet
+
+  lint:
+    name: Lint Dhall file
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: dhall-lang/setup-dhall@v4
+      - run: dhall format dhall/rule/*.dhall
+      - run: dhall format --check ./**/*.dhall
+      - run: dhall lint --check Pipitor.dhall ./**/*.dhall
 
   test:
     name: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install `dhall-to-json`
-        run: |
-          curl -L 'https://github.com/dhall-lang/dhall-haskell/releases/download/1.40.1/dhall-json-1.7.8-x86_64-linux.tar.bz2' \
-          | sudo tar -xjC /usr/local ./bin/dhall-to-json
+      - uses: dhall-lang/setup-dhall@v4
       - run: dhall-to-json --compact --file Pipitor.dhall --output Pipitor.json
       - uses: Swatinem/rust-cache@v1
         with:
