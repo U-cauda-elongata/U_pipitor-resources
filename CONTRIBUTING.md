@@ -23,13 +23,13 @@ _この節は作成途中です。ここに書かれていることに厳密に�
 
 この節ではカテゴリーごとのトピックの選定基準について説明します。ただし、自分で設定ファイルを編集するつもりがない場合はカテゴリー間の区別については特に把握しなくても大丈夫です。
 
-### けものフレンズ公式系（[`kf-official.dhall`](dhall/topic/kf-official.dhall)）
+### けものフレンズ公式系（[`kf-official.dhall`](dhall/rule/kf-official.dhall)）
 
 このカテゴリーはけものフレンズプロジェクト関連の公式アカウントなどを対象とします。これらのトピックの投稿の全てが無条件でけものフレンズに関連するものとみなされ、ボットによる転載の対象となります（例：@<!-- -->kemo\_project、@<!-- -->kemono\_friends3、けもＶの各メンバー）。
 
 ただしこのカテゴリーにおいては Twitter アカウントはリツイートの対象としません。これらのアカウントはボットのフォロワーが個別にフォローする運用を想定しています。
 
-### 一般（[`general/`](dhall/topic/general)）
+### 一般（[`general.dhall`](dhall/rule/general.dhall)）
 
 特別のフィルターを要さないトピックのカテゴリーです。他の特定のカテゴリーに当てはまらないようなトピックは大体このカテゴリーに属します。
 
@@ -42,12 +42,12 @@ _この節は作成途中です。ここに書かれていることに厳密に�
 
 etc.
 
-### 配信者（[`streamer.dhall`](dhall/topic/streamer.dhall)、[`individual/streamer.dhall`](dhall/topic/individual/streamer.dhall)）
+### 配信者（[`streamer.dhall`](dhall/rule/streamer.dhall)）
 
 - けものフレンズVぷろじぇくととコラボを行なったことのある（あるいはその予定のある）配信者
 - その他のカテゴリーの基準を満たすトピックのうち特にけものフレンズVぷろじぇくとに関係するもの（例：えるすりー、ガリベンガーＶ）
 
-### プレス（[`media.dhall`](dhall/topic/media.dhall)）
+### プレス（[`media.dhall`](dhall/rule/media.dhall)）
 
 1. 公式関係者に対する正式なインタビューを行なったことのあるメディア
 2. 公式から直接プレスリリース・情報の提供を受けていると推定されるメディア（目安としては「PR TIMES より情報が早い」）
@@ -64,7 +64,7 @@ etc.
 - ガジェット通信（@<!-- -->getnewsfeed）
 - BuzzFeed Japan（@<!-- -->BuzzFeedNews）
 
-### 個人（[`individual/`](dhall/topic/individual)）
+### 個人（[`individual.dhall`](dhall/rule/individual.dhall)）
 
 このカテゴリーにはスタッフや演者の方などの個人の Twitter アカウントが属します。
 
@@ -83,7 +83,7 @@ etc.
 
 この理由の一つとしては、本ボットではこれらのトピックで投稿されるであろうファンアート等を扱わないためです。
 
-### 動物園・水族館（[`zoo-aquarium.dhall`](dhall/topic/zoo-aquarium.dhall)）
+### 動物園・水族館（[`zoo-aquarium.dhall`](dhall/rule/zoo-aquarium.dhall)）
 
 - （公財）日本動物園水族館協会（JAZA）の正会員（[動物園一覧]、[水族館一覧]）
 - けものフレンズとコラボを行ったことのある（あるいはその予定のある）施設

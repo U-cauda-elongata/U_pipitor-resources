@@ -14,21 +14,14 @@
 
 [`/dhall/`](dhall) ディレクトリー以下は次のような構成になっています。
 
-- [`/dhall/rule.dhall`](dhall/rule.dhall): 収集対象のフィードや Twitter アカウント（トピック）とそれらの投稿の中から転載・リツイートするべきものを選別するための検索条件（フィルター）の対応を記述したファイル。
-- [`/dhall/filter.dhall`](dhall/filter.dhall): `rule.dhall` で用いられるフィルター群の定義。
-- [`/dhall/topic/`](dhall/topic): 収集対象トピックの一覧。分類別のファイルに分割されている。
-  - [`/dhall/topic/kf-official.dhall`](dhall/topic/kf-official.dhall): けものフレンズプロジェクトの公式アカウントなど、けものフレンズについての投稿のみを行うトピック。
-  - [`/dhall/topic/general/`](dhall/topic/general): 特別のフィルターを要さない一般トピック。公式関連企業、グッズ会社、イベントなど。
-    - [`/dhall/topic/general/ja.dhall`](dhall/topic/general/ja.dhall): 日本語を主な投稿言語とするトピック。
-    - [`/dhall/topic/general/en.dhall`](dhall/topic/general/en.dhall): 英語を主な投稿言語とするトピック。
-  - [`/dhall/topic/streamer.dhall`](dhall/topic/streamer.dhall): 配信者や VTuber 関連のトピック。
-  - [`/dhall/topic/media.dhall`](dhall/topic/media.dhall): ニュースサイトや報道機関などのプレス系のトピック。
-  - [`/dhall/topic/individual/`](dhall/topic/individual): スタッフやキャストの個人の Twitter アカウント。
-    - [`/dhall/topic/individual/ja.dhall`](dhall/topic/individual/ja.dhall): 日本語を主な投稿言語とするアカウント。
-    - [`/dhall/topic/individual/en.dhall`](dhall/topic/individual/en.dhall): 英語を主な投稿言語とするアカウント。
-    - [`/dhall/topic/individual/en-ja.dhall`](dhall/topic/individual/en-ja.dhall): 日本語と英語を共に常用するアカウント。
-    - [`/dhall/topic/individual/streamer.dhall`](dhall/topic/individual/streamer.dhall): 配信者や VTuber が告知アカウントなどと別に持つ私的なアカウント。
-  - [`/dhall/topic/zoo-aquarium.dhall`](dhall/topic/zoo-aquarium.dhall): 動物園・水族館。
+- [`/dhall/rule.dhall`](dhall/rule.dhall): 収集対象のフィードや Twitter アカウント（トピック）とそれらの投稿の中から転載・リツイートするべきものを選別するための検索条件（フィルター）の対応を記述したファイル。トピックの分類別に複数ファイルに分割されている。
+  - [`/dhall/rule/kf-official.dhall`](dhall/rule/kf-official.dhall): けものフレンズプロジェクトの公式アカウントなど、けものフレンズについての投稿のみを行うトピック群のルール。
+  - [`/dhall/rule/general.dhall`](dhall/rule/general.dhall): 特別のフィルターを要さない一般トピック群のルール。公式関連企業、グッズ会社、イベントなど。
+  - [`/dhall/rule/streamer.dhall`](dhall/rule/streamer.dhall): 配信者や VTuber 関連のトピック群のルール。
+  - [`/dhall/rule/media.dhall`](dhall/rule/media.dhall): ニュースサイトや報道機関などのプレス系のトピック群のルール。
+  - [`/dhall/rule/individual.dhall`](dhall/rule/individual.dhall): スタッフやキャストの個人の Twitter アカウントのルール。
+  - [`/dhall/rule/zoo-aquarium.dhall`](dhall/rule/zoo-aquarium.dhall): 動物園・水族館。
+- [`/dhall/filter.dhall`](dhall/filter.dhall): `rule.dhall` で共通的に用いられるフィルター群の定義。
 - [`/dhall/account.dhall`](dhall/account.dhall): ボットアカウントの一覧。基本的にいじる必要はない。
 - [`/dhall/twitter.dhall`](dhall/twitter.dhall): ボットの Twitter API とのやりとりに関する設定。基本的にいじる必要はない。
 - [`/dhall/util/`](dhall/util): 各種ユーティリティー関数。使用法は後述。
@@ -45,27 +38,43 @@ GitHub の Web インターフェースからファイルを編集すること�
 
 ## フィード・アカウント（トピック）を追加する
 
-収集対象のフィードや Twitter アカウント（トピック）を追加するには [`/dhall/topic/`](dhall/topic) の中から追加したいトピックのカテゴリーに当てはまる `.dhall` ファイルを編集します。前述の[一覧](#section-structure)から選ぶのが手軽でしょう。
+収集対象のフィードや Twitter アカウント（トピック）を追加するには [`/dhall/rule/`](dhall/rule) の中から追加したいトピックのカテゴリーに当てはまる `.dhall` ファイルを編集します。前述の[一覧](#section-structure)から選ぶのが手軽でしょう。
 
-`/dhall/topic/` 以下の `.dhall` ファイルは概ね次のような構造をとります。
+`/dhall/rule/` 以下の `.dhall` ファイルは概ね次のような構造をとります。
 
 ```dhall
 --| サンプルファイル
-
 let Pipitor = ../Pipitor.dhall
-let Feed = Pipitor.Topic.Feed
-let Twitter = Pipitor.Topic.Twitter
-let youtube = (../util.dhall).youtube
 
-in [
-  Feed "https://example.com/feed", -- フィードの例
-  youtube "UCHogeHoge_PiyoPiyo_Fuga", -- YouTube チャンネルの例
-  Twitter 9876543210, -- @TwitterExample Twitter アカウントの例
-  -- ...
-]
+let account = ../account.dhall
+
+let filter = ../filter.dhall
+
+let util = ../util.dhall
+
+let rx = util.rx
+
+let Feed = Pipitor.Topic.Feed
+
+let Twitter = Pipitor.Topic.Twitter
+
+let youtube = util.youtube
+
+in  [ Pipitor.Rule::{
+      , filter = Some Pipitor.Filter::{ title = filter.basic }
+      , outbox = [ Pipitor.Outbox.Twitter account.pipitor ]
+      , topics = [
+          Feed "https://example.com/feed", -- フィードの例
+          youtube "UCHogeHoge_PiyoPiyo_Fuga", -- YouTube チャンネルの例
+          Twitter 9876543210, -- @TwitterExample Twitter アカウントの例
+          -- ...
+        ]
+    ]
 ```
 
-この例のように `in [` と `]` の間にトピックを指定する行を記述します。慣習として各行の末尾にコメント（`--` 以降）としてトピックの名前をメモするようにしていますが、これについては雑に書いたり、あるいは完全に省いてしまっても構いません。
+ごちゃごちゃとしていますが、トピックを追加するときに見るべき部分は基本的に `topics = [` とそれに対応する `]` の間の部分のみです。この部分にトピックを指定する行を記述していきます。これ以降の例ではその他の部分を省略した形のコードを示すものとします。
+
+慣習として各行の末尾にコメント（`--` 以降）としてトピックの名前をメモするようにしていますが、これについては雑に書いたり、あるいは完全に省いてしまっても構いません。
 
 次節以降でトピックの区分別に具体的な記述方法を示します。
 
