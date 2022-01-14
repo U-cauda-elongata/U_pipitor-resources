@@ -15,6 +15,7 @@ let kfOfficialScreenNames =
       , "Cape_KEMOV"
       , "Hululu_KEMOV"
       , "Shimahai_KEMOV"
+      , "Coyote_KEMOV"
       , "KEMOVP_staff"
       ]
 
