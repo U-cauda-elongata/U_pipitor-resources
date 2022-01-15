@@ -13,13 +13,20 @@ in  [ Pipitor.Rule::{
           -- 全ての投稿がけものフレンズに関連するため `filter` は不要
           None Pipitor.Filter.Type
       , outbox = [ Pipitor.Outbox.Twitter account.pipitor ]
-      , topics =
-        [ youtube "UCmYO-WfY7Tasry4D1YB4LJw"
-        , youtube "UCkixBP-HQPS0lOyCpdFWQEg"
-        , youtube "UCabMjG8p6G5xLkPJgEoTnDg"
-        , youtube "UCMpw36mXEu3SLsqdrJxUKNA"
-        , youtube "UCEcMIuGR8WO2TwL9XIpjKtw"
-        , youtube "UCEOugXOAfa-HRmRjKbH8z3Q"
+      , topics = [
+          youtube "UCkixBP-HQPS0lOyCpdFWQEg", -- 東武ジャパリパーク
+          youtube "UCEOugXOAfa-HRmRjKbH8z3Q", -- けものフレンズプロジェクト公式
+        ]
+      }
+    , Pipitor.Rule::{
+      , -- けもＶ
+        filter = None Pipitor.Filter.Type
+      , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
+      , topics = [
+          youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
+          youtube "UCabMjG8p6G5xLkPJgEoTnDg", -- コヨーテ / Coyote
+          youtube "UCMpw36mXEu3SLsqdrJxUKNA", -- シマハイイロギツネ / Island Fox
+          youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
         ]
       }
     , Pipitor.Rule::{
