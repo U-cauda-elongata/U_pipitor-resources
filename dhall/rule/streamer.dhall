@@ -43,6 +43,7 @@ in  [ Pipitor.Rule::{
           youtube "UCXXnWssOLdB2jg-4CznteAA", -- こまるCh. - Komaru Kurikoma -/あおぎり高校
           youtube "UCWq6L3iY4hGK4LmylvQtj-g", -- 桜樹みりあ
           youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
+          youtube "UCUyBb-nTJoFWUOydbExmLuQ", -- Shizukou VODs
           youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
           youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
           youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
