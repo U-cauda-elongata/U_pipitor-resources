@@ -38,6 +38,7 @@ in  [ Pipitor.Rule::{
           youtube "UCcd4MSYH7bPIBEUqmBgSZQw", -- ルルン・ルルリカ
           youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
           youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
+          youtube "UCYKX4HL54erXdCyMj7TpFyg", -- Shizukou
           youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
           youtube "UCXXnWssOLdB2jg-4CznteAA", -- こまるCh. - Komaru Kurikoma -/あおぎり高校
           youtube "UCWq6L3iY4hGK4LmylvQtj-g", -- 桜樹みりあ
@@ -74,6 +75,7 @@ in  [ Pipitor.Rule::{
           Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
           Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
           Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
+          Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
           Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
           Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
           Twitter 1224653916131823616, -- @Kirara_Mimi 雲母ミミKiraraMimi抱き枕予約販売中25万人ありがとお
