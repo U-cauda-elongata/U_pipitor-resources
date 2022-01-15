@@ -17,7 +17,7 @@ in  [ Pipitor.Rule::{
       , filter = Some Pipitor.Filter::{
         , title = rx.any [ filter.basic, filter.kemovHashtags ]
         }
-      , outbox = [ Pipitor.Outbox.Twitter account.pipitor ]
+      , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
       , topics = [
           youtube "UCzuEc7Nsm9GtMX4yuzjSqgA", -- 超人女子戦士 ガリベンガーV
           youtube "UCz6Gi81kE6p5cdW1rT0ixqw", -- もこめめ*channel

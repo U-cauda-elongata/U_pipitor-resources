@@ -1,10 +1,12 @@
 このリポジトリーは Twitter の以下のボットアカウントの設定ファイルなどのリソース群を含みます。
 
 - けものフレンズ RT bot（[@KF\_pipitor]）
+- けもＶ / KemoV RT bot（[@KFVP\_pipitor]）
 - けものフレンズ RT bot (個人)（[@KF\_pipitor\_indv]）
 - Kemono Friends RT bot（[@KF\_pipitor\_intl]）
 
 [@KF\_pipitor]: <https://twitter.com/KF_pipitor>
+[@KFVP\_pipitor]: <https://twitter.com/KFVP_pipitor>
 [@KF\_pipitor\_indv]: <https://twitter.com/KF_pipitor_indv>
 [@KF\_pipitor\_intl]: <https://twitter.com/KF_pipitor_intl>
 

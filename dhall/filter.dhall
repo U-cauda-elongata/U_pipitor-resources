@@ -20,7 +20,7 @@ let kfOfficialScreenNames =
       ]
 
 let kemovLiveStreamJa =
-    -- けもＶ配信タグ
+    -- 配信タグ
       [ "shizucoyo"
       , "お引越しフレンズ"
       , "くっくフルルー"
@@ -29,6 +29,7 @@ let kemovLiveStreamJa =
       , "こんがお"
       , "こんこんがおのん"
       , rx.wi "こんのん100になるまで終われまテン"
+      , "しゅりむす"
       , rx.wi "どうぶつV"
       , "ちぇりけぷ"
       , "ひなけぷ"
