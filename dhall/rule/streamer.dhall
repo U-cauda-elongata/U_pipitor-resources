@@ -25,6 +25,7 @@ in  [ Pipitor.Rule::{
           youtube "UCyDlCb8B48ZrSJvknOQsRog", -- 酵穣 桃桜Momozakura Kojo
           youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
           youtube "UCs-lYkwb-NYKE9_ssTRDK3Q", -- ねくろちゃん -Yamaguro Nekuro- /あおぎり高校
+          youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
           youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
           youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
           youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
