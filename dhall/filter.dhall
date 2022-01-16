@@ -49,7 +49,7 @@ let kemovLiveStreamJa =
       , "酒飲みフレンズ"
       , "神様と狐様"
       , "熊とペンギン"
-      , rx.wi "新春けもV桃鉄コラボ祭り "
+      , rx.wi "新春けもV桃鉄コラボ祭り"
       ]
 
 let kemovLiveStreamEn =
