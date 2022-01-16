@@ -166,6 +166,7 @@ in  [ Pipitor.Rule::{
           youtube "UCA3Ea513Nu-fRN3BBzePHcA", -- Victor Online Store
           Twitter 996189081540313088, -- @A3_honten_info GraffArt Shop 池袋本店
           Twitter 895195685024219137, -- @sanrioanist サンリオアニメストア公式
+          Twitter 4627881853, -- @joqrevents Ａ＆Ｇショップ【公式】
           Twitter 4187883372, -- @TOWER_Events タワーレコードイベント
           Twitter 3253471304, -- @clionmarket クリオンマーケット
           Twitter 2927579576, -- @AWA_official AWA＠最新音楽トレンド
