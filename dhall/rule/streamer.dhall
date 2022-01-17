@@ -32,6 +32,7 @@ in  [ Pipitor.Rule::{
           youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
           youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
           youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
+          youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
           youtube "UCfeznQrLe9URem6xJmWQVlw", -- Mama Ch. 倉持京子
           youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
           youtube "UCcq3DnobBkRca4p8pntDntg", -- 鬼ヶ島ぴぃち
@@ -99,6 +100,7 @@ in  [ Pipitor.Rule::{
           Twitter 986871577890312192, -- @kotonegami 天神子兎音 / Kotone
           Twitter 972262397640548352, -- @chieri_kakyoin 花京院ちえり
           Twitter 971926028842033152, -- @mokomeme_ch もこ田めめめ
+          Twitter 963358908986269696, -- @kashikomari_ch かしこまりRe:AcTに所属しました
           Twitter 962112920917127168, -- @Nekomiya_Hinata 猫宮ひなた(Nekomiya Hinata)
           Twitter 953420062794309632, -- @hanakoto82 花琴いぐさ妖怪Vtuberです
           Twitter 953079145335988224, -- @dotLIVEyoutuber .LIVE【どっとライブ】
