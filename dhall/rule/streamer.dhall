@@ -23,6 +23,8 @@ in  [ Pipitor.Rule::{
           youtube "UCz6Gi81kE6p5cdW1rT0ixqw", -- もこめめ*channel
           youtube "UCyb-cllCkMREr9de-hoiDrg", -- ヤマト イオリ
           youtube "UCyDlCb8B48ZrSJvknOQsRog", -- 酵穣 桃桜Momozakura Kojo
+          youtube "UCw1KNjVqfrJSfcFd6zlcSzA", -- Nia Suzune / 鈴音にあ [PRISM Project]
+          youtube "UCswvd6_YWmd6riRk-8oT-sA", -- Shiki Miyoshino / 美吉野しき [PRISM Project]
           youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
           youtube "UCs-lYkwb-NYKE9_ssTRDK3Q", -- ねくろちゃん -Yamaguro Nekuro- /あおぎり高校
           youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
@@ -68,6 +70,8 @@ in  [ Pipitor.Rule::{
           Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
           Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
           Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
+          Twitter 1401266522589380611, -- @niasuzune Nia Suzune / 鈴音にあ
+          Twitter 1401221154384326665, -- @shikimiyoshino Shiki Miyoshino / 美吉野しき
           Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
           Twitter 1375790515916996614, -- @piiiti_v 鬼ヶ島ぴぃち
           Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
