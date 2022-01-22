@@ -64,6 +64,7 @@ let kemovChannelMentions =
           "@"
       ++  rx.any
             [ "ケープペンギン / African Penguin"
+            , "コヨーテ / Coyote"
             , "シマハイイロギツネ / Island Fox"
             , "フンボルトペンギン / Humboldt Penguin - YouTube"
             ]
