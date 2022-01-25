@@ -22,6 +22,7 @@ in  [ Pipitor.Rule::{
           youtube "UCzuEc7Nsm9GtMX4yuzjSqgA", -- 超人女子戦士 ガリベンガーV
           youtube "UCz6Gi81kE6p5cdW1rT0ixqw", -- もこめめ*channel
           youtube "UCyb-cllCkMREr9de-hoiDrg", -- ヤマト イオリ
+          youtube "UCyKsg-57XC9pyHbP7v3kCPQ", -- Miori Ch. ミオリ・セレスタ 【Tsunderia】
           youtube "UCyDlCb8B48ZrSJvknOQsRog", -- 酵穣 桃桜Momozakura Kojo
           youtube "UCw1KNjVqfrJSfcFd6zlcSzA", -- Nia Suzune / 鈴音にあ [PRISM Project]
           youtube "UCswvd6_YWmd6riRk-8oT-sA", -- Shiki Miyoshino / 美吉野しき [PRISM Project]
@@ -79,6 +80,7 @@ in  [ Pipitor.Rule::{
           Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
           Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
           Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
+          Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
           Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
           Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
           Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
