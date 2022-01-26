@@ -1,28 +1,21 @@
-let List/map =
-      https://prelude.dhall-lang.org/v21.0.0/List/map.dhall
-        sha256:dd845ffb4568d40327f2a817eb42d1c6138b929ca758d50bc33112ef3c885680
-
-let List/unpackOptionals =
-      https://prelude.dhall-lang.org/v21.0.0/List/unpackOptionals.dhall
-        sha256:0cbaa920f429cf7fc3907f8a9143203fe948883913560e6e1043223e6b3d05e4
+let List/filterMap =
+      https://prelude.dhall-lang.org/v22.0.0/List/filterMap.dhall
+        sha256:94b7ed4204d1c79aaf55527ef51024e7085b8dd2896952cffbd12d8f95e16f46
 
 let Topic = (../../../dhall/Pipitor.dhall).Topic
 
 let twitter =
-      List/unpackOptionals
+      List/filterMap
+        Topic
         Text
-        ( List/map
-            Topic
-            (Optional Text)
-            ( \(topic : Topic) ->
-                merge
-                  { Feed = \(_ : Text) -> None Text
-                  , Twitter = \(id : Natural) -> Some (Natural/show id)
-                  }
-                  topic
-            )
-            ./topics.dhall
+        ( \(topic : Topic) ->
+            merge
+              { Feed = \(_ : Text) -> None Text
+              , Twitter = \(id : Natural) -> Some (Natural/show id)
+              }
+              topic
         )
+        ./topics.dhall
 
 let twitter
     : Text
