@@ -67,6 +67,7 @@ in  [ Pipitor.Rule::{
           youtube "UC4PrHgUcAtOoj_LKmUL-uLQ", -- Mia Channel / 湖南みあ 【あにまーれ】
           youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
           youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
+          youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
           youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
           Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
           Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
@@ -93,6 +94,7 @@ in  [ Pipitor.Rule::{
           Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
           Twitter 1034280896575102977, -- @Mia_Mizugame 水瓶ミア
           Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
+          Twitter 1024970912859189248, -- @yuzukichococh 癒月ちょこ💋@ChocoLoveMV公開しました！
           Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
           Twitter 1009977580936577024, -- @SakurazukiKanon 桜月花音コラボイヤフォン＆ワイヤレス充電器販売中
           Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
