@@ -38,6 +38,7 @@ in  [ Pipitor.Rule::{
           youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
           youtube "UCfeznQrLe9URem6xJmWQVlw", -- Mama Ch. 倉持京子
           youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
+          youtube "UCdMpGhtL9oK8EYolTt8v4uQ", -- VOMS Project
           youtube "UCcq3DnobBkRca4p8pntDntg", -- 鬼ヶ島ぴぃち
           youtube "UCcd4MSYH7bPIBEUqmBgSZQw", -- ルルン・ルルリカ
           youtube "UCajhBT4nMrg3DLS-bLL2RCg", -- 天野ピカミィ. Pikamee
@@ -75,6 +76,7 @@ in  [ Pipitor.Rule::{
           Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
           Twitter 1401266522589380611, -- @niasuzune Nia Suzune / 鈴音にあ
           Twitter 1401221154384326665, -- @shikimiyoshino Shiki Miyoshino / 美吉野しき
+          Twitter 1393208011519262725, -- @VOMS_Project VOMS Project
           Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
           Twitter 1375790515916996614, -- @piiiti_v 鬼ヶ島ぴぃち
           Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
