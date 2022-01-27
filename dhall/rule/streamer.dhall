@@ -40,6 +40,7 @@ in  [ Pipitor.Rule::{
           youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
           youtube "UCcq3DnobBkRca4p8pntDntg", -- 鬼ヶ島ぴぃち
           youtube "UCcd4MSYH7bPIBEUqmBgSZQw", -- ルルン・ルルリカ
+          youtube "UCajhBT4nMrg3DLS-bLL2RCg", -- 天野ピカミィ. Pikamee
           youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
           youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
           youtube "UCYKX4HL54erXdCyMj7TpFyg", -- Shizukou
@@ -86,6 +87,7 @@ in  [ Pipitor.Rule::{
           Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
           Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
           Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
+          Twitter 1225702850002468864, -- @amanopikamee ピカミィ⚡️Pikamee
           Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
           Twitter 1224653916131823616, -- @Kirara_Mimi 雲母ミミKiraraMimi抱き枕予約販売中25万人ありがとお
           Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
