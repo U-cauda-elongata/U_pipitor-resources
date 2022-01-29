@@ -1,80 +1,229 @@
 {-|
-パターン中の半角英数字を半角・全角のいずれにもマッチするようにする（Width Insensitive）。
+パターン中の英数字・記号・カタカナを半角・全角のいずれにもマッチするようにする（Width Insensitive）。
 
-`x` から `[xｘ]` への単純置換のため、`[]` やエスケープシーケンスを含むパターンに使用すると誤った結果になるので注意。
+`x` から `[xｘ]` への単純置換のため、エスケープシーケンスを含むパターンに使用すると誤った結果になるので要注意。
 -}
+let List/map =
+      https://prelude.dhall-lang.org/v22.0.0/List/map.dhall
+        sha256:dd845ffb4568d40327f2a817eb42d1c6138b929ca758d50bc33112ef3c885680
+
+let table =
+      [ { half = " ", full = "　" }
+      , { half = "!", full = "！" }
+      , { half = "\"", full = "＂" }
+      , { half = "#", full = "＃" }
+      , { half = "\\\$", full = "＄" }
+      , { half = "%", full = "％" }
+      , { half = "\\&", full = "＆" }
+      , { half = "'", full = "＇" }
+      , { half = "\\(", full = "（" }
+      , { half = "\\)", full = "）" }
+      , { half = "\\*", full = "＊" }
+      , { half = "\\+", full = "＋" }
+      , { half = "\\,", full = "，" }
+      , { half = "\\-", full = "－" }
+      , { half = "\\.", full = "．" }
+      , { half = "/", full = "／" }
+      , { half = "0", full = "０" }
+      , { half = "1", full = "１" }
+      , { half = "2", full = "２" }
+      , { half = "3", full = "３" }
+      , { half = "4", full = "４" }
+      , { half = "5", full = "５" }
+      , { half = "6", full = "６" }
+      , { half = "7", full = "７" }
+      , { half = "8", full = "８" }
+      , { half = "9", full = "９" }
+      , { half = ":", full = "：" }
+      , { half = ";", full = "；" }
+      , { half = "<", full = "＜" }
+      , { half = "=", full = "＝" }
+      , { half = ">", full = "＞" }
+      , { half = "\\?", full = "？" }
+      , { half = "@", full = "＠" }
+      , { half = "A", full = "Ａ" }
+      , { half = "B", full = "Ｂ" }
+      , { half = "C", full = "Ｃ" }
+      , { half = "D", full = "Ｄ" }
+      , { half = "E", full = "Ｅ" }
+      , { half = "F", full = "Ｆ" }
+      , { half = "G", full = "Ｇ" }
+      , { half = "H", full = "Ｈ" }
+      , { half = "I", full = "Ｉ" }
+      , { half = "J", full = "Ｊ" }
+      , { half = "K", full = "Ｋ" }
+      , { half = "L", full = "Ｌ" }
+      , { half = "M", full = "Ｍ" }
+      , { half = "N", full = "Ｎ" }
+      , { half = "O", full = "Ｏ" }
+      , { half = "P", full = "Ｐ" }
+      , { half = "Q", full = "Ｑ" }
+      , { half = "R", full = "Ｒ" }
+      , { half = "S", full = "Ｓ" }
+      , { half = "T", full = "Ｔ" }
+      , { half = "U", full = "Ｕ" }
+      , { half = "V", full = "Ｖ" }
+      , { half = "W", full = "Ｗ" }
+      , { half = "X", full = "Ｘ" }
+      , { half = "Y", full = "Ｙ" }
+      , { half = "Z", full = "Ｚ" }
+      , { half = "\\[", full = "［" }
+      , { half = "\\\\", full = "＼" }
+      , { half = "\\]", full = "］" }
+      , { half = "\\^", full = "＾" }
+      , { half = "_", full = "＿" }
+      , { half = "`", full = "｀" }
+      , { half = "a", full = "ａ" }
+      , { half = "b", full = "ｂ" }
+      , { half = "c", full = "ｃ" }
+      , { half = "d", full = "ｄ" }
+      , { half = "e", full = "ｅ" }
+      , { half = "f", full = "ｆ" }
+      , { half = "g", full = "ｇ" }
+      , { half = "h", full = "ｈ" }
+      , { half = "i", full = "ｉ" }
+      , { half = "j", full = "ｊ" }
+      , { half = "k", full = "ｋ" }
+      , { half = "l", full = "ｌ" }
+      , { half = "m", full = "ｍ" }
+      , { half = "n", full = "ｎ" }
+      , { half = "o", full = "ｏ" }
+      , { half = "p", full = "ｐ" }
+      , { half = "q", full = "ｑ" }
+      , { half = "r", full = "ｒ" }
+      , { half = "s", full = "ｓ" }
+      , { half = "t", full = "ｔ" }
+      , { half = "u", full = "ｕ" }
+      , { half = "v", full = "ｖ" }
+      , { half = "w", full = "ｗ" }
+      , { half = "x", full = "ｘ" }
+      , { half = "y", full = "ｙ" }
+      , { half = "z", full = "ｚ" }
+      , { half = "\\{", full = "｛" }
+      , { half = "\\|", full = "｜" }
+      , { half = "\\}", full = "｝" }
+      , { half = "\\~", full = "～" }
+      , { half = "｡", full = "。" }
+      , { half = "｢", full = "「" }
+      , { half = "｣", full = "」" }
+      , { half = "､", full = "、" }
+      , { half = "･", full = "・" }
+      , { half = "ｦ", full = "ヲ" }
+      , { half = "ｧ", full = "ァ" }
+      , { half = "ｨ", full = "ィ" }
+      , { half = "ｩ", full = "ゥ" }
+      , { half = "ｪ", full = "ェ" }
+      , { half = "ｫ", full = "ォ" }
+      , { half = "ｬ", full = "ャ" }
+      , { half = "ｭ", full = "ュ" }
+      , { half = "ｮ", full = "ョ" }
+      , { half = "ｯ", full = "ッ" }
+      , { half = "ｰ", full = "ー" }
+      , { half = "ｱ", full = "ア" }
+      , { half = "ｲ", full = "イ" }
+      , { half = "ｳ", full = "ウ" }
+      , { half = "ｳﾞ", full = "ヴ" }
+      , { half = "ｴ", full = "エ" }
+      , { half = "ｵ", full = "オ" }
+      , { half = "ｶ", full = "カ" }
+      , { half = "ｶﾞ", full = "ガ" }
+      , { half = "ｷ", full = "キ" }
+      , { half = "ｷﾞ", full = "ギ" }
+      , { half = "ｸ", full = "ク" }
+      , { half = "ｸﾞ", full = "グ" }
+      , { half = "ｹ", full = "ケ" }
+      , { half = "ｹﾞ", full = "ゲ" }
+      , { half = "ｺ", full = "コ" }
+      , { half = "ｺﾞ", full = "ゴ" }
+      , { half = "ｻ", full = "サ" }
+      , { half = "ｻﾞ", full = "ザ" }
+      , { half = "ｼ", full = "シ" }
+      , { half = "ｼﾞ", full = "ジ" }
+      , { half = "ｽ", full = "ス" }
+      , { half = "ｽﾞ", full = "ズ" }
+      , { half = "ｾ", full = "セ" }
+      , { half = "ｾﾞ", full = "ゼ" }
+      , { half = "ｿ", full = "ソ" }
+      , { half = "ｿﾞ", full = "ゾ" }
+      , { half = "ﾀ", full = "タ" }
+      , { half = "ﾀﾞ", full = "ダ" }
+      , { half = "ﾁ", full = "チ" }
+      , { half = "ﾁﾞ", full = "ヂ" }
+      , { half = "ﾂ", full = "ツ" }
+      , { half = "ﾂﾞ", full = "ヅ" }
+      , { half = "ﾃ", full = "テ" }
+      , { half = "ﾃﾞ", full = "デ" }
+      , { half = "ﾄ", full = "ト" }
+      , { half = "ﾄﾞ", full = "ド" }
+      , { half = "ﾅ", full = "ナ" }
+      , { half = "ﾆ", full = "ニ" }
+      , { half = "ﾇ", full = "ヌ" }
+      , { half = "ﾈ", full = "ネ" }
+      , { half = "ﾉ", full = "ノ" }
+      , { half = "ﾊ", full = "ハ" }
+      , { half = "ﾊﾞ", full = "バ" }
+      , { half = "ﾊﾟ", full = "パ" }
+      , { half = "ﾋ", full = "ヒ" }
+      , { half = "ﾋﾞ", full = "ビ" }
+      , { half = "ﾋﾟ", full = "ピ" }
+      , { half = "ﾌ", full = "フ" }
+      , { half = "ﾌﾞ", full = "ブ" }
+      , { half = "ﾌﾟ", full = "プ" }
+      , { half = "ﾍ", full = "ヘ" }
+      , { half = "ﾍﾞ", full = "ベ" }
+      , { half = "ﾍﾟ", full = "ペ" }
+      , { half = "ﾎ", full = "ホ" }
+      , { half = "ﾎﾞ", full = "ボ" }
+      , { half = "ﾎﾟ", full = "ポ" }
+      , { half = "ﾏ", full = "マ" }
+      , { half = "ﾐ", full = "ミ" }
+      , { half = "ﾑ", full = "ム" }
+      , { half = "ﾒ", full = "メ" }
+      , { half = "ﾓ", full = "モ" }
+      , { half = "ﾔ", full = "ヤ" }
+      , { half = "ﾕ", full = "ユ" }
+      , { half = "ﾖ", full = "ヨ" }
+      , { half = "ﾗ", full = "ラ" }
+      , { half = "ﾘ", full = "リ" }
+      , { half = "ﾙ", full = "ル" }
+      , { half = "ﾚ", full = "レ" }
+      , { half = "ﾛ", full = "ロ" }
+      , { half = "ﾜ", full = "ワ" }
+      , { half = "ﾝ", full = "ン" }
+      ]
+
+let replacements =
+    -- `ガ` -> `[ｶﾞガ]` -> `[[ｶカ]ﾞガ]` のような二重の置換を防ぐために、半角文字を全て全角文字に置換してから
+    -- 全角文字をクラスに置換する。
+        List/map
+          { half : Text, full : Text }
+          (Text -> Text)
+          ( \(map : { half : Text, full : Text }) ->
+              Text/replace map.full "[${map.half}${map.full}]"
+          )
+          table
+      # List/map
+          { half : Text, full : Text }
+          (Text -> Text)
+          ( \(map : { half : Text, full : Text }) ->
+              Text/replace map.half map.full
+          )
+          table
+
 let wi
     : Text -> Text
     = List/fold
         (Text -> Text)
-        [ Text/replace "0" "[0０]"
-        , Text/replace "1" "[1１]"
-        , Text/replace "2" "[2２]"
-        , Text/replace "3" "[3３]"
-        , Text/replace "4" "[4４]"
-        , Text/replace "5" "[5５]"
-        , Text/replace "6" "[6６]"
-        , Text/replace "7" "[7７]"
-        , Text/replace "8" "[8８]"
-        , Text/replace "9" "[9９]"
-        , Text/replace "A" "[AＡ]"
-        , Text/replace "B" "[BＢ]"
-        , Text/replace "C" "[CＣ]"
-        , Text/replace "D" "[DＤ]"
-        , Text/replace "E" "[EＥ]"
-        , Text/replace "F" "[FＦ]"
-        , Text/replace "G" "[GＧ]"
-        , Text/replace "H" "[HＨ]"
-        , Text/replace "I" "[IＩ]"
-        , Text/replace "J" "[JＪ]"
-        , Text/replace "K" "[KＫ]"
-        , Text/replace "L" "[LＬ]"
-        , Text/replace "M" "[MＭ]"
-        , Text/replace "N" "[NＮ]"
-        , Text/replace "O" "[OＯ]"
-        , Text/replace "P" "[PＰ]"
-        , Text/replace "Q" "[QＱ]"
-        , Text/replace "R" "[RＲ]"
-        , Text/replace "S" "[SＳ]"
-        , Text/replace "T" "[TＴ]"
-        , Text/replace "U" "[UＵ]"
-        , Text/replace "V" "[VＶ]"
-        , Text/replace "W" "[WＷ]"
-        , Text/replace "X" "[XＸ]"
-        , Text/replace "Y" "[YＹ]"
-        , Text/replace "Z" "[ZＺ]"
-        , Text/replace "a" "[aａ]"
-        , Text/replace "b" "[bｂ]"
-        , Text/replace "c" "[cｃ]"
-        , Text/replace "d" "[dｄ]"
-        , Text/replace "e" "[eｅ]"
-        , Text/replace "f" "[fｆ]"
-        , Text/replace "g" "[gｇ]"
-        , Text/replace "h" "[hｈ]"
-        , Text/replace "i" "[iｉ]"
-        , Text/replace "j" "[jｊ]"
-        , Text/replace "k" "[kｋ]"
-        , Text/replace "l" "[lｌ]"
-        , Text/replace "m" "[mｍ]"
-        , Text/replace "n" "[nｎ]"
-        , Text/replace "o" "[oｏ]"
-        , Text/replace "p" "[pｐ]"
-        , Text/replace "q" "[qｑ]"
-        , Text/replace "r" "[rｒ]"
-        , Text/replace "s" "[sｓ]"
-        , Text/replace "t" "[tｔ]"
-        , Text/replace "u" "[uｕ]"
-        , Text/replace "v" "[vｖ]"
-        , Text/replace "w" "[wｗ]"
-        , Text/replace "x" "[xｘ]"
-        , Text/replace "y" "[yｙ]"
-        , Text/replace "z" "[zｚ]"
-        ]
+        replacements
         Text
         (\(replacement : Text -> Text) -> replacement)
 
-let example =
+let example0 =
         assert
-      : wi "Hello, world!" === "[HＨ][eｅ][lｌ][lｌ][oｏ], [wｗ][oｏ][rｒ][lｌ][dｄ]!"
+      :     wi "Hello, world!"
+        ===  "[HＨ][eｅ][lｌ][lｌ][oｏ],[ 　][wｗ][oｏ][rｒ][lｌ][dｄ][!！]"
+
+let example1 =
+      assert : wi "ハロー、ワールド！" === "[ﾊハ][ﾛロ][ｰー][､、][ﾜワ][ｰー][ﾙル][ﾄﾞド][!！]"
 
 in  wi
