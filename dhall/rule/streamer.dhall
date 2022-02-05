@@ -38,6 +38,7 @@ in  [ Pipitor.Rule::{
           youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
           youtube "UCfeznQrLe9URem6xJmWQVlw", -- Mama Ch. 倉持京子
           youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
+          youtube "UCdn5BQ06XqgXoAxIhbqw5Rg", -- フブキCh。白上フブキ
           youtube "UCdMpGhtL9oK8EYolTt8v4uQ", -- VOMS Project
           youtube "UCcq3DnobBkRca4p8pntDntg", -- 鬼ヶ島ぴぃち
           youtube "UCcd4MSYH7bPIBEUqmBgSZQw", -- ルルン・ルルリカ
@@ -103,6 +104,7 @@ in  [ Pipitor.Rule::{
           Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
           Twitter 1009977580936577024, -- @SakurazukiKanon 桜月花音コラボイヤフォン＆ワイヤレス充電器販売中
           Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
+          Twitter 997786053124616192, -- @shirakamifubuki 白上フブキ@暁月なう🦊🌽
           Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
           Twitter 995247053977485313, -- @Haneru_Inaba 因幡はねる有閑喫茶あにまーれ
           Twitter 993839162099810305, -- @AniMare_cafe あにまーれ公式黒猫ななし
