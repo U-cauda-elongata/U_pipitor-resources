@@ -33,6 +33,7 @@ in  [ Pipitor.Rule::{
           youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
           youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
           youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
+          youtube "UCjlmCrq4TP1I4xguOtJ-31w", -- でびでび・でびる
           youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
           youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
           youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
@@ -99,6 +100,7 @@ in  [ Pipitor.Rule::{
           Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
           Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
           Twitter 1034280896575102977, -- @Mia_Mizugame 水瓶ミア
+          Twitter 1034137905000636417, -- @debidebiru_sama でびでび・でびる
           Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
           Twitter 1024970912859189248, -- @yuzukichococh 癒月ちょこ💋@ChocoLoveMV公開しました！
           Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
