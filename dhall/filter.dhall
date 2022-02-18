@@ -12,7 +12,10 @@ let kfOfficialScreenNames =
       , "Gothic_Luck"
       , "kemofure_yakata"
       , "X_JPD_official"
-      , "Cape_KEMOV"
+      ]
+
+let kemovScreenNames =
+      [ "Cape_KEMOV"
       , "Hululu_KEMOV"
       , "Shimahai_KEMOV"
       , "Coyote_KEMOV"
@@ -21,9 +24,7 @@ let kfOfficialScreenNames =
 
 let kemovLiveStreamJa =
     -- 配信タグ
-      [ "pikacoyo"
-      , "shizucoyo"
-      , "お引越しフレンズ"
+      [ "お引越しフレンズ"
       , "くっくフルルー"
       , rx.wi "けもV"
       , rx.wi "けもVバレンタイン"
@@ -57,11 +58,12 @@ let kemovLiveStreamJa =
       , "神様と狐様"
       , "熊とペンギン"
       , rx.wi "新春けもV桃鉄コラボ祭り"
+      , rx.wi "秋のけもV大運動会"
       ]
 
 let kemovLiveStreamEn =
     -- Live streaming hastags of KemoV.
-      [ rx.wi "KemoV" ]
+      [ rx.wi "KemoV", rx.wi "pikacoyo", rx.wi "shizucoyo" ]
 
 let kemovLiveStream = rx.any (kemovLiveStreamJa # kemovLiveStreamEn)
 
@@ -75,43 +77,57 @@ let kemovChannelMentions =
             , "フンボルトペンギン / Humboldt Penguin - YouTube"
             ]
 
-let basicMinusHanamaru =
-    -- はなまるうどん用フィルター
-      rx.i
-        ( rx.any
-            [     rx.any [ "@", "https://twitter\\.com/" ]
-              ++  rx.any kfOfficialScreenNames
-            , "けものフレンズ"
-            , "けもフレ"
-            , "${rx.wi "Kemono"}\\s*${rx.wi "Friend"}"
-            , "ジャパリパーク"
-            , "${rx.wi "Japari"}\\s*${rx.wi "Park"}"
-            , "どうぶつビスケッツ"
-            , "どうビス"
-            , "ペパプ"
-            , rx.wi "Triple-P"
-            , "ちく☆?たむ"
-            , rx.hash "もうトラ"
-            , rx.wi "Gothic×Luck"
-            , "ゴシックラック"
-            , rx.hash "ゴクラク\\b"
-            , "\\bゴクラジ"
-            , rx.hash "おやすみおはよ\\b"
-            , "はなまるアニマル"
-            , "ジャパリ団"
-            , rx.hash kemovLiveStream
-            , kemovChannelMentions
-            , rx.wi "秋のけもV大運動会"
-            , "ちょびるめぷち"
-            , "かぷせるフレンズ"
-            , "ワイルドラッシュ"
-            , rx.wi "WILDRUSH"
-            ]
-        )
+let mentionOrQuote = rx.any [ "@", "https://twitter\\.com/" ]
+
+let common =
+      [ mentionOrQuote ++ rx.any kfOfficialScreenNames
+      , "けものフレンズ"
+      , "けもフレ"
+      , "${rx.wi "Kemono"}\\s*${rx.wi "Friend"}"
+      , "ジャパリパーク"
+      , "${rx.wi "Japari"}\\s*${rx.wi "Park"}"
+      , "どうぶつビスケッツ"
+      , "どうビス"
+      , "ペパプ"
+      , rx.wi "Triple-P"
+      , "ちく☆?たむ"
+      , rx.hash "もうトラ"
+      , rx.wi "Gothic×Luck"
+      , "ゴシックラック"
+      , rx.hash "ゴクラク\\b"
+      , "\\bゴクラジ"
+      , rx.hash "おやすみおはよ\\b"
+      , "はなまるアニマル"
+      , "ジャパリ団"
+      , "ちょびるめぷち"
+      , "かぷせるフレンズ"
+      , "ワイルドラッシュ"
+      , rx.wi "WILDRUSH"
+      ]
+
+let kemovCommon =
+      [ rx.hash kemovLiveStream
+      , kemovChannelMentions
+      , mentionOrQuote ++ rx.any kemovScreenNames
+      ]
+
+let hanamaru = [ rx.hash "はなまる\\b" ]
 
 let basic =
     -- 基本フィルター
-      rx.any [ basicMinusHanamaru, rx.hash "はなまる\\b" ]
+      rx.i (rx.any (common # hanamaru # kemovCommon))
+
+let kemov =
+    -- けもＶ関係の話題
+      rx.i (rx.any kemovCommon)
+
+let basicMinusKemov =
+    -- けもＶ以外の話題。`@KFVP_pipitor` とその他との振り分けに使う
+      rx.i (rx.any (common # hanamaru))
+
+let basicMinusHanamaru =
+    -- はなまるうどん用フィルター
+      rx.i (rx.any (common # kemovCommon))
 
 let individual =
     -- 個人アカウント用のフィルター
@@ -169,4 +185,11 @@ let basicExclude =
             ]
         )
 
-in  { basicMinusHanamaru, basic, individual, kemovHashtags, basicExclude }
+in  { basic
+    , kemov
+    , basicMinusKemov
+    , basicMinusHanamaru
+    , individual
+    , kemovHashtags
+    , basicExclude
+    }
