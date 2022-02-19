@@ -1,71 +1,79 @@
 let rx = ./util/rx.dhall
 
-let kfOfficialScreenNames =
-      [ "kemo_project"
-      , "kemono_butai"
-      , "kemono_matsuri"
-      , "kemono_pavilion"
-      , "kemono_festival"
-      , "kemono_anime"
-      , "kemono_friends3"
-      , "jppzootobu"
-      , "Gothic_Luck"
-      , "kemofure_yakata"
-      , "X_JPD_official"
-      ]
+let screenNames =
+      let kfOfficial =
+            [ "kemo_project"
+            , "kemono_butai"
+            , "kemono_matsuri"
+            , "kemono_pavilion"
+            , "kemono_festival"
+            , "kemono_anime"
+            , "kemono_friends3"
+            , "jppzootobu"
+            , "Gothic_Luck"
+            , "kemofure_yakata"
+            , "X_JPD_official"
+            ]
 
-let kemovScreenNames =
-      [ "Cape_KEMOV"
-      , "Hululu_KEMOV"
-      , "Shimahai_KEMOV"
-      , "Coyote_KEMOV"
-      , "KEMOVP_staff"
-      ]
+      let kemov =
+            [ "Cape_KEMOV"
+            , "Hululu_KEMOV"
+            , "Shimahai_KEMOV"
+            , "Coyote_KEMOV"
+            , "KEMOVP_staff"
+            ]
 
-let kemovLiveStreamJa =
+      in  { kfOfficial, kemov }
+
+let kemovLiveStream =
     -- 配信タグ
-      [ "お引越しフレンズ"
-      , "くっくフルルー"
-      , rx.wi "けもV"
-      , rx.wi "けもVバレンタイン"
-      , "けぷふるる"
-      , "こんがお"
-      , "こんくっく調査団"
-      , "こんこんがおのん"
-      , rx.wi "こんのん100になるまで終われまテン"
-      , "しゅりむす"
-      , "すず姫と三匹の従者たち"
-      , rx.wi "どうぶつV"
-      , "ちぇりけぷ"
-      , "ひなけぷ"
-      , "まつけぷ"
-      , "わいわいピコパ"
-      , "アホングアス"
-      , "イツメン会議"
-      , "ケプ狐"
-      , "ケー風注意報"
-      , "(?:ケープペンギン|フンボルトペンギン)ちゃんねる"
-      , "コンペンハムチェリー"
-      , "シカとペンギン"
-      , "シマコヨ"
-      , "シマハイシン"
-      , "フルシカ"
-      , "フルルンシマトン"
-      , "フンボル島"
-      , "ホロけも"
-      , "ミミフル"
-      , "酒飲みフレンズ"
-      , "神様と狐様"
-      , "熊とペンギン"
-      , rx.wi "新春けもV桃鉄コラボ祭り"
-      , rx.wi "秋のけもV大運動会"
-      ]
+      let ja =
+          -- 日本語
+            [ "お引越しフレンズ"
+            , "くっくフルルー"
+            , rx.wi "けもV"
+            , rx.wi "けもVバレンタイン"
+            , "けぷふるる"
+            , "こんがお"
+            , "こんくっく調査団"
+            , "こんこんがおのん"
+            , rx.wi "こんのん100になるまで終われまテン"
+            , "しゅりむす"
+            , "すず姫と三匹の従者たち"
+            , rx.wi "どうぶつV"
+            , "ちぇりけぷ"
+            , "ひなけぷ"
+            , "まつけぷ"
+            , "わいわいピコパ"
+            , "アホングアス"
+            , "イツメン会議"
+            , "ケプ狐"
+            , "ケー風注意報"
+            , "(?:ケープペンギン|フンボルトペンギン)ちゃんねる"
+            , "コンペンハムチェリー"
+            , "シカとペンギン"
+            , "シマコヨ"
+            , "シマハイシン"
+            , "フルシカ"
+            , "フルルンシマトン"
+            , "フンボル島"
+            , "ホロけも"
+            , "ミミフル"
+            , "酒飲みフレンズ"
+            , "神様と狐様"
+            , "熊とペンギン"
+            , rx.wi "新春けもV桃鉄コラボ祭り"
+            , rx.wi "秋のけもV大運動会"
+            ]
 
-let kemovLiveStreamEn =
-    -- Live streaming hastags of KemoV.
-      [ rx.wi "KemoV", rx.wi "pikacoyo", rx.wi "shizucoyo" ]
+      let en =
+          -- 英語
+          -- Live streaming hastags of KemoV.
+            [ rx.wi "KemoV", rx.wi "pikacoyo", rx.wi "shizucoyo" ]
 
-let kemovLiveStream = rx.any (kemovLiveStreamJa # kemovLiveStreamEn)
+      let common = ja # en
+
+      in  { common, ja, en }
 
 let kemovChannelMentions =
     -- けもＶのチャンネル名。YouTube の動画の説明文で使われる。
@@ -80,7 +88,7 @@ let kemovChannelMentions =
 let mentionOrQuote = rx.any [ "@", "twitter\\.com/" ]
 
 let common =
-      [ mentionOrQuote ++ rx.any kfOfficialScreenNames
+      [ mentionOrQuote ++ rx.any screenNames.kfOfficial
       , "けものフレンズ"
       , "けもフレ"
       , "${rx.wi "Kemono"}\\s*${rx.wi "Friend"}"
@@ -106,9 +114,9 @@ let common =
       ]
 
 let kemovCommon =
-      [ rx.hash kemovLiveStream
+      [ rx.hash (rx.any kemovLiveStream.common)
       , kemovChannelMentions
-      , mentionOrQuote ++ rx.any kemovScreenNames
+      , mentionOrQuote ++ rx.any screenNames.kemov
       ]
 
 let hanamaru = [ rx.hash "はなまる\\b" ]
@@ -134,34 +142,30 @@ let individual =
 
       let ja =
           -- 日英バイリンガルアカウントの日本語投稿
-            rx.i
-              ( rx.any
-                  (   [ "けものフレンズ"
-                      , "けもフレ"
-                      , "舞台(?:けものフレンズ|けもフレ)"
-                      , "ようこそジャパリパーク"
-                      , "ちくたむ"
-                      , "もうトラ"
-                      , "ゴクラク\\b"
-                      , "ゴクラジ"
-                      , "おやすみおはよ\\b"
-                      , "はなまる(?:\\b|アニマル)"
-                      , rx.wi "Xジャパリ団"
-                      ]
-                    # kemovLiveStreamJa
-                    # [ "けもレポ", "細かすぎて伝わらない舞台けものフレンズの好きなところ" ]
-                  )
-              )
+              [ "けものフレンズ"
+              , "けもフレ"
+              , "舞台(?:けものフレンズ|けもフレ)"
+              , "ようこそジャパリパーク"
+              , "ちくたむ"
+              , "もうトラ"
+              , "ゴクラク\\b"
+              , "ゴクラジ"
+              , "おやすみおはよ\\b"
+              , "はなまる(?:\\b|アニマル)"
+              , rx.wi "Xジャパリ団"
+              ]
+            # kemovLiveStream.ja
+            # [ "けもレポ", "細かすぎて伝わらない舞台けものフレンズの好きなところ" ]
 
       let en =
           -- English posts from en/ja bilingual accounts (individual)
-            rx.i (rx.any ([ rx.wi "KemonoFriends" ] # kemovLiveStreamEn))
+            [ rx.wi "KemonoFriends" ] # kemovLiveStream.en
 
       let common =
           -- 一般用
-            rx.any [ rx.hash (rx.any [ ja, en ]), kemovChannelMentions ]
+            rx.any [ rx.hash (rx.i (rx.any (ja # en))), kemovChannelMentions ]
 
-      in  { common, ja, en }
+      in  { common, ja = rx.i (rx.any ja), en = rx.i (rx.any en) }
 
 let kemovHashtags =
     -- けもＶ関連ハッシュタグ
