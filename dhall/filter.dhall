@@ -77,7 +77,7 @@ let kemovChannelMentions =
             , "フンボルトペンギン / Humboldt Penguin - YouTube"
             ]
 
-let mentionOrQuote = rx.any [ "@", "https://twitter\\.com/" ]
+let mentionOrQuote = rx.any [ "@", "twitter\\.com/" ]
 
 let common =
       [ mentionOrQuote ++ rx.any kfOfficialScreenNames
