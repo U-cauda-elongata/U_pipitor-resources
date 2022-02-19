@@ -69,7 +69,11 @@ let kemovLiveStream =
       let en =
           -- 英語
           -- Live streaming hastags of KemoV.
-            [ rx.wi "KemoV", rx.wi "pikacoyo", rx.wi "shizucoyo" ]
+            [ rx.wi "CoyoMio"
+            , rx.wi "KemoV"
+            , rx.wi "pikacoyo"
+            , rx.wi "shizucoyo"
+            ]
 
       let common = ja # en
 
