@@ -3,37 +3,49 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-  check:
-    name: Check Dhall file
+  json:
+    name: Generate `Pipitor.json`
     runs-on: ubuntu-latest
+    env:
+      DHALL_HASKELL_RELEASE: '1.40.2'
+      DHALL_JSON_VERSION: '1.7.9'
+      DHALL_JSON_CHECKSUM: '90b2a0da0e30c0637254382c5697a1df75d26d0d6aae1239320f1df74950fe23'
     steps:
       - uses: actions/checkout@v2
-      - name: Install `dhall`
+      - name: Run `dhall-to-json`
         run: |
-          VERSION=1.40.2
-          SUM=56ecbcdc7daaf42d764764f06c71426b982032d70a075a2f1b7e2acfcb0fda6f
-          curl -fSsLO "https://github.com/dhall-lang/dhall-haskell/releases/download/${VERSION}/dhall-${VERSION}-x86_64-linux.tar.bz2"
-          echo "${SUM} dhall-${VERSION}-x86_64-linux.tar.bz2" | sha256sum --strict --check
-          sudo tar -C /usr/local -xjf "dhall-${VERSION}-x86_64-linux.tar.bz2" ./bin/dhall
-      - run: dhall type --file Pipitor.dhall --no-cache --quiet
+          archive="dhall-json-${DHALL_JSON_VERSION}-x86_64-linux.tar.bz2"
+          curl -fSsLO "https://github.com/dhall-lang/dhall-haskell/releases/download/${DHALL_HASKELL_RELEASE}/${archive}"
+          echo "${DHALL_JSON_CHECKSUM} ${archive}" | sha256sum --strict --check
+          sudo tar -C /usr/local -xjf "${archive}" ./bin/dhall-to-json
+          dhall-to-json --compact --file Pipitor.dhall --output Pipitor.json
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Pipitor.json
+          path: Pipitor.json
 
   lint:
     name: Lint Dhall file
+    needs: json
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: dhall-lang/setup-dhall@v4
+      - run: dhall type --file Pipitor.dhall --no-cache --quiet
       - run: dhall format dhall/rule/*.dhall
       - run: dhall format --check ./**/*.dhall
       - run: dhall lint --check Pipitor.dhall ./**/*.dhall
 
   test:
     name: Test
+    needs: json
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: dhall-lang/setup-dhall@v4
-      - run: dhall-to-json --compact --file Pipitor.dhall --output Pipitor.json
+      - uses: actions/download-artifact@v2
+        with:
+          name: Pipitor.json
       - uses: Swatinem/rust-cache@v1
         with:
           working-directory: test-suite
