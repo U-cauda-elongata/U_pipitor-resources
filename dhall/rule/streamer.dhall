@@ -60,6 +60,7 @@ in    [ Pipitor.Rule::{
             youtube "UCaq_BEsIHLVvdU6lCKLtipQ", -- Hanakoto Igusa (jp) - YouTube
             youtube "UCR6f6Cx-dWX0nbteSXvhI6g", -- アナウンサーたぐちのガチ実況チャンネル
             youtube "UCQ7CahbXDmC0ibAULBxRJBQ", -- 屋敷シエルYashiki Ciel
+            youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
@@ -91,6 +92,7 @@ in    [ Pipitor.Rule::{
             Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
             Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
             Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
+            Twitter 1253633049884942337, -- @tukimi_marumoti 丸餅つきみ🍡ゴシップ歌いました
             Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
             Twitter 1225702850002468864, -- @amanopikamee ピカミィ⚡️Pikamee
             Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
