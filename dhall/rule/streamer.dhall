@@ -67,6 +67,7 @@ in    [ Pipitor.Rule::{
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
             youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
             youtube "UC90vyzmRgWCE17-uWNsKW2Q", -- 【Re:AcT /リアクト】公式チャンネル
+            youtube "UC8jskpQfW9fn2NLK3PdaGdg", -- 夢川かなう/Kanau ch
             youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
             youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
             youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
@@ -102,6 +103,7 @@ in    [ Pipitor.Rule::{
             Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
             Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
             Twitter 1034280896575102977, -- @Mia_Mizugame 水瓶ミア
+            Twitter 1030728825808666624, -- @Kanau_Yumekawa 夢川かなう🐟
             Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
             Twitter 1024970912859189248, -- @yuzukichococh 癒月ちょこ💋@ChocoLoveMV公開しました！
             Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
