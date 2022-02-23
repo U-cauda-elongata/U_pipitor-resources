@@ -49,6 +49,7 @@ in    [ Pipitor.Rule::{
             youtube "UCYKX4HL54erXdCyMj7TpFyg", -- Shizukou
             youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
             youtube "UCXXnWssOLdB2jg-4CznteAA", -- こまるCh. - Komaru Kurikoma -/あおぎり高校
+            youtube "UCX7YkU9nEeaoZbkVLVajcMg", -- にじさんじ
             youtube "UCWq6L3iY4hGK4LmylvQtj-g", -- 桜樹みりあ
             youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
             youtube "UCUyBb-nTJoFWUOydbExmLuQ", -- Shizukou VODs
@@ -141,6 +142,7 @@ in    [ Pipitor.Rule::{
             -- 文脈によって `@KF_pipitor` でリツイートするべきアカウント（けもフレ３コラボ）。
               [
                 Twitter 1034137905000636417, -- @debidebiru_sama でびでび・でびる
+                Twitter 950967576980422657, -- @nijisanji_app にじさんじ公式🌈🕒
               ]
 
         let kemovFilter = rx.any [ filter.kemov, filter.kemovHashtags ]
