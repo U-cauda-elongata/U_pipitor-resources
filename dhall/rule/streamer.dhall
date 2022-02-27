@@ -64,11 +64,13 @@ in    [ Pipitor.Rule::{
             youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
+            youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
             youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
             youtube "UC90vyzmRgWCE17-uWNsKW2Q", -- 【Re:AcT /リアクト】公式チャンネル
             youtube "UC8jskpQfW9fn2NLK3PdaGdg", -- 夢川かなう/Kanau ch
+            youtube "UC8NZiqKx6fsDT3AVcMiVFyA", -- Tamaki Ch. 犬山たまき / 佃煮のりお
             youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
             youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
             youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
@@ -94,12 +96,14 @@ in    [ Pipitor.Rule::{
             Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
             Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
             Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
+            Twitter 1265091241609322496, -- @noriopro のりプロ公式🌞
             Twitter 1253633049884942337, -- @tukimi_marumoti 丸餅つきみ🍡ゴシップ歌いました
             Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
             Twitter 1225702850002468864, -- @amanopikamee ピカミィ⚡️Pikamee
             Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
             Twitter 1224653916131823616, -- @Kirara_Mimi 雲母ミミKiraraMimi抱き枕予約販売中25万人ありがとお
             Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
+            Twitter 1120021521752154112, -- @Enomiya_MILK 愛宮みるく
             Twitter 1099929347283050496, -- @makio_elecom マキオ@S11 マスター
             Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
             Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
@@ -131,6 +135,7 @@ in    [ Pipitor.Rule::{
             Twitter 877820534712451072, -- @SIROyoutuber 電脳少女シロ
             Twitter 4919358698, -- @tv_asahi_douga 【公式】テレ朝動画
             Twitter 3271690045, -- @shohei_taguchi たぐちアナ
+            Twitter 218450187, -- @norioo_ 佃煮のりお/犬山たまき🐶💙
             Twitter 200080344, -- @tanista_com タニさん＠タニスタ
             Twitter 183640212, -- @hira_saiore ヒラ
             Twitter 110879535, -- @Gatchman666 ガッチマン （総合）
