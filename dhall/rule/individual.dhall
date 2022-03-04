@@ -16,6 +16,7 @@ in    [ Pipitor.Rule::{
           filter = Some Pipitor.Filter::{ title = filter.individual.common }
         , outbox = [ Pipitor.Outbox.Twitter account.pipitorIndv ]
         , topics = [
+            Twitter 1446494020474048513, -- @Carry_Kiyama Carry Kiyama
             Twitter 1374558576560074755, -- @azusa_shizuki 紫月杏朱彩
             Twitter 1314640424062001152, -- @ssk_ktk828 佐々木琴子 公式
             Twitter 1303545074303660033, -- @meg_umezawa 梅澤 めぐ
