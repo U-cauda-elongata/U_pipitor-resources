@@ -24,6 +24,7 @@ in  [ Pipitor.Rule::{
       , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
       , topics = [
           youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
+          youtube "UCdNBhcAohYjXlUVYsz8X2KQ", -- Direwolf_KEMOV ダイアウルフ
           youtube "UCabMjG8p6G5xLkPJgEoTnDg", -- コヨーテ / Coyote
           youtube "UCMpw36mXEu3SLsqdrJxUKNA", -- シマハイイロギツネ / Island Fox
           youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
@@ -40,6 +41,7 @@ in  [ Pipitor.Rule::{
           Twitter 1444527872689930245, -- @tiktam_official ちく☆たむ オフィシャル
           Twitter 1404316984175599619, -- @KEMOVP_staff パークスタッフ
           Twitter 1396771594924564485, -- @Shimahai_KEMOV シマハイイロギツネ🏝🦊
+          Twitter 1396750022541144071, -- @Direwolf_KEMOV ダイアウルフ
           Twitter 1396751372712779778, -- @Coyote_KEMOV Coyote
           Twitter 1385528731322621957, -- @Hululu_KEMOV フンボルトペンギン🔩🐧
           Twitter 1385501300981338113, -- @Cape_KEMOV ケープペンギン
