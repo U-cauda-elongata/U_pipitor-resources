@@ -46,6 +46,7 @@ in    [ Pipitor.Rule::{
             youtube "UCajhBT4nMrg3DLS-bLL2RCg", -- 天野ピカミィ. Pikamee
             youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
             youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
+            youtube "UCZQ7nZ8Lc7pslBN0gN1Jg0w", -- Bao The Whale
             youtube "UCYKX4HL54erXdCyMj7TpFyg", -- Shizukou
             youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
             youtube "UCXXnWssOLdB2jg-4CznteAA", -- こまるCh. - Komaru Kurikoma -/あおぎり高校
@@ -63,6 +64,7 @@ in    [ Pipitor.Rule::{
             youtube "UCQ7CahbXDmC0ibAULBxRJBQ", -- 屋敷シエルYashiki Ciel
             youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
+            youtube "UCKvij44VV9TWt-EM3evoRWg", -- Yuzu Ch. ENVtuber 蛾虫ユズ
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
@@ -89,6 +91,7 @@ in    [ Pipitor.Rule::{
             Twitter 1375790515916996614, -- @piiiti_v 鬼ヶ島ぴぃち
             Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
             Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
+            Twitter 1353969622907670528, -- @SanagiYuzu Yuzu 🦋
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
             Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
@@ -135,6 +138,8 @@ in    [ Pipitor.Rule::{
             Twitter 877820534712451072, -- @SIROyoutuber 電脳少女シロ
             Twitter 4919358698, -- @tv_asahi_douga 【公式】テレ朝動画
             Twitter 3271690045, -- @shohei_taguchi たぐちアナ
+            Twitter 3068808974, -- @baovtuber Bao 🐳 Whaletuber
+            Twitter 320959459, -- @justfream FREAM ✦ VTUBER
             Twitter 218450187, -- @norioo_ 佃煮のりお/犬山たまき🐶💙
             Twitter 200080344, -- @tanista_com タニさん＠タニスタ
             Twitter 183640212, -- @hira_saiore ヒラ
