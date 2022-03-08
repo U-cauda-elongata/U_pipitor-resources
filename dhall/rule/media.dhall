@@ -30,6 +30,7 @@ in  [ Pipitor.Rule::{
           youtube "UCkU6nDHWQpyDK5vw9YSYjLw", -- インサイド＆Game*Spark動画チャンネル
           youtube "UCfIgNVCiAei8r-haGHDnedg", -- 4GamerSP
           youtube "UCcxj8uiQUeSfMHLy_Sk8FhA", -- ファミ通App
+          youtube "UCRMcZkV2LGig8s1ITO2gDXQ", -- ロボットスタート株式会社
           youtube "UCQb6W0vblp5ewU75watnqQQ", -- 電撃オンライン
           youtube "UC2aiZm7FsZFwhbPNWpjJcZQ", -- gamernejp
           Twitter 1115426897335185409, -- @music_ups フリーマガジン『music UP's』
