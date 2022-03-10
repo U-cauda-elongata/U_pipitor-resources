@@ -70,6 +70,7 @@ in    [ Pipitor.Rule::{
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
             youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
+            youtube "UCAZ_LA7f0sjuZ1Ni8L2uITw", -- どっとライブ
             youtube "UC90vyzmRgWCE17-uWNsKW2Q", -- 【Re:AcT /リアクト】公式チャンネル
             youtube "UC8jskpQfW9fn2NLK3PdaGdg", -- 夢川かなう/Kanau ch
             youtube "UC8NZiqKx6fsDT3AVcMiVFyA", -- Tamaki Ch. 犬山たまき / 佃煮のりお
