@@ -180,6 +180,7 @@ in    [ Pipitor.Rule::{
             Twitter 1710115531, -- @Yuna_tani 谷口夢奈
             Twitter 1662016370, -- @karin_takahashi 高橋花林
             Twitter 1604926548, -- @NomotoHotaru 野本ほたる
+            Twitter 1591053330, -- @miria_t 高岸美里亜
             Twitter 1536485510, -- @nkysyk_a 仲谷明香（なかやさやか）
             Twitter 1529614860, -- @akariuehara13 上原あかり🐰🍳
             Twitter 1493773717, -- @rg8270fvv 高田 翼
