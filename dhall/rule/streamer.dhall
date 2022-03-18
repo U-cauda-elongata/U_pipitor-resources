@@ -67,6 +67,7 @@ in    [ Pipitor.Rule::{
             youtube "UCKvij44VV9TWt-EM3evoRWg", -- Yuzu Ch. ENVtuber 蛾虫ユズ
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
+            youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
             youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
@@ -120,6 +121,7 @@ in    [ Pipitor.Rule::{
             Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
             Twitter 997786053124616192, -- @shirakamifubuki 白上フブキ@暁月なう🦊🌽
             Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
+            Twitter 995983309715865600, -- @kaheru_orange kaheru🍊カヘル
             Twitter 995247053977485313, -- @Haneru_Inaba 因幡はねる有閑喫茶あにまーれ
             Twitter 993839162099810305, -- @AniMare_cafe あにまーれ公式黒猫ななし
             Twitter 992044186252685312, -- @YamatoIori ヤマト イオリ
