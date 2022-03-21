@@ -17,6 +17,7 @@ let screenNames =
 
       let kemov =
             [ "Cape_KEMOV"
+            , "Direwolf_KEMOV"
             , "Hululu_KEMOV"
             , "Shimahai_KEMOV"
             , "Coyote_KEMOV"
