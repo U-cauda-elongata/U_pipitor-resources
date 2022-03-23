@@ -176,6 +176,7 @@ in    [ Pipitor.Rule::{
             Twitter 2186330749, -- @michuell_bunny 未来みき＊大天使みしゅえる⸜(´ ˘ `∗)⸝🔥
             Twitter 2171654186, -- @EggLuv07 柳原 かなこ
             Twitter 2168328588, -- @Ma2Ndayodayo 松尾祐輔
+            Twitter 1978598388, -- @jiena_gaim 鷲見友美ジェナ(仮面ライダーGIRLS)
             Twitter 1968534385, -- @Galsyumcr SYU
             Twitter 1710115531, -- @Yuna_tani 谷口夢奈
             Twitter 1662016370, -- @karin_takahashi 高橋花林
