@@ -28,6 +28,7 @@ in  [ Pipitor.Rule::{
           youtube "UCojpaahbZqMmvt-7X1am1lg", -- Appirits Games Project
           youtube "UCY5fcqgSrQItPAX_Z5Frmwg", -- KADOKAWAanime
           youtube "UCVkqs_Q88BDmyaWwjYJ8_Ig", -- SEGA
+          youtube "UCNXdQmXp0QqZzAucCAtvrDw", -- サミーチャンネル
           youtube "UCFoS_FzutpGb3EDH3dZ47sw", -- ブシロード公式チャンネル
           youtube "UC4YT50DP7hbMsor8FmyEPMw", -- Victor Entertainment
           youtube "UC3tZDwLVGnZKl9477fCxhGQ", -- セガゲームス公式アプリ
@@ -35,6 +36,7 @@ in  [ Pipitor.Rule::{
           Twitter 891908618789937152, -- @NelkePlanning ネルケプランニング（公式）
           Twitter 824551506737192960, -- @GGI_INC 株式会社ギャラクシーグラフィックス
           Twitter 798795770581266433, -- @PRTIMES_NEWS PR TIMESニュース
+          Twitter 738191732886491136, -- @sammy_corp サミー株式会社
           Twitter 710684429081939968, -- @kurokishi_jp 【公式】黒騎士と白の魔王
           Twitter 4565186714, -- @youngace_up ヤングエースUP公式
           Twitter 3988316892, -- @SEGA_Ent セガ エンタテインメント公式
