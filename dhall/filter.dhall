@@ -95,7 +95,7 @@ let kemovChannelMentions =
             , "コヨーテ / Coyote"
             , "シマハイイロギツネ / Island Fox"
             , "ダイアウルフ / Dire Wolf"
-            , "フンボルトペンギン / Humboldt Penguin - YouTube"
+            , "フンボルトペンギン / Humboldt Penguin"
             ]
 
 let mentionOrQuote = rx.any [ "@", "twitter\\.com/" ]
