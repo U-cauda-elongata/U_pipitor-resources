@@ -47,6 +47,7 @@ in    [ Pipitor.Rule::{
             youtube "UCajhBT4nMrg3DLS-bLL2RCg", -- 天野ピカミィ. Pikamee
             youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
             youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
+            youtube "UC_WOBIopwUih0rytRnr_1Ag", -- Rui Channel / 瀬島るい 【あにまーれ】
             youtube "UCZQ7nZ8Lc7pslBN0gN1Jg0w", -- Bao The Whale
             youtube "UCYKX4HL54erXdCyMj7TpFyg", -- Shizukou
             youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
@@ -80,6 +81,7 @@ in    [ Pipitor.Rule::{
             youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
             youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
             youtube "UC4PrHgUcAtOoj_LKmUL-uLQ", -- Mia Channel / 湖南みあ 【あにまーれ】
+            youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
             youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
@@ -97,9 +99,11 @@ in    [ Pipitor.Rule::{
             Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
             Twitter 1353969622907670528, -- @SanagiYuzu Yuzu 🦋
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
+            Twitter 1351387644081520641, -- @Rukako_Oura 大浦るかこ🦉あにまーれ
             Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
             Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
+            Twitter 1308626156447436801, -- @Rui_Seshima 瀬島るい📮🦴あにまーれ
             Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
             Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
             Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
