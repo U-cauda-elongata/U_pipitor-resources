@@ -94,6 +94,7 @@ let kemovChannelMentions =
             [ "ケープペンギン / African Penguin"
             , "コヨーテ / Coyote"
             , "シマハイイロギツネ / Island Fox"
+            , "ダイアウルフ / Dire Wolf"
             , "フンボルトペンギン / Humboldt Penguin - YouTube"
             ]
 
