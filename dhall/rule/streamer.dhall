@@ -85,6 +85,7 @@ in    [ Pipitor.Rule::{
             youtube "UC4PrHgUcAtOoj_LKmUL-uLQ", -- Mia Channel / 湖南みあ 【あにまーれ】
             youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
+            youtube "UC3Ruo_5doyu514PesWGvCAg", -- Aoi ch.
             youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
@@ -146,6 +147,7 @@ in    [ Pipitor.Rule::{
             Twitter 953420062794309632, -- @hanakoto82 花琴いぐさ妖怪Vtuberです
             Twitter 953079145335988224, -- @dotLIVEyoutuber .LIVE【どっとライブ】
             Twitter 944104131383271424, -- @Miria_Sakuragi_ 桜樹みりあ＠踊投稿しました
+            Twitter 923118677452402690, -- @fuji_aoi_0618 富士葵
             Twitter 916156645004029952, -- @hololivetv ホロライブプロダクション【公式】
             Twitter 877820534712451072, -- @SIROyoutuber 電脳少女シロ
             Twitter 4919358698, -- @tv_asahi_douga 【公式】テレ朝動画
