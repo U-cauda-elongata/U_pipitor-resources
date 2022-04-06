@@ -24,6 +24,7 @@ in    [ Pipitor.Rule::{
             youtube "UCyb-cllCkMREr9de-hoiDrg", -- ヤマト イオリ
             youtube "UCyKsg-57XC9pyHbP7v3kCPQ", -- Miori Ch. ミオリ・セレスタ 【Tsunderia】
             youtube "UCyDlCb8B48ZrSJvknOQsRog", -- 酵穣 桃桜Momozakura Kojo
+            youtube "UCwUNuXd6rN08SQFzlIH4Ozg", -- なつめえりちゃんねる / Natsume Eri ch.
             youtube "UCw1KNjVqfrJSfcFd6zlcSzA", -- Nia Suzune / 鈴音にあ [PRISM Project]
             youtube "UCswvd6_YWmd6riRk-8oT-sA", -- Shiki Miyoshino / 美吉野しき [PRISM Project]
             youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
@@ -48,6 +49,7 @@ in    [ Pipitor.Rule::{
             youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
             youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
             youtube "UC_WOBIopwUih0rytRnr_1Ag", -- Rui Channel / 瀬島るい 【あにまーれ】
+            youtube "UCZszUCQMhWNVMxp6CSoyWoA", -- 人生 つみこJinsei Tsumiko
             youtube "UCZQ7nZ8Lc7pslBN0gN1Jg0w", -- Bao The Whale
             youtube "UCYKX4HL54erXdCyMj7TpFyg", -- Shizukou
             youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
@@ -136,6 +138,7 @@ in    [ Pipitor.Rule::{
             Twitter 991562536632778752, -- @asanoruri 朝ノ瑠璃✪忍者系声優VTuber
             Twitter 989781496780083200, -- @Re_AcT_ Re:AcT / リアクト【公式】
             Twitter 986871577890312192, -- @kotonegami 天神子兎音 / Kotone
+            Twitter 972988058659270656, -- @tsumiko_channel 人生つみこ😱🫀ﾎﾗｰｹﾞｰﾑ専門Vtuber
             Twitter 972262397640548352, -- @chieri_kakyoin 花京院ちえり
             Twitter 971926028842033152, -- @mokomeme_ch もこ田めめめ
             Twitter 963358908986269696, -- @kashikomari_ch かしこまりRe:AcTに所属しました
@@ -152,6 +155,7 @@ in    [ Pipitor.Rule::{
             Twitter 218450187, -- @norioo_ 佃煮のりお/犬山たまき🐶💙
             Twitter 200080344, -- @tanista_com タニさん＠タニスタ
             Twitter 183640212, -- @hira_saiore ヒラ
+            Twitter 113083374, -- @erisize なつめえり🍚
             Twitter 110879535, -- @Gatchman666 ガッチマン （総合）
             Twitter 87467070, -- @tammy_now 民安ともえ(Vtuberたみー)オーディション2次審査応援感謝！結果は12/18ニコ生で！
           ]
