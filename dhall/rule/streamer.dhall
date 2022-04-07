@@ -43,7 +43,6 @@ in    [ Pipitor.Rule::{
             youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
             youtube "UCdn5BQ06XqgXoAxIhbqw5Rg", -- フブキCh。白上フブキ
             youtube "UCdMpGhtL9oK8EYolTt8v4uQ", -- VOMS Project
-            youtube "UCcq3DnobBkRca4p8pntDntg", -- 鬼ヶ島ぴぃち
             youtube "UCcd4MSYH7bPIBEUqmBgSZQw", -- ルルン・ルルリカ
             youtube "UCajhBT4nMrg3DLS-bLL2RCg", -- 天野ピカミィ. Pikamee
             youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
@@ -97,7 +96,6 @@ in    [ Pipitor.Rule::{
             Twitter 1401221154384326665, -- @shikimiyoshino Shiki Miyoshino / 美吉野しき
             Twitter 1393208011519262725, -- @VOMS_Project VOMS Project
             Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
-            Twitter 1375790515916996614, -- @piiiti_v 鬼ヶ島ぴぃち
             Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
             Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
             Twitter 1353969622907670528, -- @SanagiYuzu Yuzu 🦋
@@ -160,6 +158,17 @@ in    [ Pipitor.Rule::{
             Twitter 113083374, -- @erisize なつめえり🍚
             Twitter 110879535, -- @Gatchman666 ガッチマン （総合）
             Twitter 87467070, -- @tammy_now 民安ともえ(Vtuberたみー)オーディション2次審査応援感謝！結果は12/18ニコ生で！
+          ]
+        }
+      , Pipitor.Rule::{
+        , -- 特殊フィルター。
+          filter = Some Pipitor.Filter::{
+          , title = rx.any [ filter.basic, filter.kemovHashtags, "イロちゃんまん" ]
+          }
+        , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
+        , topics = [
+            youtube "UCcq3DnobBkRca4p8pntDntg", -- 鬼ヶ島ぴぃち
+            Twitter 1375790515916996614, -- @piiiti_v 鬼ヶ島ぴぃち
           ]
         }
       ]
