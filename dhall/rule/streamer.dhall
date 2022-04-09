@@ -71,6 +71,7 @@ in    [ Pipitor.Rule::{
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
             youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
+            youtube "UCDzdRLILLWlHxXnj3HhXW0A", -- Caitlin Myers
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
             youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
@@ -119,6 +120,7 @@ in    [ Pipitor.Rule::{
             Twitter 1099929347283050496, -- @makio_elecom マキオ@S11 マスター
             Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
             Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
+            Twitter 1065021083810705409, -- @mom0ki Momoki 🕯️ VTube
             Twitter 1034280896575102977, -- @Mia_Mizugame 水瓶ミア
             Twitter 1030728825808666624, -- @Kanau_Yumekawa 夢川かなう🐟
             Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
