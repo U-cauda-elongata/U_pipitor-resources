@@ -31,6 +31,7 @@ in    [ Pipitor.Rule::{
             youtube "UCs-lYkwb-NYKE9_ssTRDK3Q", -- ねくろちゃん -Yamaguro Nekuro- /あおぎり高校
             youtube "UCrFM9PePa4a7654qY9psGjA", -- 肆ノ島來世 / Shinoshima Raise
             youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
+            youtube "UCpeRj9-GaLGNUoKdI5I7vZA", -- Pina Pengin / 辺銀ピナ [PRISM Project]
             youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
             youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
             youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
@@ -93,6 +94,7 @@ in    [ Pipitor.Rule::{
             Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
             Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
             Twitter 1419329503512301573, -- @r_snsm 肆ノ島 來世 / Shinoshima Raise
+            Twitter 1401301000477085698, -- @PinaPengin Pina Pengin | 辺銀ピナ🐧❄️ 3rd GEN - PRISM Project
             Twitter 1401266522589380611, -- @niasuzune Nia Suzune / 鈴音にあ
             Twitter 1401221154384326665, -- @shikimiyoshino Shiki Miyoshino / 美吉野しき
             Twitter 1393208011519262725, -- @VOMS_Project VOMS Project
