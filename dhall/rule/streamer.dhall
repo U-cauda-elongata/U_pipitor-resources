@@ -88,6 +88,7 @@ in    [ Pipitor.Rule::{
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
             youtube "UC3Ruo_5doyu514PesWGvCAg", -- Aoi ch.
             youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
+            youtube "UC2hWFlqMew61Jy6A8zu5HzQ", -- Iku Hoshifuri / 星降いく [PRISM Project]
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
             Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
@@ -104,6 +105,7 @@ in    [ Pipitor.Rule::{
             Twitter 1353969622907670528, -- @SanagiYuzu Yuzu 🦋
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
             Twitter 1351387644081520641, -- @Rukako_Oura 大浦るかこ🦉あにまーれ
+            Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
             Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
             Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
