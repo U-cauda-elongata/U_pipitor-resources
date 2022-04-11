@@ -27,12 +27,10 @@ in    [ Pipitor.Rule::{
             youtube "UCwUNuXd6rN08SQFzlIH4Ozg", -- なつめえりちゃんねる / Natsume Eri ch.
             youtube "UCw1KNjVqfrJSfcFd6zlcSzA", -- Nia Suzune / 鈴音にあ [PRISM Project]
             youtube "UCswvd6_YWmd6riRk-8oT-sA", -- Shiki Miyoshino / 美吉野しき [PRISM Project]
-            youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
             youtube "UCs-lYkwb-NYKE9_ssTRDK3Q", -- ねくろちゃん -Yamaguro Nekuro- /あおぎり高校
             youtube "UCrFM9PePa4a7654qY9psGjA", -- 肆ノ島來世 / Shinoshima Raise
             youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
             youtube "UCpeRj9-GaLGNUoKdI5I7vZA", -- Pina Pengin / 辺銀ピナ [PRISM Project]
-            youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
             youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
             youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
             youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
@@ -44,7 +42,6 @@ in    [ Pipitor.Rule::{
             youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
             youtube "UCdn5BQ06XqgXoAxIhbqw5Rg", -- フブキCh。白上フブキ
             youtube "UCdMpGhtL9oK8EYolTt8v4uQ", -- VOMS Project
-            youtube "UCcd4MSYH7bPIBEUqmBgSZQw", -- ルルン・ルルリカ
             youtube "UCajhBT4nMrg3DLS-bLL2RCg", -- 天野ピカミィ. Pikamee
             youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
             youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
@@ -64,7 +61,6 @@ in    [ Pipitor.Rule::{
             youtube "UCO_o0X1-ESEk8LEr1g9x1wg", -- 猫羽ころんNekohakoron
             youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
             youtube "UCMzxQ58QL4NNbWghGymtHvw", -- カルロ・ピノ
-            youtube "UCaq_BEsIHLVvdU6lCKLtipQ", -- Hanakoto Igusa (jp) - YouTube
             youtube "UCR6f6Cx-dWX0nbteSXvhI6g", -- アナウンサーたぐちのガチ実況チャンネル
             youtube "UCQ7CahbXDmC0ibAULBxRJBQ", -- 屋敷シエルYashiki Ciel
             youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
@@ -88,7 +84,6 @@ in    [ Pipitor.Rule::{
             youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
             youtube "UC3Ruo_5doyu514PesWGvCAg", -- Aoi ch.
-            youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
             youtube "UC2hWFlqMew61Jy6A8zu5HzQ", -- Iku Hoshifuri / 星降いく [PRISM Project]
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
@@ -107,7 +102,6 @@ in    [ Pipitor.Rule::{
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
             Twitter 1351387644081520641, -- @Rukako_Oura 大浦るかこ🦉あにまーれ
             Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
-            Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
             Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
             Twitter 1308626156447436801, -- @Rui_Seshima 瀬島るい📮🦴あにまーれ
@@ -128,13 +122,10 @@ in    [ Pipitor.Rule::{
             Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
             Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
             Twitter 1065021083810705409, -- @mom0ki Momoki 🕯️ VTube
-            Twitter 1034280896575102977, -- @Mia_Mizugame 水瓶ミア
             Twitter 1030728825808666624, -- @Kanau_Yumekawa 夢川かなう🐟
             Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
             Twitter 1024970912859189248, -- @yuzukichococh 癒月ちょこ💋@ChocoLoveMV公開しました！
             Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
-            Twitter 1009977580936577024, -- @SakurazukiKanon 桜月花音コラボイヤフォン＆ワイヤレス充電器販売中
-            Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
             Twitter 997786053124616192, -- @shirakamifubuki 白上フブキ@暁月なう🦊🌽
             Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
             Twitter 995983309715865600, -- @kaheru_orange kaheru🍊カヘル
@@ -151,7 +142,6 @@ in    [ Pipitor.Rule::{
             Twitter 971926028842033152, -- @mokomeme_ch もこ田めめめ
             Twitter 963358908986269696, -- @kashikomari_ch かしこまりRe:AcTに所属しました
             Twitter 962112920917127168, -- @Nekomiya_Hinata 猫宮ひなた(Nekomiya Hinata)
-            Twitter 953420062794309632, -- @hanakoto82 花琴いぐさ妖怪Vtuberです
             Twitter 953079145335988224, -- @dotLIVEyoutuber .LIVE【どっとライブ】
             Twitter 944104131383271424, -- @Miria_Sakuragi_ 桜樹みりあ＠踊投稿しました
             Twitter 923118677452402690, -- @fuji_aoi_0618 富士葵
@@ -170,7 +160,27 @@ in    [ Pipitor.Rule::{
           ]
         }
       , Pipitor.Rule::{
-        , -- 特殊フィルター。
+        , -- しゅりむすメンバーが「こんのん」を接頭辞に持つハッシュタグを使った場合は
+          -- （桜月花音さんと）シマハイさんとのコラボと判定する。
+          filter = Some Pipitor.Filter::{
+          , title = rx.any [ filter.basic, filter.kemovHashtags, rx.hash "こんのん" ]
+          }
+        , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
+        , topics = [
+            youtube "UCsAzaxwiKWolOWLH1bIU3wA", -- 彩 まよい【ミリタリーVTuber】 - YouTube
+            youtube "UCpPuEfqwYbpn7e2jWdQeWew", -- 水瓶ミア/ミアちゃんねる
+            youtube "UCcd4MSYH7bPIBEUqmBgSZQw", -- ルルン・ルルリカ
+            youtube "UCaq_BEsIHLVvdU6lCKLtipQ", -- Hanakoto Igusa (jp) - YouTube
+            youtube "UC3-jXrZXv-PQshpaTQpicPQ", -- のんちゃんねる【桜月花音】 - YouTube
+            Twitter 1342363212809793538, -- @Rururica_VTuber ルルン•ルルリカ
+            Twitter 1034280896575102977, -- @Mia_Mizugame 水瓶ミア
+            Twitter 1009977580936577024, -- @SakurazukiKanon 桜月花音コラボイヤフォン＆ワイヤレス充電器販売中
+            Twitter 1001386513949646848, -- @irodorimayoi 彩まよい ミリタリーVTuber
+            Twitter 953420062794309632, -- @hanakoto82 花琴いぐさ妖怪Vtuberです
+          ]
+        }
+      , Pipitor.Rule::{
+        , -- この呼称を用いるのは執筆時時点で鬼ヶ島ぴぃちのみなので保守的にフィルターする。
           filter = Some Pipitor.Filter::{
           , title = rx.any [ filter.basic, filter.kemovHashtags, "イロちゃんまん" ]
           }
