@@ -61,6 +61,7 @@ in    [ Pipitor.Rule::{
             youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
             youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
             youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
+            youtube "UCO_o0X1-ESEk8LEr1g9x1wg", -- 猫羽ころんNekohakoron
             youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
             youtube "UCMzxQ58QL4NNbWghGymtHvw", -- カルロ・ピノ
             youtube "UCaq_BEsIHLVvdU6lCKLtipQ", -- Hanakoto Igusa (jp) - YouTube
@@ -111,6 +112,7 @@ in    [ Pipitor.Rule::{
             Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
             Twitter 1308626156447436801, -- @Rui_Seshima 瀬島るい📮🦴あにまーれ
             Twitter 1302600596621373440, -- @PRISMProj PRISM Project
+            Twitter 1300476189702717440, -- @@nekoha_koron 猫羽ころん🐱🤍Vtuber/毎日配信 21時30分〜
             Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
             Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
             Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
