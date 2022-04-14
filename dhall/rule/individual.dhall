@@ -28,6 +28,7 @@ in    [ Pipitor.Rule::{
             Twitter 1210889093124505600, -- @_Amane_Kanon_ 天希かのん
             Twitter 1184389242761310208, -- @youmiya_hina 羊宮妃那
             Twitter 1153920859578331136, -- @izm_tako 和泉風花
+            Twitter 1147811213989928961, -- @Otsuki__Rena おおつき れな
             Twitter 1141319903250534400, -- @kitoakari_1016 鬼頭明里
             Twitter 1134589498610802688, -- @eino_airi_staff 永野愛理 スタッフ【公式】
             Twitter 1129194500365070336, -- @NINMiO_APT 二宮みお
