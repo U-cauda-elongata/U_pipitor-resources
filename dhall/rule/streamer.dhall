@@ -185,7 +185,7 @@ in    [ Pipitor.Rule::{
           ]
         }
       , Pipitor.Rule::{
-        , -- この呼称を用いるのは執筆時時点で鬼ヶ島ぴぃちのみなので保守的にフィルターする。
+        , -- この呼称を用いるのは執筆時時点で鬼ヶ島ぴぃちさんのみなので保守的にフィルターする。
           filter = Some Pipitor.Filter::{
           , title = rx.any [ filter.basic, filter.kemovHashtags, "イロちゃんまん" ]
           }
