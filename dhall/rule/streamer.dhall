@@ -160,10 +160,15 @@ in    [ Pipitor.Rule::{
           ]
         }
       , Pipitor.Rule::{
-        , -- しゅりむすメンバーが「こんのん」を接頭辞に持つハッシュタグを使った場合は
-          -- （桜月花音さんと）シマハイさんとのコラボと判定する。
+        , -- しゅりむす関連ハッシュタグの接頭辞。
+          -- 無関係のタグとの衝突を避けるため保守的にフィルターする。
           filter = Some Pipitor.Filter::{
-          , title = rx.any [ filter.basic, filter.kemovHashtags, rx.hash "こんのん" ]
+          , title =
+              rx.any
+                [ filter.basic
+                , filter.kemovHashtags
+                , rx.hash (rx.any [ "こんがお", "こんのん" ])
+                ]
           }
         , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
         , topics = [
