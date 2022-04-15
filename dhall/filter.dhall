@@ -83,6 +83,7 @@ let kemovLiveStream =
             , "熊とペンギン"
             , rx.wi "新春けもV桃鉄コラボ祭り"
             , rx.wi "秋のけもV大運動会"
+            , "月で餅つくギチューネ"
             ]
 
       let en =
