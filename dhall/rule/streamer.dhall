@@ -29,6 +29,7 @@ in    [ Pipitor.Rule::{
             youtube "UCswvd6_YWmd6riRk-8oT-sA", -- Shiki Miyoshino / 美吉野しき [PRISM Project]
             youtube "UCs-lYkwb-NYKE9_ssTRDK3Q", -- ねくろちゃん -Yamaguro Nekuro- /あおぎり高校
             youtube "UCrFM9PePa4a7654qY9psGjA", -- 肆ノ島來世 / Shinoshima Raise
+            youtube "UCqd9gfQFKjbrkfyr0-enzNw", -- Kohaku Ch.羽奏 こはく
             youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
             youtube "UCpeRj9-GaLGNUoKdI5I7vZA", -- Pina Pengin / 辺銀ピナ [PRISM Project]
             youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
@@ -79,6 +80,7 @@ in    [ Pipitor.Rule::{
             youtube "UC8NZiqKx6fsDT3AVcMiVFyA", -- Tamaki Ch. 犬山たまき / 佃煮のりお
             youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
             youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
+            youtube "UC6TfqY40Xt1Y0J-N18c85qQ", -- 安土桃
             youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
             youtube "UC4PrHgUcAtOoj_LKmUL-uLQ", -- Mia Channel / 湖南みあ 【あにまーれ】
             youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
@@ -95,9 +97,11 @@ in    [ Pipitor.Rule::{
             Twitter 1401266522589380611, -- @niasuzune Nia Suzune / 鈴音にあ
             Twitter 1401221154384326665, -- @shikimiyoshino Shiki Miyoshino / 美吉野しき
             Twitter 1393208011519262725, -- @VOMS_Project VOMS Project
+            Twitter 1386369134649249794, -- @kohaku_wakana 羽奏 こはく🥟🐉@いせぶい
             Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
             Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
             Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
+            Twitter 1359166213352546318, -- @isev_info いせぶい【公式】
             Twitter 1353969622907670528, -- @SanagiYuzu Yuzu 🦋
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
             Twitter 1351387644081520641, -- @Rukako_Oura 大浦るかこ🦉あにまーれ
@@ -126,6 +130,7 @@ in    [ Pipitor.Rule::{
             Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
             Twitter 1024970912859189248, -- @yuzukichococh 癒月ちょこ💋@ChocoLoveMV公開しました！
             Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
+            Twitter 1002075894880452609, -- @momo_azuchi_ 安土桃🍑
             Twitter 997786053124616192, -- @shirakamifubuki 白上フブキ@暁月なう🦊🌽
             Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
             Twitter 995983309715865600, -- @kaheru_orange kaheru🍊カヘル
