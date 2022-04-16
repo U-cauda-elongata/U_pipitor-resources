@@ -84,6 +84,7 @@ let kemovLiveStream =
             , rx.wi "新春けもV桃鉄コラボ祭り"
             , rx.wi "秋のけもV大運動会"
             , "月で餅つくギチューネ"
+            , "星物語同時視聴"
             ]
 
       let en =
