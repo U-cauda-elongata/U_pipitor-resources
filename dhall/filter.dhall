@@ -26,11 +26,18 @@ let screenNames =
 
       in  { kfOfficial, kemov }
 
-let kemovLiveStream =
-    -- 配信タグ
+let kemovHashtags =
+    -- 配信タグ・アートタグ（表記揺れ込み）
       let ja =
           -- 日本語
-            [ rx.wi "UNOフレンズ"
+            [ "けーぷあーと"
+            , "しまはいあーと"
+            , "ふるるあーと"
+            , "ふんぼるとあーと"
+            , "カニハイちゃん"
+            , "シマカニちゃん"
+            , "ダイアート展"
+            , rx.wi "UNOフレンズ"
             , "えいごじょーずにできるかな"
             , "お引越しフレンズ"
             , "くっくフルルー"
@@ -58,6 +65,7 @@ let kemovLiveStream =
             , "イオリンとギチューネ"
             , "イツメン会議"
             , "エリートかもしれない調査団"
+            , "カニハイちゃん"
             , "キツネにつままれるシカ"
             , "ケプ狐"
             , "ケープウルフ"
@@ -91,7 +99,9 @@ let kemovLiveStream =
       let en =
           -- 英語
           -- Live streaming hastags of KemoV.
-            [ rx.wi "CoyoMio"
+            [ rx.wi "coyoart"
+            , rx.wi "CoyoMio"
+            , rx.wi "howlcast"
             , rx.wi "KemoV"
             , rx.wi "pikacoyo"
             , rx.wi "shizucoyo"
@@ -141,7 +151,7 @@ let common =
       ]
 
 let kemovCommon =
-      [ rx.hash (rx.any kemovLiveStream.common)
+      [ rx.hash (rx.any kemovHashtags.common)
       , kemovChannelMentions
       , mentionOrQuote ++ rx.any screenNames.kemov
       ]
@@ -181,12 +191,12 @@ let individual =
               , "はなまる(?:\\b|アニマル)"
               , rx.wi "Xジャパリ団"
               ]
-            # kemovLiveStream.ja
+            # kemovHashtags.ja
             # [ "けもレポ", "細かすぎて伝わらない舞台けものフレンズの好きなところ" ]
 
       let en =
           -- English posts from en/ja bilingual accounts (individual)
-            [ rx.wi "KemonoFriends" ] # kemovLiveStream.en
+            [ rx.wi "KemonoFriends" ] # kemovHashtags.en
 
       let common =
           -- 一般用
