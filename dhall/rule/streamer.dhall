@@ -70,6 +70,7 @@ in    [ Pipitor.Rule::{
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
             youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
+            youtube "UCE5VgVGRPfNCjXPeTe1QJHA", -- 羽渦ミウネル -Miuneru Haneuzu-
             youtube "UCDzdRLILLWlHxXnj3HhXW0A", -- Caitlin Myers
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
@@ -89,8 +90,10 @@ in    [ Pipitor.Rule::{
             youtube "UC2hWFlqMew61Jy6A8zu5HzQ", -- Iku Hoshifuri / 星降いく [PRISM Project]
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
+            youtube "UC--A2dwZW7-M2kID0N6_lfA", -- Chris Channel / 獅子王クリス 【シュガリリ】
             Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
             Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
+            Twitter 1436344036026060801, -- @Miuneru_ 羽渦ミウネル🍥
             Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
             Twitter 1419329503512301573, -- @r_snsm 肆ノ島 來世 / Shinoshima Raise
             Twitter 1401301000477085698, -- @PinaPengin Pina Pengin | 辺銀ピナ🐧❄️ 3rd GEN - PRISM Project
@@ -116,6 +119,8 @@ in    [ Pipitor.Rule::{
             Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
             Twitter 1265091241609322496, -- @noriopro のりプロ公式🌞
             Twitter 1253633049884942337, -- @tukimi_marumoti 丸餅つきみ🍡ゴシップ歌いました
+            Twitter 1240652791892172800, -- @ChrisShishio 獅子王クリス🎄🐙シュガリリ
+            Twitter 1234698396297859072, -- @SugarLyric_PI シュガーリリック公式🍩三毛猫ななし
             Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
             Twitter 1225702850002468864, -- @amanopikamee ピカミィ⚡️Pikamee
             Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
