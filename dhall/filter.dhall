@@ -155,6 +155,7 @@ let common =
       , "かぷせるフレンズ"
       , "ワイルドラッシュ"
       , rx.wi "WILDRUSH"
+      , rx.hash (rx.wi "PPP特番")
       ]
 
 let kemovCommon =
@@ -197,6 +198,7 @@ let individual =
               , "おやすみおはよ\\b"
               , "はなまる(?:\\b|アニマル)"
               , rx.wi "Xジャパリ団"
+              , rx.wi "PPP特番"
               ]
             # kemovHashtags.ja
             # [ "けもレポ", "細かすぎて伝わらない舞台けものフレンズの好きなところ" ]
