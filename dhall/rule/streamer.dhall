@@ -32,10 +32,12 @@ in    [ Pipitor.Rule::{
             youtube "UCqd9gfQFKjbrkfyr0-enzNw", -- Kohaku Ch.羽奏 こはく
             youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
             youtube "UCpeRj9-GaLGNUoKdI5I7vZA", -- Pina Pengin / 辺銀ピナ [PRISM Project]
+            youtube "UCn14Z641OthNps7vppBvZFA", -- 千草はな / Chigusa Hana
             youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
             youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
             youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
             youtube "UCjlmCrq4TP1I4xguOtJ-31w", -- でびでび・でびる
+            youtube "UCiLt4FLjMXszLOh5ISi1oqw", -- Kakeru Ch. 間取かける
             youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
             youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
             youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
@@ -57,6 +59,7 @@ in    [ Pipitor.Rule::{
             youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
             youtube "UCUyBb-nTJoFWUOydbExmLuQ", -- Shizukou VODs
             youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
+            youtube "UCRXBTd80F5IIWWY4HatJ5Ug", -- 花園セレナ
             youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
             youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
             youtube "UCO_o0X1-ESEk8LEr1g9x1wg", -- 猫羽ころんNekohakoron
@@ -67,9 +70,11 @@ in    [ Pipitor.Rule::{
             youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
             youtube "UCKvij44VV9TWt-EM3evoRWg", -- Yuzu Ch. ENVtuber 蛾虫ユズ
+            youtube "UCJePO0Zl-zZTqjpHO82RNNA", -- ミツルギリア Lia Mitsurugi【WACTOR】
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
             youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
+            youtube "UCH6jR8Ddrevo4OFddNr5ACg", -- rucaco ch. / るかこちゃんねる
             youtube "UCE5VgVGRPfNCjXPeTe1QJHA", -- 羽渦ミウネル -Miuneru Haneuzu-
             youtube "UCDzdRLILLWlHxXnj3HhXW0A", -- Caitlin Myers
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
@@ -87,9 +92,12 @@ in    [ Pipitor.Rule::{
             youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
             youtube "UC3Ruo_5doyu514PesWGvCAg", -- Aoi ch.
+            youtube "UC3KldSym-HTLMkvitStsNTw", -- 天満ニア-AmamaNia-
+            youtube "UC2rIXE0D3Vb8kS48DQrW-Jg", -- Kokuri Ch.来音こくり
             youtube "UC2hWFlqMew61Jy6A8zu5HzQ", -- Iku Hoshifuri / 星降いく [PRISM Project]
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
+            youtube "UC-VWUn_oDeokHEkuTmVrLHg", -- Kuon ch.桜神くおん
             youtube "UC--A2dwZW7-M2kID0N6_lfA", -- Chris Channel / 獅子王クリス 【シュガリリ】
             Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
             Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
@@ -111,20 +119,25 @@ in    [ Pipitor.Rule::{
             Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
             Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
+            Twitter 1314511790756167681, -- @kokuri_kurune 来音 こくり🦊🌰ASMR修行中💕
             Twitter 1308626156447436801, -- @Rui_Seshima 瀬島るい📮🦴あにまーれ
             Twitter 1302600596621373440, -- @PRISMProj PRISM Project
             Twitter 1300476189702717440, -- @@nekoha_koron 猫羽ころん🐱🤍Vtuber/毎日配信 21時30分〜
             Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
+            Twitter 1293164758036692992, -- @Ookami__Kuon 桜神 くおん🐾🌸ぴくぷり
             Twitter 1274659198907740161, -- @LifeLikeaLive Life Like a Live!2公式(#えるすりー)＠2021年9/18～9/20開催決定！
             Twitter 1274000870867439616, -- @Shizukougames Shizukou  VTuber
             Twitter 1265091241609322496, -- @noriopro のりプロ公式🌞
             Twitter 1253633049884942337, -- @tukimi_marumoti 丸餅つきみ🍡ゴシップ歌いました
             Twitter 1240652791892172800, -- @ChrisShishio 獅子王クリス🎄🐙シュガリリ
             Twitter 1234698396297859072, -- @SugarLyric_PI シュガーリリック公式🍩三毛猫ななし
+            Twitter 1227374082468937728, -- @matorikakeru 間取かける🪟❌Matori Kakeru Vtuber
             Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
             Twitter 1225702850002468864, -- @amanopikamee ピカミィ⚡️Pikamee
             Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
             Twitter 1224653916131823616, -- @Kirara_Mimi 雲母ミミKiraraMimi抱き枕予約販売中25万人ありがとお
+            Twitter 1223260492245811200, -- @amamania_vtuber 天満ニア🦊💮20時もふもふ船🚀
+            Twitter 1204726426328395776, -- @MitsurugiLia ミツルギリア⬡4/29 VtuberFes2022
             Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
             Twitter 1120021521752154112, -- @Enomiya_MILK 愛宮みるく
             Twitter 1099929347283050496, -- @makio_elecom マキオ@S11 マスター
@@ -133,8 +146,10 @@ in    [ Pipitor.Rule::{
             Twitter 1065021083810705409, -- @mom0ki Momoki 🕯️ VTube
             Twitter 1030728825808666624, -- @Kanau_Yumekawa 夢川かなう🐟
             Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
+            Twitter 1029373963938324480, -- @hanazono_serena 🍯花園セレナ/HanazonoSerena🍯
             Twitter 1024970912859189248, -- @yuzukichococh 癒月ちょこ💋@ChocoLoveMV公開しました！
             Twitter 1011877417290362881, -- @tomari_mari 兎鞠まり
+            Twitter 1009981179884285952, -- @hanachigusa_ch 千草 はな🦊🌼 オリジナルパーカー予約受付中
             Twitter 1002075894880452609, -- @momo_azuchi_ 安土桃🍑
             Twitter 997786053124616192, -- @shirakamifubuki 白上フブキ@暁月なう🦊🌽
             Twitter 996645451045617664, -- @natsuiromatsuri 夏色まつりNatsuiroMatsuri
@@ -160,6 +175,7 @@ in    [ Pipitor.Rule::{
             Twitter 4919358698, -- @tv_asahi_douga 【公式】テレ朝動画
             Twitter 3271690045, -- @shohei_taguchi たぐちアナ
             Twitter 3068808974, -- @baovtuber Bao 🐳 Whaletuber
+            Twitter 2270560254, -- @_rucaco_ rucaco/るかこ〰🍎
             Twitter 320959459, -- @justfream FREAM ✦ VTUBER
             Twitter 218450187, -- @norioo_ 佃煮のりお/犬山たまき🐶💙
             Twitter 200080344, -- @tanista_com タニさん＠タニスタ
