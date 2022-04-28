@@ -41,6 +41,7 @@ in    [ Pipitor.Rule::{
             Twitter 1117014055275753472, -- @NeikoInoue 井上 寧子(いのうえ ねいこ)
             Twitter 1113758206436622336, -- @yoshioka_mayuC 吉岡茉祐
             Twitter 1113445785004269568, -- @minazou_373 田中美海
+            Twitter 1110744793133416449, -- @kirara_ouo 南山希来々
             Twitter 1109020541904535552, -- @SHIMPOREI 新保レイ
             Twitter 1082826501609799680, -- @misawa_official 三澤 紗千香(みさわ さちか)official
             Twitter 1079251759179026432, -- @sayaka_harada_ 原田 彩楓
