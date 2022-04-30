@@ -19,6 +19,14 @@ in  [ Pipitor.Rule::{
         ]
       }
     , Pipitor.Rule::{
+      , -- International
+        filter = None Pipitor.Filter.Type
+      , outbox = [ Pipitor.Outbox.Twitter account.pipitorIntl ]
+      , topics = [
+          youtube "UCWMgQDJsPAERC8ENR2V3iHw", -- 動物朋友:王國
+        ]
+      }
+    , Pipitor.Rule::{
       , -- けもＶ
         filter = None Pipitor.Filter.Type
       , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
