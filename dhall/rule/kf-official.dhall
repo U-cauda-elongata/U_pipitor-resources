@@ -38,6 +38,7 @@ in  [ Pipitor.Rule::{
           -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるためリツイートの対象とはしない。
           [] : List Pipitor.Outbox
       , topics = [
+          Twitter 1503340095239495682, -- @KFKSGMY 动物朋友-王国
           Twitter 1444527872689930245, -- @tiktam_official ちく☆たむ オフィシャル
           Twitter 1404316984175599619, -- @KEMOVP_staff パークスタッフ
           Twitter 1396771594924564485, -- @Shimahai_KEMOV シマハイイロギツネ🏝🦊

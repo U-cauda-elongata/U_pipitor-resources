@@ -13,6 +13,7 @@ let screenNames =
             , "Gothic_Luck"
             , "kemofure_yakata"
             , "X_JPD_official"
+            , "KFKSGMY"
             ]
 
       let kemov =
