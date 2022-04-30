@@ -101,6 +101,7 @@ in  [ Pipitor.Rule::{
           youtube "UCnVz-E6zalkquQm-fOMolfg", -- GITSchannel
           youtube "UC_zBYH60OukiGnKSZJJxENw", -- ゲマチャンネル
           youtube "UCQ7QGT_v6Si-2-i0f9mbMBQ", -- リミテッドスタンドLimited Stand
+          Twitter 1510909405923278848, -- @smilelive2022 SMILE LIVE2022
           Twitter 1303969509779275776, -- @kizunaStage -絆- on Stage 2020
           Twitter 1080189433683501056, -- @adm_akiba アド街っぷPREMIUM版＠秋葉原観光マップ【公式】
           Twitter 1066994760915664897, -- @marui_9shu_a 博多マルイ・九州 アニメイベント
