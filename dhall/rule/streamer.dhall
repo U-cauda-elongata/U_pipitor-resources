@@ -59,6 +59,7 @@ in    [ Pipitor.Rule::{
             youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
             youtube "UCUyBb-nTJoFWUOydbExmLuQ", -- Shizukou VODs
             youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
+            youtube "UCSlcMof1GIPvH6H_VcknCbQ", -- 七星みりり
             youtube "UCRXBTd80F5IIWWY4HatJ5Ug", -- 花園セレナ
             youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
             youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
@@ -117,6 +118,7 @@ in    [ Pipitor.Rule::{
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
             Twitter 1351387644081520641, -- @Rukako_Oura 大浦るかこ🦉あにまーれ
             Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
+            Twitter 1342364242737938434, -- @Milily_VTuber 七星みりり💥💫Vtuber❤️
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
             Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
             Twitter 1314511790756167681, -- @kokuri_kurune 来音 こくり🦊🌰ASMR修行中💕
