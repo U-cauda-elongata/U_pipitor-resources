@@ -32,7 +32,7 @@ in  [ Pipitor.Rule::{
       , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
       , topics = [
           youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
-          youtube "UCdNBhcAohYjXlUVYsz8X2KQ", -- Direwolf_KEMOV ダイアウルフ
+          youtube "UCdNBhcAohYjXlUVYsz8X2KQ", -- ダイアウルフ / Dire Wolf
           youtube "UCabMjG8p6G5xLkPJgEoTnDg", -- コヨーテ / Coyote
           youtube "UCMpw36mXEu3SLsqdrJxUKNA", -- シマハイイロギツネ / Island Fox
           youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
