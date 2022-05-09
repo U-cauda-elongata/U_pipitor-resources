@@ -163,6 +163,7 @@ in    [ Pipitor.Rule::{
             Twitter 2574392995, -- @nagaku_yuki 長久友紀@がっきゅ
             Twitter 2574385454, -- @yuri_nogu のぐちゆり
             Twitter 2570625481, -- @bknb_mew みゆはん
+            Twitter 2563725608, -- @the_kwmr 河村 梨恵
             Twitter 2548258832, -- @deet_ic 馬場莉乃
             Twitter 2471285462, -- @jullie_egg 木村珠莉
             Twitter 2445518118, -- @takamori_723 高森奈津美
