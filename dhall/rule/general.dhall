@@ -149,6 +149,7 @@ in  [ Pipitor.Rule::{
           Twitter 1045625907967275008, -- @ARTILIFE_jp ARTILIFE_jp
           Twitter 1040162473033195522, -- @WACCA_official WACCA 公式
           Twitter 1027427093552852992, -- @girls_creatures 【公式】ガールズ&クリーチャーズ
+          Twitter 1017667814646149120, -- @mukkuofficial ムック【Mukku】
           Twitter 1016949794000891904, -- @mamodan_staff 【公式】まものダンジョン＋
           Twitter 995941828766519296, -- @DNM_JP アイリーン＠ドラゴンネストM公式
           Twitter 927384454640705536, -- @LaTale_Japan ラテール 公式ReNEW！
@@ -165,6 +166,7 @@ in  [ Pipitor.Rule::{
           Twitter 248460704, -- @puyopuyo20th みどりぷよ（ぷよぷよシリーズ公式）『ぷよぷよテトリス２』好評発売中！
           Twitter 131003836, -- @keroro_PR 【公式】ケロロ軍曹PR
           Twitter 56906171, -- @sanrio_news サンリオ
+          Twitter 49567785, -- @GachapinBlog ガチャピン【Gachapin】
 
           -- 流通
           youtube "UCA3Ea513Nu-fRN3BBzePHcA", -- Victor Online Store
