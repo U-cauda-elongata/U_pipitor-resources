@@ -82,6 +82,7 @@ in    [ Pipitor.Rule::{
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
             youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
             youtube "UCAZ_LA7f0sjuZ1Ni8L2uITw", -- どっとライブ
+            youtube "UCAHXqn4nAd2j3LRu1Qyi_JA", -- エトラ / étraチャンネル
             youtube "UC90vyzmRgWCE17-uWNsKW2Q", -- 【Re:AcT /リアクト】公式チャンネル
             youtube "UC8jskpQfW9fn2NLK3PdaGdg", -- 夢川かなう/Kanau ch
             youtube "UC8NZiqKx6fsDT3AVcMiVFyA", -- Tamaki Ch. 犬山たまき / 佃煮のりお
@@ -141,6 +142,7 @@ in    [ Pipitor.Rule::{
             Twitter 1223260492245811200, -- @amamania_vtuber 天満ニア🦊💮20時もふもふ船🚀
             Twitter 1204726426328395776, -- @MitsurugiLia ミツルギリア⬡4/29 VtuberFes2022
             Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
+            Twitter 1168042569416077312, -- @etra_ASI エトラ/ étra
             Twitter 1120021521752154112, -- @Enomiya_MILK 愛宮みるく
             Twitter 1099929347283050496, -- @makio_elecom マキオ@S11 マスター
             Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
