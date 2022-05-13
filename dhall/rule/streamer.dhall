@@ -78,6 +78,7 @@ in    [ Pipitor.Rule::{
             youtube "UCH6jR8Ddrevo4OFddNr5ACg", -- rucaco ch. / るかこちゃんねる
             youtube "UCE5VgVGRPfNCjXPeTe1QJHA", -- 羽渦ミウネル -Miuneru Haneuzu-
             youtube "UCDzdRLILLWlHxXnj3HhXW0A", -- Caitlin Myers
+            youtube "UCCe6J3ls9PMpcKEEmJ0F8KA", -- アメザリひらい Virtual
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
             youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
@@ -187,6 +188,7 @@ in    [ Pipitor.Rule::{
             Twitter 113083374, -- @erisize なつめえり🍚
             Twitter 110879535, -- @Gatchman666 ガッチマン （総合）
             Twitter 87467070, -- @tammy_now 民安ともえ(Vtuberたみー)オーディション2次審査応援感謝！結果は12/18ニコ生で！
+            Twitter 73860359, -- @amezari_hirai アメザリひらい🦞えにしん
           ]
         }
       , Pipitor.Rule::{
