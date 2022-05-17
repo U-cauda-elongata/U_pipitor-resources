@@ -24,6 +24,7 @@ in  [ Pipitor.Rule::{
       , outbox = [ Pipitor.Outbox.Twitter account.pipitorIntl ]
       , topics = [
           youtube "UCWMgQDJsPAERC8ENR2V3iHw", -- 動物朋友:王國
+          youtube "UCOsYTURFnhPt47G4B2v5DdA", -- 动物朋友-王国
         ]
       }
     , Pipitor.Rule::{
