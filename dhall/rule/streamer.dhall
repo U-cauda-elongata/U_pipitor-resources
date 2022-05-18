@@ -91,6 +91,7 @@ in    [ Pipitor.Rule::{
             youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
             youtube "UC6TfqY40Xt1Y0J-N18c85qQ", -- 安土桃
             youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
+            youtube "UC5XQhzMH08PgWa4Zp02Gcsw", -- 月紫アリアch / Tsukushi Aria
             youtube "UC4PrHgUcAtOoj_LKmUL-uLQ", -- Mia Channel / 湖南みあ 【あにまーれ】
             youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
@@ -115,6 +116,7 @@ in    [ Pipitor.Rule::{
             Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
             Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
             Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
+            Twitter 1370242764323975170, -- @tsukushi_aria 月紫アリア🦇☪️
             Twitter 1359166213352546318, -- @isev_info いせぶい【公式】
             Twitter 1353969622907670528, -- @SanagiYuzu Yuzu 🦋
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
