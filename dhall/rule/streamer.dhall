@@ -24,18 +24,23 @@ in    [ Pipitor.Rule::{
             youtube "UCyb-cllCkMREr9de-hoiDrg", -- ヤマト イオリ
             youtube "UCyKsg-57XC9pyHbP7v3kCPQ", -- Miori Ch. ミオリ・セレスタ 【Tsunderia】
             youtube "UCyDlCb8B48ZrSJvknOQsRog", -- 酵穣 桃桜Momozakura Kojo
+            youtube "UCxJ9SJLG7dA00M7VoEe4ltw", -- 天川はの/AmakawaHano
             youtube "UCwUNuXd6rN08SQFzlIH4Ozg", -- なつめえりちゃんねる / Natsume Eri ch.
             youtube "UCw1KNjVqfrJSfcFd6zlcSzA", -- Nia Suzune / 鈴音にあ [PRISM Project]
+            youtube "UCtM5G3bS7zM8bv6p-OwoNTw", -- リクム
+            youtube "UCtKH7ZHAJ7TcTjyiLJRHhvg", -- 彩雲のの - Nono Ayamo -
             youtube "UCswvd6_YWmd6riRk-8oT-sA", -- Shiki Miyoshino / 美吉野しき [PRISM Project]
             youtube "UCs-lYkwb-NYKE9_ssTRDK3Q", -- ねくろちゃん -Yamaguro Nekuro- /あおぎり高校
             youtube "UCrFM9PePa4a7654qY9psGjA", -- 肆ノ島來世 / Shinoshima Raise
             youtube "UCqd9gfQFKjbrkfyr0-enzNw", -- Kohaku Ch.羽奏 こはく
             youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
             youtube "UCpeRj9-GaLGNUoKdI5I7vZA", -- Pina Pengin / 辺銀ピナ [PRISM Project]
+            youtube "UCoFEbNyIRUS26-hf2AucwFw", -- Nekono Yukino / 猫乃ユキノ
             youtube "UCn14Z641OthNps7vppBvZFA", -- 千草はな / Chigusa Hana
             youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
             youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
             youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
+            youtube "UCju7v8SkoWUQ5ITCQwmYpYg", -- メリーミルクの森
             youtube "UCjlmCrq4TP1I4xguOtJ-31w", -- でびでび・でびる
             youtube "UCiLt4FLjMXszLOh5ISi1oqw", -- Kakeru Ch. 間取かける
             youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
@@ -43,9 +48,11 @@ in    [ Pipitor.Rule::{
             youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
             youtube "UCfeznQrLe9URem6xJmWQVlw", -- Mama Ch. 倉持京子
             youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
+            youtube "UCeqIMtLuGc3YgwkhEaG8oDg", -- 稀羽すう - Suu Usuwa -
             youtube "UCdn5BQ06XqgXoAxIhbqw5Rg", -- フブキCh。白上フブキ
             youtube "UCdMpGhtL9oK8EYolTt8v4uQ", -- VOMS Project
             youtube "UCajhBT4nMrg3DLS-bLL2RCg", -- 天野ピカミィ. Pikamee
+            youtube "UCa5g-Q_NT2COXiSS55bwXVQ", -- Kazami Mikan - 風海みかんちゃんねる - official
             youtube "UC_vFNa_irvWQapwwaasYMOQ", -- Life Like a Live!（えるすりー）
             youtube "UC_kJ27jGTWYniW-Xy3Ms5Cw", -- Hikari CH.ネ申乃ひかり
             youtube "UC_WOBIopwUih0rytRnr_1Ag", -- Rui Channel / 瀬島るい 【あにまーれ】
@@ -57,6 +64,7 @@ in    [ Pipitor.Rule::{
             youtube "UCX7YkU9nEeaoZbkVLVajcMg", -- にじさんじ
             youtube "UCWq6L3iY4hGK4LmylvQtj-g", -- 桜樹みりあ
             youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
+            youtube "UCVbRXkQP-LumaBzfw-wsrrg", -- 皇ロゼ／SumeragiRose ch
             youtube "UCUyBb-nTJoFWUOydbExmLuQ", -- Shizukou VODs
             youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
             youtube "UCSlcMof1GIPvH6H_VcknCbQ", -- 七星みりり
@@ -72,12 +80,15 @@ in    [ Pipitor.Rule::{
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
             youtube "UCKvij44VV9TWt-EM3evoRWg", -- Yuzu Ch. ENVtuber 蛾虫ユズ
             youtube "UCJePO0Zl-zZTqjpHO82RNNA", -- ミツルギリア Lia Mitsurugi【WACTOR】
+            youtube "UCJQMHCFjVZOVRYafR6gY04Q", -- Usami Yuno Ch. 宇佐美 ユノ
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
             youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
             youtube "UCH6jR8Ddrevo4OFddNr5ACg", -- rucaco ch. / るかこちゃんねる
+            youtube "UCFrH3bfn7gDeV29wrHHM80g", -- 射貫まといちゃんねる
             youtube "UCE5VgVGRPfNCjXPeTe1QJHA", -- 羽渦ミウネル -Miuneru Haneuzu-
             youtube "UCDzdRLILLWlHxXnj3HhXW0A", -- Caitlin Myers
+            youtube "UCDrG8pzkq_cCCLcN5wgrzNw", -- 魔光リサ - Lisa Makoh -
             youtube "UCCe6J3ls9PMpcKEEmJ0F8KA", -- アメザリひらい Virtual
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
@@ -89,10 +100,12 @@ in    [ Pipitor.Rule::{
             youtube "UC8NZiqKx6fsDT3AVcMiVFyA", -- Tamaki Ch. 犬山たまき / 佃煮のりお
             youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
             youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
+            youtube "UC6TyfKcsrPwBsBnx2QobVLQ", -- 【世界初?!】男性バーチャルYouTuber ばあちゃる
             youtube "UC6TfqY40Xt1Y0J-N18c85qQ", -- 安土桃
             youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
             youtube "UC5XQhzMH08PgWa4Zp02Gcsw", -- 月紫アリアch / Tsukushi Aria
             youtube "UC4PrHgUcAtOoj_LKmUL-uLQ", -- Mia Channel / 湖南みあ 【あにまーれ】
+            youtube "UC4OeUf_KfYRrwksschtRYow", -- 花鋏キョウ/キョウちゃんねる
             youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
             youtube "UC3Ruo_5doyu514PesWGvCAg", -- Aoi ch.
