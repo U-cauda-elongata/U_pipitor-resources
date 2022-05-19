@@ -146,6 +146,7 @@ in  [ Pipitor.Rule::{
           Twitter 11195332, -- @schatz1 シャッツキステ
 
           -- コラボ作品
+          Twitter 1410876376345845760, -- @7rhythmdash ナナリズムダッシュ公式
           Twitter 1045625907967275008, -- @ARTILIFE_jp ARTILIFE_jp
           Twitter 1040162473033195522, -- @WACCA_official WACCA 公式
           Twitter 1027427093552852992, -- @girls_creatures 【公式】ガールズ&クリーチャーズ
