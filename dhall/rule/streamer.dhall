@@ -43,8 +43,8 @@ in    [ Pipitor.Rule::{
             youtube "UCju7v8SkoWUQ5ITCQwmYpYg", -- メリーミルクの森
             youtube "UCjlmCrq4TP1I4xguOtJ-31w", -- でびでび・でびる
             youtube "UCiLt4FLjMXszLOh5ISi1oqw", -- Kakeru Ch. 間取かける
-            youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
             youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
+            youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
             youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
             youtube "UCfeznQrLe9URem6xJmWQVlw", -- Mama Ch. 倉持京子
             youtube "UCevD0wKzJFpfIkvHOiQsfLQ", -- ひなたチャンネル (Hinata Channel)
@@ -67,16 +67,16 @@ in    [ Pipitor.Rule::{
             youtube "UCVbRXkQP-LumaBzfw-wsrrg", -- 皇ロゼ／SumeragiRose ch
             youtube "UCUyBb-nTJoFWUOydbExmLuQ", -- Shizukou VODs
             youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
+            youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
             youtube "UCSlcMof1GIPvH6H_VcknCbQ", -- 七星みりり
             youtube "UCRXBTd80F5IIWWY4HatJ5Ug", -- 花園セレナ
-            youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
-            youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
-            youtube "UCO_o0X1-ESEk8LEr1g9x1wg", -- 猫羽ころんNekohakoron
-            youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
-            youtube "UCMzxQ58QL4NNbWghGymtHvw", -- カルロ・ピノ
             youtube "UCR6f6Cx-dWX0nbteSXvhI6g", -- アナウンサーたぐちのガチ実況チャンネル
             youtube "UCQ7CahbXDmC0ibAULBxRJBQ", -- 屋敷シエルYashiki Ciel
-            youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
+            youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
+            youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
+            youtube "UCO_o0X1-ESEk8LEr1g9x1wg", -- 猫羽ころんNekohakoron
+            youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
+            youtube "UCMzxQ58QL4NNbWghGymtHvw", -- カルロ・ピノ
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
             youtube "UCKvij44VV9TWt-EM3evoRWg", -- Yuzu Ch. ENVtuber 蛾虫ユズ
             youtube "UCJePO0Zl-zZTqjpHO82RNNA", -- ミツルギリア Lia Mitsurugi【WACTOR】
