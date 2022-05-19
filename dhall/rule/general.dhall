@@ -32,7 +32,9 @@ in  [ Pipitor.Rule::{
           youtube "UCFoS_FzutpGb3EDH3dZ47sw", -- ブシロード公式チャンネル
           youtube "UC4YT50DP7hbMsor8FmyEPMw", -- Victor Entertainment
           youtube "UC3tZDwLVGnZKl9477fCxhGQ", -- セガゲームス公式アプリ
+          Twitter 1332213769091485696, -- @777Realofficial 777Real【公式】
           Twitter 1267409826314739712, -- @AppiritsSp アピリッツ 広報・山田アイコ | アピスピ読んでね！
+          Twitter 1073114697019273217, -- @777TOWN_net 777TOWN.net【公式】
           Twitter 891908618789937152, -- @NelkePlanning ネルケプランニング（公式）
           Twitter 824551506737192960, -- @GGI_INC 株式会社ギャラクシーグラフィックス
           Twitter 798795770581266433, -- @PRTIMES_NEWS PR TIMESニュース
@@ -48,6 +50,7 @@ in  [ Pipitor.Rule::{
           Twitter 2371707378, -- @shonen_Ace 少年エース
           Twitter 1966429123, -- @bushimostation ブシモ公式
           Twitter 1612407691, -- @PRTIMES_ETM PR TIMESエンタメ
+          Twitter 704218850, -- @777townOfficial 777TOWN mobile
           Twitter 498788645, -- @bushi_PR ブシロード公式
           Twitter 468037892, -- @seganewsnavi セガプラザ公式
           Twitter 338905976, -- @Jupiter_JP1 株式会社ジュピター
@@ -111,6 +114,7 @@ in  [ Pipitor.Rule::{
           Twitter 988987447844356096, -- @Entaba_akiba エンタバアキバ by SHINSEIDO
           Twitter 978555699952168961, -- @h_kawaiiya 原宿カワイーヤ
           Twitter 927737741076414466, -- @rikanenpyo_mpub 理科年表編集室
+          Twitter 879534346775822336, -- @7rhythmOfficial ナナリズム公式
           Twitter 832416664033452032, -- @edomaekisen もんじゃ屋形船 江戸前汽船
           Twitter 830022722063183872, -- @nhk_darwin ダーウィンが来た！
           Twitter 775579759417798657, -- @LimitedStand リミスタ
