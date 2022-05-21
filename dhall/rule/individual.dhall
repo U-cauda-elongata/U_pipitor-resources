@@ -406,7 +406,7 @@ in    [ Pipitor.Rule::{
       , Pipitor.Rule::{
         , -- 配信者・VTuber
           filter = Some Pipitor.Filter::{
-          , title = rx.any [ filter.individual.common, filter.kemovHashtags ]
+          , title = rx.any [ filter.individual.common, filter.kemovAnimalNameHashtags ]
           }
         , outbox = [ Pipitor.Outbox.Twitter account.pipitorIndv ]
         , topics = [

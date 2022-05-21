@@ -15,7 +15,7 @@ let Twitter = Pipitor.Topic.Twitter
 
 in    [ Pipitor.Rule::{
         , filter = Some Pipitor.Filter::{
-          , title = rx.any [ filter.basic, filter.kemovHashtags ]
+          , title = rx.any [ filter.basic, filter.kemovAnimalNameHashtags ]
           }
         , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
         , topics = [
@@ -213,7 +213,7 @@ in    [ Pipitor.Rule::{
           , title =
               rx.any
                 [ filter.basic
-                , filter.kemovHashtags
+                , filter.kemovAnimalNameHashtags
                 , rx.hash (rx.any [ "こんがお", "こんのん" ])
                 ]
           }
@@ -234,7 +234,7 @@ in    [ Pipitor.Rule::{
       , Pipitor.Rule::{
         , -- この呼称を用いるのは執筆時時点で鬼ヶ島ぴぃちさんのみなので保守的にフィルターする。
           filter = Some Pipitor.Filter::{
-          , title = rx.any [ filter.basic, filter.kemovHashtags, "イロちゃんまん" ]
+          , title = rx.any [ filter.basic, filter.kemovAnimalNameHashtags, "イロちゃんまん" ]
           }
         , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
         , topics = [
@@ -250,7 +250,7 @@ in    [ Pipitor.Rule::{
                 Twitter 950967576980422657, -- @nijisanji_app にじさんじ公式🌈🕒
               ]
 
-        let kemovFilter = rx.any [ filter.kemov, filter.kemovHashtags ]
+        let kemovFilter = rx.any [ filter.kemov, filter.kemovAnimalNameHashtags ]
 
         in  [ Pipitor.Rule::{
               , filter = Some Pipitor.Filter::{ title = kemovFilter }
