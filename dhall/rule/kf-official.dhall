@@ -32,6 +32,7 @@ in  [ Pipitor.Rule::{
         filter = None Pipitor.Filter.Type
       , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
       , topics = [
+          youtube "UCxm7yNjJsSvyvcG96-Cvmpw", -- カラカル / Caracal
           youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
           youtube "UCdNBhcAohYjXlUVYsz8X2KQ", -- ダイアウルフ / Dire Wolf
           youtube "UCabMjG8p6G5xLkPJgEoTnDg", -- コヨーテ / Coyote
@@ -50,6 +51,7 @@ in  [ Pipitor.Rule::{
           Twitter 1503340095239495682, -- @KFKSGMY 动物朋友-王国
           Twitter 1444527872689930245, -- @tiktam_official ちく☆たむ オフィシャル
           Twitter 1404316984175599619, -- @KEMOVP_staff パークスタッフ
+          Twitter 1396775680721842180, -- @Caracal_KEMOV カラカル🌶🐱でびゅーはつはいしん5/28(土)20じカラ✨
           Twitter 1396771594924564485, -- @Shimahai_KEMOV シマハイイロギツネ🏝🦊
           Twitter 1396751372712779778, -- @Coyote_KEMOV Coyote
           Twitter 1396750022541144071, -- @Direwolf_KEMOV ダイアウルフ

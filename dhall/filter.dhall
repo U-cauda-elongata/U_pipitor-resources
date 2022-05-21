@@ -18,6 +18,7 @@ let screenNames =
 
       let kemov =
             [ "Cape_KEMOV"
+            , "Caracal_KEMOV"
             , "Direwolf_KEMOV"
             , "Hululu_KEMOV"
             , "Shimahai_KEMOV"
@@ -36,6 +37,7 @@ let kemovHashtags =
             , "ふるるあーと"
             , "ふんぼるとあーと"
             , "カニハイちゃん"
+            , "カラカル展"
             , "ガチUNO卍"
             , "ケープお別れ会"
             , "シマカニちゃん"
@@ -74,6 +76,7 @@ let kemovHashtags =
             , "エトフル\\b"
             , "エリートかもしれない調査団"
             , "カニハイちゃん"
+            , "カラ騒ぎ"
             , "キツネにつままれるシカ"
             , "ケプ子王"
             , "ケプ狐"
@@ -133,7 +136,8 @@ let kemovChannelMentions =
     -- けもＶのチャンネル名。YouTube の動画の説明文で使われる。
           "@"
       ++  rx.any
-            [ "ケープペンギン / African Penguin"
+            [ "カラカル / Caracal"
+            , "ケープペンギン / African Penguin"
             , "コヨーテ / Coyote"
             , "シマハイイロギツネ / Island Fox"
             , "ダイアウルフ / Dire Wolf"
