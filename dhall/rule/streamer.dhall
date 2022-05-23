@@ -65,6 +65,7 @@ in    [ Pipitor.Rule::{
             youtube "UCWq6L3iY4hGK4LmylvQtj-g", -- 桜樹みりあ
             youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
             youtube "UCVbRXkQP-LumaBzfw-wsrrg", -- 皇ロゼ／SumeragiRose ch
+            youtube "UCVXGiGSzuMJr-FdKZq3mOzg", -- 上乗 恋/REN CHANNEL
             youtube "UCUyBb-nTJoFWUOydbExmLuQ", -- Shizukou VODs
             youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
             youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
@@ -164,6 +165,7 @@ in    [ Pipitor.Rule::{
             Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
             Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
             Twitter 1065021083810705409, -- @mom0ki Momoki 🕯️ VTube
+            Twitter 1032800529846435841, -- @Kamijo_Ren 🎰上乗 恋＠777パチガブ専属パチンコ/パチスロバーチャルライター🎰
             Twitter 1030728825808666624, -- @Kanau_Yumekawa 夢川かなう🐟
             Twitter 1030309605090316288, -- @LeonaShishigami 獅子神レオナ
             Twitter 1029373963938324480, -- @hanazono_serena 🍯花園セレナ/HanazonoSerena🍯
