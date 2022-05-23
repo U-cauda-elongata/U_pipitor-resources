@@ -34,6 +34,7 @@ in  [ Pipitor.Rule::{
           youtube "UC3tZDwLVGnZKl9477fCxhGQ", -- セガゲームス公式アプリ
           Twitter 1332213769091485696, -- @777Realofficial 777Real【公式】
           Twitter 1267409826314739712, -- @AppiritsSp アピリッツ 広報・山田アイコ | アピスピ読んでね！
+          Twitter 1143011625693138947, -- @sammyshoponline サミー商店 ONLINE
           Twitter 1073114697019273217, -- @777TOWN_net 777TOWN.net【公式】
           Twitter 891908618789937152, -- @NelkePlanning ネルケプランニング（公式）
           Twitter 824551506737192960, -- @GGI_INC 株式会社ギャラクシーグラフィックス
