@@ -78,6 +78,7 @@ in    [ Pipitor.Rule::{
             youtube "UCO_o0X1-ESEk8LEr1g9x1wg", -- 猫羽ころんNekohakoron
             youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
             youtube "UCMzxQ58QL4NNbWghGymtHvw", -- カルロ・ピノ
+            youtube "UCMBCj1vnzuIFJ87hgCcV6SA", -- 卯依 れん
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
             youtube "UCKvij44VV9TWt-EM3evoRWg", -- Yuzu Ch. ENVtuber 蛾虫ユズ
             youtube "UCJePO0Zl-zZTqjpHO82RNNA", -- ミツルギリア Lia Mitsurugi【WACTOR】
@@ -87,6 +88,7 @@ in    [ Pipitor.Rule::{
             youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
             youtube "UCH6jR8Ddrevo4OFddNr5ACg", -- rucaco ch. / るかこちゃんねる
             youtube "UCFrH3bfn7gDeV29wrHHM80g", -- 射貫まといちゃんねる
+            youtube "UCEY0Cmg2-UeUbcxINxiFNKw", -- 黒宮 ティマ
             youtube "UCE5VgVGRPfNCjXPeTe1QJHA", -- 羽渦ミウネル -Miuneru Haneuzu-
             youtube "UCDzdRLILLWlHxXnj3HhXW0A", -- Caitlin Myers
             youtube "UCDrG8pzkq_cCCLcN5wgrzNw", -- 魔光リサ - Lisa Makoh -
@@ -135,6 +137,8 @@ in    [ Pipitor.Rule::{
             Twitter 1353969622907670528, -- @SanagiYuzu Yuzu 🦋
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
             Twitter 1351387644081520641, -- @Rukako_Oura 大浦るかこ🦉あにまーれ
+            Twitter 1347700975922860033, -- @tima_kuromiya 黒宮ティマ🍖⚡
+            Twitter 1347698001607761920, -- @Ui__Ren 卯依 れん💪🐰
             Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
             Twitter 1342364242737938434, -- @Milily_VTuber 七星みりり💥💫Vtuber❤️
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
