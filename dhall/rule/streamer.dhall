@@ -87,6 +87,7 @@ in    [ Pipitor.Rule::{
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
             youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
             youtube "UCH6jR8Ddrevo4OFddNr5ACg", -- rucaco ch. / るかこちゃんねる
+            youtube "UCFsWaTQ7kT76jNNGeGIKNSA", -- Hikari Channel / 飛良ひかり 【あにまーれ】
             youtube "UCFrH3bfn7gDeV29wrHHM80g", -- 射貫まといちゃんねる
             youtube "UCEY0Cmg2-UeUbcxINxiFNKw", -- 黒宮 ティマ
             youtube "UCE5VgVGRPfNCjXPeTe1QJHA", -- 羽渦ミウネル -Miuneru Haneuzu-
@@ -144,6 +145,7 @@ in    [ Pipitor.Rule::{
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
             Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
             Twitter 1314511790756167681, -- @kokuri_kurune 来音 こくり🦊🌰ASMR修行中💕
+            Twitter 1308632177815420933, -- @Hikari_Hira 飛良ひかり⭐️あにまーれ
             Twitter 1308626156447436801, -- @Rui_Seshima 瀬島るい📮🦴あにまーれ
             Twitter 1302600596621373440, -- @PRISMProj PRISM Project
             Twitter 1300476189702717440, -- @@nekoha_koron 猫羽ころん🐱🤍Vtuber/毎日配信 21時30分〜
