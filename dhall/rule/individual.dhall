@@ -38,6 +38,7 @@ in    [ Pipitor.Rule::{
             Twitter 1126735473102090240, -- @YUI_STAFF 石川由依Official
             Twitter 1125555085067505664, -- @Anna_Mihayashi 御林杏夏
             Twitter 1123177804114190336, -- @kaayaataaaan 奥野香耶
+            Twitter 1209786763725529089, -- @Imaizumiriona 今泉りおな
             Twitter 1120670106617384960, -- @shiraki_riho 白木莉帆（タートルリリー）
             Twitter 1119802045798567936, -- @o_piyo_o 上杉 夏穂
             Twitter 1118785839130009600, -- @romipark_fc 朴璐美 Official Staff
