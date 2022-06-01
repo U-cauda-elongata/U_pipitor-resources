@@ -16,6 +16,7 @@ in    [ Pipitor.Rule::{
           filter = Some Pipitor.Filter::{ title = filter.individual.common }
         , outbox = [ Pipitor.Outbox.Twitter account.pipitorIndv ]
         , topics = [
+            Twitter 1522057394917810176, -- @msk_akane 美坂朱音
             Twitter 1483360649967468546, -- @aino_shimada 島田愛野
             Twitter 1446494020474048513, -- @Carry_Kiyama Carry Kiyama
             Twitter 1374558576560074755, -- @azusa_shizuki 紫月杏朱彩
