@@ -104,6 +104,7 @@ in    [ Pipitor.Rule::{
             youtube "UC8NZiqKx6fsDT3AVcMiVFyA", -- Tamaki Ch. 犬山たまき / 佃煮のりお
             youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
             youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
+            youtube "UC6m64Oc1vvb_hpyOLRtxaYg", -- Go! Go! Nippon! Live With You!
             youtube "UC6TyfKcsrPwBsBnx2QobVLQ", -- 【世界初?!】男性バーチャルYouTuber ばあちゃる
             youtube "UC6TfqY40Xt1Y0J-N18c85qQ", -- 安土桃
             youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
@@ -125,6 +126,7 @@ in    [ Pipitor.Rule::{
             Twitter 1436344036026060801, -- @Miuneru_ 羽渦ミウネル🍥
             Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
             Twitter 1419329503512301573, -- @r_snsm 肆ノ島 來世 / Shinoshima Raise
+            Twitter 1409701245741240321, -- @ggnlive_withyou Makoto & Akira Misaki 🗼✈️ Go! Go! Nippon!
             Twitter 1401301000477085698, -- @PinaPengin Pina Pengin | 辺銀ピナ🐧❄️ 3rd GEN - PRISM Project
             Twitter 1401266522589380611, -- @niasuzune Nia Suzune / 鈴音にあ
             Twitter 1401221154384326665, -- @shikimiyoshino Shiki Miyoshino / 美吉野しき
