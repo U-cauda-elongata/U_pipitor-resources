@@ -77,6 +77,7 @@ in    [ Pipitor.Rule::{
             Twitter 953874636759945221, -- @hinata_k0110 小泉日向
             Twitter 951092245762945024, -- @ygnm_kana やぎぬまかな
             Twitter 950661835123867648, -- @takahashi_773 高橋菜々美
+            Twitter 947102043793080320, -- @rana_morishita 森下来奈
             Twitter 938719807255461888, -- @kaori_staff_ 石原夏織 STAFF
             Twitter 936189651630546947, -- @yahagi_sayuri 矢作紗友里
             Twitter 929249144610287616, -- @fugyuuuuu 高木遙香
