@@ -22,6 +22,7 @@ in    [ Pipitor.Rule::{
             Twitter 1374558576560074755, -- @azusa_shizuki 紫月杏朱彩
             Twitter 1363811039003906051, -- @ii_myp 吉咲みゆ
             Twitter 1363795372867428354, -- @WakanaMaruoka 丸岡和佳奈
+            Twitter 1319468739687936001, -- @natsume_hina 夏目妃菜
             Twitter 1314640424062001152, -- @ssk_ktk828 佐々木琴子 公式
             Twitter 1303545074303660033, -- @meg_umezawa 梅澤 めぐ
             Twitter 1270344324203474944, -- @riko_shinozuka 篠塚 理子
