@@ -64,6 +64,8 @@ in    [ Pipitor.Rule::{
             youtube "UCX7YkU9nEeaoZbkVLVajcMg", -- にじさんじ
             youtube "UCWq6L3iY4hGK4LmylvQtj-g", -- 桜樹みりあ
             youtube "UCWcEgYIOqq1BVr4Qm1sPuVg", -- あまり驚かないガッチマンはホラーゲームばかりやっている
+            youtube "UCW8WKciBixmaqaGqrlTITRQ", -- Izumi Channel / 柚原いづみ 【あにまーれ】
+            youtube "UCVpWj1z2mxV-Aj5PYUzWdgQ", -- 夏目 めい / Natsume Mei CH
             youtube "UCVbRXkQP-LumaBzfw-wsrrg", -- 皇ロゼ／SumeragiRose ch
             youtube "UCVXGiGSzuMJr-FdKZq3mOzg", -- 上乗 恋/REN CHANNEL
             youtube "UCUyBb-nTJoFWUOydbExmLuQ", -- Shizukou VODs
@@ -141,6 +143,7 @@ in    [ Pipitor.Rule::{
             Twitter 1351423100026425344, -- @Mia_Konan 湖南みああにまーれ
             Twitter 1351387644081520641, -- @Rukako_Oura 大浦るかこ🦉あにまーれ
             Twitter 1347700975922860033, -- @tima_kuromiya 黒宮ティマ🍖⚡
+            Twitter 1347700591498170368, -- @natsume_mei 夏目 めい💌vtuber22時飲酒雑談
             Twitter 1347698001607761920, -- @Ui__Ren 卯依 れん💪🐰
             Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
             Twitter 1342364242737938434, -- @Milily_VTuber 七星みりり💥💫Vtuber❤️
@@ -162,6 +165,7 @@ in    [ Pipitor.Rule::{
             Twitter 1227374082468937728, -- @matorikakeru 間取かける🪟❌Matori Kakeru Vtuber
             Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
             Twitter 1225702850002468864, -- @amanopikamee ピカミィ⚡️Pikamee
+            Twitter 1224956450100764673, -- @Izumi_Yunohara 柚原いづみ♨🐾あにまーれ
             Twitter 1224952244719587328, -- @Kuku_Kazami 風見くくあにまーれ
             Twitter 1224653916131823616, -- @Kirara_Mimi 雲母ミミKiraraMimi抱き枕予約販売中25万人ありがとお
             Twitter 1223260492245811200, -- @amamania_vtuber 天満ニア🦊💮20時もふもふ船🚀
