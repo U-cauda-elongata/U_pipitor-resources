@@ -54,6 +54,7 @@ in  [ Pipitor.Rule::{
           Twitter 704218850, -- @777townOfficial 777TOWN mobile
           Twitter 498788645, -- @bushi_PR ブシロード公式
           Twitter 468037892, -- @seganewsnavi セガプラザ公式
+          Twitter 374409909, -- @myslot_official みどりちゃん🍖@マイスロ公式
           Twitter 338905976, -- @Jupiter_JP1 株式会社ジュピター
           Twitter 307759398, -- @SANZIGEN_INC 株式会社サンジゲン 公式アカウント
           Twitter 287226630, -- @KadokawaBunko 角川文庫編集部
