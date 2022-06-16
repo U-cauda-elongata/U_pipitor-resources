@@ -19,6 +19,7 @@ in    [ Pipitor.Rule::{
             Twitter 1522057394917810176, -- @msk_akane 美坂朱音
             Twitter 1483360649967468546, -- @aino_shimada 島田愛野
             Twitter 1446494020474048513, -- @Carry_Kiyama Carry Kiyama
+            Twitter 1396319304069488644, -- @hime_sawada 澤田姫
             Twitter 1374558576560074755, -- @azusa_shizuki 紫月杏朱彩
             Twitter 1363811039003906051, -- @ii_myp 吉咲みゆ
             Twitter 1363795372867428354, -- @WakanaMaruoka 丸岡和佳奈
