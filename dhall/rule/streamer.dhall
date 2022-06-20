@@ -35,6 +35,7 @@ in    [ Pipitor.Rule::{
             youtube "UCqd9gfQFKjbrkfyr0-enzNw", -- Kohaku Ch.羽奏 こはく
             youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
             youtube "UCpeRj9-GaLGNUoKdI5I7vZA", -- Pina Pengin / 辺銀ピナ [PRISM Project]
+            youtube "UCaum0e1MVZF69boluxgA0Bg", -- Ushio Ebi Ch.
             youtube "UCoFEbNyIRUS26-hf2AucwFw", -- Nekono Yukino / 猫乃ユキノ
             youtube "UCn14Z641OthNps7vppBvZFA", -- 千草はな / Chigusa Hana
             youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
@@ -149,6 +150,7 @@ in    [ Pipitor.Rule::{
             Twitter 1347698001607761920, -- @Ui__Ren 卯依 れん💪🐰
             Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
             Twitter 1342364242737938434, -- @Milily_VTuber 七星みりり💥💫Vtuber❤️
+            Twitter 1329194134826065920, -- @ushioebi Ushio Ebi 🦐 Vtuber
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
             Twitter 1325622604389117954, -- @mioricelesta Miori 📜 Tsunderia
             Twitter 1314511790756167681, -- @kokuri_kurune 来音 こくり🦊🌰ASMR修行中💕
