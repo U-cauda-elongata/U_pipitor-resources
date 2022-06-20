@@ -83,6 +83,7 @@ in    [ Pipitor.Rule::{
             youtube "UCMBCj1vnzuIFJ87hgCcV6SA", -- 卯依 れん
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
             youtube "UCKvij44VV9TWt-EM3evoRWg", -- Yuzu Ch. ENVtuber 蛾虫ユズ
+            youtube "UCKJexadCeNo3lu0U20skmNg", -- Reina Sun Ch. レイナ・サン『kawaii』
             youtube "UCJePO0Zl-zZTqjpHO82RNNA", -- ミツルギリア Lia Mitsurugi【WACTOR】
             youtube "UCJQMHCFjVZOVRYafR6gY04Q", -- Usami Yuno Ch. 宇佐美 ユノ
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
@@ -134,6 +135,7 @@ in    [ Pipitor.Rule::{
             Twitter 1401221154384326665, -- @shikimiyoshino Shiki Miyoshino / 美吉野しき
             Twitter 1393208011519262725, -- @VOMS_Project VOMS Project
             Twitter 1386369134649249794, -- @kohaku_wakana 羽奏 こはく🥟🐉@いせぶい
+            Twitter 1382360564685504516, -- @reina_kawaiii Reina Sun レイナ・サン VTuber 😈🍣
             Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
             Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
             Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
