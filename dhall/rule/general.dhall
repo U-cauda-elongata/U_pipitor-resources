@@ -32,6 +32,7 @@ in  [ Pipitor.Rule::{
           youtube "UCFoS_FzutpGb3EDH3dZ47sw", -- ブシロード公式チャンネル
           youtube "UC4YT50DP7hbMsor8FmyEPMw", -- Victor Entertainment
           youtube "UC3tZDwLVGnZKl9477fCxhGQ", -- セガゲームス公式アプリ
+          youtube "UC21E1ivmGTeYNwdSrVB5u7g", -- Sammy sound team - Topic
           Twitter 1332213769091485696, -- @777Realofficial 777Real【公式】
           Twitter 1267409826314739712, -- @AppiritsSp アピリッツ 広報・山田アイコ | アピスピ読んでね！
           Twitter 1143011625693138947, -- @sammyshoponline サミー商店 ONLINE
