@@ -45,6 +45,7 @@ in    [ Pipitor.Rule::{
             youtube "UCjlmCrq4TP1I4xguOtJ-31w", -- でびでび・でびる
             youtube "UCiLt4FLjMXszLOh5ISi1oqw", -- Kakeru Ch. 間取かける
             youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
+            youtube "UCg7sW-h1PUowdiR5K4HlBew", -- Ashelia Ch. 鈴香アシェリア
             youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
             youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
             youtube "UCfeznQrLe9URem6xJmWQVlw", -- Mama Ch. 倉持京子
@@ -139,6 +140,7 @@ in    [ Pipitor.Rule::{
             Twitter 1382360564685504516, -- @reina_kawaiii Reina Sun レイナ・サン VTuber 😈🍣
             Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
             Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
+            Twitter 1372832396698001410, -- @rinkouashelia Lia ⚡️Phase-Connect
             Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
             Twitter 1370242764323975170, -- @tsukushi_aria 月紫アリア🦇☪️
             Twitter 1359166213352546318, -- @isev_info いせぶい【公式】
