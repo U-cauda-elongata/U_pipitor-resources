@@ -122,6 +122,7 @@ in    [ Pipitor.Rule::{
             youtube "UC3KldSym-HTLMkvitStsNTw", -- 天満ニア-AmamaNia-
             youtube "UC2rIXE0D3Vb8kS48DQrW-Jg", -- Kokuri Ch.来音こくり
             youtube "UC2hWFlqMew61Jy6A8zu5HzQ", -- Iku Hoshifuri / 星降いく [PRISM Project]
+            youtube "UC2c8dQYdDadn7tmK_d7o-HQ", -- 米プリンセスチャンネル
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
             youtube "UC-VWUn_oDeokHEkuTmVrLHg", -- Kuon ch.桜神くおん
@@ -182,6 +183,7 @@ in    [ Pipitor.Rule::{
             Twitter 1099929347283050496, -- @makio_elecom マキオ@S11 マスター
             Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
             Twitter 1082980672174583809, -- @garibenV ガリベンガーＶ【公式】TVer&ABEMA&GYAO&テレ朝動画で無料見逃し配信
+            Twitter 1067363502870814721, -- @milkyqueen_idol Milky Queen
             Twitter 1065021083810705409, -- @mom0ki Momoki 🕯️ VTube
             Twitter 1032800529846435841, -- @Kamijo_Ren 🎰上乗 恋＠777パチガブ専属パチンコ/パチスロバーチャルライター🎰
             Twitter 1030728825808666624, -- @Kanau_Yumekawa 夢川かなう🐟
