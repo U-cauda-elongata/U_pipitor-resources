@@ -178,6 +178,7 @@ in    [ Pipitor.Rule::{
             Twitter 1223260492245811200, -- @amamania_vtuber 天満ニア🦊💮20時もふもふ船🚀
             Twitter 1204726426328395776, -- @MitsurugiLia ミツルギリア⬡4/29 VtuberFes2022
             Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
+            Twitter 1173812233337360384, -- @ama_hano 天川はの⭐️
             Twitter 1168042569416077312, -- @etra_ASI エトラ/ étra
             Twitter 1120021521752154112, -- @Enomiya_MILK 愛宮みるく
             Twitter 1099929347283050496, -- @makio_elecom マキオ@S11 マスター
