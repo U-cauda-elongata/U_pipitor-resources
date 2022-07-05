@@ -46,6 +46,7 @@ let kemovHashtags =
             , "カラカル展"
             , "シマカニちゃん"
             , "ダイアート展"
+            , rx.wi "GarticKemoV"
             , rx.wi "カラカル3D"
             , "ケプ子王"
             , "ケプ狐"
