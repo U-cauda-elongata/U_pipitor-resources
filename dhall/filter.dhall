@@ -60,6 +60,7 @@ let kemovHashtags =
             , "フンボル島"
             , rx.wi "新春けもV桃鉄コラボ祭り"
             , rx.wi "秋のけもV大運動会"
+            , rx.wi "Vディベート大会"
             , "ガチUNO卍"
             , "ガチスポ卍"
             , rx.wi "UNOフレンズ"

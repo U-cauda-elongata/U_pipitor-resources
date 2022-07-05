@@ -123,6 +123,7 @@ in    [ Pipitor.Rule::{
             youtube "UC2rIXE0D3Vb8kS48DQrW-Jg", -- Kokuri Ch.来音こくり
             youtube "UC2hWFlqMew61Jy6A8zu5HzQ", -- Iku Hoshifuri / 星降いく [PRISM Project]
             youtube "UC2c8dQYdDadn7tmK_d7o-HQ", -- 米プリンセスチャンネル
+            youtube "UC2bdT8e-zTkJJMe-IngnyYA", -- Kokoro Ch. 吉花こころ
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
             youtube "UC-VWUn_oDeokHEkuTmVrLHg", -- Kuon ch.桜神くおん
@@ -169,6 +170,7 @@ in    [ Pipitor.Rule::{
             Twitter 1253633049884942337, -- @tukimi_marumoti 丸餅つきみ🍡ゴシップ歌いました
             Twitter 1240652791892172800, -- @ChrisShishio 獅子王クリス🎄🐙シュガリリ
             Twitter 1234698396297859072, -- @SugarLyric_PI シュガーリリック公式🍩三毛猫ななし
+            Twitter 1283586353779798016, -- @yoshibanakokoro 吉花こころ🐺💙6日20時Vディベート大会🗣´
             Twitter 1227374082468937728, -- @matorikakeru 間取かける🪟❌Matori Kakeru Vtuber
             Twitter 1226794187711901702, -- @Tomoshika_H 緋笠トモシカ
             Twitter 1225702850002468864, -- @amanopikamee ピカミィ⚡️Pikamee
