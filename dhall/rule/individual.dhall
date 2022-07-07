@@ -37,6 +37,7 @@ in    [ Pipitor.Rule::{
             Twitter 1153920859578331136, -- @izm_tako 和泉風花
             Twitter 1147811213989928961, -- @Otsuki__Rena おおつき れな
             Twitter 1147517740590088193, -- @moenagamuta 永牟田 萌
+            Twitter 1145689423322816512, -- @YUKIREI0N 幸村 澪 （ゆきむら れい）
             Twitter 1141319903250534400, -- @kitoakari_1016 鬼頭明里
             Twitter 1134589498610802688, -- @eino_airi_staff 永野愛理 スタッフ【公式】
             Twitter 1129194500365070336, -- @NINMiO_APT 二宮みお
