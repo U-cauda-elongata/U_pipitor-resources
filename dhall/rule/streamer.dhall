@@ -27,6 +27,7 @@ in    [ Pipitor.Rule::{
             youtube "UCxJ9SJLG7dA00M7VoEe4ltw", -- 天川はの/AmakawaHano
             youtube "UCwUNuXd6rN08SQFzlIH4Ozg", -- なつめえりちゃんねる / Natsume Eri ch.
             youtube "UCw1KNjVqfrJSfcFd6zlcSzA", -- Nia Suzune / 鈴音にあ [PRISM Project]
+            youtube "UCw-jEa3_788VkvM2zHzrDnw", -- Tenten Ch. / 鳳玲天々
             youtube "UCtM5G3bS7zM8bv6p-OwoNTw", -- リクム
             youtube "UCtKH7ZHAJ7TcTjyiLJRHhvg", -- 彩雲のの - Nono Ayamo -
             youtube "UCswvd6_YWmd6riRk-8oT-sA", -- Shiki Miyoshino / 美吉野しき [PRISM Project]
@@ -179,6 +180,7 @@ in    [ Pipitor.Rule::{
             Twitter 1224653916131823616, -- @Kirara_Mimi 雲母ミミKiraraMimi抱き枕予約販売中25万人ありがとお
             Twitter 1223260492245811200, -- @amamania_vtuber 天満ニア🦊💮20時もふもふ船🚀
             Twitter 1204726426328395776, -- @MitsurugiLia ミツルギリア⬡4/29 VtuberFes2022
+            Twitter 1181210949350412288, -- @hourei_1010 鳳玲天々🔆ゲリラ配信多め
             Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
             Twitter 1173812233337360384, -- @ama_hano 天川はの⭐️
             Twitter 1168042569416077312, -- @etra_ASI エトラ/ étra
