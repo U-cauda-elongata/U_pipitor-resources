@@ -41,6 +41,7 @@ in    [ Pipitor.Rule::{
             youtube "UCn14Z641OthNps7vppBvZFA", -- 千草はな / Chigusa Hana
             youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
             youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
+            youtube "UCkpqb53xiOvOgNYEbNpFSyw", -- Canna Channel / 茜音カンナ【ひよクロ】
             youtube "UCkPIfBOLoO0hVPG-tI2YeGg", -- Tomari Mari channel / 兎鞠まりちゃんねる
             youtube "UCju7v8SkoWUQ5ITCQwmYpYg", -- メリーミルクの森
             youtube "UCjlmCrq4TP1I4xguOtJ-31w", -- でびでび・でびる
@@ -131,6 +132,7 @@ in    [ Pipitor.Rule::{
             youtube "UC--A2dwZW7-M2kID0N6_lfA", -- Chris Channel / 獅子王クリス 【シュガリリ】
             Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
             Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
+            Twitter 1445647446638399492, -- @Canna_Akane 茜音カンナ⚔️🧣ひよクロ
             Twitter 1436344036026060801, -- @Miuneru_ 羽渦ミウネル🍥
             Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
             Twitter 1419329503512301573, -- @r_snsm 肆ノ島 來世 / Shinoshima Raise
