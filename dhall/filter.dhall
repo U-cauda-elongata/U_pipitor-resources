@@ -137,6 +137,7 @@ let kemovHashtags =
           -- Live streaming hastags of KemoV.
             [ rx.wi "KemoV"
             , rx.wi "coyoart"
+            , rx.wi "coyoQ10k"
             , rx.wi "howlcast"
             , rx.wi "CoyoMio"
             , rx.wi "pikacoyo"
