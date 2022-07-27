@@ -48,6 +48,7 @@ in    [ Pipitor.Rule::{
             youtube "UCiLt4FLjMXszLOh5ISi1oqw", -- Kakeru Ch. 間取かける
             youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
             youtube "UCg7sW-h1PUowdiR5K4HlBew", -- Ashelia Ch. 鈴香アシェリア
+            youtube "UCg4x4QmjPx0I1HNQp9h1xvg", -- Ren.ch戌月れん
             youtube "UCfol9ZU2HpEajyBDj-EbiOQ", -- 雲母ミミl KiraraMimi
             youtube "UCfiK42sBHraMBK6eNWtsy7A", -- Mari Channelかしこまり
             youtube "UCfeznQrLe9URem6xJmWQVlw", -- Mama Ch. 倉持京子
@@ -81,6 +82,7 @@ in    [ Pipitor.Rule::{
             youtube "UCQ7CahbXDmC0ibAULBxRJBQ", -- 屋敷シエルYashiki Ciel
             youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
             youtube "UCP9ZgeIJ3Ri9En69R0kJc9Q", -- Chieri  Kakyoin
+            youtube "UCOfuarJ9_C5OAD0mGS7KCyg", -- Amanohoshi chiroruCh.甘ノ星ちろる / プロプロ
             youtube "UCO_o0X1-ESEk8LEr1g9x1wg", -- 猫羽ころんNekohakoron
             youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
             youtube "UCMzxQ58QL4NNbWghGymtHvw", -- カルロ・ピノ
@@ -156,6 +158,7 @@ in    [ Pipitor.Rule::{
             Twitter 1347700591498170368, -- @natsume_mei 夏目 めい💌vtuber22時飲酒雑談
             Twitter 1347698001607761920, -- @Ui__Ren 卯依 れん💪🐰
             Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
+            Twitter 1345638221187698690, -- @inuzuki_vt 戌月れん🐶🌙登録者2万人目指すわんわんVtuber
             Twitter 1342364242737938434, -- @Milily_VTuber 七星みりり💥💫Vtuber❤️
             Twitter 1329194134826065920, -- @ushioebi Ushio Ebi 🦐 Vtuber
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
@@ -163,6 +166,7 @@ in    [ Pipitor.Rule::{
             Twitter 1314511790756167681, -- @kokuri_kurune 来音 こくり🦊🌰ASMR修行中💕
             Twitter 1308632177815420933, -- @Hikari_Hira 飛良ひかり⭐️あにまーれ
             Twitter 1308626156447436801, -- @Rui_Seshima 瀬島るい📮🦴あにまーれ
+            Twitter 1306912591868907522, -- @amachiroru 甘ノ星ちろる🍬🧚‍♀️プロプロ1期生
             Twitter 1302600596621373440, -- @PRISMProj PRISM Project
             Twitter 1300476189702717440, -- @@nekoha_koron 猫羽ころん🐱🤍Vtuber/毎日配信 21時30分〜
             Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
