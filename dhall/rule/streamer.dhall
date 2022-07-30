@@ -32,12 +32,14 @@ in    [ Pipitor.Rule::{
             youtube "UCtKH7ZHAJ7TcTjyiLJRHhvg", -- 彩雲のの - Nono Ayamo -
             youtube "UCswvd6_YWmd6riRk-8oT-sA", -- Shiki Miyoshino / 美吉野しき [PRISM Project]
             youtube "UCs-lYkwb-NYKE9_ssTRDK3Q", -- ねくろちゃん -Yamaguro Nekuro- /あおぎり高校
+            youtube "UCrgeWsCRNP74qOzAeIRJQbQ", -- Lime Channel
             youtube "UCrFM9PePa4a7654qY9psGjA", -- 肆ノ島來世 / Shinoshima Raise
             youtube "UCqd9gfQFKjbrkfyr0-enzNw", -- Kohaku Ch.羽奏 こはく
             youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
             youtube "UCpeRj9-GaLGNUoKdI5I7vZA", -- Pina Pengin / 辺銀ピナ [PRISM Project]
             youtube "UCaum0e1MVZF69boluxgA0Bg", -- Ushio Ebi Ch.
             youtube "UCoFEbNyIRUS26-hf2AucwFw", -- Nekono Yukino / 猫乃ユキノ
+            youtube "UCn_38hWzMZQ2Alp7Uq5ckaw", -- MiMi Ch. くろいけもみみ
             youtube "UCn14Z641OthNps7vppBvZFA", -- 千草はな / Chigusa Hana
             youtube "UCmxAWbOvT8osBX_tGMVFVPA", -- ヒラ
             youtube "UCmB1E78Kdgd9z6hN3ONRKow", -- 花ノ木まる ✿ Hananoki Maru
@@ -46,6 +48,7 @@ in    [ Pipitor.Rule::{
             youtube "UCju7v8SkoWUQ5ITCQwmYpYg", -- メリーミルクの森
             youtube "UCjlmCrq4TP1I4xguOtJ-31w", -- でびでび・でびる
             youtube "UCiLt4FLjMXszLOh5ISi1oqw", -- Kakeru Ch. 間取かける
+            youtube "UCgvvc17ledruv4HHFfyoU1A", -- 遠野 莉緒奈【Date Links!】
             youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
             youtube "UCg7sW-h1PUowdiR5K4HlBew", -- Ashelia Ch. 鈴香アシェリア
             youtube "UCg4x4QmjPx0I1HNQp9h1xvg", -- Ren.ch戌月れん
@@ -78,6 +81,7 @@ in    [ Pipitor.Rule::{
             youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
             youtube "UCSlcMof1GIPvH6H_VcknCbQ", -- 七星みりり
             youtube "UCRXBTd80F5IIWWY4HatJ5Ug", -- 花園セレナ
+            youtube "UCRLTSpIcblCsu3IRc2YmXeg", -- 咲来希々
             youtube "UCR6f6Cx-dWX0nbteSXvhI6g", -- アナウンサーたぐちのガチ実況チャンネル
             youtube "UCQ7CahbXDmC0ibAULBxRJBQ", -- 屋敷シエルYashiki Ciel
             youtube "UCQ0UDLQCjY0rmuxCDE38FGg", -- Matsuri Channel 夏色まつり - YouTube
@@ -95,6 +99,7 @@ in    [ Pipitor.Rule::{
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
             youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
+            youtube "UCHCbWdtJmZX9pEFtSye_juA", -- Hisori Ch. 紗彩木ひそり
             youtube "UCH6jR8Ddrevo4OFddNr5ACg", -- rucaco ch. / るかこちゃんねる
             youtube "UCFsWaTQ7kT76jNNGeGIKNSA", -- Hikari Channel / 飛良ひかり 【あにまーれ】
             youtube "UCFrH3bfn7gDeV29wrHHM80g", -- 射貫まといちゃんねる
@@ -102,8 +107,10 @@ in    [ Pipitor.Rule::{
             youtube "UCE5VgVGRPfNCjXPeTe1QJHA", -- 羽渦ミウネル -Miuneru Haneuzu-
             youtube "UCDzdRLILLWlHxXnj3HhXW0A", -- Caitlin Myers
             youtube "UCDrG8pzkq_cCCLcN5wgrzNw", -- 魔光リサ - Lisa Makoh -
+            youtube "UCDH9hexAibRNVBE6AasG6uQ", -- Konomi Ch.泉谷 このみ
             youtube "UCCe6J3ls9PMpcKEEmJ0F8KA", -- アメザリひらい Virtual
             youtube "UCCXD2-TV-X_gNkD2qEKyQWw", -- 【個人】マキオ
+            youtube "UCCK8X1XfQhy8F_oqEPA5Dtw", -- 蘇芳またたび Matatabi Ch.
             youtube "UCB1s_IdO-r0nUkY2mXeti-A", -- 獅子神レオナ/レオナちゃんねる
             youtube "UCAr7rLi_Wn09G-XfTA07d4g", -- 天神 子兎音 Tenjin Kotone
             youtube "UCAZ_LA7f0sjuZ1Ni8L2uITw", -- どっとライブ
@@ -113,7 +120,9 @@ in    [ Pipitor.Rule::{
             youtube "UC8NZiqKx6fsDT3AVcMiVFyA", -- Tamaki Ch. 犬山たまき / 佃煮のりお
             youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
             youtube "UC7gPyay3txm7gfBdrCIqObA", -- 香ヶ辻 そより┊Soyori Kagatsuji
+            youtube "UC7b4GklPQO9ZnV7mqnJzN8g", -- 羽天ひより-UtenHiyori
             youtube "UC6m64Oc1vvb_hpyOLRtxaYg", -- Go! Go! Nippon! Live With You!
+            youtube "UC6ZF6BcqRR0GZEcfnOZvYeA", -- 地図わからんch
             youtube "UC6TyfKcsrPwBsBnx2QobVLQ", -- 【世界初?!】男性バーチャルYouTuber ばあちゃる
             youtube "UC6TfqY40Xt1Y0J-N18c85qQ", -- 安土桃
             youtube "UC6HjtF2rHZO8gAsX5FXF-Kg", -- 姫熊 りぼん-Himekuma Ribon-
@@ -122,8 +131,10 @@ in    [ Pipitor.Rule::{
             youtube "UC4OeUf_KfYRrwksschtRYow", -- 花鋏キョウ/キョウちゃんねる
             youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
+            youtube "UC3d6PdSmgPWSsgl3EZ_beMA", -- Iyo Onigami
             youtube "UC3Ruo_5doyu514PesWGvCAg", -- Aoi ch.
             youtube "UC3KldSym-HTLMkvitStsNTw", -- 天満ニア-AmamaNia-
+            youtube "UC36tM-mb6ve_OA3jPynxp7g", -- Emly Ch. 苓吃エムリィ
             youtube "UC2rIXE0D3Vb8kS48DQrW-Jg", -- Kokuri Ch.来音こくり
             youtube "UC2hWFlqMew61Jy6A8zu5HzQ", -- Iku Hoshifuri / 星降いく [PRISM Project]
             youtube "UC2c8dQYdDadn7tmK_d7o-HQ", -- 米プリンセスチャンネル
@@ -131,6 +142,7 @@ in    [ Pipitor.Rule::{
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
             youtube "UC-VWUn_oDeokHEkuTmVrLHg", -- Kuon ch.桜神くおん
+            youtube "UC-LsFNFBy1AwPFxbqPUQTEQ", -- アルタ_イル / Alta il
             youtube "UC--A2dwZW7-M2kID0N6_lfA", -- Chris Channel / 獅子王クリス 【シュガリリ】
             Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
             Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
