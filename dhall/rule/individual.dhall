@@ -202,6 +202,7 @@ in    [ Pipitor.Rule::{
             Twitter 1451261143, -- @honami0723 ほなみ
             Twitter 1443275232, -- @neeeruuu 根本流風
             Twitter 1408066855, -- @toyotamoe 豊田萌絵
+            Twitter 1387303003, -- @masu_mikan 田澤茉純
             Twitter 1363724040, -- @marika_0222 高野 麻里佳（こうの まりか）
             Twitter 1351192345, -- @owada_hitomi 大和田仁美
             Twitter 1349665898, -- @kawakami_rio 川上莉央
