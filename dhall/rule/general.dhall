@@ -153,6 +153,7 @@ in  [ Pipitor.Rule::{
           Twitter 11195332, -- @schatz1 シャッツキステ
 
           -- コラボ作品
+          youtube "UCuh03vril77Dqbw4bdqUd_w", -- KumamonTV
           Twitter 1410876376345845760, -- @7rhythmdash ナナリズムダッシュ公式
           Twitter 1045625907967275008, -- @ARTILIFE_jp ARTILIFE_jp
           Twitter 1040162473033195522, -- @WACCA_official WACCA 公式
@@ -169,6 +170,7 @@ in  [ Pipitor.Rule::{
           Twitter 1922840634, -- @cfm_snowmiku 雪ミク（初音ミク）
           Twitter 1010165784, -- @gitssac2045 攻殻機動隊 SAC_2045 公式
           Twitter 1001107099, -- @maimai_official maimai公式@7/5(金)Re:MASTER追加！
+          Twitter 602302847, -- @55_kumamon くまモン【公式】
           Twitter 289206965, -- @TW_nexon テイルズウィーバー公式
           Twitter 260644393, -- @mabinogi_nexon 「マビノギ」byパン(公式)
           Twitter 248460704, -- @puyopuyo20th みどりぷよ（ぷよぷよシリーズ公式）『ぷよぷよテトリス２』好評発売中！
