@@ -48,6 +48,7 @@ in    [ Pipitor.Rule::{
             youtube "UCju7v8SkoWUQ5ITCQwmYpYg", -- メリーミルクの森
             youtube "UCjlmCrq4TP1I4xguOtJ-31w", -- でびでび・でびる
             youtube "UCiLt4FLjMXszLOh5ISi1oqw", -- Kakeru Ch. 間取かける
+            youtube "UCi6nuuHhOj_usxkjlcHdRXw", -- 音伽ねむ - Nemu Otogi -
             youtube "UCgvvc17ledruv4HHFfyoU1A", -- 遠野 莉緒奈【Date Links!】
             youtube "UCgBWNQXfLb28FdK8s0FxO7Q", -- 七宮 ソウ / Sou Nanamiya
             youtube "UCg7sW-h1PUowdiR5K4HlBew", -- Ashelia Ch. 鈴香アシェリア
@@ -67,6 +68,7 @@ in    [ Pipitor.Rule::{
             youtube "UCZszUCQMhWNVMxp6CSoyWoA", -- 人生 つみこJinsei Tsumiko
             youtube "UCZQ7nZ8Lc7pslBN0gN1Jg0w", -- Bao The Whale
             youtube "UCYKX4HL54erXdCyMj7TpFyg", -- Shizukou
+            youtube "UCY5jwnUvdsrsfqsMQWHau-w", -- 美睡シュカ - Syuka Bisui -
             youtube "UCXp7sNC0F_qkjickvlYkg-Q", -- Kuku Channel / 風見くく 【あにまーれ】
             youtube "UCXXnWssOLdB2jg-4CznteAA", -- こまるCh. - Komaru Kurikoma -/あおぎり高校
             youtube "UCX7YkU9nEeaoZbkVLVajcMg", -- にじさんじ
@@ -80,6 +82,7 @@ in    [ Pipitor.Rule::{
             youtube "UCUZ5AlC3rTlM-rA2cj5RP6w", -- 神楽すず
             youtube "UCTEZGNJDqv-isWSPRsEhnRA", -- Marumochi Tsukimi / 丸餅つきみ
             youtube "UCSlcMof1GIPvH6H_VcknCbQ", -- 七星みりり
+            youtube "UCShDuyxe-cDewxtcPbBmi_Q", -- 神輿たらん - Taran Mikoshi -
             youtube "UCRXBTd80F5IIWWY4HatJ5Ug", -- 花園セレナ
             youtube "UCRLTSpIcblCsu3IRc2YmXeg", -- 咲来希々
             youtube "UCR6f6Cx-dWX0nbteSXvhI6g", -- アナウンサーたぐちのガチ実況チャンネル
@@ -98,6 +101,7 @@ in    [ Pipitor.Rule::{
             youtube "UCJQMHCFjVZOVRYafR6gY04Q", -- Usami Yuno Ch. 宇佐美 ユノ
             youtube "UCJFZiqLMntJufDCHc6bQixg", -- hololive ホロライブ - VTuber Group
             youtube "UCJCzy0Fyrm0UhIrGQ7tHpjg", -- 愛宮みるくMilk Enomiya
+            youtube "UCIueYPQm6sk8oaKxq0hSjyQ", -- ククルア・クレイユ - Coucourua Creil -
             youtube "UCIoRFfQdwgErIokdU4Zb-Sg", -- Kaheru Ch. カヘルチャンネル
             youtube "UCHCbWdtJmZX9pEFtSye_juA", -- Hisori Ch. 紗彩木ひそり
             youtube "UCH6jR8Ddrevo4OFddNr5ACg", -- rucaco ch. / るかこちゃんねる
@@ -141,6 +145,7 @@ in    [ Pipitor.Rule::{
             youtube "UC2bdT8e-zTkJJMe-IngnyYA", -- Kokoro Ch. 吉花こころ
             youtube "UC1suqwovbL1kzsoaZgFZLKg", -- Choco Ch. 癒月ちょこ
             youtube "UC0Owc36U9lOyi9Gx9Ic-4qg", -- Haneru Channel / 因幡はねる 【あにまーれ】
+            youtube "UC01dI90qNB6RhCt1tdXnQAg", -- 紅龍イサナ - Isana Kuryu -
             youtube "UC-VWUn_oDeokHEkuTmVrLHg", -- Kuon ch.桜神くおん
             youtube "UC-LsFNFBy1AwPFxbqPUQTEQ", -- アルタ_イル / Alta il
             youtube "UC--A2dwZW7-M2kID0N6_lfA", -- Chris Channel / 獅子王クリス 【シュガリリ】
