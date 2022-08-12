@@ -36,6 +36,7 @@ in    [ Pipitor.Rule::{
             youtube "UCrFM9PePa4a7654qY9psGjA", -- 肆ノ島來世 / Shinoshima Raise
             youtube "UCqd9gfQFKjbrkfyr0-enzNw", -- Kohaku Ch.羽奏 こはく
             youtube "UCqTGCMjeKOclEEfW8Vs7sXQ", -- ガッチマンV
+            youtube "UCq36dja_0U4SgB3wYVtr_Zw", -- Lizz Robinett
             youtube "UCpeRj9-GaLGNUoKdI5I7vZA", -- Pina Pengin / 辺銀ピナ [PRISM Project]
             youtube "UCaum0e1MVZF69boluxgA0Bg", -- Ushio Ebi Ch.
             youtube "UCoFEbNyIRUS26-hf2AucwFw", -- Nekono Yukino / 猫乃ユキノ
@@ -92,6 +93,7 @@ in    [ Pipitor.Rule::{
             youtube "UCOfuarJ9_C5OAD0mGS7KCyg", -- Amanohoshi chiroruCh.甘ノ星ちろる / プロプロ
             youtube "UCO_o0X1-ESEk8LEr1g9x1wg", -- 猫羽ころんNekohakoron
             youtube "UCODNLyn3L83wEmC0DLL0cxA", -- 朝ノ姉妹ぷろじぇくと
+            youtube "UCNUS0XshN1Tf7iLdd0MpPAg", -- Nen Ch. 弦稀ネン 【Tsunderia】
             youtube "UCMzxQ58QL4NNbWghGymtHvw", -- カルロ・ピノ
             youtube "UCMBCj1vnzuIFJ87hgCcV6SA", -- 卯依 れん
             youtube "UCLhUvJ_wO9hOvv_yYENu4fQ", -- Siro Channel
@@ -133,6 +135,7 @@ in    [ Pipitor.Rule::{
             youtube "UC5XQhzMH08PgWa4Zp02Gcsw", -- 月紫アリアch / Tsukushi Aria
             youtube "UC4PrHgUcAtOoj_LKmUL-uLQ", -- Mia Channel / 湖南みあ 【あにまーれ】
             youtube "UC4OeUf_KfYRrwksschtRYow", -- 花鋏キョウ/キョウちゃんねる
+            youtube "UC45BcPoxK3EIg7yMQsSY-UA", -- Sai
             youtube "UC3xG1XWzAKt5dxSxktJvtxg", -- Rukako Channel / 大浦るかこ 【あにまーれ】
             youtube "UC3vzVK_N_SUVKqbX69L_X4g", -- 緋笠トモシカ - Tomoshika Hikasa -
             youtube "UC3d6PdSmgPWSsgl3EZ_beMA", -- Iyo Onigami
@@ -152,6 +155,7 @@ in    [ Pipitor.Rule::{
             Twitter 1456978868435550208, -- @SoyoriKagatsuji 香ヶ辻そより
             Twitter 1456976135116705792, -- @hananoki_maru 花ノ木まる
             Twitter 1445647446638399492, -- @Canna_Akane 茜音カンナ⚔️🧣ひよクロ
+            Twitter 1437623988876767238, -- @tsuruginen Nen ♦️ Tsunderia
             Twitter 1436344036026060801, -- @Miuneru_ 羽渦ミウネル🍥
             Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
             Twitter 1419329503512301573, -- @r_snsm 肆ノ島 來世 / Shinoshima Raise
@@ -164,6 +168,7 @@ in    [ Pipitor.Rule::{
             Twitter 1382360564685504516, -- @reina_kawaiii Reina Sun レイナ・サン VTuber 😈🍣
             Twitter 1376360554692939782, -- @yamaguro_nekuro 山黒音玄@あおぎり高校 Vtuber High School
             Twitter 1375632508776194048, -- @momozakurakojo 酵穣桃桜コラボ酒完売ありがとうございます
+            Twitter 1374835984253206528, -- @MariaParadisia Maria Paradisia 🕊 ENVtuber
             Twitter 1372832396698001410, -- @rinkouashelia Lia ⚡️Phase-Connect
             Twitter 1370394103612051462, -- @Yashiki_Ciel 屋敷シエルぶいせん
             Twitter 1370242764323975170, -- @tsukushi_aria 月紫アリア🦇☪️
@@ -184,6 +189,7 @@ in    [ Pipitor.Rule::{
             Twitter 1308632177815420933, -- @Hikari_Hira 飛良ひかり⭐️あにまーれ
             Twitter 1308626156447436801, -- @Rui_Seshima 瀬島るい📮🦴あにまーれ
             Twitter 1306912591868907522, -- @amachiroru 甘ノ星ちろる🍬🧚‍♀️プロプロ1期生
+            Twitter 1305962801517572097, -- @SnellaSnail Snella/ スネラ 🐌🍓
             Twitter 1302600596621373440, -- @PRISMProj PRISM Project
             Twitter 1300476189702717440, -- @@nekoha_koron 猫羽ころん🐱🤍Vtuber/毎日配信 21時30分〜
             Twitter 1297779643521482752, -- @kuramochikyoko 倉持京子ASMR勉強中
@@ -238,6 +244,7 @@ in    [ Pipitor.Rule::{
             Twitter 963358908986269696, -- @kashikomari_ch かしこまりRe:AcTに所属しました
             Twitter 962112920917127168, -- @Nekomiya_Hinata 猫宮ひなた(Nekomiya Hinata)
             Twitter 953079145335988224, -- @dotLIVEyoutuber .LIVE【どっとライブ】
+            Twitter 952947610997833728, -- @sai_pyon sai ❀ @TRASH🦝PANDA
             Twitter 944104131383271424, -- @Miria_Sakuragi_ 桜樹みりあ＠踊投稿しました
             Twitter 923118677452402690, -- @fuji_aoi_0618 富士葵
             Twitter 916156645004029952, -- @hololivetv ホロライブプロダクション【公式】
