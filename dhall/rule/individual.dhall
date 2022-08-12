@@ -192,6 +192,7 @@ in    [ Pipitor.Rule::{
             Twitter 2168328588, -- @Ma2Ndayodayo 松尾祐輔
             Twitter 1978598388, -- @jiena_gaim 鷲見友美ジェナ(仮面ライダーGIRLS)
             Twitter 1968534385, -- @Galsyumcr SYU
+            Twitter 1903351494, -- @kyoka_moriya 守屋亨香
             Twitter 1710115531, -- @Yuna_tani 谷口夢奈
             Twitter 1662016370, -- @karin_takahashi 高橋花林
             Twitter 1604926548, -- @NomotoHotaru 野本ほたる
