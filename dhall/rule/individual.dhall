@@ -18,6 +18,7 @@ in    [ Pipitor.Rule::{
         , topics = [
             Twitter 1522057394917810176, -- @msk_akane 美坂朱音
             Twitter 1514236458847985673, -- @UedaKaya_desu 上田佳耶
+            Twitter 1509848380406906890, -- @SAKI_MIYASHITA 宮下早紀
             Twitter 1483360649967468546, -- @aino_shimada 島田愛野
             Twitter 1446494020474048513, -- @Carry_Kiyama Carry Kiyama
             Twitter 1396319304069488644, -- @hime_sawada 澤田姫
