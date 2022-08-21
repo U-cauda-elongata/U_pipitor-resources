@@ -181,6 +181,7 @@ in    [ Pipitor.Rule::{
             Twitter 1347698001607761920, -- @Ui__Ren 卯依 れん💪🐰
             Twitter 1346828641989103617, -- @IkuHoshifuri  Iku Hoshifuri 👽💖 @ PRISM Project
             Twitter 1345638221187698690, -- @inuzuki_vt 戌月れん🐶🌙登録者2万人目指すわんわんVtuber
+            Twitter 1342360111503687682, -- @Rikumu_VTuber リクム🌃🎩
             Twitter 1342364242737938434, -- @Milily_VTuber 七星みりり💥💫Vtuber❤️
             Twitter 1329194134826065920, -- @ushioebi Ushio Ebi 🦐 Vtuber
             Twitter 1325958691774853120, -- @kaminohikarin 神乃ひかり目指せ！チャンネル登録2万人
