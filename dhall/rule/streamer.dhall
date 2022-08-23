@@ -267,12 +267,13 @@ in    [ Pipitor.Rule::{
       , Pipitor.Rule::{
         , -- しゅりむす関連ハッシュタグの接頭辞。
           -- 無関係のタグとの衝突を避けるため保守的にフィルターする。
+          -- #神宮寺カスタム は大人数コラボのためチームメンバーであるしゅりむすの投稿のみ転載する。
           filter = Some Pipitor.Filter::{
           , title =
               rx.any
                 [ filter.basic
                 , filter.kemovAnimalNameHashtags
-                , rx.hash (rx.any [ "こんがお", "こんのん" ])
+                , rx.hash (rx.any [ "こんがお", "こんのん", "神宮寺カスタム" ])
                 ]
           }
         , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
