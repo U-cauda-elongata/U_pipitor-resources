@@ -36,6 +36,8 @@ in  [ Pipitor.Rule::{
           youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
           youtube "UCdNBhcAohYjXlUVYsz8X2KQ", -- ダイアウルフ / Dire Wolf
           youtube "UCabMjG8p6G5xLkPJgEoTnDg", -- コヨーテ / Coyote
+          youtube "UCYa58DdXGAGMJQHqTxi-isA", -- ジョフロイネコ / Geoffroy’s Cat
+          youtube "UCNObi6xvj6QeZ0g7BhAbF7w", -- ジェネット / Large-spotted Genet
           youtube "UCMpw36mXEu3SLsqdrJxUKNA", -- シマハイイロギツネ / Island Fox
           youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
         ]
@@ -48,6 +50,8 @@ in  [ Pipitor.Rule::{
           -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるためリツイートの対象とはしない。
           [] : List Pipitor.Outbox
       , topics = [
+          Twitter 1544224002629324800, -- @Geoffroy_KEMOV ジョフロイネコ🛁🐈
+          Twitter 1544219979842985984, -- @Genet_KEMOV ジェネット🐱☕️
           Twitter 1503340095239495682, -- @KFKSGMY 动物朋友-王国
           Twitter 1444527872689930245, -- @tiktam_official ちく☆たむ オフィシャル
           Twitter 1404316984175599619, -- @KEMOVP_staff パークスタッフ
