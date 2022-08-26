@@ -122,6 +122,7 @@ in    [ Pipitor.Rule::{
             youtube "UCAZ_LA7f0sjuZ1Ni8L2uITw", -- どっとライブ
             youtube "UCAHXqn4nAd2j3LRu1Qyi_JA", -- エトラ / étraチャンネル
             youtube "UC90vyzmRgWCE17-uWNsKW2Q", -- 【Re:AcT /リアクト】公式チャンネル
+            youtube "UC9I-_cZVGJy2oz4uCrTt46A", -- Rei Channel / 紡音れい
             youtube "UC8jskpQfW9fn2NLK3PdaGdg", -- 夢川かなう/Kanau ch
             youtube "UC8NZiqKx6fsDT3AVcMiVFyA", -- Tamaki Ch. 犬山たまき / 佃煮のりお
             youtube "UC7yqc24BjJwi3PoqhXrx6og", -- たみーCh / 民安ともえ
@@ -214,6 +215,7 @@ in    [ Pipitor.Rule::{
             Twitter 1173826248813858817, -- @sb_ribon_ 姫熊りぼん VTuber21:00動画
             Twitter 1173812233337360384, -- @ama_hano 天川はの⭐️
             Twitter 1168042569416077312, -- @etra_ASI エトラ/ étra
+            Twitter 1116198449110667264, -- @tmgnrei 紡音れい🍣🎧つむぎね（9/3~ガチイベ）
             Twitter 1120021521752154112, -- @Enomiya_MILK 愛宮みるく
             Twitter 1099929347283050496, -- @makio_elecom マキオ@S11 マスター
             Twitter 1087300458983481346, -- @sou_nanamiya12 七宮ソウ  Sou Nanamiya
