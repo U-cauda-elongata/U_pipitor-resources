@@ -160,6 +160,8 @@ in    [ Pipitor.Rule::{
             Twitter 1436344036026060801, -- @Miuneru_ 羽渦ミウネル🍥
             Twitter 1424274561189564418, -- @kurikoma_komaru 栗駒こまる@あおぎり高校新人vtuber/1月10日-22:30 開封
             Twitter 1419329503512301573, -- @r_snsm 肆ノ島 來世 / Shinoshima Raise
+            Twitter 1415268491565756416, -- @VTuber_style VTuberスタイル
+            Twitter 1411893918367551489, -- @projectv_4 プロジェクトV 【日テレ】
             Twitter 1409701245741240321, -- @ggnlive_withyou Makoto & Akira Misaki 🗼✈️ Go! Go! Nippon!
             Twitter 1401301000477085698, -- @PinaPengin Pina Pengin | 辺銀ピナ🐧❄️ 3rd GEN - PRISM Project
             Twitter 1401266522589380611, -- @niasuzune Nia Suzune / 鈴音にあ
