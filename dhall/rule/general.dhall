@@ -215,6 +215,7 @@ in  [ Pipitor.Rule::{
 
           -- 商品
           Twitter 1177065415853264896, -- @_surprisebox_ サプライズボックス
+          Twitter 1101025521096286208, -- @gacha_toku_ ガチャトク公式
           Twitter 1085731309966610432, -- @anique_jp Anique
           Twitter 1070208213444775937, -- @kujifes くじフェス！
           Twitter 954195501280149505, -- @magi_pri_PR newlogic PR
