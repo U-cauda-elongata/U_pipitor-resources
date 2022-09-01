@@ -33,12 +33,15 @@ in  [ Pipitor.Rule::{
       , outbox = [ Pipitor.Outbox.Twitter account.vpPipitor ]
       , topics = [
           youtube "UCxm7yNjJsSvyvcG96-Cvmpw", -- カラカル / Caracal
+          youtube "UCtJSUW-5FnwfaivXpluABWA", -- ジャングルキャット / Jungle Cat
+          youtube "UCnyE-wD1pE2GZOxA6OHjW9g", -- ウサギコウモリ / Brown Long-eared Bat
           youtube "UCmYO-WfY7Tasry4D1YB4LJw", -- フンボルトペンギン / Humboldt Penguin
           youtube "UCdNBhcAohYjXlUVYsz8X2KQ", -- ダイアウルフ / Dire Wolf
           youtube "UCabMjG8p6G5xLkPJgEoTnDg", -- コヨーテ / Coyote
           youtube "UCYa58DdXGAGMJQHqTxi-isA", -- ジョフロイネコ / Geoffroy’s Cat
           youtube "UCNObi6xvj6QeZ0g7BhAbF7w", -- ジェネット / Large-spotted Genet
           youtube "UCMpw36mXEu3SLsqdrJxUKNA", -- シマハイイロギツネ / Island Fox
+          youtube "UCKob71cjOlyYF5bgvtGuNKQ", -- シマリス / Siberian Chipmunk
           youtube "UCEcMIuGR8WO2TwL9XIpjKtw", -- ケープペンギン / African Penguin
         ]
       }
@@ -50,7 +53,10 @@ in  [ Pipitor.Rule::{
           -- Twitter の場合はそれぞれのアカウントをフォローすれば事足りるためリツイートの対象とはしない。
           [] : List Pipitor.Outbox
       , topics = [
+          Twitter 1544536957040361472, -- @Usako_KEMOV ウサギコウモリ🐰🦇
           Twitter 1544224002629324800, -- @Geoffroy_KEMOV ジョフロイネコ🛁🐈
+          Twitter 1544222506806280192, -- @Junglecat_KEMOV ジャングルキャット🪖 🐈
+          Twitter 1544221674396356609, -- @Shimarisu_KEMOV シマリス🐿🫧
           Twitter 1544219979842985984, -- @Genet_KEMOV ジェネット🐱☕️
           Twitter 1503340095239495682, -- @KFKSGMY 动物朋友-王国
           Twitter 1444527872689930245, -- @tiktam_official ちく☆たむ オフィシャル
